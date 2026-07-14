@@ -1,0 +1,2255 @@
+{
+ "generated": "2026-07-14T16:51:28.268Z",
+ "window": {
+  "start": "2026-06-30",
+  "end": "2027-08-18"
+ },
+ "sources": [
+  {
+   "name": "Curated",
+   "ok": true,
+   "count": 36,
+   "ms": 1,
+   "note": null
+  },
+  {
+   "name": "Anniversaries",
+   "ok": true,
+   "count": 19,
+   "ms": 2,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 33,
+   "ms": 327,
+   "note": null
+  },
+  {
+   "name": "City Council",
+   "ok": true,
+   "count": 52,
+   "ms": 930,
+   "note": null
+  },
+  {
+   "name": "Albany",
+   "ok": true,
+   "count": 0,
+   "ms": 5181,
+   "note": "the Legislature is out of session"
+  }
+ ],
+ "counts": {
+  "major": 23,
+  "notable": 29,
+  "routine": 80,
+  "marquee": 8
+ },
+ "events": [
+  {
+   "date": "2026-06-30",
+   "time": null,
+   "title": "World Cup round of 32 at MetLife Stadium",
+   "note": "Knockout stage begins, 5pm ET.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": "https://nynjfwc26.com/schedule/",
+   "significance": 80,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-06-30",
+   "time": null,
+   "title": "City budget adoption deadline",
+   "note": "The Council and the mayor must adopt the fiscal 2027 budget. The final deal reveals actual funding levels for every policy priority.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://council.nyc.gov/budget/",
+   "significance": 76,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-06-30",
+   "time": null,
+   "title": "Mayoral control of the schools expires",
+   "note": "The current schools governance law sunsets. Continuing or changing it requires action in Albany.",
+   "strand": "power",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 74,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "5:00 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "BUDGET ADOPTION · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22592&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22592_A_City_Council_26-06-30_Committee_Agenda.pdf",
+   "significance": 58,
+   "why": [
+    "stated meeting of the full Council",
+    "subject matter of broad public interest"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "3:30 PM",
+   "title": "Committee on Finance",
+   "note": "BUDGET ADOPTION · Committee Room - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22597&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22597_A_Committee_on_Finance_26-06-30_Committee_Agenda.pdf",
+   "significance": 46,
+   "why": [
+    "high-salience committee",
+    "finance committee",
+    "subject matter of broad public interest"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "11:00 AM",
+   "title": "Committee on Education",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22587&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22587_A_Committee_on_Education_26-06-30_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "10:30 AM",
+   "title": "Committee on Housing and Buildings",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22596&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22596_A_Committee_on_Housing_and_Buildings_26-06-30_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "11:00 AM",
+   "title": "Committee on Public Safety",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22585&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22585_A_Committee_on_Public_Safety_26-06-30_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "10:00 AM",
+   "title": "Committee on Sanitation and Solid Waste Management",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22591&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22591_A_Committee_on_Sanitation_and_Solid_Waste_Management_26-06-30_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "10:00 AM",
+   "title": "Subcommittee on Early Childhood Education",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22586&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22586_A_Subcommittee_on_Early_Childhood_Education_26-06-30_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "12:00 PM",
+   "title": "Committee on Sanitation and Solid Waste Management",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22565&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22565_A_Committee_on_Sanitation_and_Solid_Waste_Management_26-06-30_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "10:30 AM",
+   "title": "Committee on Cultural Affairs, Libraries and International Relations",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22590&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22590_A_Committee_on_Cultural_Affairs%2C_Libraries_and_International_Relations_26-06-30_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "11:00 AM",
+   "title": "Committee on Parks and Recreation",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22588&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22588_A_Committee_on_Parks_and_Recreation_26-06-30_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "10:00 AM",
+   "title": "Committee on Small Business",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22584&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22584_A_Committee_on_Small_Business_26-06-30_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "10:30 AM",
+   "title": "Committee on Women and Gender Equity",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22589&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22589_A_Committee_on_Women_and_Gender_Equity_26-06-30_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "10:00 AM",
+   "title": "Committee on Civil and Human Rights",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22570&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22570_A_Committee_on_Civil_and_Human_Rights_26-06-30_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22501&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22501_A_Subcommittee_on_Zoning_and_Franchises_26-06-30_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-06-30",
+   "time": null,
+   "title": "Proposed Amendment of Rules Relating to Applications Pursuant to RPTL §485-x",
+   "note": "Housing Preservation and Development",
+   "strand": "hearings",
+   "source": "Housing Preservation and Development",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-01",
+   "time": null,
+   "title": "The city's fiscal year 2027 begins",
+   "note": "Budget implementation starts.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-01",
+   "time": null,
+   "title": "Rikers land transfer deadline",
+   "note": "A semi-annual statutory deadline to transfer unused Rikers land to the Department of Citywide Administrative Services. A progress marker for the closure plan.",
+   "strand": "justice",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 40,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-01",
+   "time": null,
+   "title": "Correction: City Planning Commission Public Hearing Ad",
+   "note": "City Planning Commission · 120 Broadway",
+   "strand": "hearings",
+   "source": "City Planning Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 38,
+   "why": [
+    "City Planning Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-01",
+   "time": "10:00 AM",
+   "title": "Committee on Sanitation and Solid Waste Management",
+   "note": "Committee Room - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22593&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22593_A_Committee_on_Sanitation_and_Solid_Waste_Management_26-07-01_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-01",
+   "time": null,
+   "title": "Amendment of Rules Relating to Lead Dust",
+   "note": "Health and Mental Hygiene · via Teleconference",
+   "strand": "hearings",
+   "source": "Health and Mental Hygiene",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "Health and Mental Hygiene sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-01",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22566&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22566_A_Subcommittee_on_Zoning_and_Franchises_26-07-01_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-01",
+   "time": null,
+   "title": "Park Avenue Brooklyn Rezoning Public Hearing Notice for Draft Environmental Impact Statement",
+   "note": "City Planning · 120 Broadway",
+   "strand": "hearings",
+   "source": "City Planning",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-02",
+   "time": null,
+   "title": "Further Amendment of Rules Relating to Vital Records",
+   "note": "Health and Mental Hygiene · via Teleconference",
+   "strand": "hearings",
+   "source": "Health and Mental Hygiene",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "Health and Mental Hygiene sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-02",
+   "time": null,
+   "title": "DINING OUT NYC PUBLIC HEARING",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-02",
+   "time": null,
+   "title": "Queens Borough President Land Use Public Hearing",
+   "note": "Borough President - Queens · 120-55 Queens Boulevard",
+   "strand": "hearings",
+   "source": "Borough President - Queens",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-03",
+   "time": null,
+   "title": "Liberty Weekend, 40 years on",
+   "note": "In July 1986 the Statue of Liberty's centennial and rededication drew the largest tall-ship parade in modern history, with Reagan presiding.",
+   "strand": "anniversary",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 56,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-07-04",
+   "time": null,
+   "title": "America's 250th birthday",
+   "note": "New York Harbor hosts the largest fleet of tall ships and naval vessels ever assembled, echoing the 1976 bicentennial and 1986 Liberty Weekend. Coincides with the 50th Macy's Fourth of July fireworks.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": "https://america250.org/",
+   "significance": 96,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "marquee"
+  },
+  {
+   "date": "2026-07-05",
+   "time": null,
+   "title": "World Cup round of 16 at MetLife Stadium",
+   "note": "Knockout stage, 4pm ET.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": "https://nynjfwc26.com/schedule/",
+   "significance": 82,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-07-07",
+   "time": "10:00 AM",
+   "title": "Committee on Governmental Operations, State & Federal Legislation",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22594&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22594_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-07-07_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-07",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22525&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22525_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-07_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-08",
+   "time": null,
+   "title": "Brooklyn Borough President ULURP Public Hearing",
+   "note": "Borough President - Brooklyn · 209 Joralemon Street",
+   "strand": "hearings",
+   "source": "Borough President - Brooklyn",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "subject matter of broad public interest"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-08",
+   "time": null,
+   "title": "NYC Workforce Development Board Executive Committee Meeting",
+   "note": "NYC Workforce Development Board · 1 Liberty Plaza",
+   "strand": "hearings",
+   "source": "NYC Workforce Development Board",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-09",
+   "time": null,
+   "title": "The Declaration is read to Washington's troops — 250th anniversary",
+   "note": "The Declaration of Independence was read aloud to Continental Army troops assembled on the Common on July 9, 1776, greeted by three cheers.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://founders.archives.gov/documents/Washington/03-05-02-0176",
+   "significance": 80,
+   "importance": 3,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-07-09",
+   "time": null,
+   "title": "The statue of King George III is toppled — 250th anniversary",
+   "note": "After the Declaration was read, a crowd rushed to Bowling Green and pulled down the gilded lead equestrian statue of King George III.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.gilderlehrman.org/history-resources/essays/proclamation-reading-and-immediate-reception-declaration-independence",
+   "significance": 80,
+   "importance": 3,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-07-09",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22567&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22567_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-09_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-09",
+   "time": null,
+   "title": "DCWP NOH Unclaimed Restitution Fund",
+   "note": "Consumer and Worker Protection",
+   "strand": "hearings",
+   "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-09",
+   "time": null,
+   "title": "Proposed Rule for Surcharge on Property That Does Not Serve as a Primary Residence",
+   "note": "Finance · Address Not Listed In The Dropdown",
+   "strand": "hearings",
+   "source": "Finance",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-12",
+   "time": null,
+   "title": "The 1976 Democratic convention, 50 years on",
+   "note": "Fifty years since the convention at Madison Square Garden nominated Carter, in the depths of the city's fiscal crisis.",
+   "strand": "anniversary",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 50,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-07-13",
+   "time": "1:00 PM",
+   "title": "Committee on Finance",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22600&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22600_A_Committee_on_Finance_26-07-13_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "finance committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-13",
+   "time": null,
+   "title": "Board of Standards and Appeals Public Hearing Notice",
+   "note": "Board of Standards and Appeals · 22 Reade Street",
+   "strand": "hearings",
+   "source": "Board of Standards and Appeals",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 30,
+   "why": [
+    "Board of Standards and Appeals sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-14",
+   "time": null,
+   "title": "Board of Correction Public Meeting",
+   "note": "Board of Correction · 125 Worth Street",
+   "strand": "hearings",
+   "source": "Board of Correction",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 36,
+   "why": [
+    "Board of Correction sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-14",
+   "time": null,
+   "title": "July 14, 2026, Public Hearing Agenda CR",
+   "note": "Landmarks Preservation Commission · 253 Broadway",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-14",
+   "time": "11:30 AM",
+   "title": "Committee on Land Use",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22441&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22441_A_Committee_on_Land_Use_26-07-14_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-14",
+   "time": "10:30 AM",
+   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22526&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22526_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-14_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-14",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22440&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22440_A_Subcommittee_on_Zoning_and_Franchises_26-07-14_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-15",
+   "time": "1:00 PM",
+   "title": "Committee on Finance",
+   "note": "Jointly with the Committee on Housing and Buildings. · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22602&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22602_A_Committee_on_Finance_26-07-15_Committee_Agenda.pdf",
+   "significance": 44,
+   "why": [
+    "high-salience committee",
+    "finance committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-15",
+   "time": null,
+   "title": "City Planning Commission Public Hearing Ad",
+   "note": "City Planning Commission · 120 Broadway",
+   "strand": "hearings",
+   "source": "City Planning Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 38,
+   "why": [
+    "City Planning Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-15",
+   "time": "1:00 PM",
+   "title": "Committee on Housing and Buildings",
+   "note": "Jointly with the Committee on Finance · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22603&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22603_A_Committee_on_Housing_and_Buildings_26-07-15_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-15",
+   "time": null,
+   "title": "Transit authority financial plan update",
+   "note": "The July plan carries updated revenue projections and capital program status.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://new.mta.info/transparency/financial-information",
+   "significance": 38,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-15",
+   "time": null,
+   "title": "NYCHA Audit and Finance Committee Meeting.",
+   "note": "Housing Authority",
+   "strand": "hearings",
+   "source": "Housing Authority",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Housing Authority sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-15",
+   "time": "10:00 AM",
+   "title": "Committee on Health",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22572&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22572_A_Committee_on_Health_26-07-15_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22295&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22295_A_City_Council_26-07-16_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-07-16",
+   "time": "10:00 AM",
+   "title": "Committee on Finance",
+   "note": "VOTE* · Committee Room - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22599&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22599_A_Committee_on_Finance_26-07-16_Committee_Agenda.pdf",
+   "significance": 46,
+   "why": [
+    "high-salience committee",
+    "finance committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-07-16",
+   "time": "10:30 AM",
+   "title": "Committee on Public Safety",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22610&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22610_A_Committee_on_Public_Safety_26-07-16_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": "10:00 AM",
+   "title": "Committee on Aging",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22609&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22609_A_Committee_on_Aging_26-07-16_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": "10:00 AM",
+   "title": "Committee on Civil Service and Labor",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22606&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22606_A_Committee_on_Civil_Service_and_Labor_26-07-16_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": "10:30 AM",
+   "title": "Committee on Cultural Affairs, Libraries and International Relations",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22608&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22608_A_Committee_on_Cultural_Affairs%2C_Libraries_and_International_Relations_26-07-16_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": "10:30 AM",
+   "title": "Committee on Governmental Operations, State & Federal Legislation",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22607&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22607_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-07-16_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": "10:45 AM",
+   "title": "Committee on Small Business",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22604&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22604_A_Committee_on_Small_Business_26-07-16_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": null,
+   "title": "BUILD NYC RESOURCE CORPORATION - NOTICE OF PUBLIC HEARING - July 16th, 2026",
+   "note": "Build NYC Resource Corporation · 1 Liberty Plaza",
+   "strand": "hearings",
+   "source": "Build NYC Resource Corporation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": null,
+   "title": "DCWP NOH Recordkeeping Requirements for Third-Party Food Delivery Services",
+   "note": "Consumer and Worker Protection",
+   "strand": "hearings",
+   "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": null,
+   "title": "Dining Out NYC Public Hearing",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-16",
+   "time": null,
+   "title": "NEW YORK CITY INDUSTRIAL DEVELOPMENT AGENCY - NOTICE OF PUBLIC HEARING - July 16th, 2026",
+   "note": "Industrial Development Agency · 1 Liberty Plaza",
+   "strand": "hearings",
+   "source": "Industrial Development Agency",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-19",
+   "time": null,
+   "title": "World Cup final at MetLife Stadium",
+   "note": "3pm ET. The largest single sporting event ever hosted in the New York region. Weeks of security, transit and crowd planning converge on this day.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": "https://nynjfwc26.com/schedule/",
+   "significance": 100,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "marquee"
+  },
+  {
+   "date": "2026-07-21",
+   "time": null,
+   "title": "July 21, 2026, Public Hearing Agenda",
+   "note": "Landmarks Preservation Commission · 253 Broadway",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-21",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22502&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22502_A_Subcommittee_on_Zoning_and_Franchises_26-07-21_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-21",
+   "time": null,
+   "title": "NYC Civic Engagement Commission Public Meeting",
+   "note": "Civic Engagement Commission · 22 Reade Street",
+   "strand": "hearings",
+   "source": "Civic Engagement Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-22",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22509&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22509_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-22_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-22",
+   "time": null,
+   "title": "NEW  YORK CITY DEPARTMENT OF TRANSPORTATION",
+   "note": "Transportation · 55 Water Street",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-23",
+   "time": null,
+   "title": "CARPENTERS EDDY WEST FOREST MANAGEMENT PROJECT #5202 NOTICE OF PROJECT AVAILABILITY",
+   "note": "Environmental Protection · Address Not Listed In The Dropdown",
+   "strand": "hearings",
+   "source": "Environmental Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-27",
+   "time": null,
+   "title": "Correction: Board of Standards and Appeals Public Hearing Notice",
+   "note": "Board of Standards and Appeals · 22 Reade Street",
+   "strand": "hearings",
+   "source": "Board of Standards and Appeals",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 30,
+   "why": [
+    "Board of Standards and Appeals sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-28",
+   "time": null,
+   "title": "July 28, 2026, Public Hearing Agenda",
+   "note": "Landmarks Preservation Commission · 253 Broadway",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-28",
+   "time": null,
+   "title": "Notice of Availability of Final Scope of Work, Completion of a Draft Environmental Impact Statement and Public Hearing",
+   "note": "Sanitation",
+   "strand": "hearings",
+   "source": "Sanitation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-29",
+   "time": null,
+   "title": "Son of Sam, 50 years on",
+   "note": "On July 29, 1976, David Berkowitz began the series of attacks that terrorized the city for a year.",
+   "strand": "anniversary",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 54,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-08-01",
+   "time": null,
+   "title": "Reinventing Transit by Baruch Feigenbaum",
+   "note": "A reform agenda for American transit: governance, competition, service redesign and technology. (Reason Foundation)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 26,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-04",
+   "time": "12:00 PM",
+   "title": "Committee on Land Use",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22515&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22515_A_Committee_on_Land_Use_26-08-04_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-04",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22513&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22513_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-08-04_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-04",
+   "time": "11:30 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22514&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22514_A_Subcommittee_on_Zoning_and_Franchises_26-08-04_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-04",
+   "time": null,
+   "title": "Proposed Amendment to 421-a(16) Workbook Rules",
+   "note": "Housing Preservation and Development",
+   "strand": "hearings",
+   "source": "Housing Preservation and Development",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-05",
+   "time": null,
+   "title": "DCWP NOH Requirements for HVFHV Services and Protections for Drivers",
+   "note": "Consumer and Worker Protection",
+   "strand": "hearings",
+   "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-07",
+   "time": null,
+   "title": "DCWP NOH Junk Fees",
+   "note": "Consumer and Worker Protection",
+   "strand": "hearings",
+   "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-12",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22528&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22528_A_Subcommittee_on_Zoning_and_Franchises_26-08-12_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-12",
+   "time": null,
+   "title": "FOR ACQUISITION - portions of  Block 3264, Lot 20; Block 3238, Lots 50, 52, and 126; and Block 3245, Lot 12",
+   "note": "Citywide Administrative Services",
+   "strand": "hearings",
+   "source": "Citywide Administrative Services",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22296&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22296_A_City_Council_26-08-13_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-08-13",
+   "time": null,
+   "title": "Driver Relief Penalty Reduction and Medallion Relief Program Rule Proposal.",
+   "note": "Taxi and Limousine Commission · 33 Beaver Street",
+   "strand": "hearings",
+   "source": "Taxi and Limousine Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "Taxi and Limousine Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-27",
+   "time": null,
+   "title": "The Battle of Long Island — 250th anniversary",
+   "note": "The Battle of Long Island on August 27, 1776, was the largest battle of the Revolution and a British victory that gave them New York for the rest of the war.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.battlefields.org/learn/revolutionary-war/battles/brooklyn",
+   "significance": 90,
+   "importance": 4,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "marquee"
+  },
+  {
+   "date": "2026-08-29",
+   "time": null,
+   "title": "Local Law 97 extended filing deadline",
+   "note": "The final deadline for buildings that paid the $60 extension fee in June.",
+   "strand": "climate",
+   "source": "Curated",
+   "sourceUrl": "https://accelerator.nyc/ll97",
+   "significance": 42,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-31",
+   "time": null,
+   "title": "One year until Rikers must close",
+   "note": "The statutory deadline to close Rikers Island is Aug. 31, 2027. This marks exactly one year out, and is a fixed point for advocacy and coverage.",
+   "strand": "justice",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 72,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-08-31",
+   "time": null,
+   "title": "United States Open begins",
+   "note": "Runs through Sept. 13. Major tourism and transit impact for Queens.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": "https://www.usopen.org/",
+   "significance": 62,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-08",
+   "time": null,
+   "title": "Luigi Mangione's state murder trial begins",
+   "note": "The state trial for the killing of UnitedHealthcare chief executive Brian Thompson in Midtown. Originally set for June 8 and moved to September; the federal trial is pushed to January 2027.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 74,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-08",
+   "time": null,
+   "title": "First day of school",
+   "note": "The 2026-27 school year begins the day after Labor Day. Roughly a million children return to class.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": "https://www.schools.nyc.gov/",
+   "significance": 66,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-10",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22540&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22540_A_City_Council_26-09-10_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-10",
+   "time": null,
+   "title": "MWBE_7-858-0662A - HYBRID CLOUD SECURITY ARCHITECT",
+   "note": "Information Technology and Telecommunications",
+   "strand": "hearings",
+   "source": "Information Technology and Telecommunications",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-11",
+   "time": null,
+   "title": "9/11 attacks destroy the World Trade Center — 25th anniversary",
+   "note": "Al-Qaeda hijackers crashed two jetliners into the twin towers of the World Trade Center, collapsing both and killing 2,753 people in New York City. It was the deadliest terrorist attack in U.S. history.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.911memorial.org/911-faqs",
+   "significance": 94,
+   "importance": 5,
+   "why": [
+    "25th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 2001,
+   "anniversaryYears": 25,
+   "live": true,
+   "tier": "marquee"
+  },
+  {
+   "date": "2026-09-15",
+   "time": null,
+   "title": "The British land at Kip's Bay — 250th anniversary",
+   "note": "British warships and troops landed at Kip's Bay on Manhattan's East River shore on September 15, 1776, scattering American militia.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/battle-of-kip-s-bay",
+   "significance": 70,
+   "importance": 2,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-15",
+   "time": "1:00 PM",
+   "title": "Committee on Education",
+   "note": "Jointly with the Committee on Oversight and Investigations · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22523&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22523_A_Committee_on_Education_26-09-15_Committee_Agenda.pdf",
+   "significance": 46,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing",
+    "subject matter of broad public interest"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-15",
+   "time": "1:00 PM",
+   "title": "Committee on Oversight and Investigations",
+   "note": "Jointly with the Committee on Education. · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22522&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22522_A_Committee_on_Oversight_and_Investigations_26-09-15_Committee_Agenda.pdf",
+   "significance": 46,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing",
+    "subject matter of broad public interest"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-16",
+   "time": null,
+   "title": "The Battle of Harlem Heights — 250th anniversary",
+   "note": "On September 16, 1776, Washington won his first battlefield victory of the war at Harlem Heights in upper Manhattan.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/battle-of-harlem-heights",
+   "significance": 70,
+   "importance": 2,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-17",
+   "time": null,
+   "title": "Mayor's Management Report due",
+   "note": "The charter-mandated scorecard for every agency: trash, crime, service delivery. The closest thing the city has to a report card.",
+   "strand": "power",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/site/operations/performance/mmr.page",
+   "significance": 58,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-18",
+   "time": null,
+   "title": "The New-York Daily Times debuts — 175th anniversary",
+   "note": "Henry Raymond and George Jones published the first issue of the New-York Daily Times, later The New York Times.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://en.wikipedia.org/wiki/History_of_The_New_York_Times_(1851%E2%80%931896)",
+   "significance": 66,
+   "importance": 2,
+   "why": [
+    "175th anniversary"
+   ],
+   "historyYear": 1851,
+   "anniversaryYears": 175,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-21",
+   "time": null,
+   "title": "The Great Fire of 1776 — 250th anniversary",
+   "note": "A fire burned through the night into September 21, 1776, destroying a large swath of British-occupied New York including Trinity Church.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://en.wikipedia.org/wiki/Great_Fire_of_New_York_(1776)",
+   "significance": 80,
+   "importance": 3,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-22",
+   "time": null,
+   "title": "Nathan Hale is hanged as a spy — 250th anniversary",
+   "note": "The British hanged 21-year-old Continental officer Nathan Hale as a spy in occupied New York on September 22, 1776.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://connecticuthistory.org/nathan-hale-hanged-in-new-york-today-in-history/",
+   "significance": 80,
+   "importance": 3,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-22",
+   "time": null,
+   "title": "United Nations General Assembly: leaders' week",
+   "note": "World leaders descend on the city for the high-level debate. Major security, traffic and diplomatic consequences for Midtown.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 78,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-24",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22541&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22541_A_City_Council_26-09-24_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-25",
+   "time": null,
+   "title": "Transit authority preliminary 2027 budget",
+   "note": "A key indicator of fiscal health and service levels.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://new.mta.info/transparency/financial-information",
+   "significance": 40,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-30",
+   "time": null,
+   "title": "Federal fiscal year ends; shutdown risk",
+   "note": "Federal appropriations expire at midnight. New York City is heavily exposed to disruptions in housing vouchers, Medicaid, transit and disaster aid.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 66,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-10-01",
+   "time": null,
+   "title": "New rent guidelines take effect",
+   "note": "The board's adjustments begin applying to new and renewal leases.",
+   "strand": "housing",
+   "source": "Curated",
+   "sourceUrl": "https://rentguidelinesboard.cityofnewyork.us/",
+   "significance": 58,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-01",
+   "time": null,
+   "title": "Fair housing framework assessment due",
+   "note": "The first-ever needs assessment and five-year affordable housing production targets for all 59 community districts.",
+   "strand": "housing",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 52,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-01",
+   "time": null,
+   "title": "City of Yes: first affordable housing district list",
+   "note": "City Planning publishes the 12 community districts with the lowest affordable housing production.",
+   "strand": "housing",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 50,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-01",
+   "time": null,
+   "title": "Federal fiscal year 2027 begins",
+   "note": "Watch for continuing resolutions and shutdown risk affecting city funding.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 36,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22542&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22542_A_City_Council_26-10-08_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-09",
+   "time": null,
+   "title": "Voter registration deadline",
+   "note": "The last day to register for the Nov. 3 general election.",
+   "strand": "democracy",
+   "source": "Curated",
+   "sourceUrl": "https://www.elections.ny.gov/",
+   "significance": 54,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "12:00 PM",
+   "title": "Committee on Environmental Protection and Waterfronts",
+   "note": "Committee Room - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22568&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22568_A_Committee_on_Environmental_Protection_and_Waterfronts_26-10-20_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22543&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22543_A_City_Council_26-10-22_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-24",
+   "time": null,
+   "title": "Early voting begins",
+   "note": "A nine-day early voting period for the general election, running through Nov. 1.",
+   "strand": "democracy",
+   "source": "Curated",
+   "sourceUrl": "https://www.elections.ny.gov/",
+   "significance": 56,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-28",
+   "time": null,
+   "title": "The Battle of White Plains — 250th anniversary",
+   "note": "British and Hessian forces under Howe defeated Washington at White Plains in Westchester on October 28, 1776.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.battlefields.org/learn/revolutionary-war/battles/white-plains",
+   "significance": 60,
+   "importance": 1,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-11-01",
+   "time": null,
+   "title": "New York City Marathon: 50 years of the five-borough course",
+   "note": "The marathon first ran through all five boroughs in 1976 for the bicentennial, making 2026 the 50th running of the modern course.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyrr.org/tcsnycmarathon",
+   "significance": 78,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-11-03",
+   "time": null,
+   "title": "General election",
+   "note": "Governor (Hochul vs. likely Blakeman), Congress and state legislative races. No mayoral race this year. Hochul-Mamdani coordination is critical for Democratic turnout.",
+   "strand": "democracy",
+   "source": "Curated",
+   "sourceUrl": "https://www.elections.ny.gov/",
+   "significance": 92,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "marquee"
+  },
+  {
+   "date": "2026-11-05",
+   "time": null,
+   "title": "The Schaghen letter records the 'purchase' of Manhattan — 400th anniversary",
+   "note": "A letter by Dutch official Pieter Schaghen, dated Nov. 5, 1626, reported that colonists had 'purchased' the island of Manhattan from its Native inhabitants for goods worth 60 guilders. It is the only contemporary document of the transaction.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.newnetherlandinstitute.org/history-and-heritage/additional-resources/dutch-treats/peter-schaghen-letter/",
+   "significance": 68,
+   "importance": 2,
+   "why": [
+    "400th anniversary"
+   ],
+   "historyYear": 1626,
+   "anniversaryYears": 400,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-11-06",
+   "time": null,
+   "title": "DC 37's contract expires",
+   "note": "The largest municipal union, roughly 90,000 workers. The expiring 2021-2026 agreement sets the pattern for the teachers' union and everyone else. The first major labor test of this administration.",
+   "strand": "power",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026/dc-37-2021-2026-moa.pdf",
+   "significance": 70,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-11-06",
+   "time": null,
+   "title": "Bloomberg elected mayor after 9/11 — 25th anniversary",
+   "note": "Media entrepreneur Michael Bloomberg won the mayoralty just weeks after the September 11 attacks, defeating Democrat Mark Green. He took office as the 108th mayor on Jan. 1, 2002.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://en.wikipedia.org/wiki/Mayoralty_of_Michael_Bloomberg",
+   "significance": 64,
+   "importance": 2,
+   "why": [
+    "25th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 2001,
+   "anniversaryYears": 25,
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22544&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/11/22544_A_City_Council_26-11-12_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-11-15",
+   "time": null,
+   "title": "Nunez monitor report on Rikers",
+   "note": "The second semi-annual report to Judge Swain. It effectively grades the administration's first year of jail management; a poor grade accelerates the receivership timeline.",
+   "strand": "justice",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 60,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-11-16",
+   "time": null,
+   "title": "The fall of Fort Washington — 250th anniversary",
+   "note": "British and Hessian forces captured Fort Washington, the last American stronghold on Manhattan, on November 16, 1776.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.battlefields.org/learn/revolutionary-war/battles/fort-washington",
+   "significance": 70,
+   "importance": 2,
+   "why": [
+    "250th anniversary"
+   ],
+   "historyYear": 1776,
+   "anniversaryYears": 250,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22545&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/11/22545_A_City_Council_26-11-19_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-11-25",
+   "time": null,
+   "title": "November financial plan update",
+   "note": "The city updates revenue and spending projections, setting the baseline for the next budget cycle.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/site/omb/index.page",
+   "significance": 38,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-11-26",
+   "time": null,
+   "title": "The 100th Macy's Thanksgiving Day Parade",
+   "note": "A milestone parade; the count reaches 100 in 2026 because the parade was suspended during the Second World War. A year-long celebration campaign surrounds it.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 88,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "marquee"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22546&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/12/22546_A_City_Council_26-12-03_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-12-15",
+   "time": null,
+   "title": "Transit board adopts the 2027 budget",
+   "note": "The final operating budget for the coming year.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://new.mta.info/transparency/board-and-committee-meetings",
+   "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-12-17",
+   "time": "1:30 PM",
+   "title": "Stated meeting of the City Council",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22547&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/12/22547_A_City_Council_26-12-17_Committee_Agenda.pdf",
+   "significance": 50,
+   "why": [
+    "stated meeting of the full Council"
+   ],
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-12-28",
+   "time": null,
+   "title": "Albany post-election positioning",
+   "note": "The lame-duck period for termed-out legislators; watch for late activity on pending bills.",
+   "strand": "power",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 30,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2027-04-26",
+   "time": null,
+   "title": "Studio 54 opens — 50th anniversary",
+   "note": "The Midtown discotheque opened and instantly became the epicenter of celebrity nightlife and disco excess.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.britannica.com/topic/Studio-54",
+   "significance": 68,
+   "importance": 2,
+   "why": [
+    "50th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1977,
+   "anniversaryYears": 50,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2027-04-29",
+   "time": null,
+   "title": "Lever House brings the glass curtain wall to Park Avenue — 75th anniversary",
+   "note": "Gordon Bunshaft's Lever House, for Skidmore, Owings & Merrill, opened at 390 Park Avenue. Its blue-green glass skin was among the first true curtain walls on an American office tower.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "http://s-media.nyc.gov/agencies/lpc/lp/1277.pdf",
+   "significance": 61,
+   "importance": 2,
+   "why": [
+    "75th anniversary"
+   ],
+   "historyYear": 1952,
+   "anniversaryYears": 75,
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-06-13",
+   "time": null,
+   "title": "Lindbergh gets a ticker-tape hero's welcome — 100th anniversary",
+   "note": "Millions lined Broadway for a ticker-tape parade honoring Charles Lindbergh after his solo flight across the Atlantic.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.britannica.com/biography/Charles-Lindbergh",
+   "significance": 84,
+   "importance": 4,
+   "why": [
+    "100th anniversary"
+   ],
+   "historyYear": 1927,
+   "anniversaryYears": 100,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2027-07-04",
+   "time": null,
+   "title": "Slavery ends in New York State — 200th anniversary",
+   "note": "An 1817 law took full effect on July 4, 1827, ending legal slavery in New York and freeing thousands of remaining enslaved people.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://history.nycourts.gov/when-did-slavery-end-in-new-york/",
+   "significance": 88,
+   "importance": 4,
+   "why": [
+    "200th anniversary"
+   ],
+   "historyYear": 1827,
+   "anniversaryYears": 200,
+   "live": true,
+   "tier": "marquee"
+  },
+  {
+   "date": "2027-07-13",
+   "time": null,
+   "title": "The blackout that broke the city's spirit — 50th anniversary",
+   "note": "Lightning strikes knocked out power for some 25 hours, unleashing widespread looting and arson across the crime-plagued, cash-strapped city.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.britannica.com/event/New-York-City-blackout-of-1977",
+   "significance": 98,
+   "importance": 5,
+   "why": [
+    "50th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1977,
+   "anniversaryYears": 50,
+   "live": true,
+   "tier": "marquee"
+  },
+  {
+   "date": "2027-08-10",
+   "time": null,
+   "title": "The Son of Sam is captured — 50th anniversary",
+   "note": "Police arrested David Berkowitz, ending a serial-killing spree that terrorized the city for more than a year.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.britannica.com/biography/David-Berkowitz",
+   "significance": 78,
+   "importance": 3,
+   "why": [
+    "50th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1977,
+   "anniversaryYears": 50,
+   "live": true,
+   "tier": "major"
+  }
+ ]
+}

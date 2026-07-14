@@ -1,0 +1,1699 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The New York City calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The New York City calendar
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:20260630-WorldCuproundof32atMetLifeStadium@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:World Cup round of 32 at MetLife Stadium
+DESCRIPTION:Knockout stage begins\, 5pm ET.\n\nhttps://nynjfwc26.com/sche
+ dule/
+URL:https://nynjfwc26.com/schedule/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-Citybudgetadoptiondeadline@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:City budget adoption deadline
+DESCRIPTION:The Council and the mayor must adopt the fiscal 2027 budget. 
+ The final deal reveals actual funding levels for every policy priority.\
+ n\nhttps://council.nyc.gov/budget/
+URL:https://council.nyc.gov/budget/
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-Mayoralcontroloftheschoolsexpires@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Mayoral control of the schools expires
+DESCRIPTION:The current schools governance law sunsets. Continuing or cha
+ nging it requires action in Albany.
+CATEGORIES:power
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:BUDGET ADOPTION · Council Chambers - City Hall\n\nhttps://nyc
+ .legistar.com/MeetingDetail.aspx?LEGID=22592&GID=61&G=2FD004F1-D85B-4588
+ -A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22592&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonFinance@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Finance
+DESCRIPTION:BUDGET ADOPTION · Committee Room - City Hall\n\nhttps://nyc.l
+ egistar.com/MeetingDetail.aspx?LEGID=22597&GID=61&G=2FD004F1-D85B-4588-A
+ 648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22597&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonEducation@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Education
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22587&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22587&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonHousingandBuildings@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Housing and Buildings
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 2\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22596&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22596&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonPublicSafety@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Public Safety
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 3\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22585&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22585&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonSanitationandSolidWasteManage@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Sanitation and Solid Waste Management
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 2\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22591&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22591&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-SubcommitteeonEarlyChildhoodEducation@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Subcommittee on Early Childhood Education
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22586&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22586&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonSanitationandSolidWasteManage@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Sanitation and Solid Waste Management
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 2\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22565&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22565&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonCulturalAffairsLibrariesandIn@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Cultural Affairs\, Libraries and International Relat
+ ions
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 3\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22590&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22590&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonParksandRecreation@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Parks and Recreation
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 2\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22588&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22588&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonSmallBusiness@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Small Business
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 3\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22584&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22584&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonWomenandGenderEquity@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Women and Gender Equity
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22589&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22589&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-CommitteeonCivilandHumanRights@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Committee on Civil and Human Rights
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22570&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22570&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-SubcommitteeonZoningandFranchises@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Subcommittee on Zoning and Franchises
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 3\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22501&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22501&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-ProposedAmendmentofRulesRelatingtoApplic@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Proposed Amendment of Rules Relating to Applications Pursuant to 
+ RPTL §485-x
+DESCRIPTION:Housing Preservation and Development\n\nhttps://a856-cityreco
+ rd.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701-Thecitysfiscalyear2027begins@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:The city's fiscal year 2027 begins
+DESCRIPTION:Budget implementation starts.
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701-Rikerslandtransferdeadline@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Rikers land transfer deadline
+DESCRIPTION:A semi-annual statutory deadline to transfer unused Rikers la
+ nd to the Department of Citywide Administrative Services. A progress mar
+ ker for the closure plan.
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701-CorrectionCityPlanningCommissionPublicHe@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Correction: City Planning Commission Public Hearing Ad
+DESCRIPTION:City Planning Commission · 120 Broadway\n\nhttps://a856-cityr
+ ecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701-CommitteeonSanitationandSolidWasteManage@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Committee on Sanitation and Solid Waste Management
+DESCRIPTION:Committee Room - City Hall\n\nhttps://nyc.legistar.com/Meetin
+ gDetail.aspx?LEGID=22593&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22593&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701-AmendmentofRulesRelatingtoLeadDust@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Amendment of Rules Relating to Lead Dust
+DESCRIPTION:Health and Mental Hygiene · via Teleconference\n\nhttps://a85
+ 6-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701-SubcommitteeonZoningandFranchises@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Subcommittee on Zoning and Franchises
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22566&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22566&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260701-ParkAvenueBrooklynRezoningPublicHearingN@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Park Avenue Brooklyn Rezoning Public Hearing Notice for Draft Env
+ ironmental Impact Statement
+DESCRIPTION:City Planning · 120 Broadway\n\nhttps://a856-cityrecord.nyc.g
+ ov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260702-FurtherAmendmentofRulesRelatingtoVitalRe@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:Further Amendment of Rules Relating to Vital Records
+DESCRIPTION:Health and Mental Hygiene · via Teleconference\n\nhttps://a85
+ 6-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260702-DININGOUTNYCPUBLICHEARING@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:DINING OUT NYC PUBLIC HEARING
+DESCRIPTION:Transportation\n\nhttps://a856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260702-QueensBoroughPresidentLandUsePublicHeari@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:Queens Borough President Land Use Public Hearing
+DESCRIPTION:Borough President - Queens · 120-55 Queens Boulevard\n\nhttps
+ ://a856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260703-LibertyWeekend40yearson@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:Liberty Weekend\, 40 years on
+DESCRIPTION:In July 1986 the Statue of Liberty's centennial and rededicat
+ ion drew the largest tall-ship parade in modern history\, with Reagan pr
+ esiding.
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260704-Americas250thbirthday@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:America's 250th birthday
+DESCRIPTION:New York Harbor hosts the largest fleet of tall ships and nav
+ al vessels ever assembled\, echoing the 1976 bicentennial and 1986 Liber
+ ty Weekend. Coincides with the 50th Macy's Fourth of July fireworks.\n\n
+ https://america250.org/
+URL:https://america250.org/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260705-WorldCuproundof16atMetLifeStadium@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:World Cup round of 16 at MetLife Stadium
+DESCRIPTION:Knockout stage\, 4pm ET.\n\nhttps://nynjfwc26.com/schedule/
+URL:https://nynjfwc26.com/schedule/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260707-CommitteeonGovernmentalOperationsStateFe@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Committee on Governmental Operations\, State & Federal Legislatio
+ n
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 2\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22594&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22594&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260707-SubcommitteeonLandmarksPublicSitingsResi@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:Subcommittee on Landmarks\, Public Sitings\, Resiliency and Dispo
+ sitions
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22525&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22525&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260708-BrooklynBoroughPresidentULURPPublicHeari@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:Brooklyn Borough President ULURP Public Hearing
+DESCRIPTION:Borough President - Brooklyn · 209 Joralemon Street\n\nhttps:
+ //a856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260708-NYCWorkforceDevelopmentBoardExecutiveCom@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:NYC Workforce Development Board Executive Committee Meeting
+DESCRIPTION:NYC Workforce Development Board · 1 Liberty Plaza\n\nhttps://
+ a856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260709-TheDeclarationisreadtoWashingtonstroops2@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:The Declaration is read to Washington's troops — 250th anniversar
+ y
+DESCRIPTION:The Declaration of Independence was read aloud to Continental
+  Army troops assembled on the Common on July 9\, 1776\, greeted by three
+  cheers.\n\nhttps://founders.archives.gov/documents/Washington/03-05-02-
+ 0176
+URL:https://founders.archives.gov/documents/Washington/03-05-02-0176
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260709-ThestatueofKingGeorgeIIIistoppled250than@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:The statue of King George III is toppled — 250th anniversary
+DESCRIPTION:After the Declaration was read\, a crowd rushed to Bowling Gr
+ een and pulled down the gilded lead equestrian statue of King George III
+ .\n\nhttps://www.gilderlehrman.org/history-resources/essays/proclamation
+ -reading-and-immediate-reception-declaration-independence
+URL:https://www.gilderlehrman.org/history-resources/essays/proclamation-r
+ eading-and-immediate-reception-declaration-independence
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260709-SubcommitteeonLandmarksPublicSitingsResi@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Subcommittee on Landmarks\, Public Sitings\, Resiliency and Dispo
+ sitions
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22567&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22567&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260709-DCWPNOHUnclaimedRestitutionFund@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:DCWP NOH Unclaimed Restitution Fund
+DESCRIPTION:Consumer and Worker Protection\n\nhttps://a856-cityrecord.nyc
+ .gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260709-ProposedRuleforSurchargeonPropertyThatDo@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:Proposed Rule for Surcharge on Property That Does Not Serve as a 
+ Primary Residence
+DESCRIPTION:Finance · Address Not Listed In The Dropdown\n\nhttps://a856-
+ cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260712-The1976Democraticconvention50yearson@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:The 1976 Democratic convention\, 50 years on
+DESCRIPTION:Fifty years since the convention at Madison Square Garden nom
+ inated Carter\, in the depths of the city's fiscal crisis.
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260713-CommitteeonFinance@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Committee on Finance
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22600&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22600&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260713-BoardofStandardsandAppealsPublicHearingN@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:Board of Standards and Appeals Public Hearing Notice
+DESCRIPTION:Board of Standards and Appeals · 22 Reade Street\n\nhttps://a
+ 856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714-BoardofCorrectionPublicMeeting@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Board of Correction Public Meeting
+DESCRIPTION:Board of Correction · 125 Worth Street\n\nhttps://a856-cityre
+ cord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714-July142026PublicHearingAgendaCR@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:July 14\, 2026\, Public Hearing Agenda CR
+DESCRIPTION:Landmarks Preservation Commission · 253 Broadway\n\nhttps://a
+ 856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714-CommitteeonLandUse@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Committee on Land Use
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22441&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22441&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714-SubcommitteeonLandmarksPublicSitingsResi@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Subcommittee on Landmarks\, Public Sitings\, Resiliency and Dispo
+ sitions
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22526&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22526&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714-SubcommitteeonZoningandFranchises@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Subcommittee on Zoning and Franchises
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22440&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22440&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-CommitteeonFinance@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:Committee on Finance
+DESCRIPTION:Jointly with the Committee on Housing and Buildings. · 250 Br
+ oadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legistar.com/MeetingD
+ etail.aspx?LEGID=22602&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22602&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-CityPlanningCommissionPublicHearingAd@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:City Planning Commission Public Hearing Ad
+DESCRIPTION:City Planning Commission · 120 Broadway\n\nhttps://a856-cityr
+ ecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-CommitteeonHousingandBuildings@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:Committee on Housing and Buildings
+DESCRIPTION:Jointly with the Committee on Finance · 250 Broadway - 8th Fl
+ oor - Hearing Room 1\n\nhttps://nyc.legistar.com/MeetingDetail.aspx?LEGI
+ D=22603&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22603&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-Transitauthorityfinancialplanupdate@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:Transit authority financial plan update
+DESCRIPTION:The July plan carries updated revenue projections and capital
+  program status.\n\nhttps://new.mta.info/transparency/financial-informat
+ ion
+URL:https://new.mta.info/transparency/financial-information
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-NYCHAAuditandFinanceCommitteeMeeting@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:NYCHA Audit and Finance Committee Meeting.
+DESCRIPTION:Housing Authority\n\nhttps://a856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-CommitteeonHealth@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:Committee on Health
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22572&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22572&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22295&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22295&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-CommitteeonFinance@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Committee on Finance
+DESCRIPTION:VOTE* · Committee Room - City Hall\n\nhttps://nyc.legistar.co
+ m/MeetingDetail.aspx?LEGID=22599&GID=61&G=2FD004F1-D85B-4588-A648-0A736C
+ 77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22599&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-CommitteeonPublicSafety@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Committee on Public Safety
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22610&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22610&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-CommitteeonAging@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Committee on Aging
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 3\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22609&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22609&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-CommitteeonCivilServiceandLabor@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Committee on Civil Service and Labor
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 2\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22606&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22606&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-CommitteeonCulturalAffairsLibrariesandIn@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Committee on Cultural Affairs\, Libraries and International Relat
+ ions
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 3\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22608&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22608&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-CommitteeonGovernmentalOperationsStateFe@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Committee on Governmental Operations\, State & Federal Legislatio
+ n
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 2\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22607&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22607&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-CommitteeonSmallBusiness@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Committee on Small Business
+DESCRIPTION:VOTE* · 250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://
+ nyc.legistar.com/MeetingDetail.aspx?LEGID=22604&GID=61&G=2FD004F1-D85B-4
+ 588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22604&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-BUILDNYCRESOURCECORPORATIONNOTICEOFPUBLI@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:BUILD NYC RESOURCE CORPORATION - NOTICE OF PUBLIC HEARING - July 
+ 16th\, 2026
+DESCRIPTION:Build NYC Resource Corporation · 1 Liberty Plaza\n\nhttps://a
+ 856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-DCWPNOHRecordkeepingRequirementsforThird@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:DCWP NOH Recordkeeping Requirements for Third-Party Food Delivery
+  Services
+DESCRIPTION:Consumer and Worker Protection\n\nhttps://a856-cityrecord.nyc
+ .gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-DiningOutNYCPublicHearing@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:Dining Out NYC Public Hearing
+DESCRIPTION:Transportation\n\nhttps://a856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260716-NEWYORKCITYINDUSTRIALDEVELOPMENTAGENCYNO@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:NEW YORK CITY INDUSTRIAL DEVELOPMENT AGENCY - NOTICE OF PUBLIC HE
+ ARING - July 16th\, 2026
+DESCRIPTION:Industrial Development Agency · 1 Liberty Plaza\n\nhttps://a8
+ 56-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260719-WorldCupfinalatMetLifeStadium@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:World Cup final at MetLife Stadium
+DESCRIPTION:3pm ET. The largest single sporting event ever hosted in the 
+ New York region. Weeks of security\, transit and crowd planning converge
+  on this day.\n\nhttps://nynjfwc26.com/schedule/
+URL:https://nynjfwc26.com/schedule/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260721-July212026PublicHearingAgenda@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:July 21\, 2026\, Public Hearing Agenda
+DESCRIPTION:Landmarks Preservation Commission · 253 Broadway\n\nhttps://a
+ 856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260721-SubcommitteeonZoningandFranchises@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:Subcommittee on Zoning and Franchises
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 3\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22502&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22502&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260721-NYCCivicEngagementCommissionPublicMeetin@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+SUMMARY:NYC Civic Engagement Commission Public Meeting
+DESCRIPTION:Civic Engagement Commission · 22 Reade Street\n\nhttps://a856
+ -cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260722-SubcommitteeonLandmarksPublicSitingsResi@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:Subcommittee on Landmarks\, Public Sitings\, Resiliency and Dispo
+ sitions
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22509&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22509&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260722-NEWYORKCITYDEPARTMENTOFTRANSPORTATION@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:NEW  YORK CITY DEPARTMENT OF TRANSPORTATION
+DESCRIPTION:Transportation · 55 Water Street\n\nhttps://a856-cityrecord.n
+ yc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260723-CARPENTERSEDDYWESTFORESTMANAGEMENTPROJEC@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:CARPENTERS EDDY WEST FOREST MANAGEMENT PROJECT #5202 NOTICE OF PR
+ OJECT AVAILABILITY
+DESCRIPTION:Environmental Protection · Address Not Listed In The Dropdown
+ \n\nhttps://a856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260727-CorrectionBoardofStandardsandAppealsPubl@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:Correction: Board of Standards and Appeals Public Hearing Notice
+DESCRIPTION:Board of Standards and Appeals · 22 Reade Street\n\nhttps://a
+ 856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260728-July282026PublicHearingAgenda@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:July 28\, 2026\, Public Hearing Agenda
+DESCRIPTION:Landmarks Preservation Commission · 253 Broadway\n\nhttps://a
+ 856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260728-NoticeofAvailabilityofFinalScopeofWorkCo@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:Notice of Availability of Final Scope of Work\, Completion of a D
+ raft Environmental Impact Statement and Public Hearing
+DESCRIPTION:Sanitation\n\nhttps://a856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260729-SonofSam50yearson@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:Son of Sam\, 50 years on
+DESCRIPTION:On July 29\, 1976\, David Berkowitz began the series of attac
+ ks that terrorized the city for a year.
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260801-ReinventingTransitbyBaruchFeigenbaum@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Reinventing Transit by Baruch Feigenbaum
+DESCRIPTION:A reform agenda for American transit: governance\, competitio
+ n\, service redesign and technology. (Reason Foundation)
+CATEGORIES:books
+END:VEVENT
+BEGIN:VEVENT
+UID:20260804-CommitteeonLandUse@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:Committee on Land Use
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22515&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22515&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260804-SubcommitteeonLandmarksPublicSitingsResi@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:Subcommittee on Landmarks\, Public Sitings\, Resiliency and Dispo
+ sitions
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22513&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22513&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260804-SubcommitteeonZoningandFranchises@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:Subcommittee on Zoning and Franchises
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22514&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22514&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260804-ProposedAmendmentto421a16WorkbookRules@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:Proposed Amendment to 421-a(16) Workbook Rules
+DESCRIPTION:Housing Preservation and Development\n\nhttps://a856-cityreco
+ rd.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260805-DCWPNOHRequirementsforHVFHVServicesandPr@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:DCWP NOH Requirements for HVFHV Services and Protections for Driv
+ ers
+DESCRIPTION:Consumer and Worker Protection\n\nhttps://a856-cityrecord.nyc
+ .gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260807-DCWPNOHJunkFees@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:DCWP NOH Junk Fees
+DESCRIPTION:Consumer and Worker Protection\n\nhttps://a856-cityrecord.nyc
+ .gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260812-SubcommitteeonZoningandFranchises@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:Subcommittee on Zoning and Franchises
+DESCRIPTION:250 Broadway - 8th Floor - Hearing Room 1\n\nhttps://nyc.legi
+ star.com/MeetingDetail.aspx?LEGID=22528&GID=61&G=2FD004F1-D85B-4588-A648
+ -0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22528&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260812-FORACQUISITIONportionsofBlock3264Lot20Bl@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:FOR ACQUISITION - portions of  Block 3264\, Lot 20\; Block 3238\,
+  Lots 50\, 52\, and 126\; and Block 3245\, Lot 12
+DESCRIPTION:Citywide Administrative Services\n\nhttps://a856-cityrecord.n
+ yc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260813-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22296&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22296&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260813-DriverReliefPenaltyReductionandMedallion@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:Driver Relief Penalty Reduction and Medallion Relief Program Rule
+  Proposal.
+DESCRIPTION:Taxi and Limousine Commission · 33 Beaver Street\n\nhttps://a
+ 856-cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260827-TheBattleofLongIsland250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:The Battle of Long Island — 250th anniversary
+DESCRIPTION:The Battle of Long Island on August 27\, 1776\, was the large
+ st battle of the Revolution and a British victory that gave them New Yor
+ k for the rest of the war.\n\nhttps://www.battlefields.org/learn/revolut
+ ionary-war/battles/brooklyn
+URL:https://www.battlefields.org/learn/revolutionary-war/battles/brooklyn
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260829-LocalLaw97extendedfilingdeadline@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Local Law 97 extended filing deadline
+DESCRIPTION:The final deadline for buildings that paid the $60 extension 
+ fee in June.\n\nhttps://accelerator.nyc/ll97
+URL:https://accelerator.nyc/ll97
+CATEGORIES:climate
+END:VEVENT
+BEGIN:VEVENT
+UID:20260831-OneyearuntilRikersmustclose@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:One year until Rikers must close
+DESCRIPTION:The statutory deadline to close Rikers Island is Aug. 31\, 20
+ 27. This marks exactly one year out\, and is a fixed point for advocacy 
+ and coverage.
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
+UID:20260831-UnitedStatesOpenbegins@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:United States Open begins
+DESCRIPTION:Runs through Sept. 13. Major tourism and transit impact for Q
+ ueens.\n\nhttps://www.usopen.org/
+URL:https://www.usopen.org/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260908-LuigiMangionesstatemurdertrialbegins@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Luigi Mangione's state murder trial begins
+DESCRIPTION:The state trial for the killing of UnitedHealthcare chief exe
+ cutive Brian Thompson in Midtown. Originally set for June 8 and moved to
+  September\; the federal trial is pushed to January 2027.
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260908-Firstdayofschool@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:First day of school
+DESCRIPTION:The 2026-27 school year begins the day after Labor Day. Rough
+ ly a million children return to class.\n\nhttps://www.schools.nyc.gov/
+URL:https://www.schools.nyc.gov/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260910-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22540&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22540&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260910-MWBE_78580662AHYBRIDCLOUDSECURITYARCHITE@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:MWBE_7-858-0662A - HYBRID CLOUD SECURITY ARCHITECT
+DESCRIPTION:Information Technology and Telecommunications\n\nhttps://a856
+ -cityrecord.nyc.gov/
+URL:https://a856-cityrecord.nyc.gov/
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260911-911attacksdestroytheWorldTradeCenter25th@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:9/11 attacks destroy the World Trade Center — 25th anniversary
+DESCRIPTION:Al-Qaeda hijackers crashed two jetliners into the twin towers
+  of the World Trade Center\, collapsing both and killing 2\,753 people i
+ n New York City. It was the deadliest terrorist attack in U.S. history.\
+ n\nhttps://www.911memorial.org/911-faqs
+URL:https://www.911memorial.org/911-faqs
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260915-TheBritishlandatKipsBay250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:The British land at Kip's Bay — 250th anniversary
+DESCRIPTION:British warships and troops landed at Kip's Bay on Manhattan'
+ s East River shore on September 15\, 1776\, scattering American militia.
+ \n\nhttps://www.mountvernon.org/library/digitalhistory/digital-encyclope
+ dia/article/battle-of-kip-s-bay
+URL:https://www.mountvernon.org/library/digitalhistory/digital-encycloped
+ ia/article/battle-of-kip-s-bay
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260915-CommitteeonEducation@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Committee on Education
+DESCRIPTION:Jointly with the Committee on Oversight and Investigations · 
+ Council Chambers - City Hall\n\nhttps://nyc.legistar.com/MeetingDetail.a
+ spx?LEGID=22523&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22523&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260915-CommitteeonOversightandInvestigations@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Committee on Oversight and Investigations
+DESCRIPTION:Jointly with the Committee on Education. · Council Chambers -
+  City Hall\n\nhttps://nyc.legistar.com/MeetingDetail.aspx?LEGID=22522&GI
+ D=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22522&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260916-TheBattleofHarlemHeights250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:The Battle of Harlem Heights — 250th anniversary
+DESCRIPTION:On September 16\, 1776\, Washington won his first battlefield
+  victory of the war at Harlem Heights in upper Manhattan.\n\nhttps://www
+ .mountvernon.org/library/digitalhistory/digital-encyclopedia/article/bat
+ tle-of-harlem-heights
+URL:https://www.mountvernon.org/library/digitalhistory/digital-encycloped
+ ia/article/battle-of-harlem-heights
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917-MayorsManagementReportdue@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Mayor's Management Report due
+DESCRIPTION:The charter-mandated scorecard for every agency: trash\, crim
+ e\, service delivery. The closest thing the city has to a report card.\n
+ \nhttps://www.nyc.gov/site/operations/performance/mmr.page
+URL:https://www.nyc.gov/site/operations/performance/mmr.page
+CATEGORIES:power
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918-TheNewYorkDailyTimesdebuts175thanniversa@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:The New-York Daily Times debuts — 175th anniversary
+DESCRIPTION:Henry Raymond and George Jones published the first issue of t
+ he New-York Daily Times\, later The New York Times.\n\nhttps://en.wikipe
+ dia.org/wiki/History_of_The_New_York_Times_(1851%E2%80%931896)
+URL:https://en.wikipedia.org/wiki/History_of_The_New_York_Times_(1851%E2%
+ 80%931896)
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260921-TheGreatFireof1776250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:The Great Fire of 1776 — 250th anniversary
+DESCRIPTION:A fire burned through the night into September 21\, 1776\, de
+ stroying a large swath of British-occupied New York including Trinity Ch
+ urch.\n\nhttps://en.wikipedia.org/wiki/Great_Fire_of_New_York_(1776)
+URL:https://en.wikipedia.org/wiki/Great_Fire_of_New_York_(1776)
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260922-NathanHaleishangedasaspy250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Nathan Hale is hanged as a spy — 250th anniversary
+DESCRIPTION:The British hanged 21-year-old Continental officer Nathan Hal
+ e as a spy in occupied New York on September 22\, 1776.\n\nhttps://conne
+ cticuthistory.org/nathan-hale-hanged-in-new-york-today-in-history/
+URL:https://connecticuthistory.org/nathan-hale-hanged-in-new-york-today-i
+ n-history/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260922-UnitedNationsGeneralAssemblyleadersweek@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:United Nations General Assembly: leaders' week
+DESCRIPTION:World leaders descend on the city for the high-level debate. 
+ Major security\, traffic and diplomatic consequences for Midtown.
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260924-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22541&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22541&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20260925-Transitauthoritypreliminary2027budget@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Transit authority preliminary 2027 budget
+DESCRIPTION:A key indicator of fiscal health and service levels.\n\nhttps
+ ://new.mta.info/transparency/financial-information
+URL:https://new.mta.info/transparency/financial-information
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930-Federalfiscalyearendsshutdownrisk@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Federal fiscal year ends\; shutdown risk
+DESCRIPTION:Federal appropriations expire at midnight. New York City is h
+ eavily exposed to disruptions in housing vouchers\, Medicaid\, transit a
+ nd disaster aid.
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20261001-Newrentguidelinestakeeffect@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:New rent guidelines take effect
+DESCRIPTION:The board's adjustments begin applying to new and renewal lea
+ ses.\n\nhttps://rentguidelinesboard.cityofnewyork.us/
+URL:https://rentguidelinesboard.cityofnewyork.us/
+CATEGORIES:housing
+END:VEVENT
+BEGIN:VEVENT
+UID:20261001-Fairhousingframeworkassessmentdue@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Fair housing framework assessment due
+DESCRIPTION:The first-ever needs assessment and five-year affordable hous
+ ing production targets for all 59 community districts.
+CATEGORIES:housing
+END:VEVENT
+BEGIN:VEVENT
+UID:20261001-CityofYesfirstaffordablehousingdistrictl@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:City of Yes: first affordable housing district list
+DESCRIPTION:City Planning publishes the 12 community districts with the l
+ owest affordable housing production.
+CATEGORIES:housing
+END:VEVENT
+BEGIN:VEVENT
+UID:20261001-Federalfiscalyear2027begins@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Federal fiscal year 2027 begins
+DESCRIPTION:Watch for continuing resolutions and shutdown risk affecting 
+ city funding.
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20261008-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22542&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22542&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20261009-Voterregistrationdeadline@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Voter registration deadline
+DESCRIPTION:The last day to register for the Nov. 3 general election.\n\n
+ https://www.elections.ny.gov/
+URL:https://www.elections.ny.gov/
+CATEGORIES:democracy
+END:VEVENT
+BEGIN:VEVENT
+UID:20261020-CommitteeonEnvironmentalProtectionandWat@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Committee on Environmental Protection and Waterfronts
+DESCRIPTION:Committee Room - City Hall\n\nhttps://nyc.legistar.com/Meetin
+ gDetail.aspx?LEGID=22568&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22568&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20261022-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22543&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22543&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20261024-Earlyvotingbegins@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Early voting begins
+DESCRIPTION:A nine-day early voting period for the general election\, run
+ ning through Nov. 1.\n\nhttps://www.elections.ny.gov/
+URL:https://www.elections.ny.gov/
+CATEGORIES:democracy
+END:VEVENT
+BEGIN:VEVENT
+UID:20261028-TheBattleofWhitePlains250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:The Battle of White Plains — 250th anniversary
+DESCRIPTION:British and Hessian forces under Howe defeated Washington at 
+ White Plains in Westchester on October 28\, 1776.\n\nhttps://www.battlef
+ ields.org/learn/revolutionary-war/battles/white-plains
+URL:https://www.battlefields.org/learn/revolutionary-war/battles/white-pl
+ ains
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261101-NewYorkCityMarathon50yearsofthefiveborou@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:New York City Marathon: 50 years of the five-borough course
+DESCRIPTION:The marathon first ran through all five boroughs in 1976 for 
+ the bicentennial\, making 2026 the 50th running of the modern course.\n\
+ nhttps://www.nyrr.org/tcsnycmarathon
+URL:https://www.nyrr.org/tcsnycmarathon
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20261103-Generalelection@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:General election
+DESCRIPTION:Governor (Hochul vs. likely Blakeman)\, Congress and state le
+ gislative races. No mayoral race this year. Hochul-Mamdani coordination 
+ is critical for Democratic turnout.\n\nhttps://www.elections.ny.gov/
+URL:https://www.elections.ny.gov/
+CATEGORIES:democracy
+END:VEVENT
+BEGIN:VEVENT
+UID:20261105-TheSchaghenletterrecordsthepurchaseofMan@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:The Schaghen letter records the 'purchase' of Manhattan — 400th a
+ nniversary
+DESCRIPTION:A letter by Dutch official Pieter Schaghen\, dated Nov. 5\, 1
+ 626\, reported that colonists had 'purchased' the island of Manhattan fr
+ om its Native inhabitants for goods worth 60 guilders. It is the only co
+ ntemporary document of the transaction.\n\nhttps://www.newnetherlandinst
+ itute.org/history-and-heritage/additional-resources/dutch-treats/peter-s
+ chaghen-letter/
+URL:https://www.newnetherlandinstitute.org/history-and-heritage/additiona
+ l-resources/dutch-treats/peter-schaghen-letter/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261106-DC37scontractexpires@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:DC 37's contract expires
+DESCRIPTION:The largest municipal union\, roughly 90\,000 workers. The ex
+ piring 2021-2026 agreement sets the pattern for the teachers' union and 
+ everyone else. The first major labor test of this administration.\n\nhtt
+ ps://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026
+ /dc-37-2021-2026-moa.pdf
+URL:https://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/202
+ 1-2026/dc-37-2021-2026-moa.pdf
+CATEGORIES:power
+END:VEVENT
+BEGIN:VEVENT
+UID:20261106-Bloombergelectedmayorafter91125thanniver@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Bloomberg elected mayor after 9/11 — 25th anniversary
+DESCRIPTION:Media entrepreneur Michael Bloomberg won the mayoralty just w
+ eeks after the September 11 attacks\, defeating Democrat Mark Green. He 
+ took office as the 108th mayor on Jan. 1\, 2002.\n\nhttps://en.wikipedia
+ .org/wiki/Mayoralty_of_Michael_Bloomberg
+URL:https://en.wikipedia.org/wiki/Mayoralty_of_Michael_Bloomberg
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261112-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22544&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22544&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20261115-NunezmonitorreportonRikers@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Nunez monitor report on Rikers
+DESCRIPTION:The second semi-annual report to Judge Swain. It effectively 
+ grades the administration's first year of jail management\; a poor grade
+  accelerates the receivership timeline.
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
+UID:20261116-ThefallofFortWashington250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:The fall of Fort Washington — 250th anniversary
+DESCRIPTION:British and Hessian forces captured Fort Washington\, the las
+ t American stronghold on Manhattan\, on November 16\, 1776.\n\nhttps://w
+ ww.battlefields.org/learn/revolutionary-war/battles/fort-washington
+URL:https://www.battlefields.org/learn/revolutionary-war/battles/fort-was
+ hington
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22545&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22545&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-Novemberfinancialplanupdate@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:November financial plan update
+DESCRIPTION:The city updates revenue and spending projections\, setting t
+ he baseline for the next budget cycle.\n\nhttps://www.nyc.gov/site/omb/i
+ ndex.page
+URL:https://www.nyc.gov/site/omb/index.page
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20261126-The100thMacysThanksgivingDayParade@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:The 100th Macy's Thanksgiving Day Parade
+DESCRIPTION:A milestone parade\; the count reaches 100 in 2026 because th
+ e parade was suspended during the Second World War. A year-long celebrat
+ ion campaign surrounds it.
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20261203-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22546&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22546&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20261215-Transitboardadoptsthe2027budget@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Transit board adopts the 2027 budget
+DESCRIPTION:The final operating budget for the coming year.\n\nhttps://ne
+ w.mta.info/transparency/board-and-committee-meetings
+URL:https://new.mta.info/transparency/board-and-committee-meetings
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20261217-StatedmeetingoftheCityCouncil@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Stated meeting of the City Council
+DESCRIPTION:Council Chambers - City Hall\n\nhttps://nyc.legistar.com/Meet
+ ingDetail.aspx?LEGID=22547&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3
+URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22547&GID=61&G=2FD0
+ 04F1-D85B-4588-A648-0A736C77D6E3
+CATEGORIES:hearings
+END:VEVENT
+BEGIN:VEVENT
+UID:20261228-Albanypostelectionpositioning@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Albany post-election positioning
+DESCRIPTION:The lame-duck period for termed-out legislators\; watch for l
+ ate activity on pending bills.
+CATEGORIES:power
+END:VEVENT
+BEGIN:VEVENT
+UID:20270426-Studio54opens50thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Studio 54 opens — 50th anniversary
+DESCRIPTION:The Midtown discotheque opened and instantly became the epice
+ nter of celebrity nightlife and disco excess.\n\nhttps://www.britannica.
+ com/topic/Studio-54
+URL:https://www.britannica.com/topic/Studio-54
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270429-LeverHousebringstheglasscurtainwalltoPar@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Lever House brings the glass curtain wall to Park Avenue — 75th a
+ nniversary
+DESCRIPTION:Gordon Bunshaft's Lever House\, for Skidmore\, Owings & Merri
+ ll\, opened at 390 Park Avenue. Its blue-green glass skin was among the 
+ first true curtain walls on an American office tower.\n\nhttp://s-media.
+ nyc.gov/agencies/lpc/lp/1277.pdf
+URL:http://s-media.nyc.gov/agencies/lpc/lp/1277.pdf
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270613-Lindberghgetsatickertapeheroswelcome100t@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Lindbergh gets a ticker-tape hero's welcome — 100th anniversary
+DESCRIPTION:Millions lined Broadway for a ticker-tape parade honoring Cha
+ rles Lindbergh after his solo flight across the Atlantic.\n\nhttps://www
+ .britannica.com/biography/Charles-Lindbergh
+URL:https://www.britannica.com/biography/Charles-Lindbergh
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270704-SlaveryendsinNewYorkState200thanniversar@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:Slavery ends in New York State — 200th anniversary
+DESCRIPTION:An 1817 law took full effect on July 4\, 1827\, ending legal 
+ slavery in New York and freeing thousands of remaining enslaved people.\
+ n\nhttps://history.nycourts.gov/when-did-slavery-end-in-new-york/
+URL:https://history.nycourts.gov/when-did-slavery-end-in-new-york/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270713-Theblackoutthatbrokethecitysspirit50than@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:The blackout that broke the city's spirit — 50th anniversary
+DESCRIPTION:Lightning strikes knocked out power for some 25 hours\, unlea
+ shing widespread looting and arson across the crime-plagued\, cash-strap
+ ped city.\n\nhttps://www.britannica.com/event/New-York-City-blackout-of-
+ 1977
+URL:https://www.britannica.com/event/New-York-City-blackout-of-1977
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270810-TheSonofSamiscaptured50thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:The Son of Sam is captured — 50th anniversary
+DESCRIPTION:Police arrested David Berkowitz\, ending a serial-killing spr
+ ee that terrorized the city for more than a year.\n\nhttps://www.britann
+ ica.com/biography/David-Berkowitz
+URL:https://www.britannica.com/biography/David-Berkowitz
+CATEGORIES:anniversary
+END:VEVENT
+END:VCALENDAR

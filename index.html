@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The New York City calendar</title>
+<meta name="description" content="What is coming for New York City: the events the city will feel, the deadlines that bind it, the anniversaries it is about to mark — and every hearing underneath. Refreshed twice a day.">
+<link rel="stylesheet" href="https://use.typekit.net/qqk2vto.css">
+<style>
+@font-face{
+  font-family:'GascogneTS';
+  src:url('https://vital-city-nyc.github.io/vital-city-design-system/fonts/GascogneTS-Light.ttf') format('truetype');
+  font-weight:300; font-display:swap;
+}
+
+:root{
+  --black:#050507; --white:#fff; --paper:#f7f7f4;
+  --cloud:#ddd; --cloud-50:#eee;
+  --charcoal:#707175; --graphite:#3a3a3d;
+  --chartreuse:#dde44c; --orange:#ff7c53; --periwinkle:#9b9fbc;
+  --rose:#cea9be; --magenta:#e7466d; --indigo:#394882; --cerulean:#217ebe;
+  --maroon:#7d2231; --navy:#1c2748;
+
+  --sans:"halyard-text","Inter","Helvetica Neue",Arial,sans-serif;
+  --serif:"GascogneTS","Source Serif 4",Georgia,"Times New Roman",serif;
+
+  --s-city-life:var(--orange);
+  --s-anniversary:var(--magenta);
+  --s-democracy:var(--indigo);
+  --s-housing:var(--cerulean);
+  --s-money:#a9ae2b;
+  --s-justice:var(--graphite);
+  --s-power:var(--periwinkle);
+  --s-climate:var(--rose);
+  --s-books:var(--charcoal);
+  --s-hearings:var(--cloud);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  font-family:var(--sans); font-weight:300;
+  background:var(--paper); color:var(--black);
+  line-height:1.5; -webkit-font-smoothing:antialiased;
+}
+
+.wrap{max-width:960px;margin:0 auto;padding:0 24px 120px}
+
+/* ── Masthead ───────────────────────────────────────── */
+.masthead{border-bottom:3px solid var(--black);padding:34px 0 14px;margin-bottom:0}
+.kicker{
+  font-size:.66rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--maroon);margin-bottom:12px;
+}
+.masthead h1{
+  font-family:var(--sans);font-weight:700;font-size:clamp(2rem,5.2vw,3.4rem);
+  line-height:1.02;letter-spacing:-.025em;margin-bottom:12px;
+}
+.standfirst{
+  font-size:1rem;max-width:56ch;color:var(--graphite);line-height:1.55;
+  border-left:3px solid var(--chartreuse);padding-left:14px;
+}
+
+/* ── Status bar ─────────────────────────────────────── */
+.status{
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  padding:10px 0;border-bottom:1px solid var(--cloud);
+  font-size:.74rem;color:var(--charcoal);
+}
+.pulse{
+  display:inline-flex;align-items:center;gap:6px;font-weight:700;
+  text-transform:uppercase;letter-spacing:.1em;font-size:.64rem;color:var(--black);
+}
+.dot{width:7px;height:7px;border-radius:50%;background:#1a9c4c;animation:blink 2.4s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.status .sep{color:var(--cloud)}
+.status button{
+  font-family:var(--sans);font-size:.7rem;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;background:var(--black);color:var(--white);
+  border:none;padding:6px 12px;cursor:pointer;
+}
+.status button:hover{background:var(--maroon)}
+.status button.ghost{background:none;color:var(--black);border:1px solid var(--black)}
+.status button.ghost:hover{background:var(--black);color:var(--white)}
+
+/* ── Controls ───────────────────────────────────────── */
+.controls{
+  position:sticky;top:0;z-index:50;background:var(--paper);
+  padding:14px 0;border-bottom:2px solid var(--black);
+}
+.ctl-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ctl-label{
+  font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--charcoal);margin-right:2px;
+}
+
+/* significance threshold — the spine of the whole thing */
+.thresh{display:flex;border:2px solid var(--black)}
+.thresh button{
+  font-family:var(--sans);font-size:.72rem;font-weight:700;
+  padding:6px 13px;background:var(--white);border:none;cursor:pointer;
+  border-right:1px solid var(--black);color:var(--black);white-space:nowrap;
+}
+.thresh button:last-child{border-right:none}
+.thresh button.on{background:var(--black);color:var(--white)}
+.thresh button:hover:not(.on){background:var(--chartreuse)}
+
+.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
+.chip{
+  font-size:.7rem;font-weight:400;padding:3px 10px;cursor:pointer;
+  border:1px solid var(--cloud);background:var(--white);color:var(--charcoal);
+  user-select:none;white-space:nowrap;display:flex;align-items:center;gap:5px;
+}
+.chip:hover{border-color:var(--black);color:var(--black)}
+.chip.on{background:var(--black);color:var(--white);border-color:var(--black);font-weight:700}
+.chip .sw{width:8px;height:8px;flex-shrink:0}
+
+.search{
+  flex:1;min-width:150px;padding:6px 10px;font-family:var(--sans);font-size:.8rem;
+  border:1px solid var(--cloud);background:var(--white);outline:none;
+}
+.search:focus{border-color:var(--black)}
+
+/* ── Month rules ────────────────────────────────────── */
+.month{
+  display:flex;align-items:baseline;gap:12px;
+  margin:44px 0 6px;padding-bottom:6px;border-bottom:1px solid var(--black);
+}
+.month h2{
+  font-family:var(--sans);font-weight:700;font-size:.82rem;
+  letter-spacing:.16em;text-transform:uppercase;
+}
+.month .n{font-size:.7rem;color:var(--charcoal);margin-left:auto}
+
+/* ── Events ─────────────────────────────────────────── */
+.ev{
+  display:grid;grid-template-columns:78px 1fr;gap:20px;
+  padding:16px 0;border-bottom:1px solid var(--cloud);cursor:pointer;
+  position:relative;
+}
+.ev:hover{background:rgba(221,228,76,.10)}
+.ev .when{text-align:right;padding-top:2px}
+.ev .dnum{
+  font-family:var(--serif);font-weight:300;line-height:.9;
+  display:block;letter-spacing:-.02em;
+}
+.ev .dow{
+  font-size:.6rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--charcoal);margin-top:5px;
+}
+.ev .time{font-size:.64rem;color:var(--charcoal);margin-top:2px}
+.ev h3{font-family:var(--sans);letter-spacing:-.01em;line-height:1.18}
+.ev .note{color:var(--graphite);margin-top:6px;max-width:64ch;line-height:1.5}
+.ev .meta{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;
+  font-size:.66rem;color:var(--charcoal);
+}
+.tag{
+  font-size:.6rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:2px 7px;color:var(--black);
+}
+.approx{font-style:italic}
+
+/* tier: marquee — the city stops */
+.ev.marquee{
+  grid-template-columns:120px 1fr;background:var(--white);
+  border-left:6px solid var(--black);border-bottom:2px solid var(--black);
+  padding:26px 22px 26px 0;margin:14px 0;
+}
+.ev.marquee .when{padding-left:18px}
+.ev.marquee .dnum{font-size:4.6rem}
+.ev.marquee h3{font-size:clamp(1.5rem,3.4vw,2.2rem);font-weight:700}
+.ev.marquee .note{font-size:.95rem;margin-top:10px}
+
+/* tier: major */
+.ev.major{border-left:4px solid var(--black);padding-left:16px;background:var(--white)}
+.ev.major .dnum{font-size:2.5rem}
+.ev.major h3{font-size:1.22rem;font-weight:700}
+.ev.major .note{font-size:.86rem}
+
+/* tier: notable */
+.ev.notable .dnum{font-size:1.6rem}
+.ev.notable h3{font-size:.98rem;font-weight:700}
+.ev.notable .note{font-size:.8rem}
+
+/* tier: routine — agate */
+.ev.routine{padding:7px 0;gap:14px}
+.ev.routine .dnum{font-size:1rem;font-weight:300}
+.ev.routine .dow{display:none}
+.ev.routine h3{font-size:.8rem;font-weight:400;color:var(--graphite)}
+.ev.routine .note{display:none}
+.ev.routine .meta{margin-top:2px;font-size:.62rem}
+
+/* strand color rail */
+.ev .rail{position:absolute;left:0;top:0;bottom:0;width:0}
+.ev.marquee .rail,.ev.major .rail{width:0}
+
+/* ── Agate block (collapsed hearings) ───────────────── */
+.agate{
+  border-left:3px solid var(--cloud);padding:10px 0 10px 16px;margin:10px 0;
+}
+.agate summary{
+  font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--charcoal);cursor:pointer;list-style:none;
+}
+.agate summary::-webkit-details-marker{display:none}
+.agate summary::before{content:'▸ ';color:var(--charcoal)}
+.agate[open] summary::before{content:'▾ '}
+.agate summary:hover{color:var(--black)}
+
+/* ── Detail drawer ──────────────────────────────────── */
+.drawer{
+  display:none;grid-column:1/-1;margin-top:12px;padding:14px 16px;
+  background:var(--black);color:#e8e6e0;font-size:.78rem;line-height:1.6;
+}
+.ev.open .drawer{display:block}
+.drawer .score{
+  font-family:var(--serif);font-size:2rem;line-height:1;color:var(--chartreuse);
+  float:right;margin-left:14px;
+}
+.drawer b{font-weight:700;color:var(--white)}
+.drawer a{color:var(--chartreuse)}
+.drawer ul{margin:6px 0 0 16px}
+.drawer li{margin-bottom:2px}
+.drawer .acts{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+.drawer .acts a{
+  font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  border:1px solid var(--chartreuse);padding:4px 9px;text-decoration:none;
+}
+.drawer .acts a:hover{background:var(--chartreuse);color:var(--black)}
+
+/* ── Empty / footer ─────────────────────────────────── */
+.empty{padding:60px 0;text-align:center;color:var(--charcoal);font-size:.9rem}
+.foot{
+  margin-top:70px;padding-top:20px;border-top:3px solid var(--black);
+  font-size:.74rem;color:var(--charcoal);line-height:1.6;
+}
+.foot a{color:var(--black)}
+.srcs{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:.68rem}
+.srcs span{display:flex;align-items:center;gap:5px}
+.ok{width:6px;height:6px;border-radius:50%;background:#1a9c4c}
+.bad{width:6px;height:6px;border-radius:50%;background:var(--maroon)}
+
+/* ── AI caution ─────────────────────────────────────── */
+.tools{position:fixed;right:18px;bottom:18px;z-index:90;display:flex;gap:8px}
+.tools button{
+  font-family:var(--sans);font-size:.68rem;font-weight:700;letter-spacing:.05em;
+  padding:8px 12px;border:2px solid var(--black);background:var(--white);
+  color:var(--black);cursor:pointer;box-shadow:3px 3px 0 rgba(5,5,7,.18);
+}
+#aiBtn{background:var(--maroon);color:var(--white);border-color:var(--maroon)}
+.pop{
+  display:none;position:fixed;right:18px;bottom:64px;width:330px;z-index:91;
+  background:var(--navy);color:#f0eee9;padding:15px 17px;font-size:.76rem;
+  line-height:1.6;border:2px solid var(--navy);box-shadow:5px 5px 0 rgba(0,0,0,.25);
+}
+.pop.show{display:block}
+.pop a{color:#f6c988}
+
+/* ── Toast ──────────────────────────────────────────── */
+.toast{
+  position:fixed;left:50%;bottom:24px;transform:translate(-50%,90px);
+  background:var(--black);color:var(--white);padding:10px 18px;font-size:.78rem;
+  z-index:95;transition:transform .3s;display:flex;gap:12px;align-items:center;
+}
+.toast.show{transform:translate(-50%,0)}
+.toast button{
+  background:var(--chartreuse);border:none;color:var(--black);font-family:var(--sans);
+  font-weight:700;font-size:.7rem;padding:4px 10px;cursor:pointer;
+}
+
+@media(max-width:640px){
+  .wrap{padding:0 16px 100px}
+  .ev{grid-template-columns:52px 1fr;gap:12px}
+  .ev.marquee{grid-template-columns:70px 1fr;padding:18px 14px 18px 0}
+  .ev.marquee .when{padding-left:12px}
+  .ev.marquee .dnum{font-size:2.8rem}
+  .ev.marquee h3{font-size:1.35rem}
+  .ev.major .dnum{font-size:1.9rem}
+  .thresh button{padding:6px 9px;font-size:.66rem}
+  .tools{right:10px;bottom:10px}
+  .pop{right:10px;left:10px;width:auto}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="kicker">A live calendar · refreshed twice a day</div>
+    <h1>The New York City calendar</h1>
+    <p class="standfirst">What is coming for the city — the days it will feel, the deadlines that bind it,
+    the anniversaries it is about to mark. Sized by how much they matter, not by who filed them.</p>
+  </header>
+
+  <div class="status" id="status"></div>
+
+  <div class="controls">
+    <div class="ctl-row">
+      <span class="ctl-label">Show</span>
+      <div class="thresh" id="thresh">
+        <button data-min="85">The city stops</button>
+        <button data-min="65">Major</button>
+        <button data-min="45" class="on">Notable</button>
+        <button data-min="0">Everything</button>
+      </div>
+      <input type="search" class="search" id="search" placeholder="Search the calendar…">
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <main id="stream"></main>
+
+  <footer class="foot">
+    <p><b>How this works.</b> Five sources are merged every twelve hours and scored 0-100 for public
+    significance, which decides how big each event appears. Round-number anniversaries are computed
+    fresh on every run from a corpus of 281 sourced events in the city's history, so the calendar
+    re-earns itself each year. Hearings are capped at 62 by design: the most consequential committee
+    hearing of the year can be notable, but it will never outrank an election.
+    <a href="methodology.html">Read the full methodology →</a></p>
+    <div class="srcs" id="srcs"></div>
+  </footer>
+
+</div>
+
+<div class="tools">
+  <a href="methodology.html" style="text-decoration:none"><button>Methodology</button></a>
+  <button id="aiBtn">AI caution</button>
+</div>
+<div class="pop" id="aiPop">
+  This calendar was built with AI assistance. The hearings, agendas and session days come directly
+  from government feeds, and the historical events are drawn from a sourced corpus. But the
+  <b>significance scores are editorial judgments</b> expressed as numbers, and any step can carry an
+  error. The dates of curated events marked <i>approximate</i> are not yet confirmed by the
+  responsible agency. Check the <a href="methodology.html">methodology</a> before relying on any of it.
+</div>
+
+<div class="toast" id="toast"><span id="toastMsg"></span></div>
+
+<script>
+const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const STRANDS={
+  'city-life':'City life','anniversary':'Anniversaries','democracy':'Democracy','housing':'Housing',
+  'money':'Money','justice':'Justice','power':'Power','climate':'Climate','books':'Books','hearings':'Hearings'
+};
+
+let DATA=null, minScore=45, active=new Set(), q='', generated=null;
+
+const $=s=>document.querySelector(s);
+const esc=s=>{const d=document.createElement('div');d.textContent=s??'';return d.innerHTML};
+const parse=s=>{const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)};
+const todayISO=()=>new Date().toISOString().slice(0,10);
+
+async function load(first){
+  const res=await fetch('data/events.json?t='+Date.now());
+  const json=await res.json();
+  // A new build landed while the page was open: offer it rather than yanking
+  // the list out from under whatever the reader is looking at.
+  if(!first && json.generated!==generated){
+    const t=$('#toast');
+    t.innerHTML='<span>The calendar has been updated.</span>';
+    const b=document.createElement('button');
+    b.textContent='Reload';
+    b.onclick=()=>location.reload();
+    t.appendChild(b);
+    t.classList.add('show');
+    return;
+  }
+  DATA=json;generated=json.generated;
+  renderChips();renderStatus();renderSources();render();
+}
+
+function ago(iso){
+  const mins=Math.floor((Date.now()-new Date(iso))/60000);
+  if(mins<1)return'just now';
+  if(mins<60)return mins+' minute'+(mins===1?'':'s')+' ago';
+  const h=Math.floor(mins/60);
+  if(h<24)return h+' hour'+(h===1?'':'s')+' ago';
+  const d=Math.floor(h/24);return d+' day'+(d===1?'':'s')+' ago';
+}
+
+function renderStatus(){
+  const c=DATA.counts||{};
+  $('#status').innerHTML=
+    `<span class="pulse"><span class="dot"></span>Live</span>`+
+    `<span>Refreshed ${ago(DATA.generated)}</span>`+
+    `<span class="sep">|</span>`+
+    `<span>${DATA.events.length} events · ${c.marquee||0} the city will feel · ${(c.routine||0)} hearings and filings</span>`+
+    `<span style="margin-left:auto;display:flex;gap:8px">`+
+      `<button id="subBtn">Subscribe</button>`+
+      `<button class="ghost" id="subAllBtn">Subscribe to everything</button>`+
+    `</span>`;
+  $('#subBtn').onclick=()=>subscribe('highlights.ics');
+  $('#subAllBtn').onclick=()=>subscribe('calendar.ics');
+}
+
+function subscribe(file){
+  const url=new URL('data/'+file,location.href).href;
+  window.location.href='webcal://'+url.replace(/^https?:\/\//,'');
+  toast('Opening your calendar app. It will keep itself up to date.');
+}
+
+function toast(msg){
+  const t=$('#toast');t.innerHTML='<span>'+esc(msg)+'</span>';
+  t.classList.add('show');setTimeout(()=>t.classList.remove('show'),4000);
+}
+
+function renderSources(){
+  $('#srcs').innerHTML=DATA.sources.map(s=>
+    `<span><i class="${s.ok?'ok':'bad'}"></i>${esc(s.name)}: ${s.ok?s.count+' events':'unavailable'}${s.note?' — '+esc(s.note):''}</span>`
+  ).join('');
+}
+
+function renderChips(){
+  const present=[...new Set(DATA.events.map(e=>e.strand))];
+  $('#chips').innerHTML=Object.entries(STRANDS).filter(([k])=>present.includes(k)).map(([k,label])=>
+    `<div class="chip${active.has(k)?' on':''}" data-k="${k}">
+       <span class="sw" style="background:var(--s-${k})"></span>${label}</div>`
+  ).join('');
+  document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
+    const k=c.dataset.k;
+    active.has(k)?active.delete(k):active.add(k);
+    renderChips();render();
+  });
+}
+
+function visible(){
+  const today=todayISO();
+  return DATA.events.filter(e=>{
+    if(e.date<today)return false;
+    if(e.significance<minScore)return false;
+    if(active.size&&!active.has(e.strand))return false;
+    if(q){
+      const hay=(e.title+' '+(e.note||'')+' '+(e.source||'')).toLowerCase();
+      if(!hay.includes(q))return false;
+    }
+    return true;
+  });
+}
+
+function evHTML(e,i){
+  const d=parse(e.date);
+  return `<article class="ev ${e.tier}" data-i="${i}">
+    <div class="when">
+      <span class="dnum">${d.getDate()}</span>
+      <div class="dow">${DOW[d.getDay()]}</div>
+      ${e.time?`<div class="time">${esc(e.time)}</div>`:''}
+    </div>
+    <div>
+      <h3>${esc(e.title)}</h3>
+      ${e.note&&e.tier!=='routine'?`<p class="note">${esc(e.note)}</p>`:''}
+      <div class="meta">
+        <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
+        <span>${esc(e.source)}</span>
+        ${e.approx?'<span class="approx">· date not yet confirmed</span>':''}
+      </div>
+    </div>
+    <div class="drawer">
+      <div class="score">${e.significance}</div>
+      <b>Why it is sized this way</b>
+      <ul>${(e.why||[]).map(w=>`<li>${esc(w)}</li>`).join('')}</ul>
+      <div style="margin-top:8px">Scored <b>${e.significance}/100</b> — ${esc(e.tier)}.
+      ${e.live?'Pulled from a live feed.':'Curated by hand.'}</div>
+      <div class="acts">
+        ${e.sourceUrl?`<a href="${esc(e.sourceUrl)}" target="_blank" rel="noopener">Source</a>`:''}
+        ${e.agendaUrl?`<a href="${esc(e.agendaUrl)}" target="_blank" rel="noopener">Agenda</a>`:''}
+        <a href="${gcal(e)}" target="_blank" rel="noopener">Add to Google Calendar</a>
+      </div>
+    </div>
+  </article>`;
+}
+
+function gcal(e){
+  const s=e.date.replace(/-/g,'');
+  const d=parse(e.date);d.setDate(d.getDate()+1);
+  const end=d.toISOString().slice(0,10).replace(/-/g,'');
+  const p=new URLSearchParams({action:'TEMPLATE',text:e.title,dates:s+'/'+end,details:(e.note||'')+(e.sourceUrl?'\n\n'+e.sourceUrl:'')});
+  return 'https://calendar.google.com/calendar/render?'+p;
+}
+
+function render(){
+  const evs=visible();
+  const el=$('#stream');
+  if(!evs.length){el.innerHTML='<div class="empty">Nothing on the calendar matches. Try widening the filter.</div>';return;}
+
+  // index into the live array so the drawer can find its event
+  const idx=new Map(evs.map(e=>[e,DATA.events.indexOf(e)]));
+
+  let html='',curMonth='';
+  let i=0;
+  while(i<evs.length){
+    const e=evs[i];
+    const mk=e.date.slice(0,7);
+    if(mk!==curMonth){
+      curMonth=mk;
+      const d=parse(e.date);
+      const n=evs.filter(x=>x.date.slice(0,7)===mk).length;
+      html+=`<div class="month"><h2>${MONTHS[d.getMonth()]} ${d.getFullYear()}</h2>
+             <span class="n">${n} event${n===1?'':'s'}</span></div>`;
+    }
+
+    // Collapse consecutive routine events into one agate block.
+    if(e.tier==='routine'){
+      const run=[];
+      while(i<evs.length&&evs[i].tier==='routine'&&evs[i].date.slice(0,7)===curMonth){run.push(evs[i]);i++;}
+      html+=`<details class="agate"><summary>${run.length} hearing${run.length===1?'':'s'} and routine filing${run.length===1?'':'s'}</summary>`+
+            run.map(x=>evHTML(x,idx.get(x))).join('')+`</details>`;
+      continue;
+    }
+
+    html+=evHTML(e,idx.get(e));
+    i++;
+  }
+  el.innerHTML=html;
+
+  document.querySelectorAll('.ev').forEach(a=>a.onclick=ev=>{
+    if(ev.target.closest('a'))return;
+    a.classList.toggle('open');
+  });
+}
+
+// controls
+document.querySelectorAll('#thresh button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#thresh button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');minScore=+b.dataset.min;render();
+});
+$('#search').oninput=e=>{q=e.target.value.trim().toLowerCase();render();};
+$('#aiBtn').onclick=()=>$('#aiPop').classList.toggle('show');
+document.addEventListener('click',e=>{
+  if(!e.target.closest('#aiPop')&&!e.target.closest('#aiBtn'))$('#aiPop').classList.remove('show');
+});
+
+load(true);
+// The page keeps itself honest: re-check the feed every 10 minutes.
+setInterval(()=>load(false),600000);
+</script>
+</body>
+</html>

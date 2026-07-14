@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology — The New York City calendar</title>
+<link rel="stylesheet" href="https://use.typekit.net/qqk2vto.css">
+<style>
+@font-face{font-family:'GascogneTS';src:url('https://vital-city-nyc.github.io/vital-city-design-system/fonts/GascogneTS-Light.ttf') format('truetype');font-weight:300;font-display:swap}
+:root{
+  --black:#050507;--paper:#f7f7f4;--white:#fff;--cloud:#ddd;--charcoal:#707175;--graphite:#3a3a3d;
+  --chartreuse:#dde44c;--maroon:#7d2231;--navy:#1c2748;
+  --sans:"halyard-text","Inter","Helvetica Neue",Arial,sans-serif;
+  --serif:"GascogneTS","Source Serif 4",Georgia,serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);font-weight:300;background:var(--paper);color:var(--black);line-height:1.62}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px 100px}
+header{border-bottom:3px solid var(--black);padding:34px 0 14px;margin-bottom:30px}
+.kicker{font-size:.66rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--maroon);margin-bottom:10px}
+h1{font-weight:700;font-size:clamp(1.8rem,4.4vw,2.7rem);line-height:1.05;letter-spacing:-.02em}
+.back{display:inline-block;margin-top:12px;font-size:.75rem;color:var(--graphite)}
+h2{font-weight:700;font-size:1.12rem;margin:38px 0 10px;letter-spacing:-.01em}
+h3{font-weight:700;font-size:.9rem;margin:20px 0 6px}
+p{margin-bottom:13px;font-size:.92rem}
+ul{margin:0 0 14px 20px}li{margin-bottom:6px;font-size:.92rem}
+b{font-weight:700}
+a{color:var(--black)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.84em;background:var(--white);border:1px solid var(--cloud);padding:1px 5px}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.85rem}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--cloud)}
+th{font-size:.64rem;text-transform:uppercase;letter-spacing:.1em;color:var(--charcoal);font-weight:700}
+td.num{font-family:var(--serif);font-size:1.15rem}
+.callout{background:var(--white);border-left:4px solid var(--chartreuse);padding:14px 16px;margin:18px 0;font-size:.9rem}
+.warn{background:var(--navy);color:#f0eee9;padding:16px 18px;margin:20px 0;font-size:.88rem}
+.warn b{color:#fff}
+.warn a{color:#f6c988}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">Methodology</div>
+  <h1>How the calendar decides what matters</h1>
+  <a class="back" href="index.html">← Back to the calendar</a>
+</header>
+
+<p>This calendar merges five sources every twelve hours and gives every event a single score from
+0 to 100 for <b>public significance</b>. That score is the only thing that decides how large an
+event appears on the page. It is a set of editorial judgments expressed as arithmetic, and this
+page exists so you can see the arithmetic and argue with it.</p>
+
+<h2>Where the events come from</h2>
+
+<table>
+  <tr><th>Source</th><th>What it provides</th><th>How current</th></tr>
+  <tr><td>Legistar API</td><td>Every City Council committee hearing and stated meeting, with agenda documents</td><td>Live, months ahead</td></tr>
+  <tr><td>The City Record</td><td>Public hearing notices from every other agency: City Planning, Landmarks, the Rent Guidelines Board, the Board of Correction, the Housing Authority and others</td><td>Live, typically two to three weeks ahead</td></tr>
+  <tr><td>New York State Senate API</td><td>Albany session days</td><td>Live when the Legislature is in session</td></tr>
+  <tr><td>History corpus</td><td>281 sourced events in the city's history, used to compute round-number anniversaries</td><td>Recomputed every run</td></tr>
+  <tr><td>Curated file</td><td>Cultural and sporting events, elections and statutory deadlines that no machine-readable source publishes</td><td>Maintained by hand</td></tr>
+</table>
+
+<p>The City Council is deliberately excluded from the City Record results, because Legistar covers
+it authoritatively and the two would otherwise double-list the same hearing.</p>
+
+<h2>The significance score</h2>
+
+<p>One scale is used for everything, so that a committee hearing and a World Cup final can sit in
+the same sorted list and land in the right size of type.</p>
+
+<table>
+  <tr><th>Tier</th><th>Score</th><th>Meaning</th></tr>
+  <tr><td class="num">Marquee</td><td>85-100</td><td>The city notices without being told</td></tr>
+  <tr><td class="num">Major</td><td>65-84</td><td>Consequential; it will be covered</td></tr>
+  <tr><td class="num">Notable</td><td>45-64</td><td>Matters to the people it matters to</td></tr>
+  <tr><td class="num">Routine</td><td>0-44</td><td>The machinery of government running</td></tr>
+</table>
+
+<div class="callout">
+<b>Hearings are capped at 62.</b> The single most consequential committee hearing of the year can
+reach "notable," but it can never outrank an election, a hurricane anniversary or a World Cup
+final. This is a deliberate choice. A calendar that ranks by who filed paperwork will always bury
+the things people actually care about beneath the things government does on a schedule.
+</div>
+
+<h3>How a hearing is scored</h3>
+<p>A City Council hearing starts at 22 and earns:</p>
+<ul>
+  <li><b>+28</b> if it is a stated meeting of the full Council, where legislation is actually passed</li>
+  <li><b>+10</b> if it belongs to a committee whose subject reliably reaches the public: public safety, housing, land use, education, health, criminal justice, immigration, transportation, finance</li>
+  <li><b>+8</b> if a vote is scheduled</li>
+  <li><b>+8</b> if the subject matter matches terms of broad public interest, such as rent, evictions, rezoning, police or the closure of Rikers</li>
+  <li><b>+6</b> if it is a joint hearing of more than one committee</li>
+</ul>
+<p>A hearing filed in the City Record starts at 20 and is weighted by the agency holding it, on the
+theory that some bodies decide things people feel directly: the Rent Guidelines Board earns 24, City
+Planning 18, the Board of Correction 16, Landmarks and the Housing Authority 14.</p>
+
+<h3>How an anniversary is scored</h3>
+<p>Every run, the builder walks 281 sourced historical events and asks which of them fall on a
+round-number anniversary within the next 400 days. Only 25th, 50th, 75th, 100th, 125th, 150th,
+175th, 200th, 250th and 300th anniversaries qualify; everything else is discarded. A qualifying
+anniversary scores:</p>
+<p><code>30 + (importance × 10) + roundness + living memory</code></p>
+<ul>
+  <li><b>Importance (1-5)</b> is how much the event means to the public today. This is the dominant term.</li>
+  <li><b>Roundness</b> adds between 6 (a 25th) and 22 (a 300th). It is deliberately a small modifier, not the driver.</li>
+  <li><b>Living memory</b> adds 8 if the event happened within the last 60 years, on the reasoning that a city remembers what its residents lived through.</li>
+</ul>
+
+<div class="callout">
+<b>Why roundness is kept small.</b> An early draft let the number of zeroes dominate, and the
+result was that the 250th anniversary of the Battle of White Plains — fought in Westchester —
+outranked both the general election and the 25th anniversary of 9/11. A 250th is not automatically
+more significant than a 25th. What the event <i>was</i> matters more than how the arithmetic of the
+calendar happens to land.
+</div>
+
+<h3>A warning about importance</h3>
+<p>The importance value is the one number in this system that a machine cannot supply. It is a
+judgment: 9/11 is a 5, the Triangle Shirtwaist fire is a 5, the Battle of White Plains is a 1. Those
+judgments live in a single readable file, <code>seed/importance.json</code>, alongside the scale they
+use, so that a disagreement can be an argument about a specific number rather than a complaint about
+a black box.</p>
+
+<p>The source corpus ships its own <code>weight</code> field. It is <b>not</b> used, and it is
+important to say why: it is a display value for a timeline, and it scores 9/11 as a 1 while scoring
+Studio 54 as a 3. Treating it as significance inverted the entire ranking. It is ignored
+deliberately.</p>
+
+<h2>What this calendar does not know</h2>
+<ul>
+  <li><b>Albany hearings.</b> The state Senate's API publishes floor calendars and an archive of
+  hearing transcripts, but no forward schedule of hearings. Only session days appear here, and only
+  once a year's session is set. When the Legislature is out of session, the state source correctly
+  shows nothing.</li>
+  <li><b>Anything filed late.</b> Agencies publish hearing notices in the City Record roughly two to
+  three weeks ahead. Something scheduled for next spring by an agency other than the Council will not
+  appear until it is noticed.</li>
+  <li><b>Dates marked "not yet confirmed."</b> Several curated entries are best estimates based on
+  past practice — the Rent Guidelines Board's votes, the Nunez monitor reports, the first day of
+  school. They are labelled on the page and should not be relied on for planning.</li>
+  <li><b>Events before today.</b> The page shows only what is ahead.</li>
+</ul>
+
+<h2>How often it refreshes</h2>
+<p>A GitHub Action rebuilds the calendar twice a day, at about 6am and 6pm Eastern, and commits the
+result. The page itself re-checks the feed every ten minutes while open, and offers a reload if a
+newer build has landed. The two <code>.ics</code> feeds are subscribable: a calendar app that
+subscribes will keep pulling the updated file on its own, which is the closest thing here to a
+product that never goes stale.</p>
+<p>If every live source fails, the build aborts rather than publishing an empty calendar over a good
+one.</p>
+
+<div class="warn">
+<b>AI caution.</b> This calendar was built with AI assistance. The hearings, agendas and session days
+come directly from government feeds, and the historical events are drawn from a sourced corpus. But
+the significance scores are editorial judgments expressed as numbers, and any step in an automated
+pipeline can carry an error. Nothing here should be treated as an official notice of a government
+proceeding. For the legally operative version of any hearing, consult
+<a href="https://a856-cityrecord.nyc.gov/">the City Record</a> or
+<a href="https://council.nyc.gov/">the Council's own calendar</a>.
+</div>
+
+<p style="margin-top:30px"><a href="index.html">← Back to the calendar</a></p>
+
+</div>
+</body>
+</html>

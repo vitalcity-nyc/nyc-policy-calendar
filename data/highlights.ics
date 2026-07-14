@@ -1,0 +1,392 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The New York City calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The New York City calendar — highlights
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:20260630-WorldCuproundof32atMetLifeStadium@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:World Cup round of 32 at MetLife Stadium
+DESCRIPTION:Knockout stage begins\, 5pm ET.\n\nhttps://nynjfwc26.com/sche
+ dule/
+URL:https://nynjfwc26.com/schedule/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-Citybudgetadoptiondeadline@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:City budget adoption deadline
+DESCRIPTION:The Council and the mayor must adopt the fiscal 2027 budget. 
+ The final deal reveals actual funding levels for every policy priority.\
+ n\nhttps://council.nyc.gov/budget/
+URL:https://council.nyc.gov/budget/
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-Mayoralcontroloftheschoolsexpires@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:Mayoral control of the schools expires
+DESCRIPTION:The current schools governance law sunsets. Continuing or cha
+ nging it requires action in Albany.
+CATEGORIES:power
+END:VEVENT
+BEGIN:VEVENT
+UID:20260704-Americas250thbirthday@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:America's 250th birthday
+DESCRIPTION:New York Harbor hosts the largest fleet of tall ships and nav
+ al vessels ever assembled\, echoing the 1976 bicentennial and 1986 Liber
+ ty Weekend. Coincides with the 50th Macy's Fourth of July fireworks.\n\n
+ https://america250.org/
+URL:https://america250.org/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260705-WorldCuproundof16atMetLifeStadium@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:World Cup round of 16 at MetLife Stadium
+DESCRIPTION:Knockout stage\, 4pm ET.\n\nhttps://nynjfwc26.com/schedule/
+URL:https://nynjfwc26.com/schedule/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260709-TheDeclarationisreadtoWashingtonstroops2@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:The Declaration is read to Washington's troops — 250th anniversar
+ y
+DESCRIPTION:The Declaration of Independence was read aloud to Continental
+  Army troops assembled on the Common on July 9\, 1776\, greeted by three
+  cheers.\n\nhttps://founders.archives.gov/documents/Washington/03-05-02-
+ 0176
+URL:https://founders.archives.gov/documents/Washington/03-05-02-0176
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260709-ThestatueofKingGeorgeIIIistoppled250than@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:The statue of King George III is toppled — 250th anniversary
+DESCRIPTION:After the Declaration was read\, a crowd rushed to Bowling Gr
+ een and pulled down the gilded lead equestrian statue of King George III
+ .\n\nhttps://www.gilderlehrman.org/history-resources/essays/proclamation
+ -reading-and-immediate-reception-declaration-independence
+URL:https://www.gilderlehrman.org/history-resources/essays/proclamation-r
+ eading-and-immediate-reception-declaration-independence
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260719-WorldCupfinalatMetLifeStadium@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:World Cup final at MetLife Stadium
+DESCRIPTION:3pm ET. The largest single sporting event ever hosted in the 
+ New York region. Weeks of security\, transit and crowd planning converge
+  on this day.\n\nhttps://nynjfwc26.com/schedule/
+URL:https://nynjfwc26.com/schedule/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260827-TheBattleofLongIsland250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:The Battle of Long Island — 250th anniversary
+DESCRIPTION:The Battle of Long Island on August 27\, 1776\, was the large
+ st battle of the Revolution and a British victory that gave them New Yor
+ k for the rest of the war.\n\nhttps://www.battlefields.org/learn/revolut
+ ionary-war/battles/brooklyn
+URL:https://www.battlefields.org/learn/revolutionary-war/battles/brooklyn
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260831-OneyearuntilRikersmustclose@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:One year until Rikers must close
+DESCRIPTION:The statutory deadline to close Rikers Island is Aug. 31\, 20
+ 27. This marks exactly one year out\, and is a fixed point for advocacy 
+ and coverage.
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
+UID:20260908-LuigiMangionesstatemurdertrialbegins@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Luigi Mangione's state murder trial begins
+DESCRIPTION:The state trial for the killing of UnitedHealthcare chief exe
+ cutive Brian Thompson in Midtown. Originally set for June 8 and moved to
+  September\; the federal trial is pushed to January 2027.
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260908-Firstdayofschool@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:First day of school
+DESCRIPTION:The 2026-27 school year begins the day after Labor Day. Rough
+ ly a million children return to class.\n\nhttps://www.schools.nyc.gov/
+URL:https://www.schools.nyc.gov/
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260911-911attacksdestroytheWorldTradeCenter25th@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:9/11 attacks destroy the World Trade Center — 25th anniversary
+DESCRIPTION:Al-Qaeda hijackers crashed two jetliners into the twin towers
+  of the World Trade Center\, collapsing both and killing 2\,753 people i
+ n New York City. It was the deadliest terrorist attack in U.S. history.\
+ n\nhttps://www.911memorial.org/911-faqs
+URL:https://www.911memorial.org/911-faqs
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260915-TheBritishlandatKipsBay250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:The British land at Kip's Bay — 250th anniversary
+DESCRIPTION:British warships and troops landed at Kip's Bay on Manhattan'
+ s East River shore on September 15\, 1776\, scattering American militia.
+ \n\nhttps://www.mountvernon.org/library/digitalhistory/digital-encyclope
+ dia/article/battle-of-kip-s-bay
+URL:https://www.mountvernon.org/library/digitalhistory/digital-encycloped
+ ia/article/battle-of-kip-s-bay
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260916-TheBattleofHarlemHeights250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:The Battle of Harlem Heights — 250th anniversary
+DESCRIPTION:On September 16\, 1776\, Washington won his first battlefield
+  victory of the war at Harlem Heights in upper Manhattan.\n\nhttps://www
+ .mountvernon.org/library/digitalhistory/digital-encyclopedia/article/bat
+ tle-of-harlem-heights
+URL:https://www.mountvernon.org/library/digitalhistory/digital-encycloped
+ ia/article/battle-of-harlem-heights
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260918-TheNewYorkDailyTimesdebuts175thanniversa@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:The New-York Daily Times debuts — 175th anniversary
+DESCRIPTION:Henry Raymond and George Jones published the first issue of t
+ he New-York Daily Times\, later The New York Times.\n\nhttps://en.wikipe
+ dia.org/wiki/History_of_The_New_York_Times_(1851%E2%80%931896)
+URL:https://en.wikipedia.org/wiki/History_of_The_New_York_Times_(1851%E2%
+ 80%931896)
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260921-TheGreatFireof1776250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:The Great Fire of 1776 — 250th anniversary
+DESCRIPTION:A fire burned through the night into September 21\, 1776\, de
+ stroying a large swath of British-occupied New York including Trinity Ch
+ urch.\n\nhttps://en.wikipedia.org/wiki/Great_Fire_of_New_York_(1776)
+URL:https://en.wikipedia.org/wiki/Great_Fire_of_New_York_(1776)
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260922-NathanHaleishangedasaspy250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Nathan Hale is hanged as a spy — 250th anniversary
+DESCRIPTION:The British hanged 21-year-old Continental officer Nathan Hal
+ e as a spy in occupied New York on September 22\, 1776.\n\nhttps://conne
+ cticuthistory.org/nathan-hale-hanged-in-new-york-today-in-history/
+URL:https://connecticuthistory.org/nathan-hale-hanged-in-new-york-today-i
+ n-history/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260922-UnitedNationsGeneralAssemblyleadersweek@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:United Nations General Assembly: leaders' week
+DESCRIPTION:World leaders descend on the city for the high-level debate. 
+ Major security\, traffic and diplomatic consequences for Midtown.
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930-Federalfiscalyearendsshutdownrisk@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Federal fiscal year ends\; shutdown risk
+DESCRIPTION:Federal appropriations expire at midnight. New York City is h
+ eavily exposed to disruptions in housing vouchers\, Medicaid\, transit a
+ nd disaster aid.
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20261101-NewYorkCityMarathon50yearsofthefiveborou@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:New York City Marathon: 50 years of the five-borough course
+DESCRIPTION:The marathon first ran through all five boroughs in 1976 for 
+ the bicentennial\, making 2026 the 50th running of the modern course.\n\
+ nhttps://www.nyrr.org/tcsnycmarathon
+URL:https://www.nyrr.org/tcsnycmarathon
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20261103-Generalelection@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:General election
+DESCRIPTION:Governor (Hochul vs. likely Blakeman)\, Congress and state le
+ gislative races. No mayoral race this year. Hochul-Mamdani coordination 
+ is critical for Democratic turnout.\n\nhttps://www.elections.ny.gov/
+URL:https://www.elections.ny.gov/
+CATEGORIES:democracy
+END:VEVENT
+BEGIN:VEVENT
+UID:20261105-TheSchaghenletterrecordsthepurchaseofMan@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:The Schaghen letter records the 'purchase' of Manhattan — 400th a
+ nniversary
+DESCRIPTION:A letter by Dutch official Pieter Schaghen\, dated Nov. 5\, 1
+ 626\, reported that colonists had 'purchased' the island of Manhattan fr
+ om its Native inhabitants for goods worth 60 guilders. It is the only co
+ ntemporary document of the transaction.\n\nhttps://www.newnetherlandinst
+ itute.org/history-and-heritage/additional-resources/dutch-treats/peter-s
+ chaghen-letter/
+URL:https://www.newnetherlandinstitute.org/history-and-heritage/additiona
+ l-resources/dutch-treats/peter-schaghen-letter/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261106-DC37scontractexpires@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:DC 37's contract expires
+DESCRIPTION:The largest municipal union\, roughly 90\,000 workers. The ex
+ piring 2021-2026 agreement sets the pattern for the teachers' union and 
+ everyone else. The first major labor test of this administration.\n\nhtt
+ ps://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026
+ /dc-37-2021-2026-moa.pdf
+URL:https://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/202
+ 1-2026/dc-37-2021-2026-moa.pdf
+CATEGORIES:power
+END:VEVENT
+BEGIN:VEVENT
+UID:20261116-ThefallofFortWashington250thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:The fall of Fort Washington — 250th anniversary
+DESCRIPTION:British and Hessian forces captured Fort Washington\, the las
+ t American stronghold on Manhattan\, on November 16\, 1776.\n\nhttps://w
+ ww.battlefields.org/learn/revolutionary-war/battles/fort-washington
+URL:https://www.battlefields.org/learn/revolutionary-war/battles/fort-was
+ hington
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261126-The100thMacysThanksgivingDayParade@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:The 100th Macy's Thanksgiving Day Parade
+DESCRIPTION:A milestone parade\; the count reaches 100 in 2026 because th
+ e parade was suspended during the Second World War. A year-long celebrat
+ ion campaign surrounds it.
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20270426-Studio54opens50thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Studio 54 opens — 50th anniversary
+DESCRIPTION:The Midtown discotheque opened and instantly became the epice
+ nter of celebrity nightlife and disco excess.\n\nhttps://www.britannica.
+ com/topic/Studio-54
+URL:https://www.britannica.com/topic/Studio-54
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270613-Lindberghgetsatickertapeheroswelcome100t@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Lindbergh gets a ticker-tape hero's welcome — 100th anniversary
+DESCRIPTION:Millions lined Broadway for a ticker-tape parade honoring Cha
+ rles Lindbergh after his solo flight across the Atlantic.\n\nhttps://www
+ .britannica.com/biography/Charles-Lindbergh
+URL:https://www.britannica.com/biography/Charles-Lindbergh
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270704-SlaveryendsinNewYorkState200thanniversar@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:Slavery ends in New York State — 200th anniversary
+DESCRIPTION:An 1817 law took full effect on July 4\, 1827\, ending legal 
+ slavery in New York and freeing thousands of remaining enslaved people.\
+ n\nhttps://history.nycourts.gov/when-did-slavery-end-in-new-york/
+URL:https://history.nycourts.gov/when-did-slavery-end-in-new-york/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270713-Theblackoutthatbrokethecitysspirit50than@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:The blackout that broke the city's spirit — 50th anniversary
+DESCRIPTION:Lightning strikes knocked out power for some 25 hours\, unlea
+ shing widespread looting and arson across the crime-plagued\, cash-strap
+ ped city.\n\nhttps://www.britannica.com/event/New-York-City-blackout-of-
+ 1977
+URL:https://www.britannica.com/event/New-York-City-blackout-of-1977
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270810-TheSonofSamiscaptured50thanniversary@nyc-calendar
+DTSTAMP:20260714T165128Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:The Son of Sam is captured — 50th anniversary
+DESCRIPTION:Police arrested David Berkowitz\, ending a serial-killing spr
+ ee that terrorized the city for more than a year.\n\nhttps://www.britann
+ ica.com/biography/David-Berkowitz
+URL:https://www.britannica.com/biography/David-Berkowitz
+CATEGORIES:anniversary
+END:VEVENT
+END:VCALENDAR
