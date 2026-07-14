@@ -189,8 +189,8 @@ body{
 .ev.routine .dnum{font-size:1rem;font-weight:300}
 .ev.routine .dow{display:none}
 .ev.routine h3{font-size:.8rem;font-weight:400;color:var(--graphite)}
-.ev.routine .note{display:none}
-.ev.routine .meta{margin-top:2px;font-size:.62rem}
+.ev.routine .note{font-size:.76rem;margin-top:3px}
+.ev.routine .meta{margin-top:4px;font-size:.62rem}
 
 /* strand color rail */
 .ev .rail{position:absolute;left:0;top:0;bottom:0;width:0}
@@ -570,7 +570,7 @@ function evHTML(e,i){
     </div>
     <div>
       <h3>${esc(e.title)}</h3>
-      ${e.note&&e.tier!=='routine'?`<p class="note">${esc(e.note)}</p>`:''}
+      ${e.note&&!(e.tier==='routine'&&e.strand==='hearings')?`<p class="note">${esc(e.note)}</p>`:''}
       <div class="meta">
         <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
         <span>${esc(e.source)}</span>
@@ -716,10 +716,11 @@ function render(){
              <span class="n">${n} event${n===1?'':'s'}</span></div>`;
     }
 
-    // Collapse consecutive routine events into one agate block.
-    if(e.tier==='routine'){
+    // Collapse consecutive routine HEARINGS into one agate block. A low-scoring
+    // book is still a book — it should not be filed under "routine filings".
+    if(e.tier==='routine'&&e.strand==='hearings'){
       const run=[];
-      while(i<evs.length&&evs[i].tier==='routine'&&evs[i].date.slice(0,7)===curMonth){run.push(evs[i]);i++;}
+      while(i<evs.length&&evs[i].tier==='routine'&&evs[i].strand==='hearings'&&evs[i].date.slice(0,7)===curMonth){run.push(evs[i]);i++;}
       html+=`<details class="agate"><summary>${run.length} hearing${run.length===1?'':'s'} and routine filing${run.length===1?'':'s'}</summary>`+
             run.map(x=>evHTML(x,idx.get(x))).join('')+`</details>`;
       continue;

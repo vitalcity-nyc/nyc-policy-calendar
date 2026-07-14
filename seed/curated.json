@@ -450,27 +450,6 @@
    "significance": 54
   },
   {
-   "date": "2026-06-23",
-   "title": "City of Fortune by Mason B. Williams",
-   "note": "A sweeping history of contemporary New York City from the fiscal crisis to Covid: who gained, who was priced out, and how the inequality was built. (W.W. Norton)",
-   "strand": "books",
-   "significance": 34
-  },
-  {
-   "date": "2026-06-23",
-   "title": "Unwinding Privatization, ed. Alexander et al.",
-   "note": "A policy volume on where privatization failed and what re-municipalization looks like. (MIT Press)",
-   "strand": "books",
-   "significance": 28
-  },
-  {
-   "date": "2026-08-01",
-   "title": "Reinventing Transit by Baruch Feigenbaum",
-   "note": "A reform agenda for American transit: governance, competition, service redesign and technology. (Reason Foundation)",
-   "strand": "books",
-   "significance": 26
-  },
-  {
    "date": "2027-01-01",
    "title": "Affordable housing fast track begins",
    "note": "Affordable housing projects in the 12 lowest-producing community districts get a shortened approval process, under the charter amendment voters approved in November 2025.",
@@ -608,6 +587,244 @@
    "note": "One year since the inaugural address of Jan. 1, 2026. A customary peg for retrospectives rather than a scheduled event.",
    "strand": "cityhall",
    "significance": 66
+  },
+  {
+   "date": "2026-10-06",
+   "title": "The Revolutionary, by Ross Barkan",
+   "note": "A behind-the-scenes account of Mamdani's campaign and first months in office, and what his win did to the city's power establishment. (Random House)",
+   "strand": "books",
+   "significance": 68,
+   "url": "https://www.penguinrandomhouse.com/books/826679/the-revolutionary-by-ross-barkan/"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "Man in the Mirror, by Anand Giridharadas",
+   "note": "Reported narrative of the 2023 subway killing of Jordan Neely by Daniel Penny, and the failures on homelessness, mental illness and policing it exposed. (Knopf)",
+   "strand": "books",
+   "significance": 62,
+   "url": "https://www.penguinrandomhouse.com/books/747118/man-in-the-mirror-by-anand-giridharadas/"
+  },
+  {
+   "date": "2026-09-08",
+   "title": "A Right to Housing?, by Samuel Stein",
+   "note": "The author of Capital City on what a socialist city administration would actually have to do — and what real estate power would block — to make housing a right. (Verso)",
+   "strand": "books",
+   "significance": 56,
+   "url": "https://www.versobooks.com/products/3556-a-right-to-housing"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "A Fragile Alliance, by James J. Barney",
+   "note": "Reassesses David Dinkins, New York's first Black mayor, casting 1989-93 as the test case for the multiracial coalition politics still being fought over. (Fordham)",
+   "strand": "books",
+   "significance": 50,
+   "url": "https://fordhampress.com/a-fragile-alliance-hb-9781531514464.html"
+  },
+  {
+   "date": "2027-02-02",
+   "title": "Epic Harlem, by Herb Boyd",
+   "note": "A sweeping narrative history of Harlem, from its earliest inhabitants to the gentrification era. (Fordham)",
+   "strand": "books",
+   "significance": 48,
+   "url": "https://fordhampress.com/epic-harlem-hb-9781531514433.html"
+  },
+  {
+   "date": "2026-12-08",
+   "title": "Build or Die, by Ned Resnikoff",
+   "note": "Argues big American cities are failing because they cannot absorb growth, and makes the pro-building, pro-transit case. (Island Press)",
+   "strand": "books",
+   "significance": 48,
+   "url": "https://press.princeton.edu/books/hardcover/9781642834260/build-or-die"
+  },
+  {
+   "date": "2026-09-08",
+   "title": "The Architecture of Urbanity, by Vishaan Chakrabarti",
+   "note": "An architect's manifesto for dense, climate-adapted, joyful cities. (Princeton)",
+   "strand": "books",
+   "significance": 46,
+   "url": "https://press.princeton.edu/isbn/9780691292618"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "Fire in the Heart of the City, by David Conrad-Pérez",
+   "note": "How the 1911 Triangle fire set off a fight between New York's elite and labor organizers over who controls the city's disaster response. (NYU Press)",
+   "strand": "books",
+   "significance": 46,
+   "url": "https://nyupress.org/9781479837700/fire-in-the-heart-of-the-city/"
+  },
+  {
+   "date": "2027-01-19",
+   "title": "Making a Killing, by Robin D. G. Kelley",
+   "note": "A history of police violence and Black resistance, from lynch law through segregated housing to gentrification. (Metropolitan)",
+   "strand": "books",
+   "significance": 46,
+   "url": "https://politics-prose.com/book/9781250803078"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "Housing in New York City, by Katrin B. Anacker",
+   "note": "Traces the city from the 1811 grid through modern zoning, arguing New York set the national affordable-housing model and must reclaim it. (NYU Press)",
+   "strand": "books",
+   "significance": 44,
+   "url": "https://nyupress.org/9781479828494/housing-in-new-york-city/"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "Max Bond, by Brian D. Goldstein",
+   "note": "The first biography of J. Max Bond Jr., the Black architect behind the King Center and the 9/11 Memorial Museum. (Princeton)",
+   "strand": "books",
+   "significance": 42,
+   "url": "https://press.princeton.edu/isbn/9780691220666"
+  },
+  {
+   "date": "2026-08-04",
+   "title": "Transportation and the Shape of Cities, by Christof Spieler and others",
+   "note": "Argues each travel mode — walking, micromobility, cars, rail, transit — has a geometry that dictates the shape of the city built around it. (Island Press)",
+   "strand": "books",
+   "significance": 42,
+   "url": "https://press.princeton.edu/isbn/9781642833980"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Renaissance Men, by Harriet A. Washington",
+   "note": "Three Black New York physicians who reshaped medicine and culture between 1847 and 1952, and were written out of the record. (Little, Brown)",
+   "strand": "books",
+   "significance": 38,
+   "url": "https://www.hachettebookgroup.com/titles/harriet-a-washington/renaissance-men/9780316583602/"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "The Other Housing Crisis, edited by Todd Swanstrom and others",
+   "note": "Argues affordability is not only about building new units but about stopping the decay of the older housing people already live in. (Island Press)",
+   "strand": "books",
+   "significance": 38,
+   "url": "https://press.princeton.edu/isbn/9781642834536"
+  },
+  {
+   "date": "2026-09-08",
+   "title": "Sez I to Myself, by Frank and Malachy McCourt",
+   "note": "Uncollected essays, many first run in Upper West Side neighborhood papers, on immigrant New York, pubs, classrooms and 9/11. (Abrams)",
+   "strand": "books",
+   "significance": 36,
+   "url": "https://www.abramsbooks.com/product/sez-i-to-myself_9798896842392/"
+  },
+  {
+   "date": "2026-12-01",
+   "title": "Notable New Yorkers of Harlem, by Jim Mackin",
+   "note": "A biographical reference on more than 800 Harlem residents from the Dutch era to now, with addresses for walking tours. (Fordham)",
+   "strand": "books",
+   "significance": 36,
+   "url": "https://fordhampress.com/notable-new-yorkers-of-harlem-pb-9781531514495.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "What Architecture Is, by Witold Rybczynski",
+   "note": "An essay, with 50 of the author's own drawings, on what separates architecture from mere building. (Yale)",
+   "strand": "books",
+   "significance": 36,
+   "url": "https://yalebooks.yale.edu/book/9780300292954/what-architecture-is/"
+  },
+  {
+   "date": "2026-08-11",
+   "title": "The Great Driving Right Show, by the Zetkin Collective",
+   "note": "How the far right built a mass politics around defending the car, from anti-congestion-charge campaigns to farmers' protests. (Verso)",
+   "strand": "books",
+   "significance": 36,
+   "url": "https://www.versobooks.com/products/3409-the-great-driving-right-show"
+  },
+  {
+   "date": "2027-01-12",
+   "title": "No More Dual City, by Christina Jackson",
+   "note": "An ethnography of Atlantic City's historically Black Northside on how the casino economy drives redevelopment and exclusion. (Rutgers)",
+   "strand": "books",
+   "significance": 30,
+   "url": "https://www.rutgersuniversitypress.org/no-more-dual-city/9781978841215"
+  },
+  {
+   "date": "2026-10-06",
+   "title": "Cities of Gods, by Jörg Rüpke",
+   "note": "How urbanization and religion have made and remade each other, from Mesopotamia to the modern metropolis. (Princeton)",
+   "strand": "books",
+   "significance": 30,
+   "url": "https://press.princeton.edu/isbn/9780691223735"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "Cold War City, by David E. Barclay",
+   "note": "What five decades as a walled-in enclave did to West Berlin. (Princeton)",
+   "strand": "books",
+   "significance": 30,
+   "url": "https://press.princeton.edu/isbn/9780691159256"
+  },
+  {
+   "date": "2026-08-18",
+   "title": "Anarchitecture After Everything, by Jack Halberstam",
+   "note": "Connects the 1970s practice of cutting apart buildings to trans aesthetics and anti-urban-renewal politics. (MIT Press)",
+   "strand": "books",
+   "significance": 28,
+   "url": "https://www.penguinrandomhouse.com/books/828121/anarchitecture-after-everything-by-jack-halberstam/"
+  },
+  {
+   "date": "2027-04-13",
+   "title": "Roofless, by Karen A. Snedker and Jennifer McKinney",
+   "note": "A study of a self-governed tent camp, and how unhoused residents build partnerships and self-governance. (Rutgers)",
+   "strand": "books",
+   "significance": 30,
+   "url": "https://www.rutgersuniversitypress.org/subjects/urban-studies"
+  },
+  {
+   "date": "2026-10-01",
+   "title": "The People's Paper, by Matthew Pressman",
+   "note": "A history of the Daily News from its 1919 launch to its collapse, arguing tabloids were essential to an informed working-class public. Publisher gives the month only. (Columbia)",
+   "strand": "books",
+   "significance": 44,
+   "url": "https://cup.columbia.edu/book/the-peoples-paper/9780231221993/",
+   "approx": true
+  },
+  {
+   "date": "2026-12-01",
+   "title": "New York, 1860, by Joshua K. Leon",
+   "note": "A month-by-month portrait of the city from John Brown's raid to Fort Sumter. Publisher gives the month only. (Columbia)",
+   "strand": "books",
+   "significance": 40,
+   "url": "https://cup.columbia.edu/book/new-york-1860/9780231559805/",
+   "approx": true
+  },
+  {
+   "date": "2026-10-01",
+   "title": "Beyond Common Ground, by Daniel P. Aldrich",
+   "note": "Argues parks and libraries outperform concrete for climate resilience, disaster recovery and crime reduction. Publisher gives the month only. (California)",
+   "strand": "books",
+   "significance": 38,
+   "url": "https://www.ucpress.edu/books/beyond-common-ground/paper",
+   "approx": true
+  },
+  {
+   "date": "2026-11-01",
+   "title": "Holding On to Home, by Sarah Bruhn",
+   "note": "Five years of fieldwork on immigrant women resisting both immigration enforcement and displacement in a gentrifying city. Publisher gives the month only. (California)",
+   "strand": "books",
+   "significance": 32,
+   "url": "https://www.ucpress.edu/books/holding-on-to-home/paper",
+   "approx": true
+  },
+  {
+   "date": "2027-01-01",
+   "title": "Policed, by Marisol LeBrón",
+   "note": "How policing shaped Latinx identity and politics, tying together immigration, work, health and housing. Publisher gives the month only. (California)",
+   "strand": "books",
+   "significance": 32,
+   "url": "https://www.ucpress.edu/books/policed/paper",
+   "approx": true
+  },
+  {
+   "date": "2026-12-15",
+   "title": "The Accidental Gentrifier, by Terry Shook",
+   "note": "A veteran architect-planner on 50 years of revitalization projects that displaced the people they were meant to help. Date from a trade listing; the publisher gives December only. (BenBella)",
+   "strand": "books",
+   "significance": 34,
+   "url": "https://benbellabooks.com/shop/the-accidental-gentrifier/",
+   "approx": true
   }
  ]
 }

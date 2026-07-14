@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-14T17:42:01.698Z",
+ "generated": "2026-07-14T18:13:29.745Z",
  "window": {
   "start": "2026-06-30",
   "end": "2027-08-18"
@@ -9,43 +9,43 @@
   {
    "name": "Curated",
    "ok": true,
-   "count": 63,
-   "ms": 2,
+   "count": 91,
+   "ms": 1,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 4,
-   "note": null
-  },
-  {
-   "name": "City Council",
-   "ok": true,
-   "count": 52,
-   "ms": 948,
+   "ms": 3,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 1458,
+   "ms": 484,
+   "note": null
+  },
+  {
+   "name": "City Council",
+   "ok": true,
+   "count": 52,
+   "ms": 1515,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8248,
+   "ms": 5186,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "major": 44,
-  "notable": 50,
-  "routine": 81,
+  "major": 45,
+  "notable": 58,
+  "routine": 100,
   "marquee": 9
  },
  "events": [
@@ -716,6 +716,23 @@
   },
   {
    "date": "2026-07-14",
+   "time": "11:30 AM",
+   "title": "Committee on Land Use",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22441&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22441_A_Committee_on_Land_Use_26-07-14_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-07-14",
    "time": null,
    "title": "Board of Correction Public Meeting",
    "note": "Board of Correction · 125 Worth Street",
@@ -746,31 +763,17 @@
   },
   {
    "date": "2026-07-14",
-   "time": "11:30 AM",
-   "title": "Committee on Land Use",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22441&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22441_A_Committee_on_Land_Use_26-07-14_Committee_Agenda.pdf",
-   "significance": 32,
-   "why": [
-    "high-salience committee"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-14",
    "time": "10:30 AM",
    "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22526&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22526_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-14_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
    "live": true,
    "tier": "routine"
   },
@@ -778,13 +781,15 @@
    "date": "2026-07-14",
    "time": "11:00 AM",
    "title": "Subcommittee on Zoning and Franchises",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22440&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22440_A_Subcommittee_on_Zoning_and_Franchises_26-07-14_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
    "live": true,
    "tier": "routine"
   },
@@ -1297,14 +1302,14 @@
    "tier": "notable"
   },
   {
-   "date": "2026-08-01",
+   "date": "2026-08-04",
    "time": null,
-   "title": "Reinventing Transit by Baruch Feigenbaum",
-   "note": "A reform agenda for American transit: governance, competition, service redesign and technology. (Reason Foundation)",
+   "title": "Transportation and the Shape of Cities, by Christof Spieler and others",
+   "note": "Argues each travel mode — walking, micromobility, cars, rail, transit — has a geometry that dictates the shape of the city built around it. (Island Press)",
    "strand": "books",
    "source": "Curated",
-   "sourceUrl": null,
-   "significance": 26,
+   "sourceUrl": "https://press.princeton.edu/isbn/9781642833980",
+   "significance": 42,
    "why": [
     "editorially judged"
    ],
@@ -1396,6 +1401,22 @@
    "tier": "routine"
   },
   {
+   "date": "2026-08-11",
+   "time": null,
+   "title": "The Great Driving Right Show, by the Zetkin Collective",
+   "note": "How the far right built a mass politics around defending the car, from anti-congestion-charge campaigns to farmers' protests. (Verso)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.versobooks.com/products/3409-the-great-driving-right-show",
+   "significance": 36,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2026-08-12",
    "time": "11:00 AM",
    "title": "Subcommittee on Zoning and Franchises",
@@ -1451,6 +1472,38 @@
     "Taxi and Limousine Commission sets policy the public feels directly"
    ],
    "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-18",
+   "time": null,
+   "title": "Anarchitecture After Everything, by Jack Halberstam",
+   "note": "Connects the 1970s practice of cutting apart buildings to trans aesthetics and anti-urban-renewal politics. (MIT Press)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.penguinrandomhouse.com/books/828121/anarchitecture-after-everything-by-jack-halberstam/",
+   "significance": 28,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-25",
+   "time": null,
+   "title": "The Other Housing Crisis, edited by Todd Swanstrom and others",
+   "note": "Argues affordability is not only about building new units but about stopping the decay of the older housing people already live in. (Island Press)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://press.princeton.edu/isbn/9781642834536",
+   "significance": 38,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
    "tier": "routine"
   },
   {
@@ -1520,6 +1573,38 @@
    "tier": "major"
   },
   {
+   "date": "2026-09-01",
+   "time": null,
+   "title": "A Fragile Alliance, by James J. Barney",
+   "note": "Reassesses David Dinkins, New York's first Black mayor, casting 1989-93 as the test case for the multiracial coalition politics still being fought over. (Fordham)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://fordhampress.com/a-fragile-alliance-hb-9781531514464.html",
+   "significance": 50,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-01",
+   "time": null,
+   "title": "Fire in the Heart of the City, by David Conrad-Pérez",
+   "note": "How the 1911 Triangle fire set off a fight between New York's elite and labor organizers over who controls the city's disaster response. (NYU Press)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://nyupress.org/9781479837700/fire-in-the-heart-of-the-city/",
+   "significance": 46,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
    "date": "2026-09-04",
    "time": null,
    "title": "Deadline for charter proposals to reach the November ballot",
@@ -1582,6 +1667,54 @@
    "approx": true,
    "live": false,
    "tier": "major"
+  },
+  {
+   "date": "2026-09-08",
+   "time": null,
+   "title": "A Right to Housing?, by Samuel Stein",
+   "note": "The author of Capital City on what a socialist city administration would actually have to do — and what real estate power would block — to make housing a right. (Verso)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.versobooks.com/products/3556-a-right-to-housing",
+   "significance": 56,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-08",
+   "time": null,
+   "title": "The Architecture of Urbanity, by Vishaan Chakrabarti",
+   "note": "An architect's manifesto for dense, climate-adapted, joyful cities. (Princeton)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://press.princeton.edu/isbn/9780691292618",
+   "significance": 46,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-09-08",
+   "time": null,
+   "title": "Sez I to Myself, by Frank and Malachy McCourt",
+   "note": "Uncollected essays, many first run in Upper West Side neighborhood papers, on immigrant New York, pubs, classrooms and 9/11. (Abrams)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.abramsbooks.com/product/sez-i-to-myself_9798896842392/",
+   "significance": 36,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
   },
   {
    "date": "2026-09-09",
@@ -1718,6 +1851,22 @@
    ],
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-15",
+   "time": null,
+   "title": "Max Bond, by Brian D. Goldstein",
+   "note": "The first biography of J. Max Bond Jr., the Black architect behind the King Center and the 9/11 Memorial Museum. (Princeton)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://press.princeton.edu/isbn/9780691220666",
+   "significance": 42,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
   },
   {
    "date": "2026-09-16",
@@ -1862,6 +2011,54 @@
    "tier": "major"
   },
   {
+   "date": "2026-09-22",
+   "time": null,
+   "title": "Housing in New York City, by Katrin B. Anacker",
+   "note": "Traces the city from the 1811 grid through modern zoning, arguing New York set the national affordable-housing model and must reclaim it. (NYU Press)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://nyupress.org/9781479828494/housing-in-new-york-city/",
+   "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-22",
+   "time": null,
+   "title": "What Architecture Is, by Witold Rybczynski",
+   "note": "An essay, with 50 of the author's own drawings, on what separates architecture from mere building. (Yale)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://yalebooks.yale.edu/book/9780300292954/what-architecture-is/",
+   "significance": 36,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-22",
+   "time": null,
+   "title": "Cold War City, by David E. Barclay",
+   "note": "What five decades as a walled-in enclave did to West Berlin. (Princeton)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://press.princeton.edu/isbn/9780691159256",
+   "significance": 30,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-24",
    "time": "1:30 PM",
    "title": "Stated meeting of the City Council",
@@ -1911,6 +2108,22 @@
    "anniversaryYears": 60,
    "live": true,
    "tier": "major"
+  },
+  {
+   "date": "2026-09-29",
+   "time": null,
+   "title": "Man in the Mirror, by Anand Giridharadas",
+   "note": "Reported narrative of the 2023 subway killing of Jordan Neely by Daniel Penny, and the failures on homelessness, mental illness and policing it exposed. (Knopf)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.penguinrandomhouse.com/books/747118/man-in-the-mirror-by-anand-giridharadas/",
+   "significance": 62,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
   },
   {
    "date": "2026-09-30",
@@ -1995,12 +2208,76 @@
   {
    "date": "2026-10-01",
    "time": null,
+   "title": "The People's Paper, by Matthew Pressman",
+   "note": "A history of the Daily News from its 1919 launch to its collapse, arguing tabloids were essential to an informed working-class public. Publisher gives the month only. (Columbia)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://cup.columbia.edu/book/the-peoples-paper/9780231221993/",
+   "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-01",
+   "time": null,
+   "title": "Beyond Common Ground, by Daniel P. Aldrich",
+   "note": "Argues parks and libraries outperform concrete for climate resilience, disaster recovery and crime reduction. Publisher gives the month only. (California)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.ucpress.edu/books/beyond-common-ground/paper",
+   "significance": 38,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-01",
+   "time": null,
    "title": "Federal fiscal year 2027 begins",
    "note": "Watch for continuing resolutions and shutdown risk affecting city funding.",
    "strand": "money",
    "source": "Curated",
    "sourceUrl": null,
    "significance": 36,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-06",
+   "time": null,
+   "title": "The Revolutionary, by Ross Barkan",
+   "note": "A behind-the-scenes account of Mamdani's campaign and first months in office, and what his win did to the city's power establishment. (Random House)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.penguinrandomhouse.com/books/826679/the-revolutionary-by-ross-barkan/",
+   "significance": 68,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-10-06",
+   "time": null,
+   "title": "Cities of Gods, by Jörg Rüpke",
+   "note": "How urbanization and religion have made and remade each other, from Mesopotamia to the modern metropolis. (Princeton)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://press.princeton.edu/isbn/9780691223735",
+   "significance": 30,
    "why": [
     "editorially judged"
    ],
@@ -2210,6 +2487,22 @@
    "tier": "notable"
   },
   {
+   "date": "2026-11-01",
+   "time": null,
+   "title": "Holding On to Home, by Sarah Bruhn",
+   "note": "Five years of fieldwork on immigrant women resisting both immigration enforcement and displacement in a gentrifying city. Publisher gives the month only. (California)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.ucpress.edu/books/holding-on-to-home/paper",
+   "significance": 32,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2026-11-03",
    "time": null,
    "title": "General election",
@@ -2311,6 +2604,22 @@
    "tier": "notable"
   },
   {
+   "date": "2026-11-10",
+   "time": null,
+   "title": "Renaissance Men, by Harriet A. Washington",
+   "note": "Three Black New York physicians who reshaped medicine and culture between 1847 and 1952, and were written out of the record. (Little, Brown)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.hachettebookgroup.com/titles/harriet-a-washington/renaissance-men/9780316583602/",
+   "significance": 38,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2026-11-12",
    "time": "1:30 PM",
    "title": "Stated meeting of the City Council",
@@ -2409,6 +2718,38 @@
    "tier": "marquee"
   },
   {
+   "date": "2026-12-01",
+   "time": null,
+   "title": "New York, 1860, by Joshua K. Leon",
+   "note": "A month-by-month portrait of the city from John Brown's raid to Fort Sumter. Publisher gives the month only. (Columbia)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://cup.columbia.edu/book/new-york-1860/9780231559805/",
+   "significance": 40,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-12-01",
+   "time": null,
+   "title": "Notable New Yorkers of Harlem, by Jim Mackin",
+   "note": "A biographical reference on more than 800 Harlem residents from the Dutch era to now, with addresses for walking tours. (Fordham)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://fordhampress.com/notable-new-yorkers-of-harlem-pb-9781531514495.html",
+   "significance": 36,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2026-12-03",
    "time": "1:30 PM",
    "title": "Stated meeting of the City Council",
@@ -2422,6 +2763,22 @@
     "stated meeting of the full Council"
    ],
    "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-12-08",
+   "time": null,
+   "title": "Build or Die, by Ned Resnikoff",
+   "note": "Argues big American cities are failing because they cannot absorb growth, and makes the pro-building, pro-transit case. (Island Press)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://press.princeton.edu/books/hardcover/9781642834260/build-or-die",
+   "significance": 48,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
    "tier": "notable"
   },
   {
@@ -2467,6 +2824,22 @@
    "source": "Curated",
    "sourceUrl": "https://www.mta.info/transparency/board-and-committee-meetings",
    "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-12-15",
+   "time": null,
+   "title": "The Accidental Gentrifier, by Terry Shook",
+   "note": "A veteran architect-planner on 50 years of revitalization projects that displaced the people they were meant to help. Date from a trade listing; the publisher gives December only. (BenBella)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://benbellabooks.com/shop/the-accidental-gentrifier/",
+   "significance": 34,
    "why": [
     "editorially judged"
    ],
@@ -2555,6 +2928,22 @@
    "tier": "routine"
   },
   {
+   "date": "2027-01-01",
+   "time": null,
+   "title": "Policed, by Marisol LeBrón",
+   "note": "How policing shaped Latinx identity and politics, tying together immigration, work, health and housing. Publisher gives the month only. (California)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.ucpress.edu/books/policed/paper",
+   "significance": 32,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2027-01-05",
    "time": null,
    "title": "Jury selection in Mangione's federal trial",
@@ -2587,6 +2976,22 @@
    "tier": "notable"
   },
   {
+   "date": "2027-01-12",
+   "time": null,
+   "title": "No More Dual City, by Christina Jackson",
+   "note": "An ethnography of Atlantic City's historically Black Northside on how the casino economy drives redevelopment and exclusion. (Rutgers)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.rutgersuniversitypress.org/no-more-dual-city/9781978841215",
+   "significance": 30,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2027-01-16",
    "time": null,
    "title": "Preliminary budget for fiscal 2028",
@@ -2611,6 +3016,22 @@
    "source": "Curated",
    "sourceUrl": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1",
    "significance": 58,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-01-19",
+   "time": null,
+   "title": "Making a Killing, by Robin D. G. Kelley",
+   "note": "A history of police violence and Black resistance, from lynch law through segregated housing to gentrification. (Metropolitan)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://politics-prose.com/book/9781250803078",
+   "significance": 46,
    "why": [
     "editorially judged"
    ],
@@ -2649,6 +3070,22 @@
    "approx": false,
    "live": false,
    "tier": "major"
+  },
+  {
+   "date": "2027-02-02",
+   "time": null,
+   "title": "Epic Harlem, by Herb Boyd",
+   "note": "A sweeping narrative history of Harlem, from its earliest inhabitants to the gentrification era. (Fordham)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://fordhampress.com/epic-harlem-hb-9781531514433.html",
+   "significance": 48,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
   },
   {
    "date": "2027-03-25",
@@ -2715,6 +3152,22 @@
    "anniversaryYears": 80,
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2027-04-13",
+   "time": null,
+   "title": "Roofless, by Karen A. Snedker and Jennifer McKinney",
+   "note": "A study of a self-governed tent camp, and how unhoused residents build partnerships and self-governance. (Rutgers)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://www.rutgersuniversitypress.org/subjects/urban-studies",
+   "significance": 30,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
   },
   {
    "date": "2027-04-15",
