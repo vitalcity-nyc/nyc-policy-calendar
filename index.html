@@ -196,6 +196,46 @@ body{
 .ev .rail{position:absolute;left:0;top:0;bottom:0;width:0}
 .ev.marquee .rail,.ev.major .rail{width:0}
 
+/* ── Month grid ─────────────────────────────────────── */
+.mnav{display:flex;align-items:center;gap:14px;margin:34px 0 10px;padding-bottom:8px;border-bottom:2px solid var(--black)}
+.mnav h2{font-weight:700;font-size:1.3rem;letter-spacing:-.02em}
+.mnav button{
+  font-family:var(--sans);font-weight:700;font-size:.9rem;width:30px;height:30px;
+  border:1.5px solid var(--black);background:var(--white);cursor:pointer;color:var(--black);
+}
+.mnav button:hover:not(:disabled){background:var(--black);color:var(--white)}
+.mnav button:disabled{opacity:.25;cursor:default}
+.mnav .n{margin-left:auto;font-size:.72rem;color:var(--charcoal)}
+
+.grid{display:grid;grid-template-columns:repeat(7,1fr);border-left:1px solid var(--cloud);border-top:1px solid var(--cloud)}
+.grid .dh{
+  font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--charcoal);
+  padding:6px 8px;text-align:left;border-right:1px solid var(--cloud);border-bottom:1px solid var(--black);
+  background:var(--paper);
+}
+.cell{
+  min-height:118px;padding:6px 7px;border-right:1px solid var(--cloud);border-bottom:1px solid var(--cloud);
+  background:var(--white);position:relative;overflow:hidden;
+}
+.cell.pad{background:var(--paper)}
+.cell.today{box-shadow:inset 0 0 0 2px var(--black)}
+.cell .dn{font-family:var(--serif);font-size:1.15rem;line-height:1;color:var(--charcoal);margin-bottom:5px;display:block}
+.cell.today .dn{color:var(--black);font-weight:700}
+.cell.hasmarquee{background:var(--chartreuse)}
+.cell.hasmarquee .dn{color:var(--black)}
+
+.pill{
+  display:block;width:100%;text-align:left;border:none;background:none;font-family:var(--sans);
+  font-size:.63rem;line-height:1.25;padding:2px 4px 2px 6px;margin-bottom:2px;cursor:pointer;
+  border-left:3px solid var(--cloud);color:var(--graphite);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.pill:hover{background:rgba(0,0,0,.06);color:var(--black)}
+.pill.marquee,.pill.major{font-weight:700;color:var(--black)}
+.pill.marquee{font-size:.68rem}
+.pill.routine{color:var(--charcoal);opacity:.75}
+.cell .more{font-size:.58rem;color:var(--charcoal);padding-left:6px}
+
 /* ── Agate block (collapsed hearings) ───────────────── */
 .agate{
   border-left:3px solid var(--cloud);padding:10px 0 10px 16px;margin:10px 0;
@@ -258,6 +298,22 @@ body{
 .pop.show{display:block}
 .pop a{color:#f6c988}
 
+/* ── Day modal (month view) ─────────────────────────── */
+.daymodal{
+  display:none;position:fixed;inset:0;z-index:120;background:rgba(5,5,7,.45);
+  align-items:center;justify-content:center;padding:20px;
+}
+.daymodal.show{display:flex}
+.daymodal .inner{
+  background:var(--paper);border:2px solid var(--black);max-width:520px;width:100%;
+  padding:22px;position:relative;box-shadow:8px 8px 0 rgba(5,5,7,.25);max-height:86vh;overflow-y:auto;
+}
+.daymodal .x{
+  position:absolute;top:10px;right:12px;background:none;border:none;font-size:1.5rem;
+  cursor:pointer;color:var(--charcoal);line-height:1;
+}
+.daymodal .x:hover{color:var(--black)}
+
 /* ── Toast ──────────────────────────────────────────── */
 .toast{
   position:fixed;left:50%;bottom:24px;transform:translate(-50%,90px);
@@ -306,6 +362,11 @@ body{
         <button data-min="45" class="on">Notable</button>
         <button data-min="0">Everything</button>
       </div>
+      <span class="ctl-label" style="margin-left:6px">View</span>
+      <div class="thresh" id="viewsel">
+        <button data-view="agenda" class="on">Agenda</button>
+        <button data-view="month">Month</button>
+      </div>
       <input type="search" class="search" id="search" placeholder="Search the calendar…">
     </div>
     <div class="chips" id="chips"></div>
@@ -337,6 +398,7 @@ body{
   responsible agency. Check the <a href="methodology.html">methodology</a> before relying on any of it.
 </div>
 
+<div class="daymodal" id="dayModal"></div>
 <div class="toast" id="toast"><span id="toastMsg"></span></div>
 
 <script>
@@ -349,6 +411,9 @@ const STRANDS={
 };
 
 let DATA=null, minScore=45, active=new Set(), q='', generated=null;
+let view='agenda';
+// Month grid starts on the current month.
+let monthCursor=[new Date().getFullYear(), new Date().getMonth()];
 
 const $=s=>document.querySelector(s);
 const esc=s=>{const d=document.createElement('div');d.textContent=s??'';return d.innerHTML};
@@ -535,10 +600,104 @@ function gcal(e){
   return 'https://calendar.google.com/calendar/render?'+p;
 }
 
+/* ── Month grid ─────────────────────────────────────────────
+   Same filtered events, laid out as a calendar rather than a list.
+   Significance survives the change of shape: a marquee day is washed
+   chartreuse, and type weight still ranks what's in the cell. */
+function renderMonth(evs){
+  const el=$('#stream');
+  const [y,m]=monthCursor;                       // m is 0-indexed
+  const first=new Date(y,m,1);
+  const startPad=first.getDay();
+  const days=new Date(y,m+1,0).getDate();
+  const today=todayISO();
+
+  const byDay={};
+  for(const e of evs){
+    if(+e.date.slice(0,4)!==y || +e.date.slice(5,7)-1!==m) continue;
+    (byDay[+e.date.slice(8,10)] ||= []).push(e);
+  }
+  const inMonth=Object.values(byDay).flat().length;
+
+  // Only offer months the calendar actually covers.
+  const lo=DATA.events[0].date, hi=DATA.events[DATA.events.length-1].date;
+  const cur=`${y}-${String(m+1).padStart(2,'0')}`;
+  const atStart=cur<=lo.slice(0,7), atEnd=cur>=hi.slice(0,7);
+
+  let h=`<div class="mnav">
+    <button id="mPrev" ${atStart?'disabled':''} aria-label="Previous month">‹</button>
+    <button id="mNext" ${atEnd?'disabled':''} aria-label="Next month">›</button>
+    <h2>${MONTHS[m]} ${y}</h2>
+    <span class="n">${inMonth} event${inMonth===1?'':'s'} at this threshold</span>
+  </div><div class="grid">`;
+
+  h+=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d=>`<div class="dh">${d}</div>`).join('');
+  for(let i=0;i<startPad;i++) h+='<div class="cell pad"></div>';
+
+  for(let d=1;d<=days;d++){
+    const iso=`${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const list=(byDay[d]||[]).sort((a,b)=>b.significance-a.significance);
+    const marquee=list.some(e=>e.tier==='marquee');
+    const cls=['cell'];
+    if(iso===today)cls.push('today');
+    if(marquee)cls.push('hasmarquee');
+
+    h+=`<div class="${cls.join(' ')}"><span class="dn">${d}</span>`;
+    for(const e of list.slice(0,3)){
+      h+=`<button class="pill ${e.tier}" style="border-left-color:var(--s-${e.strand})"
+           data-i="${DATA.events.indexOf(e)}" title="${esc(e.title)}">${esc(e.title)}</button>`;
+    }
+    if(list.length>3) h+=`<div class="more">+${list.length-3} more</div>`;
+    h+='</div>';
+  }
+  el.innerHTML=h+'</div>';
+
+  $('#mPrev').onclick=()=>{monthCursor=stepMonth(-1);render();};
+  $('#mNext').onclick=()=>{monthCursor=stepMonth(1);render();};
+  el.querySelectorAll('.pill').forEach(p=>p.onclick=()=>showDay(DATA.events[+p.dataset.i]));
+}
+
+function stepMonth(n){
+  let [y,m]=monthCursor; m+=n;
+  if(m<0){m=11;y--;} if(m>11){m=0;y++;}
+  return [y,m];
+}
+
+/* Clicking an event in the grid opens the same detail you'd get in the agenda. */
+function showDay(e){
+  const d=parse(e.date);
+  const box=$('#dayModal');
+  box.innerHTML=`<div class="inner">
+    <button class="x" id="dayX" aria-label="Close">×</button>
+    <div class="kicker" style="margin-bottom:6px">${DOW[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}</div>
+    <h2 style="font-size:1.3rem;line-height:1.15;margin-bottom:8px">${esc(e.title)}</h2>
+    ${e.note?`<p style="font-size:.9rem;color:var(--graphite);margin-bottom:10px">${esc(e.note)}</p>`:''}
+    <div class="meta" style="margin-bottom:10px">
+      <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
+      <span>${esc(e.source)}</span>${e.time?`<span>· ${esc(e.time)}</span>`:''}
+      ${e.approx?'<span class="approx">· date not yet confirmed</span>':''}
+    </div>
+    <div class="drawer" style="display:block">
+      <div class="score">${e.significance}</div>
+      <b>Why it is sized this way</b>
+      <ul>${(e.why||[]).map(w=>`<li>${esc(w)}</li>`).join('')}</ul>
+      <div class="acts">
+        ${e.sourceUrl?`<a href="${esc(e.sourceUrl)}" target="_blank" rel="noopener">Source</a>`:''}
+        ${e.agendaUrl?`<a href="${esc(e.agendaUrl)}" target="_blank" rel="noopener">Agenda</a>`:''}
+        <a href="${gcal(e)}" target="_blank" rel="noopener">Add to Google Calendar</a>
+      </div>
+    </div>
+  </div>`;
+  box.classList.add('show');
+  $('#dayX').onclick=()=>box.classList.remove('show');
+  box.onclick=ev=>{if(ev.target===box)box.classList.remove('show');};
+}
+
 function render(){
   const evs=visible();
   updateIcsLabel();
   const el=$('#stream');
+  if(view==='month'){ renderMonth(evs); return; }
   if(!evs.length){el.innerHTML='<div class="empty">Nothing on the calendar matches. Try widening the filter.</div>';return;}
 
   // index into the live array so the drawer can find its event
@@ -582,7 +741,20 @@ document.querySelectorAll('#thresh button').forEach(b=>b.onclick=()=>{
   document.querySelectorAll('#thresh button').forEach(x=>x.classList.remove('on'));
   b.classList.add('on');minScore=+b.dataset.min;render();
 });
+document.querySelectorAll('#viewsel button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#viewsel button').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');
+  view=b.dataset.view;
+  render();
+  window.scrollTo({top:0,behavior:'smooth'});
+});
 $('#search').oninput=e=>{q=e.target.value.trim().toLowerCase();render();};
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape')$('#dayModal').classList.remove('show');
+  if(view!=='month'||['INPUT','TEXTAREA'].includes(e.target.tagName))return;
+  if(e.key==='ArrowLeft'){monthCursor=stepMonth(-1);render();}
+  if(e.key==='ArrowRight'){monthCursor=stepMonth(1);render();}
+});
 $('#aiBtn').onclick=()=>$('#aiPop').classList.toggle('show');
 document.addEventListener('click',e=>{
   if(!e.target.closest('#aiPop')&&!e.target.closest('#aiBtn'))$('#aiPop').classList.remove('show');
