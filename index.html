@@ -235,6 +235,20 @@ body{
 .pill.marquee{font-size:.68rem}
 .pill.routine{color:var(--charcoal);opacity:.75}
 .cell .more{font-size:.58rem;color:var(--charcoal);padding-left:6px}
+.dots{display:none;flex-wrap:wrap;gap:3px;padding-left:1px}
+.dot-ev{width:6px;height:6px;border-radius:50%;display:block}
+
+/* Day list inside the modal */
+.daylist{
+  display:flex;align-items:center;gap:8px;width:100%;text-align:left;cursor:pointer;
+  background:var(--white);border:1px solid var(--cloud);border-left:none;
+  padding:8px 10px;margin-bottom:5px;font-family:var(--sans);
+}
+.daylist:hover{border-color:var(--black);background:rgba(221,228,76,.18)}
+.daylist .dl-t{flex:1;font-size:.82rem;color:var(--black)}
+.daylist .dl-t.marquee,.daylist .dl-t.major{font-weight:700}
+.daylist .dl-t.routine{color:var(--charcoal);font-size:.76rem}
+.daylist .dl-s{font-family:var(--serif);font-size:1.1rem;color:var(--charcoal)}
 
 /* ── Agate block (collapsed hearings) ───────────────── */
 .agate{
@@ -337,6 +351,15 @@ body{
   .thresh button{padding:6px 9px;font-size:.66rem}
   .tools{right:10px;bottom:10px}
   .pop{right:10px;left:10px;width:auto}
+
+  /* A 49px cell cannot hold a title. Show dots; tap the day for the list. */
+  .cell{min-height:62px;padding:4px 3px;cursor:pointer}
+  .cell .dn{font-size:.85rem;margin-bottom:4px}
+  .pill,.cell .more{display:none}
+  .dots{display:flex}
+  .mnav h2{font-size:1.05rem}
+  .mnav .n{display:none}
+  .grid .dh{padding:5px 3px;font-size:.5rem;text-align:center}
 }
 </style>
 </head>
@@ -642,7 +665,12 @@ function renderMonth(evs){
     if(iso===today)cls.push('today');
     if(marquee)cls.push('hasmarquee');
 
-    h+=`<div class="${cls.join(' ')}"><span class="dn">${d}</span>`;
+    h+=`<div class="${cls.join(' ')}" data-day="${iso}"><span class="dn">${d}</span>`;
+    // Narrow screens get dots: a 49px cell cannot hold a legible title.
+    if(list.length){
+      h+='<div class="dots">'+list.slice(0,6).map(e=>
+        `<span class="dot-ev" style="background:var(--s-${e.strand})"></span>`).join('')+'</div>';
+    }
     for(const e of list.slice(0,3)){
       h+=`<button class="pill ${e.tier}" style="border-left-color:var(--s-${e.strand})"
            data-i="${DATA.events.indexOf(e)}" title="${esc(e.title)}">${esc(e.title)}</button>`;
@@ -654,7 +682,36 @@ function renderMonth(evs){
 
   $('#mPrev').onclick=()=>{monthCursor=stepMonth(-1);render();};
   $('#mNext').onclick=()=>{monthCursor=stepMonth(1);render();};
-  el.querySelectorAll('.pill').forEach(p=>p.onclick=()=>showDay(DATA.events[+p.dataset.i]));
+  el.querySelectorAll('.pill').forEach(p=>p.onclick=ev=>{
+    ev.stopPropagation();
+    showDay(DATA.events[+p.dataset.i]);
+  });
+  // Tapping the day itself lists everything on it — the only usable route on a phone.
+  el.querySelectorAll('.cell[data-day]').forEach(c=>c.onclick=()=>{
+    const list=(byDay[+c.dataset.day.slice(8,10)]||[]).sort((a,b)=>b.significance-a.significance);
+    if(list.length) showDayList(c.dataset.day, list);
+  });
+}
+
+function showDayList(iso, list){
+  if(list.length===1) return showDay(list[0]);
+  const d=parse(iso);
+  const box=$('#dayModal');
+  box.innerHTML=`<div class="inner">
+    <button class="x" id="dayX" aria-label="Close">×</button>
+    <div class="kicker" style="margin-bottom:4px">${DOW[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}</div>
+    <h2 style="font-size:1.15rem;margin-bottom:12px">${list.length} events</h2>
+    ${list.map((e,i)=>`
+      <button class="daylist" data-i="${DATA.events.indexOf(e)}">
+        <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
+        <span class="dl-t ${e.tier}">${esc(e.title)}</span>
+        <span class="dl-s">${e.significance}</span>
+      </button>`).join('')}
+  </div>`;
+  box.classList.add('show');
+  $('#dayX').onclick=()=>box.classList.remove('show');
+  box.onclick=ev=>{if(ev.target===box)box.classList.remove('show');};
+  box.querySelectorAll('.daylist').forEach(b=>b.onclick=()=>showDay(DATA.events[+b.dataset.i]));
 }
 
 function stepMonth(n){
