@@ -1,5 +1,5 @@
 {
- "_comment": "Curated events that no API publishes: cultural and sporting moments, statutory deadlines, elections, book releases and one-off anniversaries not present in the history corpus. 'significance' is a 0-100 editorial score, the only hand-set score in the system; everything else is computed. See methodology.html. Titles, notes and source URLs carried forward from the original hand-built calendar.",
+ "_comment": "Curated events that no API publishes: cultural and sporting moments, statutory deadlines, elections, book releases and one-off anniversaries not present in the history corpus. 'significance' is a 0-100 editorial score, the only hand-set score in the system; everything else is computed. See methodology.html. Titles, notes and source URLs carried forward from the original hand-built calendar. BOOKS RULE: only FIRST editions. A publisher page showing a future date is not enough — a paperback reissue has a real future date on a real publisher page. Before adding a book, confirm no earlier edition exists (check for a hardcover ISBN with an earlier date). This is how 'The Architecture of Urbanity' wrongly appeared: its Sept. 2026 paperback date was real, but the hardcover came out in September 2024. Trust the publisher's own catalog page, never an ISBN-level aggregator record.",
  "events": [
   {
    "date": "2026-07-19",
@@ -637,14 +637,6 @@
    "url": "https://press.princeton.edu/books/hardcover/9781642834260/build-or-die"
   },
   {
-   "date": "2026-09-08",
-   "title": "The Architecture of Urbanity, by Vishaan Chakrabarti",
-   "note": "An architect's manifesto for dense, climate-adapted, joyful cities. (Princeton)",
-   "strand": "books",
-   "significance": 46,
-   "url": "https://press.princeton.edu/isbn/9780691292618"
-  },
-  {
    "date": "2026-09-01",
    "title": "Fire in the Heart of the City, by David Conrad-Pérez",
    "note": "How the 1911 Triangle fire set off a fight between New York's elite and labor organizers over who controls the city's disaster response. (NYU Press)",
@@ -767,10 +759,11 @@
   {
    "date": "2027-04-13",
    "title": "Roofless, by Karen A. Snedker and Jennifer McKinney",
-   "note": "A study of a self-governed tent camp, and how unhoused residents build partnerships and self-governance. (Rutgers)",
+   "note": "A study of a self-governed tent camp, and how unhoused residents build partnerships and self-governance. Rutgers has not published a date; the April date comes from a catalog listing and is unconfirmed. (Rutgers)",
    "strand": "books",
    "significance": 30,
-   "url": "https://www.rutgersuniversitypress.org/subjects/urban-studies"
+   "url": "https://www.rutgersuniversitypress.org/subjects/urban-studies",
+   "approx": true
   },
   {
    "date": "2026-10-01",

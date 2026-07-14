@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-14T18:40:53.654Z",
+ "generated": "2026-07-14T18:52:40.554Z",
  "window": {
   "start": "2026-06-30",
   "end": "2027-08-18"
@@ -9,42 +9,42 @@
   {
    "name": "Curated",
    "ok": true,
-   "count": 91,
-   "ms": 3,
+   "count": 90,
+   "ms": 1,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 6,
+   "ms": 2,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 539,
+   "ms": 379,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 52,
-   "ms": 1026,
+   "ms": 863,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8726,
+   "ms": 5118,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "major": 45,
-  "notable": 58,
+  "notable": 57,
   "routine": 100,
   "marquee": 9
  },
@@ -1687,22 +1687,6 @@
   {
    "date": "2026-09-08",
    "time": null,
-   "title": "The Architecture of Urbanity, by Vishaan Chakrabarti",
-   "note": "An architect's manifesto for dense, climate-adapted, joyful cities. (Princeton)",
-   "strand": "books",
-   "source": "Curated",
-   "sourceUrl": "https://press.princeton.edu/isbn/9780691292618",
-   "significance": 46,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "notable"
-  },
-  {
-   "date": "2026-09-08",
-   "time": null,
    "title": "Sez I to Myself, by Frank and Malachy McCourt",
    "note": "Uncollected essays, many first run in Upper West Side neighborhood papers, on immigrant New York, pubs, classrooms and 9/11. (Abrams)",
    "strand": "books",
@@ -3157,7 +3141,7 @@
    "date": "2027-04-13",
    "time": null,
    "title": "Roofless, by Karen A. Snedker and Jennifer McKinney",
-   "note": "A study of a self-governed tent camp, and how unhoused residents build partnerships and self-governance. (Rutgers)",
+   "note": "A study of a self-governed tent camp, and how unhoused residents build partnerships and self-governance. Rutgers has not published a date; the April date comes from a catalog listing and is unconfirmed. (Rutgers)",
    "strand": "books",
    "source": "Curated",
    "sourceUrl": "https://www.rutgersuniversitypress.org/subjects/urban-studies",
@@ -3165,7 +3149,7 @@
    "why": [
     "editorially judged"
    ],
-   "approx": false,
+   "approx": true,
    "live": false,
    "tier": "routine"
   },

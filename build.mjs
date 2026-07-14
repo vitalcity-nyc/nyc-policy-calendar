@@ -425,6 +425,22 @@ if (liveOk === 0) {
 
 for (const e of all) e.tier = tierFor(e.significance);
 
+// Sanity checks on the curated seed. These do not fail the build — a bad row
+// should not take the calendar down — but they must not pass in silence.
+{
+  const curated = all.filter(e => e.source === 'Curated');
+  const seen = new Map();
+  for (const e of curated) {
+    const k = `${e.date}|${e.title}`;
+    if (seen.has(k)) console.warn(`  ! duplicate curated event: ${k}`);
+    seen.set(k, true);
+  }
+  // A "forthcoming" book whose date has passed is either stale or, worse, a
+  // paperback reissue that was never forthcoming at all. See seed/curated.json.
+  const stale = curated.filter(e => e.strand === 'books' && e.date < todayISO);
+  for (const e of stale) console.warn(`  ! book already out — is this a reissue? ${e.date} ${e.title}`);
+}
+
 all.sort((a, b) =>
   a.date.localeCompare(b.date) ||
   b.significance - a.significance ||
