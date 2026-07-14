@@ -37,6 +37,14 @@
   --s-climate:var(--rose);
   --s-books:var(--charcoal);
   --s-hearings:var(--cloud);
+
+  /* Tag text colour per strand. Black is the default, but four strands are dark
+     enough that black text on them fails WCAG AA — justice worst of all, at a
+     contrast ratio of 1.80. These four take white, which clears 4.5 on every one. */
+  --s-justice-fg:#fff;     /* black scored 1.80 */
+  --s-democracy-fg:#fff;   /* black scored 2.35 */
+  --s-cityhall-fg:#fff;    /* black scored 3.36 */
+  --s-books-fg:#fff;       /* black scored 4.18 */
 }
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -787,7 +795,7 @@ function evHTML(e,i){
       ${e.note&&!(e.tier==='routine'&&e.strand==='hearings')?`<p class="note">${esc(e.note)}</p>`:''}
       ${mine?`<p class="mynote">${esc(mine)}</p>`:''}
       <div class="meta">
-        <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
+        <span class="tag" style="background:var(--s-${e.strand});color:var(--s-${e.strand}-fg,var(--black))">${esc(STRANDS[e.strand]||e.strand)}</span>
         <span>${esc(e.source)}</span>
         ${e.approx?'<span class="approx">· date not yet confirmed</span>':''}
       </div>
@@ -901,7 +909,7 @@ function showDayList(iso, list){
     <h2 style="font-size:1.15rem;margin-bottom:12px">${list.length} events</h2>
     ${list.map((e,i)=>`
       <button class="daylist" data-i="${POOL.indexOf(e)}">
-        <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
+        <span class="tag" style="background:var(--s-${e.strand});color:var(--s-${e.strand}-fg,var(--black))">${esc(STRANDS[e.strand]||e.strand)}</span>
         <span class="dl-t ${e.tier}">${esc(e.title)}</span>
         <span class="dl-s">${e.significance}</span>
       </button>`).join('')}
@@ -928,7 +936,7 @@ function showDay(e){
     <h2 style="font-size:1.3rem;line-height:1.15;margin-bottom:8px">${esc(e.title)}</h2>
     ${e.note?`<p style="font-size:.9rem;color:var(--graphite);margin-bottom:10px">${esc(e.note)}</p>`:''}
     <div class="meta" style="margin-bottom:10px">
-      <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
+      <span class="tag" style="background:var(--s-${e.strand});color:var(--s-${e.strand}-fg,var(--black))">${esc(STRANDS[e.strand]||e.strand)}</span>
       <span>${esc(e.source)}</span>${e.time?`<span>· ${esc(e.time)}</span>`:''}
       ${e.approx?'<span class="approx">· date not yet confirmed</span>':''}
     </div>
