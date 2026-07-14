@@ -8,18 +8,18 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:20260630-WorldCuproundof32atMetLifeStadium@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:World Cup round of 32 at MetLife Stadium
-DESCRIPTION:Knockout stage begins\, 5pm ET.\n\nhttps://nynjfwc26.com/sche
- dule/
+DESCRIPTION:Knockout stage begins\, 5 p.m. ET.\n\nhttps://nynjfwc26.com/s
+ chedule/
 URL:https://nynjfwc26.com/schedule/
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260630-Citybudgetadoptiondeadline@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:City budget adoption deadline
@@ -32,7 +32,7 @@ CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
 UID:20260704-Americas250thbirthday@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:America's 250th birthday
@@ -45,17 +45,18 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260705-WorldCuproundof16atMetLifeStadium@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260705
 DTEND;VALUE=DATE:20260706
 SUMMARY:World Cup round of 16 at MetLife Stadium
-DESCRIPTION:Knockout stage\, 4pm ET.\n\nhttps://nynjfwc26.com/schedule/
+DESCRIPTION:Knockout stage\, 4 p.m. ET.\n\nhttps://nynjfwc26.com/schedule
+ /
 URL:https://nynjfwc26.com/schedule/
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260709-TheDeclarationisreadtoWashingtonstroops2@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:The Declaration is read to Washington's troops — 250th anniversar
@@ -69,7 +70,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260709-ThestatueofKingGeorgeIIIistoppled250than@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:The statue of King George III is toppled — 250th anniversary
@@ -83,7 +84,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260717-TWAFlight800explodesaftertakeofffromJFK3@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:TWA Flight 800 explodes after takeoff from JFK — 30th anniversary
@@ -98,19 +99,19 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260719-WorldCupfinalatMetLifeStadium@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260720
 SUMMARY:World Cup final at MetLife Stadium
-DESCRIPTION:3pm ET. The largest single sporting event ever hosted in the 
- New York region. Weeks of security\, transit and crowd planning converge
-  on this day.\n\nhttps://nynjfwc26.com/schedule/
+DESCRIPTION:3 p.m. ET. The largest single sporting event ever hosted in t
+ he New York region. Weeks of security\, transit and crowd planning conve
+ rge on this day.\n\nhttps://nynjfwc26.com/schedule/
 URL:https://nynjfwc26.com/schedule/
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260725-NewYorkadoptsfirstUSzoningresolution110t@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
 SUMMARY:New York adopts first US zoning resolution — 110th anniversary
@@ -123,7 +124,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260827-TheBattleofLongIsland250thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:The Battle of Long Island — 250th anniversary
@@ -136,7 +137,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260831-OneyearuntilRikersmustclose@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:One year until Rikers must close
@@ -148,7 +149,7 @@ CATEGORIES:justice
 END:VEVENT
 BEGIN:VEVENT
 UID:20260904-DeadlineforcharterproposalstoreachtheNov@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:Deadline for charter proposals to reach the November ballot
@@ -165,7 +166,7 @@ CATEGORIES:cityhall
 END:VEVENT
 BEGIN:VEVENT
 UID:20260908-LuigiMangionesstatemurdertrialbegins@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Luigi Mangione's state murder trial begins
@@ -177,36 +178,36 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260908-Free2Klaunches2000seats@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Free 2-K launches: 2\,000 seats
 DESCRIPTION:The first free 2-K seats open in four communities\, announced
-  with Governor Hochul in March\, expanding to universality within four y
- ears. Reporting puts services beginning in September\; no exact launch d
- ate has been announced\, so this is pegged to the start of the school ye
- ar.\n\nhttps://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-and-
- governor-hochul-announce-first-four-communitie
+  with Gov. Kathy Hochul in March\, expanding to universality within four
+  years. Reporting puts services beginning in September\; no exact launch
+  date has been announced\, so this is pegged to the start of the school 
+ year.\n\nhttps://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-an
+ d-governor-hochul-announce-first-four-communitie
 URL:https://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-and-gove
  rnor-hochul-announce-first-four-communitie
 CATEGORIES:cityhall
 END:VEVENT
 BEGIN:VEVENT
 UID:20260908-Firstdayofschool@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:First day of school
 DESCRIPTION:The 2026-27 school year begins the day after Labor Day. Some 
  800\,000 children return to K-12 public school classrooms\, a number tha
- t has fallen roughly 10 percent since 2020.\n\nhttps://www.schools.nyc.g
- ov/about-us/reports/nycps-data-at-a-glance
+ t has fallen roughly 10% since 2020.\n\nhttps://www.schools.nyc.gov/abou
+ t-us/reports/nycps-data-at-a-glance
 URL:https://www.schools.nyc.gov/about-us/reports/nycps-data-at-a-glance
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260909-FDNYceremonyforthe25thanniversaryof911@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:FDNY ceremony for the 25th anniversary of 9/11
@@ -218,7 +219,7 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260911-911attacksdestroytheWorldTradeCenter25th@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:9/11 attacks destroy the World Trade Center — 25th anniversary
@@ -231,7 +232,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260915-TheBritishlandatKipsBay250thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:The British land at Kip's Bay — 250th anniversary
@@ -245,7 +246,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260916-TheBattleofHarlemHeights250thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:The Battle of Harlem Heights — 250th anniversary
@@ -259,7 +260,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260916-TheMetmovestoLincolnCenter60thanniversar@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:The Met moves to Lincoln Center — 60th anniversary
@@ -273,7 +274,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260917-Chelseabombinginjures3110thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Chelsea bombing injures 31 — 10th anniversary
@@ -288,7 +289,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260918-TheNewYorkDailyTimesdebuts175thanniversa@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The New-York Daily Times debuts — 175th anniversary
@@ -301,7 +302,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260921-TheGreatFireof1776250thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:The Great Fire of 1776 — 250th anniversary
@@ -313,7 +314,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260922-NathanHaleishangedasaspy250thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Nathan Hale is hanged as a spy — 250th anniversary
@@ -326,7 +327,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260922-UnitedNationsGeneralAssemblyleadersweek@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:United Nations General Assembly: leaders' week
@@ -336,7 +337,7 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260928-TheWhitneysBreuerbuildingopensonMadisonA@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:The Whitney's Breuer building opens on Madison Avenue — 60th anni
@@ -350,7 +351,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260930-Federalfiscalyearendsshutdownrisk@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Federal fiscal year ends\; shutdown risk
@@ -361,22 +362,22 @@ CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
 UID:20261001-Newrentguidelinestakeeffect@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:New rent guidelines take effect
 DESCRIPTION:Order 58 takes effect for leases beginning Oct. 1\, 2026 thro
- ugh Sept. 30\, 2027. The board adopted a rent freeze — 0 percent on both
-  one- and two-year leases — delivering the central promise of Mamdani's 
- campaign.\n\nhttps://rentguidelinesboard.cityofnewyork.us/adopted-summar
- y-of-guidelines-2026-27/
+ ugh Sept. 30\, 2027. The board adopted a rent freeze — 0% on both one- a
+ nd two-year leases — delivering the central promise of Mamdani's campaig
+ n.\n\nhttps://rentguidelinesboard.cityofnewyork.us/adopted-summary-of-gu
+ idelines-2026-27/
 URL:https://rentguidelinesboard.cityofnewyork.us/adopted-summary-of-guide
  lines-2026-27/
 CATEGORIES:housing
 END:VEVENT
 BEGIN:VEVENT
 UID:20261006-TheRevolutionarybyRossBarkan@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:The Revolutionary\, by Ross Barkan
@@ -390,7 +391,7 @@ CATEGORIES:books
 END:VEVENT
 BEGIN:VEVENT
 UID:20261016-SangeropensfirstUSbirthcontrolclinic110t@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Sanger opens first US birth control clinic — 110th anniversary
@@ -402,7 +403,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20261026-TheYankeesdynastybegins30thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:The Yankees' dynasty begins — 30th anniversary
@@ -414,7 +415,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20261028-TheStatueofLibertyisdedicated140thannive@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:The Statue of Liberty is dedicated — 140th anniversary
@@ -427,35 +428,35 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101-NewYorkCityMarathon50yearsofthefiveborou@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:New York City Marathon: 50 years of the five-borough course
 DESCRIPTION:The 55th running of the marathon\, and the 50th anniversary o
  f the five-borough course\, which was first run in 1976 for the bicenten
  nial. It is not the 50th five-borough running — that count is 49\, becau
- se the race was cancelled in 2012 for Hurricane Sandy and in 2020 for Co
- vid.\n\nhttps://www.nyrr.org/media-center/press-release/2026_0203_50anni
- versary5boromarathon
+ se the race was cancelled in 2012 for Hurricane Sandy and in 2020 for CO
+ VID-19.\n\nhttps://www.nyrr.org/media-center/press-release/2026_0203_50a
+ nniversary5boromarathon
 URL:https://www.nyrr.org/media-center/press-release/2026_0203_50anniversa
  ry5boromarathon
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20261103-Generalelection@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:General election
-DESCRIPTION:Governor (Hochul vs. likely Blakeman)\, Congress and state le
- gislative races. No mayoral race this year. Hochul-Mamdani coordination 
- is critical for Democratic turnout.\n\nhttps://www.elections.ny.gov/
+DESCRIPTION:Governor: Hochul vs. likely Blakeman\, Congress and state leg
+ islative races. No mayoral race this year. Hochul-Mamdani coordination i
+ s critical for Democratic turnout.\n\nhttps://www.elections.ny.gov/
 URL:https://www.elections.ny.gov/
 CATEGORIES:democracy
 END:VEVENT
 BEGIN:VEVENT
 UID:20261105-TheSchaghenletterrecordsthepurchaseofMan@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:The Schaghen letter records the 'purchase' of Manhattan — 400th a
@@ -469,25 +470,25 @@ URL:https://newnetherlandinstitute.org/content/peter-schagen-letter/
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
-UID:20261106-DC37scontractexpires@nyc-calendar
-DTSTAMP:20260714T183337Z
+UID:20261106-DistrictCouncil37scontractexpires@nyc-calendar
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
-SUMMARY:DC 37's contract expires
-DESCRIPTION:The 2021-2026 agreement covers nearly 90\,000 city employees\
- , about a quarter of the municipal workforce. DC 37 is the city's larges
- t union\, counting some 150\,000 members across sectors. The deal that r
- eplaces this one sets the pattern for the teachers and everyone else\, a
- nd is the first major labor test of this administration.\n\nhttps://www.
- nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026/dc-37-20
- 21-2026-moa.pdf
+SUMMARY:District Council 37's contract expires
+DESCRIPTION:The 2021-2026 agreement for District Council 37\, known as DC
+  37\, covers nearly 90\,000 city employees\, about a quarter of the muni
+ cipal workforce. DC 37 is the city's largest union\, counting some 150\,
+ 000 members across sectors. The deal that replaces this one sets the pat
+ tern for the teachers and everyone else\, and is the first major labor t
+ est of this administration.\n\nhttps://www.nyc.gov/assets/olr/downloads/
+ pdf/collectivebargaining/2021-2026/dc-37-2021-2026-moa.pdf
 URL:https://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/202
  1-2026/dc-37-2021-2026-moa.pdf
 CATEGORIES:power
 END:VEVENT
 BEGIN:VEVENT
 UID:20261116-ThefallofFortWashington250thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:The fall of Fort Washington — 250th anniversary
@@ -500,18 +501,18 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-The100thMacysThanksgivingDayParade@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:The 100th Macy's Thanksgiving Day Parade
 DESCRIPTION:A milestone parade\; the count reaches 100 in 2026 because th
- e parade was suspended during the Second World War. A year-long celebrat
- ion campaign surrounds it.
+ e parade was suspended during World War II. A year-long celebration camp
+ aign surrounds it.
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20261214-UNchoosesNewYorkCityforitsheadquarters80@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:UN chooses New York City for its headquarters — 80th anniversary
@@ -524,7 +525,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270101-Mamdanisfirstyearinoffice@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Mamdani's first year in office
@@ -534,7 +535,7 @@ CATEGORIES:cityhall
 END:VEVENT
 BEGIN:VEVENT
 UID:20270105-JuryselectioninMangionesfederaltrial@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Jury selection in Mangione's federal trial
@@ -544,7 +545,7 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20270116-Preliminarybudgetforfiscal2028@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Preliminary budget for fiscal 2028
@@ -558,7 +559,7 @@ CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
 UID:20270201-Stateexecutivebudgetdue@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:State executive budget due
@@ -572,7 +573,7 @@ CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
 UID:20270401-Statebudgetdue@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:State budget due
@@ -585,7 +586,7 @@ CATEGORIES:power
 END:VEVENT
 BEGIN:VEVENT
 UID:20270415-JackieRobinsonbreaksbaseballscolorbarrie@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:Jackie Robinson breaks baseball's color barrier — 80th anniversar
@@ -598,7 +599,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270426-Studio54opens50thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:Studio 54 opens — 50th anniversary
@@ -610,7 +611,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270501-Executivebudgetforfiscal2028@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:Executive budget for fiscal 2028
@@ -623,7 +624,7 @@ CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
 UID:20270613-Lindberghgetsatickertapeheroswelcome100t@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270614
 SUMMARY:Lindbergh gets a ticker-tape hero's welcome — 100th anniversary
@@ -635,7 +636,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270624-RentGuidelinesBoardfinalvote@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270624
 DTEND;VALUE=DATE:20270625
 SUMMARY:Rent Guidelines Board final vote
@@ -648,7 +649,7 @@ CATEGORIES:housing
 END:VEVENT
 BEGIN:VEVENT
 UID:20270630-Fiscal2028budgetadoption@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270701
 SUMMARY:Fiscal 2028 budget adoption
@@ -661,7 +662,7 @@ CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
 UID:20270704-SlaveryendsinNewYorkState200thanniversar@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Slavery ends in New York State — 200th anniversary
@@ -673,7 +674,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270713-Theblackoutthatbrokethecitysspirit50than@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270713
 DTEND;VALUE=DATE:20270714
 SUMMARY:The blackout that broke the city's spirit — 50th anniversary
@@ -686,7 +687,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270728-SilentParademarchesdownFifthAvenue110tha@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270728
 DTEND;VALUE=DATE:20270729
 SUMMARY:Silent Parade marches down Fifth Avenue — 110th anniversary
@@ -698,7 +699,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270810-TheSonofSamiscaptured50thanniversary@nyc-calendar
-DTSTAMP:20260714T183337Z
+DTSTAMP:20260714T184029Z
 DTSTART;VALUE=DATE:20270810
 DTEND;VALUE=DATE:20270811
 SUMMARY:The Son of Sam is captured — 50th anniversary

@@ -437,8 +437,8 @@ body{
       <div class="thresh" id="thresh">
         <button data-min="85">The city stops</button>
         <button data-min="65">Major</button>
-        <button data-min="45" class="on">Notable</button>
-        <button data-min="0">Everything</button>
+        <button data-min="45">Notable</button>
+        <button data-min="0" class="on">Everything</button>
       </div>
       <span class="ctl-label" style="margin-left:6px">View</span>
       <div class="thresh" id="viewsel">
@@ -489,7 +489,7 @@ const STRANDS={
   'books':'Books','hearings':'Hearings'
 };
 
-let DATA=null, minScore=45, active=new Set(), q='', generated=null;
+let DATA=null, minScore=0, active=new Set(), q='', generated=null;
 let view='agenda';
 // Month grid starts on the current month.
 let monthCursor=[new Date().getFullYear(), new Date().getMonth()];
