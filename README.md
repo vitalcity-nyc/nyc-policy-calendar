@@ -17,7 +17,7 @@ appears on the page. See [methodology.html](methodology.html) for the full scori
 | Legistar | Council hearings and stated meetings, with agendas | Public read token (bundled) |
 | The City Record | Public hearings from every other agency | None |
 | NY State Senate API | Albany session days | `NYSENATE_API_KEY` (optional) |
-| `seed/history.json` | 281 sourced historical events → round-number anniversaries | None |
+| `seed/history.json` | 282 sourced historical events → round-number anniversaries | None |
 | `seed/curated.json` | Cultural, sporting and statutory events no API publishes | None |
 
 Hearings are capped at a score of 62 by design, so a routine committee meeting can never outrank an

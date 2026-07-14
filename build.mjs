@@ -433,10 +433,21 @@ all.sort((a, b) =>
 
 const counts = all.reduce((m, e) => (m[e.tier] = (m[e.tier] || 0) + 1, m), {});
 
+// The page and the methodology both cite the size of the history corpus. Publish the
+// real number rather than a hand-typed one, and shout if the prose has drifted from it.
+const corpusSize = JSON.parse(await fs.readFile(path.join(DIR, 'seed/history.json'), 'utf8')).length;
+for (const file of ['methodology.html', 'README.md', 'index.html']) {
+  const text = await fs.readFile(path.join(DIR, file), 'utf8').catch(() => '');
+  const stale = [...text.matchAll(/(\d{3}) sourced (?:historical )?events/g)]
+    .map(m => +m[1]).filter(n => n !== corpusSize);
+  if (stale.length) console.warn(`  ! ${file} says ${[...new Set(stale)].join('/')} sourced events; the corpus holds ${corpusSize}`);
+}
+
 await fs.mkdir(OUT, { recursive: true });
 await fs.writeFile(path.join(OUT, 'events.json'), JSON.stringify({
   generated: new Date().toISOString(),
   window: { start: startISO, end: horizonISO },
+  corpusSize,
   sources,
   counts,
   events: all,

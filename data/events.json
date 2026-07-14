@@ -4,6 +4,7 @@
   "start": "2026-06-30",
   "end": "2027-08-18"
  },
+ "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
@@ -42,9 +43,9 @@
   }
  ],
  "counts": {
-  "major": 35,
-  "notable": 40,
-  "routine": 80,
+  "major": 44,
+  "notable": 50,
+  "routine": 81,
   "marquee": 9
  },
  "events": [
@@ -68,27 +69,11 @@
    "date": "2026-06-30",
    "time": null,
    "title": "City budget adoption deadline",
-   "note": "The Council and the mayor must adopt the fiscal 2027 budget. The final deal reveals actual funding levels for every policy priority.",
+   "note": "The Council and the mayor adopt the budget. The Charter's hard date is June 5 (section 254(d)); in practice adoption lands by June 30, the last day of the fiscal year, and the fiscal 2027 budget was adopted June 30, 2026.",
    "strand": "money",
    "source": "Curated",
    "sourceUrl": "https://council.nyc.gov/budget/",
    "significance": 76,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "major"
-  },
-  {
-   "date": "2026-06-30",
-   "time": null,
-   "title": "Mayoral control of the schools expires",
-   "note": "The current schools governance law sunsets. Continuing or changing it requires action in Albany.",
-   "strand": "power",
-   "source": "Curated",
-   "sourceUrl": null,
-   "significance": 74,
    "why": [
     "editorially judged"
    ],
@@ -357,7 +342,7 @@
    "date": "2026-07-01",
    "time": null,
    "title": "Rikers land transfer deadline",
-   "note": "A semi-annual statutory deadline to transfer unused Rikers land to the Department of Citywide Administrative Services. A progress marker for the closure plan.",
+   "note": "Under the same law that sets the closure date, the mayor must transfer every portion of Rikers not in active use to the Department of Citywide Administrative Services every six months. The clock runs Jan. 1 and July 1.",
    "strand": "justice",
    "source": "Curated",
    "sourceUrl": null,
@@ -805,6 +790,22 @@
   },
   {
    "date": "2026-07-15",
+   "time": null,
+   "title": "First Rikers remediation action plan due",
+   "note": "Nicholas Deml, appointed the court's Nunez remediation manager on Feb. 23, 2026, is scheduled to submit his first remediation action plan in mid-July. The court declined to impose a receivership in May 2025 and installed a remediation manager instead. Date approximate within mid-July.",
+   "strand": "justice",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/site/doc/media/nunez-reports.page",
+   "significance": 64,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-07-15",
    "time": "1:00 PM",
    "title": "Committee on Finance",
    "note": "Jointly with the Committee on Housing and Buildings. · 250 Broadway - 8th Floor - Hearing Room 1",
@@ -860,7 +861,7 @@
    "note": "The July plan carries updated revenue projections and capital program status.",
    "strand": "money",
    "source": "Curated",
-   "sourceUrl": "https://new.mta.info/transparency/financial-information",
+   "sourceUrl": "https://www.mta.info/budget",
    "significance": 38,
    "why": [
     "editorially judged"
@@ -1207,7 +1208,7 @@
    "note": "New York enacted the nation's first comprehensive citywide zoning law, regulating building height, bulk and use.",
    "strand": "anniversary",
    "source": "New York, in Time",
-   "sourceUrl": "https://www.nyc.gov/site/planning/zoning/background.page",
+   "sourceUrl": "https://www.nyc.gov/assets/planning/download/pdf/about/city-planning-history/zr1916.pdf",
    "significance": 74,
    "importance": 4,
    "why": [
@@ -1284,7 +1285,7 @@
    "note": "German saboteurs blew up a massive munitions depot on Black Tom Island in New York Harbor, shattering windows across the city.",
    "strand": "anniversary",
    "source": "New York, in Time",
-   "sourceUrl": "https://www.nps.gov/stli/learn/historyculture/black-tom-explosion.htm",
+   "sourceUrl": "https://www.nps.gov/articles/black-tom-wwi.htm",
    "significance": 64,
    "importance": 3,
    "why": [
@@ -1487,26 +1488,10 @@
    "tier": "routine"
   },
   {
-   "date": "2026-08-31",
-   "time": null,
-   "title": "One year until Rikers must close",
-   "note": "The statutory deadline to close Rikers Island is Aug. 31, 2027. This marks exactly one year out, and is a fixed point for advocacy and coverage.",
-   "strand": "justice",
-   "source": "Curated",
-   "sourceUrl": null,
-   "significance": 72,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "major"
-  },
-  {
-   "date": "2026-08-31",
+   "date": "2026-08-30",
    "time": null,
    "title": "United States Open begins",
-   "note": "Runs through Sept. 13. Major tourism and transit impact for Queens.",
+   "note": "The main draw begins on a Sunday under the 15-day format and runs through Sept. 13. Qualifying and Fan Week start the week before. Major tourism and transit impact for Queens.",
    "strand": "city-life",
    "source": "Curated",
    "sourceUrl": "https://www.usopen.org/",
@@ -1519,10 +1504,42 @@
    "tier": "notable"
   },
   {
+   "date": "2026-08-31",
+   "time": null,
+   "title": "One year until Rikers must close",
+   "note": "Administrative Code section 4-215, from Local Law 16 of 2021, requires that by Aug. 31, 2027 all of Rikers Island be transferred out of the Correction Department's control and no longer used to house people. This marks exactly one year out.",
+   "strand": "justice",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 72,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-04",
+   "time": null,
+   "title": "Deadline for charter proposals to reach the November ballot",
+   "note": "Mamdani's Commission on Government Efficiency finished its 10 public hearings and published a preliminary staff report on July 2. To put charter amendments before voters on Nov. 3, it must file them with the city clerk at least 60 days beforehand. No filing date has been announced; this is the outer bound the law implies, not a scheduled event. The preliminary report points at outdoor dining, permitting, procurement, bus and street infrastructure and a rainy day fund.",
+   "strand": "cityhall",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/site/charter/reports/coge-reports.page",
+   "significance": 78,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "major"
+  },
+  {
    "date": "2026-09-08",
    "time": null,
    "title": "Luigi Mangione's state murder trial begins",
-   "note": "The state trial for the killing of UnitedHealthcare chief executive Brian Thompson in Midtown. Originally set for June 8 and moved to September; the federal trial is pushed to January 2027.",
+   "note": "The state trial for the killing of UnitedHealthcare chief executive Brian Thompson in Midtown. Originally set for June 8 and moved to September by Judge Gregory Carro. The separate federal case, which carries the death penalty, follows in January.",
    "strand": "city-life",
    "source": "Curated",
    "sourceUrl": null,
@@ -1537,11 +1554,27 @@
   {
    "date": "2026-09-08",
    "time": null,
+   "title": "Free 2-K launches: 2,000 seats",
+   "note": "The first free 2-K seats open in four communities, announced with Governor Hochul in March, expanding to universality within four years. Reporting puts services beginning in September; no exact launch date has been announced, so this is pegged to the start of the school year.",
+   "strand": "cityhall",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-and-governor-hochul-announce-first-four-communitie",
+   "significance": 72,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-08",
+   "time": null,
    "title": "First day of school",
-   "note": "The 2026-27 school year begins the day after Labor Day. Roughly a million children return to class.",
+   "note": "The 2026-27 school year begins the day after Labor Day. Some 800,000 children return to K-12 public school classrooms, a number that has fallen roughly 10 percent since 2020.",
    "strand": "city-life",
    "source": "Curated",
-   "sourceUrl": "https://www.schools.nyc.gov/",
+   "sourceUrl": "https://www.schools.nyc.gov/about-us/reports/nycps-data-at-a-glance",
    "significance": 66,
    "why": [
     "editorially judged"
@@ -1726,8 +1759,8 @@
   {
    "date": "2026-09-17",
    "time": null,
-   "title": "Chelsea bombing injures 29 — 10th anniversary",
-   "note": "A pressure-cooker bomb exploded on West 23rd Street in Chelsea, injuring 29 people. Ahmad Khan Rahimi was arrested days later and sentenced to life in prison.",
+   "title": "Chelsea bombing injures 31 — 10th anniversary",
+   "note": "A pressure-cooker bomb exploded on West 23rd Street in Chelsea, injuring 31 people. Ahmad Khan Rahimi was arrested days later and sentenced to life in prison.",
    "strand": "anniversary",
    "source": "New York, in Time",
    "sourceUrl": "https://www.justice.gov/archives/opa/pr/chelsea-bomber-ahmad-khan-rahimi-convicted-executing-september-2016-bombing-new-york-city",
@@ -1746,10 +1779,10 @@
    "date": "2026-09-17",
    "time": null,
    "title": "Mayor's Management Report due",
-   "note": "The charter-mandated scorecard for every agency: trash, crime, service delivery. The closest thing the city has to a report card.",
-   "strand": "power",
+   "note": "The charter-mandated scorecard for every agency: trash, crime, service delivery. Required by Charter section 12 no later than Sept. 17. This is the first full fiscal year Mamdani's agencies are judged on, though the year began before he took office.",
+   "strand": "cityhall",
    "source": "Curated",
-   "sourceUrl": "https://www.nyc.gov/site/operations/performance/mmr.page",
+   "sourceUrl": "https://www.nyc.gov/site/operations/reports/mmr.page",
    "significance": 58,
    "why": [
     "editorially judged"
@@ -1851,7 +1884,7 @@
    "note": "A key indicator of fiscal health and service levels.",
    "strand": "money",
    "source": "Curated",
-   "sourceUrl": "https://new.mta.info/transparency/financial-information",
+   "sourceUrl": "https://www.mta.info/budget",
    "significance": 40,
    "why": [
     "editorially judged"
@@ -1896,14 +1929,14 @@
    "tier": "major"
   },
   {
-   "date": "2026-10-01",
+   "date": "2026-09-30",
    "time": null,
-   "title": "New rent guidelines take effect",
-   "note": "The board's adjustments begin applying to new and renewal leases.",
-   "strand": "housing",
+   "title": "Nunez monitor report to the federal court",
+   "note": "The monitoring team told Judge Swain it intends to file on this date, with an update on the state of the jails and on Local Law 42. The reports are the running scorecard on whether the city is curing its contempt.",
+   "strand": "justice",
    "source": "Curated",
-   "sourceUrl": "https://rentguidelinesboard.cityofnewyork.us/",
-   "significance": 58,
+   "sourceUrl": "https://www.nyc.gov/site/doc/media/nunez-reports.page",
+   "significance": 62,
    "why": [
     "editorially judged"
    ],
@@ -1914,32 +1947,48 @@
   {
    "date": "2026-10-01",
    "time": null,
-   "title": "Fair housing framework assessment due",
-   "note": "The first-ever needs assessment and five-year affordable housing production targets for all 59 community districts.",
+   "title": "New rent guidelines take effect",
+   "note": "Order 58 takes effect for leases beginning Oct. 1, 2026 through Sept. 30, 2027. The board adopted a rent freeze — 0 percent on both one- and two-year leases — delivering the central promise of Mamdani's campaign.",
    "strand": "housing",
    "source": "Curated",
-   "sourceUrl": null,
+   "sourceUrl": "https://rentguidelinesboard.cityofnewyork.us/adopted-summary-of-guidelines-2026-27/",
+   "significance": 70,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2026-10-01",
+   "time": null,
+   "title": "Fair housing framework assessment due",
+   "note": "The first Fair Housing Framework needs assessment and five-year affordable housing production targets for all 59 community districts, required by Charter section 16-a. Published every five years beginning October 2026.",
+   "strand": "housing",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page",
    "significance": 52,
    "why": [
     "editorially judged"
    ],
-   "approx": true,
+   "approx": false,
    "live": false,
    "tier": "notable"
   },
   {
    "date": "2026-10-01",
    "time": null,
-   "title": "City of Yes: first affordable housing district list",
-   "note": "City Planning publishes the 12 community districts with the lowest affordable housing production.",
+   "title": "The 12 lowest-producing community districts named",
+   "note": "City Planning publishes the list of the 12 community districts producing the least affordable housing. It comes from the affordable housing fast track voters approved in November 2025 (Charter section 197-f), not from City of Yes. Projects there get an expedited process starting Jan. 1, 2027.",
    "strand": "housing",
    "source": "Curated",
-   "sourceUrl": null,
+   "sourceUrl": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page",
    "significance": 50,
    "why": [
     "editorially judged"
    ],
-   "approx": true,
+   "approx": false,
    "live": false,
    "tier": "notable"
   },
@@ -2080,7 +2129,7 @@
    "note": "The New York Yankees won the World Series over the Atlanta Braves, their first title since 1978 and the start of a late-1990s dynasty.",
    "strand": "anniversary",
    "source": "New York, in Time",
-   "sourceUrl": "https://baseballhall.org/discover/short-stops/1996-world-series",
+   "sourceUrl": "https://baseballhall.org/hall-of-famers/torre-joe",
    "significance": 65,
    "importance": 2,
    "why": [
@@ -2132,15 +2181,15 @@
    "date": "2026-11-01",
    "time": null,
    "title": "New York City Marathon: 50 years of the five-borough course",
-   "note": "The marathon first ran through all five boroughs in 1976 for the bicentennial, making 2026 the 50th running of the modern course.",
+   "note": "The 55th running of the marathon, and the 50th anniversary of the five-borough course, which was first run in 1976 for the bicentennial. It is not the 50th five-borough running — that count is 49, because the race was cancelled in 2012 for Hurricane Sandy and in 2020 for Covid.",
    "strand": "city-life",
    "source": "Curated",
-   "sourceUrl": "https://www.nyrr.org/tcsnycmarathon",
+   "sourceUrl": "https://www.nyrr.org/media-center/press-release/2026_0203_50anniversary5boromarathon",
    "significance": 78,
    "why": [
     "editorially judged"
    ],
-   "approx": true,
+   "approx": false,
    "live": false,
    "tier": "major"
   },
@@ -2199,7 +2248,7 @@
    "note": "A letter by Dutch official Pieter Schaghen, dated Nov. 5, 1626, reported that colonists had 'purchased' the island of Manhattan from its Native inhabitants for goods worth 60 guilders. It is the only contemporary document of the transaction.",
    "strand": "anniversary",
    "source": "New York, in Time",
-   "sourceUrl": "https://www.newnetherlandinstitute.org/history-and-heritage/additional-resources/dutch-treats/peter-schaghen-letter/",
+   "sourceUrl": "https://newnetherlandinstitute.org/content/peter-schagen-letter/",
    "significance": 68,
    "importance": 2,
    "why": [
@@ -2214,7 +2263,7 @@
    "date": "2026-11-06",
    "time": null,
    "title": "DC 37's contract expires",
-   "note": "The largest municipal union, roughly 90,000 workers. The expiring 2021-2026 agreement sets the pattern for the teachers' union and everyone else. The first major labor test of this administration.",
+   "note": "The 2021-2026 agreement covers nearly 90,000 city employees, about a quarter of the municipal workforce. DC 37 is the city's largest union, counting some 150,000 members across sectors. The deal that replaces this one sets the pattern for the teachers and everyone else, and is the first major labor test of this administration.",
    "strand": "power",
    "source": "Curated",
    "sourceUrl": "https://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026/dc-37-2021-2026-moa.pdf",
@@ -2280,16 +2329,16 @@
   {
    "date": "2026-11-15",
    "time": null,
-   "title": "Nunez monitor report on Rikers",
-   "note": "The second semi-annual report to Judge Swain. It effectively grades the administration's first year of jail management; a poor grade accelerates the receivership timeline.",
-   "strand": "justice",
+   "title": "Citywide statement of needs",
+   "note": "Required by Charter section 204 each year by Nov. 15. It signals which city facilities the administration intends to open, close or expand — an early tell on siting fights to come.",
+   "strand": "cityhall",
    "source": "Curated",
-   "sourceUrl": null,
-   "significance": 60,
+   "sourceUrl": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1",
+   "significance": 48,
    "why": [
     "editorially judged"
    ],
-   "approx": true,
+   "approx": false,
    "live": false,
    "tier": "notable"
   },
@@ -2396,11 +2445,27 @@
   {
    "date": "2026-12-15",
    "time": null,
+   "title": "Nunez monitor report on the 22nd monitoring period",
+   "note": "The monitor's December report, assessing compliance for the 22nd monitoring period. It effectively grades the administration's first year of jail management. Date approximate: the monitor has said December but has not fixed a day.",
+   "strand": "justice",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/site/doc/media/nunez-reports.page",
+   "significance": 60,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-12-15",
+   "time": null,
    "title": "Transit board adopts the 2027 budget",
    "note": "The final operating budget for the coming year.",
    "strand": "money",
    "source": "Curated",
-   "sourceUrl": "https://new.mta.info/transparency/board-and-committee-meetings",
+   "sourceUrl": "https://www.mta.info/transparency/board-and-committee-meetings",
    "significance": 44,
    "why": [
     "editorially judged"
@@ -2442,6 +2507,70 @@
    "tier": "routine"
   },
   {
+   "date": "2027-01-01",
+   "time": null,
+   "title": "Mamdani's first year in office",
+   "note": "One year since the inaugural address of Jan. 1, 2026. A customary peg for retrospectives rather than a scheduled event.",
+   "strand": "cityhall",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 66,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2027-01-01",
+   "time": null,
+   "title": "Affordable housing fast track begins",
+   "note": "Affordable housing projects in the 12 lowest-producing community districts get a shortened approval process, under the charter amendment voters approved in November 2025.",
+   "strand": "housing",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page",
+   "significance": 64,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-01-01",
+   "time": null,
+   "title": "Rikers land transfer deadline",
+   "note": "The semi-annual deadline to move unused Rikers land to the Department of Citywide Administrative Services, seven months before the island must close.",
+   "strand": "justice",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2027-01-05",
+   "time": null,
+   "title": "Jury selection in Mangione's federal trial",
+   "note": "Jury selection begins in the federal capital case before Judge Margaret Garnett. Opening statements are set for Jan. 25.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 68,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
    "date": "2027-01-06",
    "time": null,
    "title": "The state legislative session convenes",
@@ -2454,6 +2583,54 @@
     "editorially judged"
    ],
    "approx": true,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-01-16",
+   "time": null,
+   "title": "Preliminary budget for fiscal 2028",
+   "note": "Mamdani's second budget, due under Charter section 236. Note the February deadline does not apply: the extension exists only in the year following a mayoral election, which was 2026.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1",
+   "significance": 66,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2027-01-16",
+   "time": null,
+   "title": "Draft ten-year capital strategy",
+   "note": "Published alongside the preliminary budget in odd-numbered years under Charter section 228. It sets the decade's capital priorities — housing, transit, infrastructure — and is rarely watched relative to its consequences.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1",
+   "significance": 58,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-01-30",
+   "time": null,
+   "title": "Preliminary Mayor's Management Report",
+   "note": "The mid-year performance report, required by Charter section 12 no later than Jan. 30.",
+   "strand": "cityhall",
+   "source": "Curated",
+   "sourceUrl": "https://www.nyc.gov/site/operations/reports/mmr.page",
+   "significance": 52,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
    "live": false,
    "tier": "notable"
   },
@@ -2472,6 +2649,54 @@
    "approx": false,
    "live": false,
    "tier": "major"
+  },
+  {
+   "date": "2027-03-25",
+   "time": null,
+   "title": "Council preliminary budget hearings conclude",
+   "note": "The Council must hold hearings on the preliminary budget by this date under Charter section 247. Agency heads testify; it is the year's most sustained public interrogation of the administration.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1",
+   "significance": 56,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-04-01",
+   "time": null,
+   "title": "State budget due",
+   "note": "The state constitution requires a budget by April 1. It gates the money for child care and for fare-free buses, and it is the realistic vehicle for any millionaire or corporate tax increase, all of which require Albany.",
+   "strand": "power",
+   "source": "Curated",
+   "sourceUrl": "https://www.nysenate.gov/new-york-state-budget",
+   "significance": 74,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2027-04-01",
+   "time": null,
+   "title": "Council's preliminary budget response",
+   "note": "The Council's formal counter-document, due under Charter section 247. The opening position of the budget negotiation.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1",
+   "significance": 60,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
   },
   {
    "date": "2027-04-06",
@@ -2529,6 +2754,22 @@
    "tier": "major"
   },
   {
+   "date": "2027-04-26",
+   "time": null,
+   "title": "Ten-year capital strategy issued",
+   "note": "The mayor's final capital strategy, due under Charter section 248 in odd-numbered years.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1",
+   "significance": 56,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
    "date": "2027-04-29",
    "time": null,
    "title": "Lever House brings the glass curtain wall to Park Avenue — 75th anniversary",
@@ -2544,6 +2785,54 @@
    "historyYear": 1952,
    "anniversaryYears": 75,
    "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-05-01",
+   "time": null,
+   "title": "Executive budget for fiscal 2028",
+   "note": "The mayor's revised budget, due under Charter section 249, updated for whatever Albany did on April 1.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1",
+   "significance": 70,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2027-05-01",
+   "time": null,
+   "title": "Local Law 97 annual emissions report due",
+   "note": "Large buildings must file annual emissions reports each May 1. The first were due May 1, 2025, not 2026; penalties run about $268 per metric ton of carbon dioxide equivalent over a building's limit.",
+   "strand": "climate",
+   "source": "Curated",
+   "sourceUrl": "https://accelerator.nyc/ll97",
+   "significance": 60,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-05-06",
+   "time": null,
+   "title": "Rent Guidelines Board preliminary vote",
+   "note": "The board votes on a range for the 2027-28 rent adjustment. Date estimated from recent practice: Apr. 30 in 2024 and 2025, May 7 in 2026.",
+   "strand": "housing",
+   "source": "Curated",
+   "sourceUrl": "https://rentguidelinesboard.cityofnewyork.us/",
+   "significance": 64,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
    "tier": "notable"
   },
   {
@@ -2601,6 +2890,38 @@
    "tier": "major"
   },
   {
+   "date": "2027-06-24",
+   "time": null,
+   "title": "Rent Guidelines Board final vote",
+   "note": "The rent adjustment for roughly a million rent-stabilized apartments, for leases beginning October 2027. Date estimated from recent practice (June 17, 2024; June 30, 2025; June 25, 2026).",
+   "strand": "housing",
+   "source": "Curated",
+   "sourceUrl": "https://rentguidelinesboard.cityofnewyork.us/",
+   "significance": 82,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2027-06-30",
+   "time": null,
+   "title": "Fiscal 2028 budget adoption",
+   "note": "The Charter's trigger date is June 5 (section 254), but in practice adoption lands at the end of June: the fiscal 2027 deal was struck and voted on June 30, 2026, hours before the deadline. Date estimated from that practice.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://council.nyc.gov/budget/",
+   "significance": 76,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "major"
+  },
+  {
    "date": "2027-07-04",
    "time": null,
    "title": "Slavery ends in New York State — 200th anniversary",
@@ -2644,7 +2965,7 @@
    "note": "Thousands of Black New Yorkers marched in silence down Fifth Avenue to protest lynchings and the East St. Louis massacre.",
    "strand": "anniversary",
    "source": "New York, in Time",
-   "sourceUrl": "https://www.loc.gov/exhibitions/naacp/the-new-negro-movement/about-this-exhibition/marching-for-change/the-silent-protest-parade/",
+   "sourceUrl": "https://guides.loc.gov/chronicling-america-silent-protest-parade",
    "significance": 74,
    "importance": 4,
    "why": [

@@ -58,7 +58,7 @@ page exists so you can see the arithmetic and argue with it.</p>
   <tr><td>Legistar API</td><td>Every City Council committee hearing and stated meeting, with agenda documents</td><td>Live, months ahead</td></tr>
   <tr><td>The City Record</td><td>Public hearing notices from every other agency: City Planning, Landmarks, the Rent Guidelines Board, the Board of Correction, the Housing Authority and others</td><td>Live, typically two to three weeks ahead</td></tr>
   <tr><td>New York State Senate API</td><td>Albany session days</td><td>Live when the Legislature is in session</td></tr>
-  <tr><td>History corpus</td><td>281 sourced events in the city's history, used to compute round-number anniversaries</td><td>Recomputed every run</td></tr>
+  <tr><td>History corpus</td><td>282 sourced events in the city's history, used to compute round-number anniversaries</td><td>Recomputed every run</td></tr>
   <tr><td>Curated file</td><td>Cultural and sporting events, elections and statutory deadlines that no machine-readable source publishes</td><td>Maintained by hand</td></tr>
 </table>
 
@@ -148,6 +148,23 @@ deliberately.</p>
   <li><b>Events before today.</b> The page shows only what is ahead.</li>
 </ul>
 
+<h3>Promised, but undated — and therefore absent</h3>
+<p>Several of this administration's signature commitments have no scheduled date, and a calendar
+should not invent one. They are listed here rather than given a date they do not have:</p>
+<ul>
+  <li><b>Fare-free buses.</b> No date. Mamdani conceded in April 2026 that it would not happen that
+  year. It needs both action by the transit board and money from Albany.</li>
+  <li><b>City-owned grocery stores.</b> Year only. Five pilot stores are funded; the first, in Hunts
+  Point, is reported as expected to open in 2027, with East Harlem projected as late as 2029.</li>
+  <li><b>A Department of Community Safety.</b> What exists is a mayoral <i>office</i>, created by
+  executive order in March 2026. A charter-level department has no date.</li>
+  <li><b>A millionaire or corporate tax.</b> No date. It requires Albany, so the realistic vehicle is
+  the state budget due April 1, 2027.</li>
+  <li><b>The Commission on Government Efficiency's final vote.</b> Its hearings are finished, but no
+  vote has been scheduled. The Sept. 4 entry on this calendar is the deadline the law implies for
+  reaching the November ballot, not an announced meeting.</li>
+</ul>
+
 <h2>How often it refreshes</h2>
 <p>A GitHub Action rebuilds the calendar twice a day, at about 6am and 6pm Eastern, and commits the
 result. The page itself re-checks the feed every ten minutes while open, and offers a reload if a
@@ -156,6 +173,28 @@ subscribes will keep pulling the updated file on its own, which is the closest t
 product that never goes stale.</p>
 <p>If every live source fails, the build aborts rather than publishing an empty calendar over a good
 one.</p>
+
+<h2>Corrections</h2>
+
+<p>The calendar was fact-checked against primary sources on July 14, 2026. Every claim below was
+wrong when first published and has been fixed. They are listed because a calendar that quietly
+corrects itself is not much better than one that is wrong.</p>
+
+<table>
+  <tr><th>Was</th><th>Is</th></tr>
+  <tr><td>Mayoral control of the schools expires June 30, 2026</td><td><b>It did not.</b> The state budget enacted in late May 2026 extended it to June 30, 2028. The calendar was carrying a cliff that no longer exists.</td></tr>
+  <tr><td>Local Law 97's first compliance deadline was May 1, 2026</td><td>The first reports were due May 1, <b>2025</b>. May 1, 2026 was the second annual filing.</td></tr>
+  <tr><td>The Nunez monitor's next Rikers report lands around Nov. 15, 2026</td><td>The monitor told the court it will file <b>Sept. 30, 2026</b>, with a further report in December. The November date had been inferred from a "spring and fall" pattern the filing history does not support.</td></tr>
+  <tr><td>2026 is the 50th running of the five-borough marathon course</td><td>It is the <b>55th running</b> of the marathon and the 50th <i>anniversary</i> of the five-borough course. Only 49 five-borough races will have been run, because 2012 and 2020 were cancelled.</td></tr>
+  <tr><td>Voter registration for the general election closes Oct. 9</td><td><b>Oct. 24</b>, per the state Board of Elections.</td></tr>
+  <tr><td>The 2026 US Open begins Aug. 31</td><td><b>Aug. 30.</b> The main draw now starts on a Sunday.</td></tr>
+  <tr><td>MetLife hosts more World Cup matches than any other venue</td><td>It hosts eight, including the final. <b>Dallas hosts nine.</b></td></tr>
+  <tr><td>DC 37 is "the largest municipal union, roughly 90,000 workers"</td><td>Roughly 90,000 is what the expiring <i>contract covers</i>. The union counts some <b>150,000 members</b>. Two different things.</td></tr>
+  <tr><td>Roughly a million children return to class</td><td>About <b>793,000</b> students are enrolled in K-12 public schools, down about a tenth since 2020.</td></tr>
+  <tr><td>The Chelsea bombing injured 29 people</td><td><b>31.</b> The 29 was the count on the night.</td></tr>
+  <tr><td>The Oct. 1 housing deadlines come from City of Yes</td><td>The dates are right, the attribution was not: they come from the charter amendment voters passed in <b>November 2025</b> and from the <b>Fair Housing Framework</b> of 2023.</td></tr>
+  <tr><td>Seven cited sources</td><td>Returned <b>404</b>, including the Mayor's Management Report link and three pages on a transit authority domain that no longer exists. All replaced; a link check now runs on every build.</td></tr>
+</table>
 
 <div class="warn">
 <b>AI caution.</b> This calendar was built with AI assistance. The hearings, agendas and session days

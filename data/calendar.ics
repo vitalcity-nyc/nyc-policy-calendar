@@ -23,9 +23,10 @@ DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:City budget adoption deadline
-DESCRIPTION:The Council and the mayor must adopt the fiscal 2027 budget. 
- The final deal reveals actual funding levels for every policy priority.\
- n\nhttps://council.nyc.gov/budget/
+DESCRIPTION:The Council and the mayor adopt the budget. The Charter's har
+ d date is June 5 (section 254(d))\; in practice adoption lands by June 3
+ 0\, the last day of the fiscal year\, and the fiscal 2027 budget was ado
+ pted June 30\, 2026.\n\nhttps://council.nyc.gov/budget/
 URL:https://council.nyc.gov/budget/
 CATEGORIES:money
 END:VEVENT
@@ -249,9 +250,10 @@ DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Rikers land transfer deadline
-DESCRIPTION:A semi-annual statutory deadline to transfer unused Rikers la
- nd to the Department of Citywide Administrative Services. A progress mar
- ker for the closure plan.
+DESCRIPTION:Under the same law that sets the closure date\, the mayor mus
+ t transfer every portion of Rikers not in active use to the Department o
+ f Citywide Administrative Services every six months. The clock runs Jan.
+  1 and July 1.
 CATEGORIES:justice
 END:VEVENT
 BEGIN:VEVENT
@@ -603,6 +605,20 @@ URL:https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22440&GID=61&G=2FD0
 CATEGORIES:hearings
 END:VEVENT
 BEGIN:VEVENT
+UID:20260715-FirstRikersremediationactionplandue@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:First Rikers remediation action plan due
+DESCRIPTION:Nicholas Deml\, appointed the court's Nunez remediation manag
+ er on Feb. 23\, 2026\, is scheduled to submit his first remediation acti
+ on plan in mid-July. The court declined to impose a receivership in May 
+ 2025 and installed a remediation manager instead. Date approximate withi
+ n mid-July.\n\nhttps://www.nyc.gov/site/doc/media/nunez-reports.page
+URL:https://www.nyc.gov/site/doc/media/nunez-reports.page
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
 UID:20260715-CommitteeonFinance@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20260715
@@ -646,9 +662,8 @@ DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 SUMMARY:Transit authority financial plan update
 DESCRIPTION:The July plan carries updated revenue projections and capital
-  program status.\n\nhttps://new.mta.info/transparency/financial-informat
- ion
-URL:https://new.mta.info/transparency/financial-information
+  program status.\n\nhttps://www.mta.info/budget
+URL:https://www.mta.info/budget
 CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
@@ -931,8 +946,9 @@ DTEND;VALUE=DATE:20260726
 SUMMARY:New York adopts first US zoning resolution — 110th anniversary
 DESCRIPTION:New York enacted the nation's first comprehensive citywide zo
  ning law\, regulating building height\, bulk and use.\n\nhttps://www.nyc
- .gov/site/planning/zoning/background.page
-URL:https://www.nyc.gov/site/planning/zoning/background.page
+ .gov/assets/planning/download/pdf/about/city-planning-history/zr1916.pdf
+URL:https://www.nyc.gov/assets/planning/download/pdf/about/city-planning-
+ history/zr1916.pdf
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
@@ -986,8 +1002,8 @@ DTEND;VALUE=DATE:20260731
 SUMMARY:Black Tom explosion rocks the harbor — 110th anniversary
 DESCRIPTION:German saboteurs blew up a massive munitions depot on Black T
  om Island in New York Harbor\, shattering windows across the city.\n\nht
- tps://www.nps.gov/stli/learn/historyculture/black-tom-explosion.htm
-URL:https://www.nps.gov/stli/learn/historyculture/black-tom-explosion.htm
+ tps://www.nps.gov/articles/black-tom-wwi.htm
+URL:https://www.nps.gov/articles/black-tom-wwi.htm
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
@@ -1164,10 +1180,40 @@ DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:United States Open begins
-DESCRIPTION:Runs through Sept. 13. Major tourism and transit impact for Q
- ueens.\n\nhttps://www.usopen.org/
+DESCRIPTION:The main draw begins on a Sunday under the 15-day format and 
+ runs through Sept. 13. Qualifying and Fan Week start the week before. Ma
+ jor tourism and transit impact for Queens.\n\nhttps://www.usopen.org/
 URL:https://www.usopen.org/
 CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260831-OneyearuntilRikersmustclose@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:One year until Rikers must close
+DESCRIPTION:Administrative Code section 4-215\, from Local Law 16 of 2021
+ \, requires that by Aug. 31\, 2027 all of Rikers Island be transferred o
+ ut of the Correction Department's control and no longer used to house pe
+ ople. This marks exactly one year out.
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
+UID:20260904-DeadlineforcharterproposalstoreachtheNov@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Deadline for charter proposals to reach the November ballot
+DESCRIPTION:Mamdani's Commission on Government Efficiency finished its 10
+  public hearings and published a preliminary staff report on July 2. To 
+ put charter amendments before voters on Nov. 3\, it must file them with 
+ the city clerk at least 60 days beforehand. No filing date has been anno
+ unced\; this is the outer bound the law implies\, not a scheduled event.
+  The preliminary report points at outdoor dining\, permitting\, procurem
+ ent\, bus and street infrastructure and a rainy day fund.\n\nhttps://www
+ .nyc.gov/site/charter/reports/coge-reports.page
+URL:https://www.nyc.gov/site/charter/reports/coge-reports.page
+CATEGORIES:cityhall
 END:VEVENT
 BEGIN:VEVENT
 UID:20260908-LuigiMangionesstatemurdertrialbegins@nyc-calendar
@@ -1177,8 +1223,25 @@ DTEND;VALUE=DATE:20260909
 SUMMARY:Luigi Mangione's state murder trial begins
 DESCRIPTION:The state trial for the killing of UnitedHealthcare chief exe
  cutive Brian Thompson in Midtown. Originally set for June 8 and moved to
-  September\; the federal trial is pushed to January 2027.
+  September by Judge Gregory Carro. The separate federal case\, which car
+ ries the death penalty\, follows in January.
 CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
+UID:20260908-Free2Klaunches2000seats@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Free 2-K launches: 2\,000 seats
+DESCRIPTION:The first free 2-K seats open in four communities\, announced
+  with Governor Hochul in March\, expanding to universality within four y
+ ears. Reporting puts services beginning in September\; no exact launch d
+ ate has been announced\, so this is pegged to the start of the school ye
+ ar.\n\nhttps://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-and-
+ governor-hochul-announce-first-four-communitie
+URL:https://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-and-gove
+ rnor-hochul-announce-first-four-communitie
+CATEGORIES:cityhall
 END:VEVENT
 BEGIN:VEVENT
 UID:20260908-Firstdayofschool@nyc-calendar
@@ -1186,9 +1249,11 @@ DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:First day of school
-DESCRIPTION:The 2026-27 school year begins the day after Labor Day. Rough
- ly a million children return to class.\n\nhttps://www.schools.nyc.gov/
-URL:https://www.schools.nyc.gov/
+DESCRIPTION:The 2026-27 school year begins the day after Labor Day. Some 
+ 800\,000 children return to K-12 public school classrooms\, a number tha
+ t has fallen roughly 10 percent since 2020.\n\nhttps://www.schools.nyc.g
+ ov/about-us/reports/nycps-data-at-a-glance
+URL:https://www.schools.nyc.gov/about-us/reports/nycps-data-at-a-glance
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
@@ -1326,9 +1391,9 @@ UID:20260917-Chelseabombinginjures2910thanniversary@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-SUMMARY:Chelsea bombing injures 29 — 10th anniversary
+SUMMARY:Chelsea bombing injures 31 — 10th anniversary
 DESCRIPTION:A pressure-cooker bomb exploded on West 23rd Street in Chelse
- a\, injuring 29 people. Ahmad Khan Rahimi was arrested days later and se
+ a\, injuring 31 people. Ahmad Khan Rahimi was arrested days later and se
  ntenced to life in prison.\n\nhttps://www.justice.gov/archives/opa/pr/ch
  elsea-bomber-ahmad-khan-rahimi-convicted-executing-september-2016-bombin
  g-new-york-city
@@ -1343,10 +1408,12 @@ DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Mayor's Management Report due
 DESCRIPTION:The charter-mandated scorecard for every agency: trash\, crim
- e\, service delivery. The closest thing the city has to a report card.\n
- \nhttps://www.nyc.gov/site/operations/performance/mmr.page
-URL:https://www.nyc.gov/site/operations/performance/mmr.page
-CATEGORIES:power
+ e\, service delivery. Required by Charter section 12 no later than Sept.
+  17. This is the first full fiscal year Mamdani's agencies are judged on
+ \, though the year began before he took office.\n\nhttps://www.nyc.gov/s
+ ite/operations/reports/mmr.page
+URL:https://www.nyc.gov/site/operations/reports/mmr.page
+CATEGORIES:cityhall
 END:VEVENT
 BEGIN:VEVENT
 UID:20260918-TheNewYorkDailyTimesdebuts175thanniversa@nyc-calendar
@@ -1415,8 +1482,8 @@ DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Transit authority preliminary 2027 budget
 DESCRIPTION:A key indicator of fiscal health and service levels.\n\nhttps
- ://new.mta.info/transparency/financial-information
-URL:https://new.mta.info/transparency/financial-information
+ ://www.mta.info/budget
+URL:https://www.mta.info/budget
 CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
@@ -1445,14 +1512,31 @@ DESCRIPTION:Federal appropriations expire at midnight. New York City is h
 CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
+UID:20260930-Nunezmonitorreporttothefederalcourt@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Nunez monitor report to the federal court
+DESCRIPTION:The monitoring team told Judge Swain it intends to file on th
+ is date\, with an update on the state of the jails and on Local Law 42. 
+ The reports are the running scorecard on whether the city is curing its 
+ contempt.\n\nhttps://www.nyc.gov/site/doc/media/nunez-reports.page
+URL:https://www.nyc.gov/site/doc/media/nunez-reports.page
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
 UID:20261001-Newrentguidelinestakeeffect@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:New rent guidelines take effect
-DESCRIPTION:The board's adjustments begin applying to new and renewal lea
- ses.\n\nhttps://rentguidelinesboard.cityofnewyork.us/
-URL:https://rentguidelinesboard.cityofnewyork.us/
+DESCRIPTION:Order 58 takes effect for leases beginning Oct. 1\, 2026 thro
+ ugh Sept. 30\, 2027. The board adopted a rent freeze — 0 percent on both
+  one- and two-year leases — delivering the central promise of Mamdani's 
+ campaign.\n\nhttps://rentguidelinesboard.cityofnewyork.us/adopted-summar
+ y-of-guidelines-2026-27/
+URL:https://rentguidelinesboard.cityofnewyork.us/adopted-summary-of-guide
+ lines-2026-27/
 CATEGORIES:housing
 END:VEVENT
 BEGIN:VEVENT
@@ -1461,8 +1545,13 @@ DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Fair housing framework assessment due
-DESCRIPTION:The first-ever needs assessment and five-year affordable hous
- ing production targets for all 59 community districts.
+DESCRIPTION:The first Fair Housing Framework needs assessment and five-ye
+ ar affordable housing production targets for all 59 community districts\
+ , required by Charter section 16-a. Published every five years beginning
+  October 2026.\n\nhttps://www.nyc.gov/site/hpd/services-and-information/
+ expedited-housing.page
+URL:https://www.nyc.gov/site/hpd/services-and-information/expedited-housi
+ ng.page
 CATEGORIES:housing
 END:VEVENT
 BEGIN:VEVENT
@@ -1470,9 +1559,15 @@ UID:20261001-CityofYesfirstaffordablehousingdistrictl@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-SUMMARY:City of Yes: first affordable housing district list
-DESCRIPTION:City Planning publishes the 12 community districts with the l
- owest affordable housing production.
+SUMMARY:The 12 lowest-producing community districts named
+DESCRIPTION:City Planning publishes the list of the 12 community district
+ s producing the least affordable housing. It comes from the affordable h
+ ousing fast track voters approved in November 2025 (Charter section 197-
+ f)\, not from City of Yes. Projects there get an expedited process start
+ ing Jan. 1\, 2027.\n\nhttps://www.nyc.gov/site/hpd/services-and-informat
+ ion/expedited-housing.page
+URL:https://www.nyc.gov/site/hpd/services-and-information/expedited-housi
+ ng.page
 CATEGORIES:housing
 END:VEVENT
 BEGIN:VEVENT
@@ -1578,8 +1673,8 @@ DTEND;VALUE=DATE:20261027
 SUMMARY:The Yankees' dynasty begins — 30th anniversary
 DESCRIPTION:The New York Yankees won the World Series over the Atlanta Br
  aves\, their first title since 1978 and the start of a late-1990s dynast
- y.\n\nhttps://baseballhall.org/discover/short-stops/1996-world-series
-URL:https://baseballhall.org/discover/short-stops/1996-world-series
+ y.\n\nhttps://baseballhall.org/hall-of-famers/torre-joe
+URL:https://baseballhall.org/hall-of-famers/torre-joe
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
@@ -1614,10 +1709,14 @@ DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:New York City Marathon: 50 years of the five-borough course
-DESCRIPTION:The marathon first ran through all five boroughs in 1976 for 
- the bicentennial\, making 2026 the 50th running of the modern course.\n\
- nhttps://www.nyrr.org/tcsnycmarathon
-URL:https://www.nyrr.org/tcsnycmarathon
+DESCRIPTION:The 55th running of the marathon\, and the 50th anniversary o
+ f the five-borough course\, which was first run in 1976 for the bicenten
+ nial. It is not the 50th five-borough running — that count is 49\, becau
+ se the race was cancelled in 2012 for Hurricane Sandy and in 2020 for Co
+ vid.\n\nhttps://www.nyrr.org/media-center/press-release/2026_0203_50anni
+ versary5boromarathon
+URL:https://www.nyrr.org/media-center/press-release/2026_0203_50anniversa
+ ry5boromarathon
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
@@ -1665,11 +1764,9 @@ SUMMARY:The Schaghen letter records the 'purchase' of Manhattan — 400th a
 DESCRIPTION:A letter by Dutch official Pieter Schaghen\, dated Nov. 5\, 1
  626\, reported that colonists had 'purchased' the island of Manhattan fr
  om its Native inhabitants for goods worth 60 guilders. It is the only co
- ntemporary document of the transaction.\n\nhttps://www.newnetherlandinst
- itute.org/history-and-heritage/additional-resources/dutch-treats/peter-s
- chaghen-letter/
-URL:https://www.newnetherlandinstitute.org/history-and-heritage/additiona
- l-resources/dutch-treats/peter-schaghen-letter/
+ ntemporary document of the transaction.\n\nhttps://newnetherlandinstitut
+ e.org/content/peter-schagen-letter/
+URL:https://newnetherlandinstitute.org/content/peter-schagen-letter/
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
@@ -1678,11 +1775,13 @@ DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:DC 37's contract expires
-DESCRIPTION:The largest municipal union\, roughly 90\,000 workers. The ex
- piring 2021-2026 agreement sets the pattern for the teachers' union and 
- everyone else. The first major labor test of this administration.\n\nhtt
- ps://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026
- /dc-37-2021-2026-moa.pdf
+DESCRIPTION:The 2021-2026 agreement covers nearly 90\,000 city employees\
+ , about a quarter of the municipal workforce. DC 37 is the city's larges
+ t union\, counting some 150\,000 members across sectors. The deal that r
+ eplaces this one sets the pattern for the teachers and everyone else\, a
+ nd is the first major labor test of this administration.\n\nhttps://www.
+ nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026/dc-37-20
+ 21-2026-moa.pdf
 URL:https://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/202
  1-2026/dc-37-2021-2026-moa.pdf
 CATEGORIES:power
@@ -1730,11 +1829,14 @@ UID:20261115-NunezmonitorreportonRikers@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:Nunez monitor report on Rikers
-DESCRIPTION:The second semi-annual report to Judge Swain. It effectively 
- grades the administration's first year of jail management\; a poor grade
-  accelerates the receivership timeline.
-CATEGORIES:justice
+SUMMARY:Citywide statement of needs
+DESCRIPTION:Required by Charter section 204 each year by Nov. 15. It sign
+ als which city facilities the administration intends to open\, close or 
+ expand — an early tell on siting fights to come.\n\nhttps://codelibrary.
+ amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1
+URL:https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0
+ -0-0-1
+CATEGORIES:cityhall
 END:VEVENT
 BEGIN:VEVENT
 UID:20261116-ThefallofFortWashington250thanniversary@nyc-calendar
@@ -1810,14 +1912,28 @@ URL:https://www.un.org/en/about-us/history-of-the-un
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
+UID:20261215-Nunezmonitorreportonthe22ndmonitoringper@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Nunez monitor report on the 22nd monitoring period
+DESCRIPTION:The monitor's December report\, assessing compliance for the 
+ 22nd monitoring period. It effectively grades the administration's first
+  year of jail management. Date approximate: the monitor has said Decembe
+ r but has not fixed a day.\n\nhttps://www.nyc.gov/site/doc/media/nunez-r
+ eports.page
+URL:https://www.nyc.gov/site/doc/media/nunez-reports.page
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
 UID:20261215-Transitboardadoptsthe2027budget@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Transit board adopts the 2027 budget
-DESCRIPTION:The final operating budget for the coming year.\n\nhttps://ne
+DESCRIPTION:The final operating budget for the coming year.\n\nhttps://ww
  w.mta.info/transparency/board-and-committee-meetings
-URL:https://new.mta.info/transparency/board-and-committee-meetings
+URL:https://www.mta.info/transparency/board-and-committee-meetings
 CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
@@ -1843,6 +1959,51 @@ DESCRIPTION:The lame-duck period for termed-out legislators\; watch for l
 CATEGORIES:power
 END:VEVENT
 BEGIN:VEVENT
+UID:20270101-Mamdanisfirstyearinoffice@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Mamdani's first year in office
+DESCRIPTION:One year since the inaugural address of Jan. 1\, 2026. A cust
+ omary peg for retrospectives rather than a scheduled event.
+CATEGORIES:cityhall
+END:VEVENT
+BEGIN:VEVENT
+UID:20270101-Affordablehousingfasttrackbegins@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Affordable housing fast track begins
+DESCRIPTION:Affordable housing projects in the 12 lowest-producing commun
+ ity districts get a shortened approval process\, under the charter amend
+ ment voters approved in November 2025.\n\nhttps://www.nyc.gov/site/hpd/s
+ ervices-and-information/expedited-housing.page
+URL:https://www.nyc.gov/site/hpd/services-and-information/expedited-housi
+ ng.page
+CATEGORIES:housing
+END:VEVENT
+BEGIN:VEVENT
+UID:20270101-Rikerslandtransferdeadline@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Rikers land transfer deadline
+DESCRIPTION:The semi-annual deadline to move unused Rikers land to the De
+ partment of Citywide Administrative Services\, seven months before the i
+ sland must close.
+CATEGORIES:justice
+END:VEVENT
+BEGIN:VEVENT
+UID:20270105-JuryselectioninMangionesfederaltrial@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Jury selection in Mangione's federal trial
+DESCRIPTION:Jury selection begins in the federal capital case before Judg
+ e Margaret Garnett. Opening statements are set for Jan. 25.
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
 UID:20270106-Thestatelegislativesessionconvenes@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20270106
@@ -1857,6 +2018,47 @@ URL:https://www.nysenate.gov/calendar
 CATEGORIES:power
 END:VEVENT
 BEGIN:VEVENT
+UID:20270116-Preliminarybudgetforfiscal2028@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Preliminary budget for fiscal 2028
+DESCRIPTION:Mamdani's second budget\, due under Charter section 236. Note
+  the February deadline does not apply: the extension exists only in the 
+ year following a mayoral election\, which was 2026.\n\nhttps://codelibra
+ ry.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1
+URL:https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0
+ -0-0-1
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20270116-Drafttenyearcapitalstrategy@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Draft ten-year capital strategy
+DESCRIPTION:Published alongside the preliminary budget in odd-numbered ye
+ ars under Charter section 228. It sets the decade's capital priorities —
+  housing\, transit\, infrastructure — and is rarely watched relative to 
+ its consequences.\n\nhttps://codelibrary.amlegal.com/codes/newyorkcity/l
+ atest/NYCcharter/0-0-0-1
+URL:https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0
+ -0-0-1
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20270130-PreliminaryMayorsManagementReport@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Preliminary Mayor's Management Report
+DESCRIPTION:The mid-year performance report\, required by Charter section
+  12 no later than Jan. 30.\n\nhttps://www.nyc.gov/site/operations/report
+ s/mmr.page
+URL:https://www.nyc.gov/site/operations/reports/mmr.page
+CATEGORIES:cityhall
+END:VEVENT
+BEGIN:VEVENT
 UID:20270201-Stateexecutivebudgetdue@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20270201
@@ -1868,6 +2070,46 @@ DESCRIPTION:In the year following a gubernatorial election\, the state co
  ost consequential document of the Albany year.\n\nhttps://www.budget.ny.
  gov/
 URL:https://www.budget.ny.gov/
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20270325-Councilpreliminarybudgethearingsconclude@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Council preliminary budget hearings conclude
+DESCRIPTION:The Council must hold hearings on the preliminary budget by t
+ his date under Charter section 247. Agency heads testify\; it is the yea
+ r's most sustained public interrogation of the administration.\n\nhttps:
+ //codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1
+URL:https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0
+ -0-0-1
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20270401-Statebudgetdue@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:State budget due
+DESCRIPTION:The state constitution requires a budget by April 1. It gates
+  the money for child care and for fare-free buses\, and it is the realis
+ tic vehicle for any millionaire or corporate tax increase\, all of which
+  require Albany.\n\nhttps://www.nysenate.gov/new-york-state-budget
+URL:https://www.nysenate.gov/new-york-state-budget
+CATEGORIES:power
+END:VEVENT
+BEGIN:VEVENT
+UID:20270401-Councilspreliminarybudgetresponse@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Council's preliminary budget response
+DESCRIPTION:The Council's formal counter-document\, due under Charter sec
+ tion 247. The opening position of the budget negotiation.\n\nhttps://cod
+ elibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1
+URL:https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0
+ -0-0-1
 CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
@@ -1909,6 +2151,19 @@ URL:https://www.britannica.com/topic/Studio-54
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
+UID:20270426-Tenyearcapitalstrategyissued@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Ten-year capital strategy issued
+DESCRIPTION:The mayor's final capital strategy\, due under Charter sectio
+ n 248 in odd-numbered years.\n\nhttps://codelibrary.amlegal.com/codes/ne
+ wyorkcity/latest/NYCcharter/0-0-0-1
+URL:https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0
+ -0-0-1
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
 UID:20270429-LeverHousebringstheglasscurtainwalltoPar@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20270429
@@ -1921,6 +2176,44 @@ DESCRIPTION:Gordon Bunshaft's Lever House\, for Skidmore\, Owings & Merri
  nyc.gov/agencies/lpc/lp/1277.pdf
 URL:http://s-media.nyc.gov/agencies/lpc/lp/1277.pdf
 CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270501-Executivebudgetforfiscal2028@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Executive budget for fiscal 2028
+DESCRIPTION:The mayor's revised budget\, due under Charter section 249\, 
+ updated for whatever Albany did on April 1.\n\nhttps://codelibrary.amleg
+ al.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1
+URL:https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0
+ -0-0-1
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20270501-LocalLaw97annualemissionsreportdue@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Local Law 97 annual emissions report due
+DESCRIPTION:Large buildings must file annual emissions reports each May 1
+ . The first were due May 1\, 2025\, not 2026\; penalties run about $268 
+ per metric ton of carbon dioxide equivalent over a building's limit.\n\n
+ https://accelerator.nyc/ll97
+URL:https://accelerator.nyc/ll97
+CATEGORIES:climate
+END:VEVENT
+BEGIN:VEVENT
+UID:20270506-RentGuidelinesBoardpreliminaryvote@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Rent Guidelines Board preliminary vote
+DESCRIPTION:The board votes on a range for the 2027-28 rent adjustment. D
+ ate estimated from recent practice: Apr. 30 in 2024 and 2025\, May 7 in 
+ 2026.\n\nhttps://rentguidelinesboard.cityofnewyork.us/
+URL:https://rentguidelinesboard.cityofnewyork.us/
+CATEGORIES:housing
 END:VEVENT
 BEGIN:VEVENT
 UID:20270506-TrinityChurchreceivesitsroyalcharter330t@nyc-calendar
@@ -1960,6 +2253,32 @@ URL:https://www.britannica.com/biography/Charles-Lindbergh
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
+UID:20270624-RentGuidelinesBoardfinalvote@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:Rent Guidelines Board final vote
+DESCRIPTION:The rent adjustment for roughly a million rent-stabilized apa
+ rtments\, for leases beginning October 2027. Date estimated from recent 
+ practice (June 17\, 2024\; June 30\, 2025\; June 25\, 2026).\n\nhttps://
+ rentguidelinesboard.cityofnewyork.us/
+URL:https://rentguidelinesboard.cityofnewyork.us/
+CATEGORIES:housing
+END:VEVENT
+BEGIN:VEVENT
+UID:20270630-Fiscal2028budgetadoption@nyc-calendar
+DTSTAMP:20260714T174129Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Fiscal 2028 budget adoption
+DESCRIPTION:The Charter's trigger date is June 5 (section 254)\, but in p
+ ractice adoption lands at the end of June: the fiscal 2027 deal was stru
+ ck and voted on June 30\, 2026\, hours before the deadline. Date estimat
+ ed from that practice.\n\nhttps://council.nyc.gov/budget/
+URL:https://council.nyc.gov/budget/
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
 UID:20270704-SlaveryendsinNewYorkState200thanniversar@nyc-calendar
 DTSTAMP:20260714T170716Z
 DTSTART;VALUE=DATE:20270704
@@ -1992,10 +2311,8 @@ DTEND;VALUE=DATE:20270729
 SUMMARY:Silent Parade marches down Fifth Avenue — 110th anniversary
 DESCRIPTION:Thousands of Black New Yorkers marched in silence down Fifth 
  Avenue to protest lynchings and the East St. Louis massacre.\n\nhttps://
- www.loc.gov/exhibitions/naacp/the-new-negro-movement/about-this-exhibiti
- on/marching-for-change/the-silent-protest-parade/
-URL:https://www.loc.gov/exhibitions/naacp/the-new-negro-movement/about-th
- is-exhibition/marching-for-change/the-silent-protest-parade/
+ guides.loc.gov/chronicling-america-silent-protest-parade
+URL:https://guides.loc.gov/chronicling-america-silent-protest-parade
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT

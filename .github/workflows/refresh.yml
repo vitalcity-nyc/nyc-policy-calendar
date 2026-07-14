@@ -38,6 +38,11 @@ jobs:
           SOCRATA_APP_TOKEN: ${{ secrets.SOCRATA_APP_TOKEN }}
         run: node build.mjs
 
+      # A citation that 404s is a failed citation. This does not fail the build —
+      # a dead link should not take the calendar down — but it puts the rot in the log.
+      - name: Check cited sources for link rot
+        run: node scripts/check-links.mjs || true
+
       - name: Commit if the calendar changed
         run: |
           git config user.name "github-actions[bot]"

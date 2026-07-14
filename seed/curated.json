@@ -1,67 +1,613 @@
 {
-  "_comment": "Curated events that no API publishes: cultural and sporting moments, statutory deadlines, elections, book releases and one-off anniversaries not present in the history corpus. 'significance' is a 0-100 editorial score, the only hand-set score in the system; everything else is computed. See methodology.html. Titles, notes and source URLs carried forward from the original hand-built calendar.",
-
-  "events": [
-    { "date": "2026-07-19", "title": "World Cup final at MetLife Stadium", "note": "3pm ET. The largest single sporting event ever hosted in the New York region. Weeks of security, transit and crowd planning converge on this day.", "strand": "city-life", "significance": 100, "url": "https://nynjfwc26.com/schedule/" },
-    { "date": "2026-07-05", "title": "World Cup round of 16 at MetLife Stadium", "note": "Knockout stage, 4pm ET.", "strand": "city-life", "significance": 82, "url": "https://nynjfwc26.com/schedule/" },
-    { "date": "2026-06-30", "title": "World Cup round of 32 at MetLife Stadium", "note": "Knockout stage begins, 5pm ET.", "strand": "city-life", "significance": 80, "url": "https://nynjfwc26.com/schedule/" },
-    { "date": "2026-06-13", "title": "World Cup: Brazil vs. Morocco at MetLife Stadium", "note": "Group C opener, 6pm ET. First of eight MetLife matches, the most of any World Cup venue.", "strand": "city-life", "significance": 78, "url": "https://nynjfwc26.com/schedule/" },
-    { "date": "2026-06-16", "title": "World Cup: France vs. Senegal at MetLife Stadium", "note": "Group I, 3pm ET.", "strand": "city-life", "significance": 72, "url": "https://nynjfwc26.com/schedule/" },
-    { "date": "2026-06-22", "title": "World Cup: Norway vs. Senegal at MetLife Stadium", "note": "Group I, 8pm ET.", "strand": "city-life", "significance": 72, "url": "https://nynjfwc26.com/schedule/" },
-    { "date": "2026-06-25", "title": "World Cup: Ecuador vs. Germany at MetLife Stadium", "note": "Group E, 4pm ET.", "strand": "city-life", "significance": 72, "url": "https://nynjfwc26.com/schedule/" },
-    { "date": "2026-06-27", "title": "World Cup: Panama vs. England at MetLife Stadium", "note": "Group L, 5pm ET.", "strand": "city-life", "significance": 72, "url": "https://nynjfwc26.com/schedule/" },
-
-    { "date": "2026-07-04", "title": "America's 250th birthday", "note": "New York Harbor hosts the largest fleet of tall ships and naval vessels ever assembled, echoing the 1976 bicentennial and 1986 Liberty Weekend. Coincides with the 50th Macy's Fourth of July fireworks.", "strand": "city-life", "significance": 96, "url": "https://america250.org/" },
-    { "date": "2026-11-03", "title": "General election", "note": "Governor (Hochul vs. likely Blakeman), Congress and state legislative races. No mayoral race this year. Hochul-Mamdani coordination is critical for Democratic turnout.", "strand": "democracy", "significance": 92, "url": "https://www.elections.ny.gov/" },
-    { "date": "2026-06-23", "title": "State primary election", "note": "Statewide primaries including the governor's race (Hochul vs. Delgado), plus legislative and congressional contests.", "strand": "democracy", "significance": 80, "url": "https://www.elections.ny.gov/" },
-    { "date": "2026-11-26", "title": "The 100th Macy's Thanksgiving Day Parade", "note": "A milestone parade; the count reaches 100 in 2026 because the parade was suspended during the Second World War. A year-long celebration campaign surrounds it.", "strand": "city-life", "significance": 88 },
-    { "date": "2026-09-22", "title": "United Nations General Assembly: leaders' week", "note": "World leaders descend on the city for the high-level debate. Major security, traffic and diplomatic consequences for Midtown.", "strand": "city-life", "significance": 78, "approx": true },
-    { "date": "2026-11-01", "title": "New York City Marathon: 50 years of the five-borough course", "note": "The marathon first ran through all five boroughs in 1976 for the bicentennial, making 2026 the 50th running of the modern course.", "strand": "city-life", "significance": 78, "approx": true, "url": "https://www.nyrr.org/tcsnycmarathon" },
-    { "date": "2026-08-31", "title": "United States Open begins", "note": "Runs through Sept. 13. Major tourism and transit impact for Queens.", "strand": "city-life", "significance": 62, "url": "https://www.usopen.org/" },
-    { "date": "2026-05-04", "title": "Met Gala", "note": "The Costume Institute benefit at the Metropolitan Museum of Art.", "strand": "city-life", "significance": 52, "approx": true },
-    { "date": "2026-06-01", "title": "American LGBTQ+ Museum opens", "note": "The nation's first museum dedicated to LGBTQ+ history, inside the New-York Historical Society's Tang Wing.", "strand": "city-life", "significance": 60, "approx": true },
-    { "date": "2026-09-09", "title": "FDNY ceremony for the 25th anniversary of 9/11", "note": "The official Fire Department ceremony honoring the 343 members killed on Sept. 11, 2001 and the more than 400 who have since died of World Trade Center-related illness. Held at the Staten Island FerryHawks' stadium as part of a year-long commemoration.", "strand": "city-life", "significance": 80 },
-    { "date": "2026-09-08", "title": "First day of school", "note": "The 2026-27 school year begins the day after Labor Day. Roughly a million children return to class.", "strand": "city-life", "significance": 66, "approx": true, "url": "https://www.schools.nyc.gov/" },
-    { "date": "2026-09-08", "title": "Luigi Mangione's state murder trial begins", "note": "The state trial for the killing of UnitedHealthcare chief executive Brian Thompson in Midtown. Originally set for June 8 and moved to September; the federal trial is pushed to January 2027.", "strand": "city-life", "significance": 74 },
-
-    { "date": "2026-06-30", "title": "City budget adoption deadline", "note": "The Council and the mayor must adopt the fiscal 2027 budget. The final deal reveals actual funding levels for every policy priority.", "strand": "money", "significance": 76, "url": "https://council.nyc.gov/budget/" },
-    { "date": "2026-06-30", "title": "Mayoral control of the schools expires", "note": "The current schools governance law sunsets. Continuing or changing it requires action in Albany.", "strand": "power", "significance": 74 },
-    { "date": "2026-06-25", "title": "Rent Guidelines Board final vote", "note": "The final rent adjustment for roughly a million rent-stabilized apartments, covering leases from October 2026 to September 2027. The first real test of Mamdani's appointees.", "strand": "housing", "significance": 82, "approx": true, "url": "https://rentguidelinesboard.cityofnewyork.us/" },
-    { "date": "2026-05-05", "title": "Rent Guidelines Board preliminary vote", "note": "The board votes on a range for the rent adjustment, the first public clash between tenant advocates and owner representatives.", "strand": "housing", "significance": 64, "approx": true, "url": "https://rentguidelinesboard.cityofnewyork.us/" },
-    { "date": "2026-10-01", "title": "New rent guidelines take effect", "note": "The board's adjustments begin applying to new and renewal leases.", "strand": "housing", "significance": 58, "url": "https://rentguidelinesboard.cityofnewyork.us/" },
-    { "date": "2026-08-31", "title": "One year until Rikers must close", "note": "The statutory deadline to close Rikers Island is Aug. 31, 2027. This marks exactly one year out, and is a fixed point for advocacy and coverage.", "strand": "justice", "significance": 72 },
-    { "date": "2026-11-06", "title": "DC 37's contract expires", "note": "The largest municipal union, roughly 90,000 workers. The expiring 2021-2026 agreement sets the pattern for the teachers' union and everyone else. The first major labor test of this administration.", "strand": "power", "significance": 70, "url": "https://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026/dc-37-2021-2026-moa.pdf" },
-    { "date": "2026-05-01", "title": "Local Law 97's first compliance deadline", "note": "First-year emissions reports and good-faith-effort filings are due for large buildings, with penalties around $268 per ton of carbon dioxide over the limit. The biggest climate enforcement moment of the year.", "strand": "climate", "significance": 68, "url": "https://accelerator.nyc/ll97" },
-    { "date": "2026-08-29", "title": "Local Law 97 extended filing deadline", "note": "The final deadline for buildings that paid the $60 extension fee in June.", "strand": "climate", "significance": 42, "url": "https://accelerator.nyc/ll97" },
-    { "date": "2026-09-30", "title": "Federal fiscal year ends; shutdown risk", "note": "Federal appropriations expire at midnight. New York City is heavily exposed to disruptions in housing vouchers, Medicaid, transit and disaster aid.", "strand": "money", "significance": 66 },
-    { "date": "2026-09-17", "title": "Mayor's Management Report due", "note": "The charter-mandated scorecard for every agency: trash, crime, service delivery. The closest thing the city has to a report card.", "strand": "power", "significance": 58, "url": "https://www.nyc.gov/site/operations/performance/mmr.page" },
-    { "date": "2026-07-01", "title": "The city's fiscal year 2027 begins", "note": "Budget implementation starts.", "strand": "money", "significance": 44 },
-    { "date": "2026-07-01", "title": "Rikers land transfer deadline", "note": "A semi-annual statutory deadline to transfer unused Rikers land to the Department of Citywide Administrative Services. A progress marker for the closure plan.", "strand": "justice", "significance": 40 },
-    { "date": "2026-07-15", "title": "Transit authority financial plan update", "note": "The July plan carries updated revenue projections and capital program status.", "strand": "money", "significance": 38, "approx": true, "url": "https://new.mta.info/transparency/financial-information" },
-    { "date": "2026-09-25", "title": "Transit authority preliminary 2027 budget", "note": "A key indicator of fiscal health and service levels.", "strand": "money", "significance": 40, "approx": true, "url": "https://new.mta.info/transparency/financial-information" },
-    { "date": "2026-12-15", "title": "Transit board adopts the 2027 budget", "note": "The final operating budget for the coming year.", "strand": "money", "significance": 44, "approx": true, "url": "https://new.mta.info/transparency/board-and-committee-meetings" },
-    { "date": "2026-11-25", "title": "November financial plan update", "note": "The city updates revenue and spending projections, setting the baseline for the next budget cycle.", "strand": "money", "significance": 38, "approx": true, "url": "https://www.nyc.gov/site/omb/index.page" },
-    { "date": "2026-11-15", "title": "Nunez monitor report on Rikers", "note": "The second semi-annual report to Judge Swain. It effectively grades the administration's first year of jail management; a poor grade accelerates the receivership timeline.", "strand": "justice", "significance": 60, "approx": true },
-    { "date": "2026-10-01", "title": "Fair housing framework assessment due", "note": "The first-ever needs assessment and five-year affordable housing production targets for all 59 community districts.", "strand": "housing", "significance": 52, "approx": true },
-    { "date": "2026-10-01", "title": "City of Yes: first affordable housing district list", "note": "City Planning publishes the 12 community districts with the lowest affordable housing production.", "strand": "housing", "significance": 50, "approx": true },
-    { "date": "2026-10-01", "title": "Federal fiscal year 2027 begins", "note": "Watch for continuing resolutions and shutdown risk affecting city funding.", "strand": "money", "significance": 36 },
-    { "date": "2026-10-24", "title": "Voter registration deadline", "note": "Registration applications must be received by a board of elections by this date to vote in the Nov. 3 general election. Confirmed against the state Board of Elections' 2026 deadlines poster.", "strand": "democracy", "significance": 62, "url": "https://elections.ny.gov/registration-and-voting-deadlines" },
-    { "date": "2026-10-24", "title": "Early voting begins", "note": "The nine-day early voting period for the general election runs through Nov. 1. Polls are open 6am to 9pm on Election Day itself.", "strand": "democracy", "significance": 58, "url": "https://elections.ny.gov/2026-election-deadlines-poster" },
-    { "date": "2026-10-24", "title": "Last day to request a mail ballot", "note": "The final day to apply for a general election mail ballot online or by mail. In person at a county board, the deadline is Nov. 2.", "strand": "democracy", "significance": 50, "url": "https://elections.ny.gov/registration-and-voting-deadlines" },
-    { "date": "2026-11-01", "title": "Early voting ends", "note": "The last of the nine early voting days before Tuesday's election.", "strand": "democracy", "significance": 46, "url": "https://elections.ny.gov/2026-election-deadlines-poster" },
-    { "date": "2026-11-03", "title": "Mail ballots must be postmarked or returned", "note": "Completed mail ballots must be postmarked, or returned in person, by Election Day.", "strand": "democracy", "significance": 48, "url": "https://elections.ny.gov/registration-and-voting-deadlines" },
-    { "date": "2026-11-10", "title": "Last day for mail ballots to arrive", "note": "Postmarked mail ballots must reach the county board of elections by this date to be counted. In close races, the result is not final until they are.", "strand": "democracy", "significance": 52, "url": "https://elections.ny.gov/registration-and-voting-deadlines" },
-
-    { "date": "2027-01-06", "title": "The state legislative session convenes", "note": "The Legislature returns to Albany. The session opens on the first Wednesday after the first Monday in January; the exact date should be confirmed against the Senate calendar. Session days will begin appearing on this calendar automatically once Albany publishes them.", "strand": "power", "significance": 60, "approx": true, "url": "https://www.nysenate.gov/calendar" },
-    { "date": "2027-02-01", "title": "State executive budget due", "note": "In the year following a gubernatorial election, the state constitution requires the governor's budget by Feb. 1. It determines city tax authority, transit funding and Medicaid cost-sharing — the single most consequential document of the Albany year.", "strand": "money", "significance": 68, "url": "https://www.budget.ny.gov/" },
-    { "date": "2026-12-28", "title": "Albany post-election positioning", "note": "The lame-duck period for termed-out legislators; watch for late activity on pending bills.", "strand": "power", "significance": 30, "approx": true },
-
-    { "date": "2026-07-03", "title": "Liberty Weekend, 40 years on", "note": "In July 1986 the Statue of Liberty's centennial and rededication drew the largest tall-ship parade in modern history, with Reagan presiding.", "strand": "anniversary", "significance": 56 },
-    { "date": "2026-07-12", "title": "The 1976 Democratic convention, 50 years on", "note": "Fifty years since the convention at Madison Square Garden nominated Carter, in the depths of the city's fiscal crisis.", "strand": "anniversary", "significance": 50 },
-    { "date": "2026-07-29", "title": "Son of Sam, 50 years on", "note": "On July 29, 1976, David Berkowitz began the series of attacks that terrorized the city for a year.", "strand": "anniversary", "significance": 54 },
-
-    { "date": "2026-06-23", "title": "City of Fortune by Mason B. Williams", "note": "A sweeping history of contemporary New York City from the fiscal crisis to Covid: who gained, who was priced out, and how the inequality was built. (W.W. Norton)", "strand": "books", "significance": 34 },
-    { "date": "2026-06-23", "title": "Unwinding Privatization, ed. Alexander et al.", "note": "A policy volume on where privatization failed and what re-municipalization looks like. (MIT Press)", "strand": "books", "significance": 28 },
-    { "date": "2026-08-01", "title": "Reinventing Transit by Baruch Feigenbaum", "note": "A reform agenda for American transit: governance, competition, service redesign and technology. (Reason Foundation)", "strand": "books", "significance": 26 }
-  ]
+ "_comment": "Curated events that no API publishes: cultural and sporting moments, statutory deadlines, elections, book releases and one-off anniversaries not present in the history corpus. 'significance' is a 0-100 editorial score, the only hand-set score in the system; everything else is computed. See methodology.html. Titles, notes and source URLs carried forward from the original hand-built calendar.",
+ "events": [
+  {
+   "date": "2026-07-19",
+   "title": "World Cup final at MetLife Stadium",
+   "note": "3pm ET. The largest single sporting event ever hosted in the New York region. Weeks of security, transit and crowd planning converge on this day.",
+   "strand": "city-life",
+   "significance": 100,
+   "url": "https://nynjfwc26.com/schedule/"
+  },
+  {
+   "date": "2026-07-05",
+   "title": "World Cup round of 16 at MetLife Stadium",
+   "note": "Knockout stage, 4pm ET.",
+   "strand": "city-life",
+   "significance": 82,
+   "url": "https://nynjfwc26.com/schedule/"
+  },
+  {
+   "date": "2026-06-30",
+   "title": "World Cup round of 32 at MetLife Stadium",
+   "note": "Knockout stage begins, 5pm ET.",
+   "strand": "city-life",
+   "significance": 80,
+   "url": "https://nynjfwc26.com/schedule/"
+  },
+  {
+   "date": "2026-06-13",
+   "title": "World Cup: Brazil vs. Morocco at MetLife Stadium",
+   "note": "Group C opener, 6pm ET. One of eight matches at MetLife, which hosts the final. Dallas hosts nine, the tournament high.",
+   "strand": "city-life",
+   "significance": 78,
+   "url": "https://nynjfwc26.com/schedule/"
+  },
+  {
+   "date": "2026-06-16",
+   "title": "World Cup: France vs. Senegal at MetLife Stadium",
+   "note": "Group I, 3pm ET.",
+   "strand": "city-life",
+   "significance": 72,
+   "url": "https://nynjfwc26.com/schedule/"
+  },
+  {
+   "date": "2026-06-22",
+   "title": "World Cup: Norway vs. Senegal at MetLife Stadium",
+   "note": "Group I, 8pm ET.",
+   "strand": "city-life",
+   "significance": 72,
+   "url": "https://nynjfwc26.com/schedule/"
+  },
+  {
+   "date": "2026-06-25",
+   "title": "World Cup: Ecuador vs. Germany at MetLife Stadium",
+   "note": "Group E, 4pm ET.",
+   "strand": "city-life",
+   "significance": 72,
+   "url": "https://nynjfwc26.com/schedule/"
+  },
+  {
+   "date": "2026-06-27",
+   "title": "World Cup: Panama vs. England at MetLife Stadium",
+   "note": "Group L, 5pm ET.",
+   "strand": "city-life",
+   "significance": 72,
+   "url": "https://nynjfwc26.com/schedule/"
+  },
+  {
+   "date": "2026-07-04",
+   "title": "America's 250th birthday",
+   "note": "New York Harbor hosts the largest fleet of tall ships and naval vessels ever assembled, echoing the 1976 bicentennial and 1986 Liberty Weekend. Coincides with the 50th Macy's Fourth of July fireworks.",
+   "strand": "city-life",
+   "significance": 96,
+   "url": "https://america250.org/"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "General election",
+   "note": "Governor (Hochul vs. likely Blakeman), Congress and state legislative races. No mayoral race this year. Hochul-Mamdani coordination is critical for Democratic turnout.",
+   "strand": "democracy",
+   "significance": 92,
+   "url": "https://www.elections.ny.gov/"
+  },
+  {
+   "date": "2026-06-23",
+   "title": "State primary election",
+   "note": "Statewide primaries including the governor's race (Hochul vs. Delgado), plus legislative and congressional contests.",
+   "strand": "democracy",
+   "significance": 80,
+   "url": "https://www.elections.ny.gov/"
+  },
+  {
+   "date": "2026-11-26",
+   "title": "The 100th Macy's Thanksgiving Day Parade",
+   "note": "A milestone parade; the count reaches 100 in 2026 because the parade was suspended during the Second World War. A year-long celebration campaign surrounds it.",
+   "strand": "city-life",
+   "significance": 88
+  },
+  {
+   "date": "2026-09-22",
+   "title": "United Nations General Assembly: leaders' week",
+   "note": "World leaders descend on the city for the high-level debate. Major security, traffic and diplomatic consequences for Midtown.",
+   "strand": "city-life",
+   "significance": 78,
+   "approx": true
+  },
+  {
+   "date": "2026-11-01",
+   "title": "New York City Marathon: 50 years of the five-borough course",
+   "note": "The 55th running of the marathon, and the 50th anniversary of the five-borough course, which was first run in 1976 for the bicentennial. It is not the 50th five-borough running — that count is 49, because the race was cancelled in 2012 for Hurricane Sandy and in 2020 for Covid.",
+   "strand": "city-life",
+   "significance": 78,
+   "url": "https://www.nyrr.org/media-center/press-release/2026_0203_50anniversary5boromarathon"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "United States Open begins",
+   "note": "The main draw begins on a Sunday under the 15-day format and runs through Sept. 13. Qualifying and Fan Week start the week before. Major tourism and transit impact for Queens.",
+   "strand": "city-life",
+   "significance": 62,
+   "url": "https://www.usopen.org/"
+  },
+  {
+   "date": "2026-05-04",
+   "title": "Met Gala",
+   "note": "The Costume Institute benefit at the Metropolitan Museum of Art.",
+   "strand": "city-life",
+   "significance": 52,
+   "approx": true
+  },
+  {
+   "date": "2026-06-01",
+   "title": "American LGBTQ+ Museum opens",
+   "note": "The nation's first museum dedicated to LGBTQ+ history, inside the New-York Historical Society's Tang Wing.",
+   "strand": "city-life",
+   "significance": 60,
+   "approx": true
+  },
+  {
+   "date": "2026-09-09",
+   "title": "FDNY ceremony for the 25th anniversary of 9/11",
+   "note": "The official Fire Department ceremony honoring the 343 members killed on Sept. 11, 2001 and the more than 400 who have since died of World Trade Center-related illness. Held at the Staten Island FerryHawks' stadium as part of a year-long commemoration.",
+   "strand": "city-life",
+   "significance": 80
+  },
+  {
+   "date": "2026-09-08",
+   "title": "First day of school",
+   "note": "The 2026-27 school year begins the day after Labor Day. Some 800,000 children return to K-12 public school classrooms, a number that has fallen roughly 10 percent since 2020.",
+   "strand": "city-life",
+   "significance": 66,
+   "approx": true,
+   "url": "https://www.schools.nyc.gov/about-us/reports/nycps-data-at-a-glance"
+  },
+  {
+   "date": "2026-09-08",
+   "title": "Luigi Mangione's state murder trial begins",
+   "note": "The state trial for the killing of UnitedHealthcare chief executive Brian Thompson in Midtown. Originally set for June 8 and moved to September by Judge Gregory Carro. The separate federal case, which carries the death penalty, follows in January.",
+   "strand": "city-life",
+   "significance": 74
+  },
+  {
+   "date": "2027-01-05",
+   "title": "Jury selection in Mangione's federal trial",
+   "note": "Jury selection begins in the federal capital case before Judge Margaret Garnett. Opening statements are set for Jan. 25.",
+   "strand": "city-life",
+   "significance": 68
+  },
+  {
+   "date": "2026-06-30",
+   "title": "City budget adoption deadline",
+   "note": "The Council and the mayor adopt the budget. The Charter's hard date is June 5 (section 254(d)); in practice adoption lands by June 30, the last day of the fiscal year, and the fiscal 2027 budget was adopted June 30, 2026.",
+   "strand": "money",
+   "significance": 76,
+   "url": "https://council.nyc.gov/budget/"
+  },
+  {
+   "date": "2028-06-30",
+   "title": "Mayoral control of the schools expires",
+   "note": "The schools governance law now sunsets June 30, 2028. It did NOT lapse in June 2026: the state budget enacted in late May 2026 extended mayoral control by two years.",
+   "strand": "power",
+   "significance": 74,
+   "url": "https://www.nysenate.gov/legislation/laws/EDN/2590-B"
+  },
+  {
+   "date": "2026-06-25",
+   "title": "Rent Guidelines Board final vote",
+   "note": "The final rent adjustment for roughly a million rent-stabilized apartments, covering leases from October 2026 to September 2027. The first real test of Mamdani's appointees.",
+   "strand": "housing",
+   "significance": 82,
+   "approx": true,
+   "url": "https://rentguidelinesboard.cityofnewyork.us/"
+  },
+  {
+   "date": "2026-05-05",
+   "title": "Rent Guidelines Board preliminary vote",
+   "note": "The board votes on a range for the rent adjustment, the first public clash between tenant advocates and owner representatives.",
+   "strand": "housing",
+   "significance": 64,
+   "approx": true,
+   "url": "https://rentguidelinesboard.cityofnewyork.us/"
+  },
+  {
+   "date": "2026-10-01",
+   "title": "New rent guidelines take effect",
+   "note": "Order 58 takes effect for leases beginning Oct. 1, 2026 through Sept. 30, 2027. The board adopted a rent freeze — 0 percent on both one- and two-year leases — delivering the central promise of Mamdani's campaign.",
+   "strand": "housing",
+   "significance": 70,
+   "url": "https://rentguidelinesboard.cityofnewyork.us/adopted-summary-of-guidelines-2026-27/"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "One year until Rikers must close",
+   "note": "Administrative Code section 4-215, from Local Law 16 of 2021, requires that by Aug. 31, 2027 all of Rikers Island be transferred out of the Correction Department's control and no longer used to house people. This marks exactly one year out.",
+   "strand": "justice",
+   "significance": 72
+  },
+  {
+   "date": "2026-11-06",
+   "title": "DC 37's contract expires",
+   "note": "The 2021-2026 agreement covers nearly 90,000 city employees, about a quarter of the municipal workforce. DC 37 is the city's largest union, counting some 150,000 members across sectors. The deal that replaces this one sets the pattern for the teachers and everyone else, and is the first major labor test of this administration.",
+   "strand": "power",
+   "significance": 70,
+   "url": "https://www.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/2021-2026/dc-37-2021-2026-moa.pdf"
+  },
+  {
+   "date": "2027-05-01",
+   "title": "Local Law 97 annual emissions report due",
+   "note": "Large buildings must file annual emissions reports each May 1. The first were due May 1, 2025, not 2026; penalties run about $268 per metric ton of carbon dioxide equivalent over a building's limit.",
+   "strand": "climate",
+   "significance": 60,
+   "url": "https://accelerator.nyc/ll97"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "Local Law 97 extended filing deadline",
+   "note": "The final deadline for buildings that paid the $60 extension fee in June.",
+   "strand": "climate",
+   "significance": 42,
+   "url": "https://accelerator.nyc/ll97"
+  },
+  {
+   "date": "2026-09-30",
+   "title": "Federal fiscal year ends; shutdown risk",
+   "note": "Federal appropriations expire at midnight. New York City is heavily exposed to disruptions in housing vouchers, Medicaid, transit and disaster aid.",
+   "strand": "money",
+   "significance": 66
+  },
+  {
+   "date": "2026-09-17",
+   "title": "Mayor's Management Report due",
+   "note": "The charter-mandated scorecard for every agency: trash, crime, service delivery. Required by Charter section 12 no later than Sept. 17. This is the first full fiscal year Mamdani's agencies are judged on, though the year began before he took office.",
+   "strand": "cityhall",
+   "significance": 58,
+   "url": "https://www.nyc.gov/site/operations/reports/mmr.page"
+  },
+  {
+   "date": "2026-07-01",
+   "title": "The city's fiscal year 2027 begins",
+   "note": "Budget implementation starts.",
+   "strand": "money",
+   "significance": 44
+  },
+  {
+   "date": "2026-07-01",
+   "title": "Rikers land transfer deadline",
+   "note": "Under the same law that sets the closure date, the mayor must transfer every portion of Rikers not in active use to the Department of Citywide Administrative Services every six months. The clock runs Jan. 1 and July 1.",
+   "strand": "justice",
+   "significance": 40
+  },
+  {
+   "date": "2026-07-15",
+   "title": "Transit authority financial plan update",
+   "note": "The July plan carries updated revenue projections and capital program status.",
+   "strand": "money",
+   "significance": 38,
+   "approx": true,
+   "url": "https://www.mta.info/budget"
+  },
+  {
+   "date": "2026-09-25",
+   "title": "Transit authority preliminary 2027 budget",
+   "note": "A key indicator of fiscal health and service levels.",
+   "strand": "money",
+   "significance": 40,
+   "approx": true,
+   "url": "https://www.mta.info/budget"
+  },
+  {
+   "date": "2026-12-15",
+   "title": "Transit board adopts the 2027 budget",
+   "note": "The final operating budget for the coming year.",
+   "strand": "money",
+   "significance": 44,
+   "approx": true,
+   "url": "https://www.mta.info/transparency/board-and-committee-meetings"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "November financial plan update",
+   "note": "The city updates revenue and spending projections, setting the baseline for the next budget cycle.",
+   "strand": "money",
+   "significance": 38,
+   "approx": true,
+   "url": "https://www.nyc.gov/site/omb/index.page"
+  },
+  {
+   "date": "2026-09-30",
+   "title": "Nunez monitor report to the federal court",
+   "note": "The monitoring team told Judge Swain it intends to file on this date, with an update on the state of the jails and on Local Law 42. The reports are the running scorecard on whether the city is curing its contempt.",
+   "strand": "justice",
+   "significance": 62,
+   "url": "https://www.nyc.gov/site/doc/media/nunez-reports.page"
+  },
+  {
+   "date": "2026-12-15",
+   "title": "Nunez monitor report on the 22nd monitoring period",
+   "note": "The monitor's December report, assessing compliance for the 22nd monitoring period. It effectively grades the administration's first year of jail management. Date approximate: the monitor has said December but has not fixed a day.",
+   "strand": "justice",
+   "significance": 60,
+   "approx": true,
+   "url": "https://www.nyc.gov/site/doc/media/nunez-reports.page"
+  },
+  {
+   "date": "2026-07-15",
+   "title": "First Rikers remediation action plan due",
+   "note": "Nicholas Deml, appointed the court's Nunez remediation manager on Feb. 23, 2026, is scheduled to submit his first remediation action plan in mid-July. The court declined to impose a receivership in May 2025 and installed a remediation manager instead. Date approximate within mid-July.",
+   "strand": "justice",
+   "significance": 64,
+   "approx": true,
+   "url": "https://www.nyc.gov/site/doc/media/nunez-reports.page"
+  },
+  {
+   "date": "2026-10-01",
+   "title": "Fair housing framework assessment due",
+   "note": "The first Fair Housing Framework needs assessment and five-year affordable housing production targets for all 59 community districts, required by Charter section 16-a. Published every five years beginning October 2026.",
+   "strand": "housing",
+   "significance": 52,
+   "approx": false,
+   "url": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page"
+  },
+  {
+   "date": "2026-10-01",
+   "title": "The 12 lowest-producing community districts named",
+   "note": "City Planning publishes the list of the 12 community districts producing the least affordable housing. It comes from the affordable housing fast track voters approved in November 2025 (Charter section 197-f), not from City of Yes. Projects there get an expedited process starting Jan. 1, 2027.",
+   "strand": "housing",
+   "significance": 50,
+   "approx": false,
+   "url": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page"
+  },
+  {
+   "date": "2026-10-01",
+   "title": "Federal fiscal year 2027 begins",
+   "note": "Watch for continuing resolutions and shutdown risk affecting city funding.",
+   "strand": "money",
+   "significance": 36
+  },
+  {
+   "date": "2026-10-24",
+   "title": "Voter registration deadline",
+   "note": "Registration applications must be received by a board of elections by this date to vote in the Nov. 3 general election. Confirmed against the state Board of Elections' 2026 deadlines poster.",
+   "strand": "democracy",
+   "significance": 62,
+   "url": "https://elections.ny.gov/registration-and-voting-deadlines"
+  },
+  {
+   "date": "2026-10-24",
+   "title": "Early voting begins",
+   "note": "The nine-day early voting period for the general election runs through Nov. 1. Polls are open 6am to 9pm on Election Day itself.",
+   "strand": "democracy",
+   "significance": 58,
+   "url": "https://elections.ny.gov/2026-election-deadlines-poster"
+  },
+  {
+   "date": "2026-10-24",
+   "title": "Last day to request a mail ballot",
+   "note": "The final day to apply for a general election mail ballot online or by mail. In person at a county board, the deadline is Nov. 2.",
+   "strand": "democracy",
+   "significance": 50,
+   "url": "https://elections.ny.gov/registration-and-voting-deadlines"
+  },
+  {
+   "date": "2026-11-01",
+   "title": "Early voting ends",
+   "note": "The last of the nine early voting days before Tuesday's election.",
+   "strand": "democracy",
+   "significance": 46,
+   "url": "https://elections.ny.gov/2026-election-deadlines-poster"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "Mail ballots must be postmarked or returned",
+   "note": "Completed mail ballots must be postmarked, or returned in person, by Election Day.",
+   "strand": "democracy",
+   "significance": 48,
+   "url": "https://elections.ny.gov/registration-and-voting-deadlines"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "Last day for mail ballots to arrive",
+   "note": "Postmarked mail ballots must reach the county board of elections by this date to be counted. In close races, the result is not final until they are.",
+   "strand": "democracy",
+   "significance": 52,
+   "url": "https://elections.ny.gov/registration-and-voting-deadlines"
+  },
+  {
+   "date": "2027-01-06",
+   "title": "The state legislative session convenes",
+   "note": "The Legislature returns to Albany. The session opens on the first Wednesday after the first Monday in January; the exact date should be confirmed against the Senate calendar. Session days will begin appearing on this calendar automatically once Albany publishes them.",
+   "strand": "power",
+   "significance": 60,
+   "approx": true,
+   "url": "https://www.nysenate.gov/calendar"
+  },
+  {
+   "date": "2027-02-01",
+   "title": "State executive budget due",
+   "note": "In the year following a gubernatorial election, the state constitution requires the governor's budget by Feb. 1. It determines city tax authority, transit funding and Medicaid cost-sharing — the single most consequential document of the Albany year.",
+   "strand": "money",
+   "significance": 68,
+   "url": "https://www.budget.ny.gov/"
+  },
+  {
+   "date": "2026-12-28",
+   "title": "Albany post-election positioning",
+   "note": "The lame-duck period for termed-out legislators; watch for late activity on pending bills.",
+   "strand": "power",
+   "significance": 30,
+   "approx": true
+  },
+  {
+   "date": "2026-07-03",
+   "title": "Liberty Weekend, 40 years on",
+   "note": "In July 1986 the Statue of Liberty's centennial and rededication drew the largest tall-ship parade in modern history, with Reagan presiding.",
+   "strand": "anniversary",
+   "significance": 56
+  },
+  {
+   "date": "2026-07-12",
+   "title": "The 1976 Democratic convention, 50 years on",
+   "note": "Fifty years since the convention at Madison Square Garden nominated Carter, in the depths of the city's fiscal crisis.",
+   "strand": "anniversary",
+   "significance": 50
+  },
+  {
+   "date": "2026-07-29",
+   "title": "Son of Sam, 50 years on",
+   "note": "On July 29, 1976, David Berkowitz began the series of attacks that terrorized the city for a year.",
+   "strand": "anniversary",
+   "significance": 54
+  },
+  {
+   "date": "2026-06-23",
+   "title": "City of Fortune by Mason B. Williams",
+   "note": "A sweeping history of contemporary New York City from the fiscal crisis to Covid: who gained, who was priced out, and how the inequality was built. (W.W. Norton)",
+   "strand": "books",
+   "significance": 34
+  },
+  {
+   "date": "2026-06-23",
+   "title": "Unwinding Privatization, ed. Alexander et al.",
+   "note": "A policy volume on where privatization failed and what re-municipalization looks like. (MIT Press)",
+   "strand": "books",
+   "significance": 28
+  },
+  {
+   "date": "2026-08-01",
+   "title": "Reinventing Transit by Baruch Feigenbaum",
+   "note": "A reform agenda for American transit: governance, competition, service redesign and technology. (Reason Foundation)",
+   "strand": "books",
+   "significance": 26
+  },
+  {
+   "date": "2027-01-01",
+   "title": "Affordable housing fast track begins",
+   "note": "Affordable housing projects in the 12 lowest-producing community districts get a shortened approval process, under the charter amendment voters approved in November 2025.",
+   "strand": "housing",
+   "significance": 64,
+   "url": "https://www.nyc.gov/site/hpd/services-and-information/expedited-housing.page"
+  },
+  {
+   "date": "2027-01-01",
+   "title": "Rikers land transfer deadline",
+   "note": "The semi-annual deadline to move unused Rikers land to the Department of Citywide Administrative Services, seven months before the island must close.",
+   "strand": "justice",
+   "significance": 44
+  },
+  {
+   "date": "2027-05-06",
+   "title": "Rent Guidelines Board preliminary vote",
+   "note": "The board votes on a range for the 2027-28 rent adjustment. Date estimated from recent practice: Apr. 30 in 2024 and 2025, May 7 in 2026.",
+   "strand": "housing",
+   "significance": 64,
+   "approx": true,
+   "url": "https://rentguidelinesboard.cityofnewyork.us/"
+  },
+  {
+   "date": "2027-06-24",
+   "title": "Rent Guidelines Board final vote",
+   "note": "The rent adjustment for roughly a million rent-stabilized apartments, for leases beginning October 2027. Date estimated from recent practice (June 17, 2024; June 30, 2025; June 25, 2026).",
+   "strand": "housing",
+   "significance": 82,
+   "approx": true,
+   "url": "https://rentguidelinesboard.cityofnewyork.us/"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "Deadline for charter proposals to reach the November ballot",
+   "note": "Mamdani's Commission on Government Efficiency finished its 10 public hearings and published a preliminary staff report on July 2. To put charter amendments before voters on Nov. 3, it must file them with the city clerk at least 60 days beforehand. No filing date has been announced; this is the outer bound the law implies, not a scheduled event. The preliminary report points at outdoor dining, permitting, procurement, bus and street infrastructure and a rainy day fund.",
+   "strand": "cityhall",
+   "significance": 78,
+   "approx": true,
+   "url": "https://www.nyc.gov/site/charter/reports/coge-reports.page"
+  },
+  {
+   "date": "2027-01-16",
+   "title": "Preliminary budget for fiscal 2028",
+   "note": "Mamdani's second budget, due under Charter section 236. Note the February deadline does not apply: the extension exists only in the year following a mayoral election, which was 2026.",
+   "strand": "money",
+   "significance": 66,
+   "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
+  },
+  {
+   "date": "2027-01-16",
+   "title": "Draft ten-year capital strategy",
+   "note": "Published alongside the preliminary budget in odd-numbered years under Charter section 228. It sets the decade's capital priorities — housing, transit, infrastructure — and is rarely watched relative to its consequences.",
+   "strand": "money",
+   "significance": 58,
+   "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
+  },
+  {
+   "date": "2027-01-30",
+   "title": "Preliminary Mayor's Management Report",
+   "note": "The mid-year performance report, required by Charter section 12 no later than Jan. 30.",
+   "strand": "cityhall",
+   "significance": 52,
+   "url": "https://www.nyc.gov/site/operations/reports/mmr.page"
+  },
+  {
+   "date": "2027-03-25",
+   "title": "Council preliminary budget hearings conclude",
+   "note": "The Council must hold hearings on the preliminary budget by this date under Charter section 247. Agency heads testify; it is the year's most sustained public interrogation of the administration.",
+   "strand": "money",
+   "significance": 56,
+   "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
+  },
+  {
+   "date": "2027-04-01",
+   "title": "Council's preliminary budget response",
+   "note": "The Council's formal counter-document, due under Charter section 247. The opening position of the budget negotiation.",
+   "strand": "money",
+   "significance": 60,
+   "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
+  },
+  {
+   "date": "2027-04-26",
+   "title": "Ten-year capital strategy issued",
+   "note": "The mayor's final capital strategy, due under Charter section 248 in odd-numbered years.",
+   "strand": "money",
+   "significance": 56,
+   "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
+  },
+  {
+   "date": "2027-05-01",
+   "title": "Executive budget for fiscal 2028",
+   "note": "The mayor's revised budget, due under Charter section 249, updated for whatever Albany did on April 1.",
+   "strand": "money",
+   "significance": 70,
+   "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
+  },
+  {
+   "date": "2027-06-30",
+   "title": "Fiscal 2028 budget adoption",
+   "note": "The Charter's trigger date is June 5 (section 254), but in practice adoption lands at the end of June: the fiscal 2027 deal was struck and voted on June 30, 2026, hours before the deadline. Date estimated from that practice.",
+   "strand": "money",
+   "significance": 76,
+   "approx": true,
+   "url": "https://council.nyc.gov/budget/"
+  },
+  {
+   "date": "2026-11-15",
+   "title": "Citywide statement of needs",
+   "note": "Required by Charter section 204 each year by Nov. 15. It signals which city facilities the administration intends to open, close or expand — an early tell on siting fights to come.",
+   "strand": "cityhall",
+   "significance": 48,
+   "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
+  },
+  {
+   "date": "2027-04-01",
+   "title": "State budget due",
+   "note": "The state constitution requires a budget by April 1. It gates the money for child care and for fare-free buses, and it is the realistic vehicle for any millionaire or corporate tax increase, all of which require Albany.",
+   "strand": "power",
+   "significance": 74,
+   "url": "https://www.nysenate.gov/new-york-state-budget"
+  },
+  {
+   "date": "2026-09-08",
+   "title": "Free 2-K launches: 2,000 seats",
+   "note": "The first free 2-K seats open in four communities, announced with Governor Hochul in March, expanding to universality within four years. Reporting puts services beginning in September; no exact launch date has been announced, so this is pegged to the start of the school year.",
+   "strand": "cityhall",
+   "significance": 72,
+   "approx": true,
+   "url": "https://www.nyc.gov/mayors-office/news/2026/03/mayor-mamdani-and-governor-hochul-announce-first-four-communitie"
+  },
+  {
+   "date": "2027-01-01",
+   "title": "Mamdani's first year in office",
+   "note": "One year since the inaugural address of Jan. 1, 2026. A customary peg for retrospectives rather than a scheduled event.",
+   "strand": "cityhall",
+   "significance": 66
+  }
+ ]
 }

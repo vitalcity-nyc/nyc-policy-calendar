@@ -17,7 +17,7 @@
   "blurb": "A letter by Dutch official Pieter Schaghen, dated Nov. 5, 1626, reported that colonists had 'purchased' the island of Manhattan from its Native inhabitants for goods worth 60 guilders. It is the only contemporary document of the transaction.",
   "category": "Founding & Colonial",
   "weight": 1,
-  "source": "https://www.newnetherlandinstitute.org/history-and-heritage/additional-resources/dutch-treats/peter-schaghen-letter/"
+  "source": "https://newnetherlandinstitute.org/content/peter-schagen-letter/"
  },
  {
   "year": 1643,
@@ -1117,7 +1117,7 @@
   "blurb": "New York enacted the nation's first comprehensive citywide zoning law, regulating building height, bulk and use.",
   "category": "Politics & Government",
   "weight": 1,
-  "source": "https://www.nyc.gov/site/planning/zoning/background.page"
+  "source": "https://www.nyc.gov/assets/planning/download/pdf/about/city-planning-history/zr1916.pdf"
  },
  {
   "year": 1916,
@@ -1127,7 +1127,7 @@
   "blurb": "German saboteurs blew up a massive munitions depot on Black Tom Island in New York Harbor, shattering windows across the city.",
   "category": "Disaster & Crisis",
   "weight": 3,
-  "source": "https://www.nps.gov/stli/learn/historyculture/black-tom-explosion.htm"
+  "source": "https://www.nps.gov/articles/black-tom-wwi.htm"
  },
  {
   "year": 1916,
@@ -1157,7 +1157,7 @@
   "blurb": "Thousands of Black New Yorkers marched in silence down Fifth Avenue to protest lynchings and the East St. Louis massacre.",
   "category": "Civil Rights & Protest",
   "weight": 3,
-  "source": "https://www.loc.gov/exhibitions/naacp/the-new-negro-movement/about-this-exhibition/marching-for-change/the-silent-protest-parade/"
+  "source": "https://guides.loc.gov/chronicling-america-silent-protest-parade"
  },
  {
   "year": 1917,
@@ -2277,7 +2277,7 @@
   "blurb": "The New York Yankees won the World Series over the Atlanta Braves, their first title since 1978 and the start of a late-1990s dynasty.",
   "category": "Culture & Landmarks",
   "weight": 3,
-  "source": "https://baseballhall.org/discover/short-stops/1996-world-series"
+  "source": "https://baseballhall.org/hall-of-famers/torre-joe"
  },
  {
   "year": 1997,
@@ -2653,8 +2653,8 @@
   "year": 2016,
   "month": 9,
   "day": 17,
-  "title": "Chelsea bombing injures 29",
-  "blurb": "A pressure-cooker bomb exploded on West 23rd Street in Chelsea, injuring 29 people. Ahmad Khan Rahimi was arrested days later and sentenced to life in prison.",
+  "title": "Chelsea bombing injures 31",
+  "blurb": "A pressure-cooker bomb exploded on West 23rd Street in Chelsea, injuring 31 people. Ahmad Khan Rahimi was arrested days later and sentenced to life in prison.",
   "category": "Disaster & Crisis",
   "weight": 3,
   "source": "https://www.justice.gov/archives/opa/pr/chelsea-bomber-ahmad-khan-rahimi-convicted-executing-september-2016-bombing-new-york-city"

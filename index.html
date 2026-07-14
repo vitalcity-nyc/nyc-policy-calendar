@@ -25,6 +25,7 @@
   --serif:"GascogneTS","Source Serif 4",Georgia,"Times New Roman",serif;
 
   --s-city-life:var(--orange);
+  --s-cityhall:#5a5f8f;
   --s-anniversary:var(--magenta);
   --s-democracy:var(--indigo);
   --s-housing:var(--cerulean);
@@ -315,8 +316,8 @@ body{
   <footer class="foot">
     <p><b>How this works.</b> Five sources are merged every twelve hours and scored 0-100 for public
     significance, which decides how big each event appears. Round-number anniversaries are computed
-    fresh on every run from a corpus of 281 sourced events in the city's history, so the calendar
-    re-earns itself each year. Hearings are capped at 62 by design: the most consequential committee
+    fresh on every run from a corpus of <span id="corpusN">282</span> sourced events in the city's
+    history, so the calendar re-earns itself each year. Hearings are capped at 62 by design: the most consequential committee
     hearing of the year can be notable, but it will never outrank an election.
     <a href="methodology.html">Read the full methodology →</a></p>
     <div class="srcs" id="srcs"></div>
@@ -342,8 +343,9 @@ body{
 const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const STRANDS={
-  'city-life':'City life','anniversary':'Anniversaries','democracy':'Democracy','housing':'Housing',
-  'money':'Money','justice':'Justice','power':'Power','climate':'Climate','books':'Books','hearings':'Hearings'
+  'city-life':'City life','cityhall':'City Hall','anniversary':'Anniversaries','democracy':'Democracy',
+  'housing':'Housing','money':'Money','justice':'Justice','power':'Power','climate':'Climate',
+  'books':'Books','hearings':'Hearings'
 };
 
 let DATA=null, minScore=45, active=new Set(), q='', generated=null;
@@ -369,6 +371,7 @@ async function load(first){
     return;
   }
   DATA=json;generated=json.generated;
+  if(json.corpusSize) $('#corpusN').textContent=json.corpusSize;
   renderChips();renderStatus();renderSources();render();
 }
 
