@@ -135,7 +135,7 @@ body{
 
 /* ── Events ─────────────────────────────────────────── */
 .ev{
-  display:grid;grid-template-columns:78px 1fr;gap:20px;
+  display:grid;grid-template-columns:78px 1fr auto;gap:20px;
   padding:16px 0;border-bottom:1px solid var(--cloud);cursor:pointer;
   position:relative;
 }
@@ -164,7 +164,7 @@ body{
 
 /* tier: marquee — the city stops */
 .ev.marquee{
-  grid-template-columns:120px 1fr;background:var(--white);
+  grid-template-columns:120px 1fr auto;background:var(--white);
   border-left:6px solid var(--black);border-bottom:2px solid var(--black);
   padding:26px 22px 26px 0;margin:14px 0;
 }
@@ -312,6 +312,56 @@ body{
 .pop.show{display:block}
 .pop a{color:#f6c988}
 
+/* ── Stars and notes ────────────────────────────────── */
+.star{
+  background:none;border:none;cursor:pointer;font-size:1.15rem;line-height:1;
+  color:var(--cloud);padding:2px 4px;align-self:flex-start;flex-shrink:0;
+  font-family:var(--sans);
+}
+.star:hover{color:var(--black)}
+.ev.starred .star{color:var(--black)}
+.ev.starred{box-shadow:inset 3px 0 0 var(--chartreuse)}
+.ev.marquee.starred,.ev.major.starred{box-shadow:none;border-left-color:var(--chartreuse)}
+.star.big{
+  font-size:.72rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  border:2px solid var(--black);padding:6px 11px;color:var(--black);margin-bottom:12px;
+}
+.star.big:hover{background:var(--chartreuse)}
+
+.mynote{
+  font-size:.8rem;color:var(--black);margin-top:6px;padding:5px 9px;
+  background:var(--chartreuse);border-left:3px solid var(--black);line-height:1.45;
+}
+.notelab{
+  display:block;font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--chartreuse);margin:12px 0 4px;
+}
+.noteinput{
+  width:100%;font-family:var(--sans);font-size:.82rem;padding:7px 9px;
+  background:#14141a;color:#f0eee9;border:1px solid #3a3a45;resize:vertical;line-height:1.45;
+}
+.noteinput:focus{outline:none;border-color:var(--chartreuse)}
+.noteinput::placeholder{color:#6b6b78}
+/* In My-list the note box sits on paper, not in the dark drawer. */
+.minehead + .month ~ .ev .drawer .noteinput{background:#14141a}
+
+.minehead{
+  display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;
+  margin:30px 0 4px;padding-bottom:12px;border-bottom:3px solid var(--black);
+  scroll-margin-top:130px; /* clear the sticky controls */
+}
+.minehead h2{font-size:1.5rem;font-weight:700;letter-spacing:-.02em}
+.minehead p{font-size:.76rem;color:var(--charcoal);margin-top:3px}
+.mineacts{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap}
+.btn-solid,.btn-line{
+  font-family:var(--sans);font-size:.7rem;font-weight:700;letter-spacing:.05em;
+  text-transform:uppercase;padding:8px 12px;cursor:pointer;border:2px solid var(--black);
+}
+.btn-solid{background:var(--black);color:var(--white)}
+.btn-solid:hover{background:var(--maroon);border-color:var(--maroon)}
+.btn-line{background:var(--white);color:var(--black)}
+.btn-line:hover{background:var(--chartreuse)}
+
 /* ── Day modal (month view) ─────────────────────────── */
 .daymodal{
   display:none;position:fixed;inset:0;z-index:120;background:rgba(5,5,7,.45);
@@ -342,8 +392,13 @@ body{
 
 @media(max-width:640px){
   .wrap{padding:0 16px 100px}
-  .ev{grid-template-columns:52px 1fr;gap:12px}
-  .ev.marquee{grid-template-columns:70px 1fr;padding:18px 14px 18px 0}
+  .ev{grid-template-columns:52px 1fr auto;gap:12px}
+  .ev.marquee{grid-template-columns:70px 1fr auto;padding:18px 14px 18px 0}
+  .mineacts{margin-left:0;width:100%}
+  .mineacts button{flex:1}
+  /* A 26px star is not a touch target. */
+  .star{font-size:1.5rem;padding:8px;min-width:44px;min-height:44px}
+  .star.big{min-width:0;min-height:0;font-size:.72rem;padding:9px 12px}
   .ev.marquee .when{padding-left:12px}
   .ev.marquee .dnum{font-size:2.8rem}
   .ev.marquee h3{font-size:1.35rem}
@@ -389,6 +444,7 @@ body{
       <div class="thresh" id="viewsel">
         <button data-view="agenda" class="on">Agenda</button>
         <button data-view="month">Month</button>
+        <button data-view="mine">My list <span id="mineN"></span></button>
       </div>
       <input type="search" class="search" id="search" placeholder="Search the calendar…">
     </div>
@@ -438,6 +494,51 @@ let view='agenda';
 // Month grid starts on the current month.
 let monthCursor=[new Date().getFullYear(), new Date().getMonth()];
 
+/* ── Stars and notes ────────────────────────────────────────
+   Everything the reader marks up lives in their own browser. There is no
+   account and no server, which also means it can be wiped by clearing site
+   data — so the My-list view offers a backup file, and never pretends this
+   is durable storage. Events are keyed by date + title, which survives a
+   rebuild: the feeds re-emit the same hearing with the same title each run. */
+const KEY='nycCalendar.marks.v1';
+const uid=e=>`${e.date}|${e.title}`;
+let marks={starred:[],notes:{}};
+
+function loadMarks(){
+  try{
+    const raw=JSON.parse(localStorage.getItem(KEY)||'{}');
+    marks={starred:Array.isArray(raw.starred)?raw.starred:[], notes:raw.notes&&typeof raw.notes==='object'?raw.notes:{}};
+  }catch{ marks={starred:[],notes:{}}; }
+}
+function saveMarks(){
+  try{ localStorage.setItem(KEY, JSON.stringify(marks)); }
+  catch{ toast('Could not save — your browser is blocking local storage.'); }
+}
+const isStarred=e=>marks.starred.includes(uid(e));
+const noteFor=e=>marks.notes[uid(e)]||'';
+
+function toggleStar(e){
+  const k=uid(e);
+  const i=marks.starred.indexOf(k);
+  if(i>=0) marks.starred.splice(i,1); else marks.starred.push(k);
+  saveMarks(); updateMineCount(); render();
+}
+function setNote(e,text){
+  const k=uid(e);
+  if(text.trim()) marks.notes[k]=text.trim(); else delete marks.notes[k];
+  saveMarks(); updateMineCount();
+}
+// Anything starred, or carrying a note, belongs on the reader's list.
+function myEvents(){
+  if(!DATA) return [];
+  return DATA.events.filter(e=>isStarred(e)||noteFor(e));
+}
+function updateMineCount(){
+  const n=myEvents().length;
+  const el=$('#mineN');
+  if(el) el.textContent=n?`(${n})`:'';
+}
+
 const $=s=>document.querySelector(s);
 const esc=s=>{const d=document.createElement('div');d.textContent=s??'';return d.innerHTML};
 const parse=s=>{const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)};
@@ -460,6 +561,7 @@ async function load(first){
   }
   DATA=json;generated=json.generated;
   if(json.corpusSize) $('#corpusN').textContent=json.corpusSize;
+  loadMarks();updateMineCount();
   renderChips();renderStatus();renderSources();render();
 }
 
@@ -511,7 +613,9 @@ function makeICS(events){
     const d=e.date.replace(/-/g,'');
     const nx=parse(e.date);nx.setDate(nx.getDate()+1);
     const end=`${nx.getFullYear()}${pad(nx.getMonth()+1)}${pad(nx.getDate())}`;
-    const desc=[e.note,e.sourceUrl].filter(Boolean).join('\n\n');
+    // The reader's own note leads the description — it's the bit they wrote.
+    const mine=noteFor(e);
+    const desc=[mine?'MY NOTE: '+mine:'', e.note, e.sourceUrl].filter(Boolean).join('\n\n');
     L.push('BEGIN:VEVENT');
     L.push(`UID:${d}-${e.title.replace(/\W/g,'').slice(0,40)}@nyc-calendar`);
     L.push(`DTSTAMP:${stamp}`);
@@ -527,15 +631,10 @@ function makeICS(events){
   return L.join('\r\n');
 }
 
-function downloadICS(){
-  const evs=visible();
+function downloadICS(list,name){
+  const evs=Array.isArray(list)?list:visible();
   if(!evs.length){toast('Nothing to add — widen the filter.');return;}
-  const blob=new Blob([makeICS(evs)],{type:'text/calendar;charset=utf-8'});
-  const a=document.createElement('a');
-  a.href=URL.createObjectURL(blob);
-  a.download='new-york-city-calendar.ics';
-  document.body.appendChild(a);a.click();a.remove();
-  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  dl(new Blob([makeICS(evs)],{type:'text/calendar;charset=utf-8'}), name||'new-york-city-calendar.ics');
   toast(`Downloaded ${evs.length} event${evs.length===1?'':'s'}. Open the file to add them.`);
 }
 
@@ -585,7 +684,8 @@ function visible(){
 
 function evHTML(e,i){
   const d=parse(e.date);
-  return `<article class="ev ${e.tier}" data-i="${i}">
+  const mine=noteFor(e);
+  return `<article class="ev ${e.tier}${isStarred(e)?' starred':''}" data-i="${i}">
     <div class="when">
       <span class="dnum">${d.getDate()}</span>
       <div class="dow">${DOW[d.getDay()]}</div>
@@ -594,18 +694,24 @@ function evHTML(e,i){
     <div>
       <h3>${esc(e.title)}</h3>
       ${e.note&&!(e.tier==='routine'&&e.strand==='hearings')?`<p class="note">${esc(e.note)}</p>`:''}
+      ${mine?`<p class="mynote">${esc(mine)}</p>`:''}
       <div class="meta">
         <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
         <span>${esc(e.source)}</span>
         ${e.approx?'<span class="approx">· date not yet confirmed</span>':''}
       </div>
     </div>
+    <button class="star" data-star="${i}" title="${isStarred(e)?'Remove from my list':'Add to my list'}"
+      aria-label="Star this event">${isStarred(e)?'★':'☆'}</button>
     <div class="drawer">
       <div class="score">${e.significance}</div>
       <b>Why it is sized this way</b>
       <ul>${(e.why||[]).map(w=>`<li>${esc(w)}</li>`).join('')}</ul>
       <div style="margin-top:8px">Scored <b>${e.significance}/100</b> — ${esc(e.tier)}.
       ${e.live?'Pulled from a live feed.':'Curated by hand.'}</div>
+      <label class="notelab" for="n${i}">Your note — stays in this browser</label>
+      <textarea class="noteinput" id="n${i}" data-note="${i}" rows="2"
+        placeholder="Why does this matter to you? What do you need to do first?">${esc(mine)}</textarea>
       <div class="acts">
         ${e.sourceUrl?`<a href="${esc(e.sourceUrl)}" target="_blank" rel="noopener">Source</a>`:''}
         ${e.agendaUrl?`<a href="${esc(e.agendaUrl)}" target="_blank" rel="noopener">Agenda</a>`:''}
@@ -734,10 +840,14 @@ function showDay(e){
       <span>${esc(e.source)}</span>${e.time?`<span>· ${esc(e.time)}</span>`:''}
       ${e.approx?'<span class="approx">· date not yet confirmed</span>':''}
     </div>
+    <button class="star big" id="mStar">${isStarred(e)?'★ On my list':'☆ Add to my list'}</button>
     <div class="drawer" style="display:block">
       <div class="score">${e.significance}</div>
       <b>Why it is sized this way</b>
       <ul>${(e.why||[]).map(w=>`<li>${esc(w)}</li>`).join('')}</ul>
+      <label class="notelab" for="mNote">Your note — stays in this browser</label>
+      <textarea class="noteinput" id="mNote" rows="2"
+        placeholder="Why does this matter to you?">${esc(noteFor(e))}</textarea>
       <div class="acts">
         ${e.sourceUrl?`<a href="${esc(e.sourceUrl)}" target="_blank" rel="noopener">Source</a>`:''}
         ${e.agendaUrl?`<a href="${esc(e.agendaUrl)}" target="_blank" rel="noopener">Agenda</a>`:''}
@@ -748,12 +858,111 @@ function showDay(e){
   box.classList.add('show');
   $('#dayX').onclick=()=>box.classList.remove('show');
   box.onclick=ev=>{if(ev.target===box)box.classList.remove('show');};
+  $('#mStar').onclick=()=>{
+    toggleStar(e);
+    $('#mStar').textContent=isStarred(e)?'★ On my list':'☆ Add to my list';
+  };
+  $('#mNote').oninput=ev=>setNote(e, ev.target.value);
+}
+
+/* ── My list ────────────────────────────────────────────── */
+function renderMine(){
+  const el=$('#stream');
+  const evs=myEvents();
+
+  if(!evs.length){
+    el.innerHTML=`<div class="empty" style="text-align:left;max-width:60ch;margin:0 auto">
+      <p style="font-size:1.05rem;color:var(--black);font-weight:700;margin-bottom:8px">Nothing on your list yet.</p>
+      <p>Star any event with the ☆ beside it, or open one and write yourself a note. Both show up here,
+      and you can export the lot to your calendar in one go.</p>
+      <p style="margin-top:10px;font-size:.82rem">Your stars and notes are kept in this browser only.
+      There is no account and nothing is sent anywhere — which also means clearing your site data will
+      erase them, so take a backup once you have built up a list worth keeping.</p>
+    </div>`;
+    return;
+  }
+
+  let html=`<div class="minehead">
+    <div>
+      <h2>My list</h2>
+      <p>${evs.length} event${evs.length===1?'':'s'}${Object.keys(marks.notes).length?` · ${Object.keys(marks.notes).length} note${Object.keys(marks.notes).length===1?'':'s'}`:''}
+      · kept in this browser only</p>
+    </div>
+    <div class="mineacts">
+      <button class="btn-solid" id="mineIcs">Export to calendar (.ics)</button>
+      <button class="btn-line" id="mineMd">Download as text</button>
+      <button class="btn-line" id="mineJson">Backup</button>
+    </div>
+  </div>`;
+
+  let curMonth='';
+  for(const e of evs){
+    const mk=e.date.slice(0,7);
+    if(mk!==curMonth){
+      curMonth=mk;
+      const d=parse(e.date);
+      html+=`<div class="month"><h2>${MONTHS[d.getMonth()]} ${d.getFullYear()}</h2></div>`;
+    }
+    html+=evHTML(e, DATA.events.indexOf(e));
+  }
+  el.innerHTML=html;
+
+  $('#mineIcs').onclick=()=>downloadICS(evs,'my-new-york-calendar.ics');
+  $('#mineMd').onclick=()=>downloadText(evs);
+  $('#mineJson').onclick=backupMarks;
+  wireEvents(el);
+}
+
+/* A plain-text brief — the thing you actually paste into an email. */
+function downloadText(evs){
+  const lines=['MY NEW YORK CITY CALENDAR','Exported '+new Date().toDateString(),''];
+  for(const e of evs){
+    const d=parse(e.date);
+    lines.push(`${MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()} — ${e.title}`);
+    if(e.note) lines.push('  '+e.note);
+    const mine=noteFor(e);
+    if(mine) lines.push('  MY NOTE: '+mine);
+    if(e.sourceUrl) lines.push('  '+e.sourceUrl);
+    lines.push('');
+  }
+  dl(new Blob([lines.join('\n')],{type:'text/plain'}),'my-new-york-calendar.txt');
+  toast('Downloaded.');
+}
+
+function backupMarks(){
+  dl(new Blob([JSON.stringify(marks,null,1)],{type:'application/json'}),'nyc-calendar-backup.json');
+  toast('Backed up. Keep this file — it is the only copy.');
+}
+
+function dl(blob,name){
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob); a.download=name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+
+/* Stars, notes and drawers — shared by every view that renders event rows. */
+function wireEvents(el){
+  el.querySelectorAll('.ev').forEach(a=>a.onclick=ev=>{
+    if(ev.target.closest('a')||ev.target.closest('.star')||ev.target.closest('.drawer'))return;
+    a.classList.toggle('open');
+  });
+  el.querySelectorAll('.star').forEach(b=>b.onclick=ev=>{
+    ev.stopPropagation();
+    toggleStar(DATA.events[+b.dataset.star]);
+  });
+  el.querySelectorAll('.noteinput').forEach(t=>{
+    // Save as they type, but don't re-render mid-keystroke and steal focus.
+    t.oninput=()=>setNote(DATA.events[+t.dataset.note], t.value);
+    t.onclick=ev=>ev.stopPropagation();
+  });
 }
 
 function render(){
   const evs=visible();
   updateIcsLabel();
   const el=$('#stream');
+  if(view==='mine'){ renderMine(); return; }
   if(view==='month'){ renderMonth(evs); return; }
   if(!evs.length){el.innerHTML='<div class="empty">Nothing on the calendar matches. Try widening the filter.</div>';return;}
 
@@ -787,11 +996,7 @@ function render(){
     i++;
   }
   el.innerHTML=html;
-
-  document.querySelectorAll('.ev').forEach(a=>a.onclick=ev=>{
-    if(ev.target.closest('a'))return;
-    a.classList.toggle('open');
-  });
+  wireEvents(el);
 }
 
 // controls
