@@ -31,16 +31,6 @@
  },
  {
   "year": 1645,
-  "month": 12,
-  "day": 19,
-  "title": "Deborah Moody founds Gravesend",
-  "blurb": "Lady Deborah Moody received a patent from director-general Kieft on Dec. 19, 1645, to found the town of Gravesend in what is now Brooklyn. She is regarded as the first woman to hold a land patent in colonial America.",
-  "category": "Immigration & People",
-  "weight": 2,
-  "source": "https://www.nycgovparks.org/parks/lady-moody-triangle/history"
- },
- {
-  "year": 1645,
   "month": 8,
   "day": 30,
   "title": "Treaty ends Kieft's War",
@@ -48,6 +38,16 @@
   "category": "Politics & Government",
   "weight": 2,
   "source": "https://www.newnetherlandinstitute.org/history-and-heritage/dutch_americans/willem-kieft/"
+ },
+ {
+  "year": 1645,
+  "month": 12,
+  "day": 19,
+  "title": "Deborah Moody founds Gravesend",
+  "blurb": "Lady Deborah Moody received a patent from director-general Kieft on Dec. 19, 1645, to found the town of Gravesend in what is now Brooklyn. She is regarded as the first woman to hold a land patent in colonial America.",
+  "category": "Immigration & People",
+  "weight": 2,
+  "source": "https://www.nycgovparks.org/parks/lady-moody-triangle/history"
  },
  {
   "year": 1647,
@@ -501,16 +501,6 @@
  },
  {
   "year": 1827,
-  "month": 12,
-  "day": 13,
-  "title": "Delmonico's opens",
-  "blurb": "The Swiss-born Delmonico brothers opened a small café on William Street that grew into America's pioneering fine-dining restaurant.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://en.wikipedia.org/wiki/Delmonico's"
- },
- {
-  "year": 1827,
   "month": 7,
   "day": 4,
   "title": "Slavery ends in New York State",
@@ -518,6 +508,16 @@
   "category": "Civil Rights & Protest",
   "weight": 2,
   "source": "https://history.nycourts.gov/when-did-slavery-end-in-new-york/"
+ },
+ {
+  "year": 1827,
+  "month": 12,
+  "day": 13,
+  "title": "Delmonico's opens",
+  "blurb": "The Swiss-born Delmonico brothers opened a small café on William Street that grew into America's pioneering fine-dining restaurant.",
+  "category": "Culture & Landmarks",
+  "weight": 2,
+  "source": "https://en.wikipedia.org/wiki/Delmonico's"
  },
  {
   "year": 1832,
@@ -931,16 +931,6 @@
  },
  {
   "year": 1903,
-  "month": 12,
-  "day": 19,
-  "title": "Williamsburg Bridge opens over the East River",
-  "blurb": "The Williamsburg Bridge opened as the longest suspension span in the world, linking the Lower East Side to Brooklyn.",
-  "category": "Infrastructure & Building",
-  "weight": 3,
-  "source": "https://www.britannica.com/topic/Williamsburg-Bridge"
- },
- {
-  "year": 1903,
   "month": 4,
   "day": 22,
   "title": "New York Stock Exchange opens its Broad St. home",
@@ -948,6 +938,16 @@
   "category": "Economy & Money",
   "weight": 3,
   "source": "https://en.wikipedia.org/wiki/New_York_Stock_Exchange_Building"
+ },
+ {
+  "year": 1903,
+  "month": 12,
+  "day": 19,
+  "title": "Williamsburg Bridge opens over the East River",
+  "blurb": "The Williamsburg Bridge opened as the longest suspension span in the world, linking the Lower East Side to Brooklyn.",
+  "category": "Infrastructure & Building",
+  "weight": 3,
+  "source": "https://www.britannica.com/topic/Williamsburg-Bridge"
  },
  {
   "year": 1904,
@@ -1051,16 +1051,6 @@
  },
  {
   "year": 1911,
-  "month": 5,
-  "day": 23,
-  "title": "New York Public Library's main branch opens",
-  "blurb": "The Beaux-Arts main library on Fifth Avenue, later the Schwarzman Building, opened with its famous lion-flanked steps and vast reading room.",
-  "category": "Culture & Landmarks",
-  "weight": 3,
-  "source": "https://www.nypl.org/about/locations/schwarzman"
- },
- {
-  "year": 1911,
   "month": 3,
   "day": 25,
   "title": "Triangle Shirtwaist Factory fire kills 146",
@@ -1068,6 +1058,16 @@
   "category": "Disaster & Crisis",
   "weight": 1,
   "source": "https://trianglefire.ilr.cornell.edu/"
+ },
+ {
+  "year": 1911,
+  "month": 5,
+  "day": 23,
+  "title": "New York Public Library's main branch opens",
+  "blurb": "The Beaux-Arts main library on Fifth Avenue, later the Schwarzman Building, opened with its famous lion-flanked steps and vast reading room.",
+  "category": "Culture & Landmarks",
+  "weight": 3,
+  "source": "https://www.nypl.org/about/locations/schwarzman"
  },
  {
   "year": 1913,
@@ -1131,16 +1131,6 @@
  },
  {
   "year": 1916,
-  "month": 11,
-  "day": 3,
-  "title": "The Provincetown Players bring O'Neill to the Village",
-  "blurb": "The experimental Provincetown Players opened their first New York season at 139 MacDougal Street in Greenwich Village, introducing the young playwright Eugene O'Neill to city audiences.",
-  "category": "Culture & Landmarks",
-  "weight": 3,
-  "source": "https://www.loc.gov/item/today-in-history/november-03/"
- },
- {
-  "year": 1916,
   "month": 10,
   "day": 16,
   "title": "Sanger opens first US birth control clinic",
@@ -1148,6 +1138,16 @@
   "category": "Civil Rights & Protest",
   "weight": 3,
   "source": "https://www.loc.gov/item/today-in-history/october-16/"
+ },
+ {
+  "year": 1916,
+  "month": 11,
+  "day": 3,
+  "title": "The Provincetown Players bring O'Neill to the Village",
+  "blurb": "The experimental Provincetown Players opened their first New York season at 139 MacDougal Street in Greenwich Village, introducing the young playwright Eugene O'Neill to city audiences.",
+  "category": "Culture & Landmarks",
+  "weight": 3,
+  "source": "https://www.loc.gov/item/today-in-history/november-03/"
  },
  {
   "year": 1917,
@@ -1211,16 +1211,6 @@
  },
  {
   "year": 1924,
-  "month": 11,
-  "day": 27,
-  "title": "First Macy's Thanksgiving parade steps off",
-  "blurb": "Macy's held its first Thanksgiving morning parade, then billed as the Macy's Christmas Parade, to launch the holiday shopping season at its Herald Square flagship. Employees marched as clowns and cowboys alongside animals borrowed from the Central Park Zoo.",
-  "category": "Culture & Landmarks",
-  "weight": 1,
-  "source": "https://guides.loc.gov/this-month-in-business-history/november/macys-thanksgiving-parade"
- },
- {
-  "year": 1924,
   "month": 5,
   "day": 26,
   "title": "Immigration Act imposes national quotas",
@@ -1230,14 +1220,14 @@
   "source": "https://history.state.gov/milestones/1921-1936/immigration-act"
  },
  {
-  "year": 1926,
-  "month": 4,
-  "day": 18,
-  "title": "Martha Graham gives her first independent concert",
-  "blurb": "Martha Graham presented her first independent concert at the 48th Street Theatre in Manhattan, performing 18 short works she had choreographed. The evening marked the birth of the company now recognized as the oldest dance company in America.",
+  "year": 1924,
+  "month": 11,
+  "day": 27,
+  "title": "First Macy's Thanksgiving parade steps off",
+  "blurb": "Macy's held its first Thanksgiving morning parade, then billed as the Macy's Christmas Parade, to launch the holiday shopping season at its Herald Square flagship. Employees marched as clowns and cowboys alongside animals borrowed from the Central Park Zoo.",
   "category": "Culture & Landmarks",
   "weight": 1,
-  "source": "https://en.wikipedia.org/wiki/Martha_Graham"
+  "source": "https://guides.loc.gov/this-month-in-business-history/november/macys-thanksgiving-parade"
  },
  {
   "year": 1926,
@@ -1248,6 +1238,16 @@
   "category": "Culture & Landmarks",
   "weight": 2,
   "source": "https://en.wikipedia.org/wiki/Savoy_Ballroom"
+ },
+ {
+  "year": 1926,
+  "month": 4,
+  "day": 18,
+  "title": "Martha Graham gives her first independent concert",
+  "blurb": "Martha Graham presented her first independent concert at the 48th Street Theatre in Manhattan, performing 18 short works she had choreographed. The evening marked the birth of the company now recognized as the oldest dance company in America.",
+  "category": "Culture & Landmarks",
+  "weight": 1,
+  "source": "https://en.wikipedia.org/wiki/Martha_Graham"
  },
  {
   "year": 1927,
@@ -1261,16 +1261,6 @@
  },
  {
   "year": 1927,
-  "month": 12,
-  "day": 27,
-  "title": "\"Show Boat\" premieres and reinvents the musical",
-  "blurb": "Jerome Kern and Oscar Hammerstein II's \"Show Boat\" opened at the Ziegfeld Theatre, weaving serious themes of race and heartbreak into a Broadway musical for the first time. It ran 572 performances.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://www.pbs.org/wnet/broadway/shows/show-boat/"
- },
- {
-  "year": 1927,
   "month": 11,
   "day": 13,
   "title": "Holland Tunnel opens under the Hudson",
@@ -1280,14 +1270,14 @@
   "source": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/holland-tunnel"
  },
  {
-  "year": 1929,
-  "month": 11,
-  "day": 7,
-  "title": "Museum of Modern Art opens",
-  "blurb": "The Museum of Modern Art opened in a Fifth Avenue office building, dedicated to collecting and showing modern art.",
+  "year": 1927,
+  "month": 12,
+  "day": 27,
+  "title": "\"Show Boat\" premieres and reinvents the musical",
+  "blurb": "Jerome Kern and Oscar Hammerstein II's \"Show Boat\" opened at the Ziegfeld Theatre, weaving serious themes of race and heartbreak into a Broadway musical for the first time. It ran 572 performances.",
   "category": "Culture & Landmarks",
-  "weight": 3,
-  "source": "https://www.britannica.com/topic/Museum-of-Modern-Art"
+  "weight": 2,
+  "source": "https://www.pbs.org/wnet/broadway/shows/show-boat/"
  },
  {
   "year": 1929,
@@ -1298,6 +1288,16 @@
   "category": "Economy & Money",
   "weight": 1,
   "source": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+ },
+ {
+  "year": 1929,
+  "month": 11,
+  "day": 7,
+  "title": "Museum of Modern Art opens",
+  "blurb": "The Museum of Modern Art opened in a Fifth Avenue office building, dedicated to collecting and showing modern art.",
+  "category": "Culture & Landmarks",
+  "weight": 3,
+  "source": "https://www.britannica.com/topic/Museum-of-Modern-Art"
  },
  {
   "year": 1930,
@@ -1321,16 +1321,6 @@
  },
  {
   "year": 1931,
-  "month": 11,
-  "day": 18,
-  "title": "Whitney Museum of American Art opens",
-  "blurb": "Founded in 1930 by sculptor and heiress Gertrude Vanderbilt Whitney, the museum opened on West Eighth Street in Greenwich Village with some 700 works. It was devoted entirely to living American artists.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://whitney.org/about/history"
- },
- {
-  "year": 1931,
   "month": 10,
   "day": 25,
   "title": "George Washington Bridge spans the Hudson",
@@ -1338,6 +1328,16 @@
   "category": "Infrastructure & Building",
   "weight": 3,
   "source": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/george-washington-bridge"
+ },
+ {
+  "year": 1931,
+  "month": 11,
+  "day": 18,
+  "title": "Whitney Museum of American Art opens",
+  "blurb": "Founded in 1930 by sculptor and heiress Gertrude Vanderbilt Whitney, the museum opened on West Eighth Street in Greenwich Village with some 700 works. It was devoted entirely to living American artists.",
+  "category": "Culture & Landmarks",
+  "weight": 2,
+  "source": "https://whitney.org/about/history"
  },
  {
   "year": 1932,
@@ -1381,6 +1381,16 @@
  },
  {
   "year": 1935,
+  "month": 2,
+  "day": 22,
+  "title": "The Village Vanguard opens",
+  "blurb": "Max Gordon opened the Village Vanguard in a Greenwich Village basement on Seventh Avenue South, where it grew into the city's longest-running jazz club.",
+  "category": "Culture & Landmarks",
+  "weight": 3,
+  "source": "https://en.wikipedia.org/wiki/Village_Vanguard"
+ },
+ {
+  "year": 1935,
   "month": 3,
   "day": 19,
   "title": "Harlem riot exposes Depression grievances",
@@ -1398,16 +1408,6 @@
   "category": "Culture & Landmarks",
   "weight": 3,
   "source": "https://en.wikipedia.org/wiki/Frick_Collection"
- },
- {
-  "year": 1935,
-  "month": 2,
-  "day": 22,
-  "title": "The Village Vanguard opens",
-  "blurb": "Max Gordon opened the Village Vanguard in a Greenwich Village basement on Seventh Avenue South, where it grew into the city's longest-running jazz club.",
-  "category": "Culture & Landmarks",
-  "weight": 3,
-  "source": "https://en.wikipedia.org/wiki/Village_Vanguard"
  },
  {
   "year": 1936,
@@ -1431,16 +1431,6 @@
  },
  {
   "year": 1938,
-  "month": 5,
-  "day": 10,
-  "title": "The Cloisters opens in Fort Tryon Park",
-  "blurb": "The Metropolitan Museum of Art opened The Cloisters, a museum of European medieval art perched above the Hudson in Fort Tryon Park. It was built around portions of five French monastic cloisters shipped to Upper Manhattan.",
-  "category": "Culture & Landmarks",
-  "weight": 3,
-  "source": "https://en.wikipedia.org/wiki/The_Cloisters"
- },
- {
-  "year": 1938,
   "month": 1,
   "day": 16,
   "title": "Benny Goodman brings swing to Carnegie Hall",
@@ -1448,6 +1438,16 @@
   "category": "Culture & Landmarks",
   "weight": 3,
   "source": "https://www.carnegiehall.org/About/History/Carnegie-Hall-Icons/Benny-Goodman"
+ },
+ {
+  "year": 1938,
+  "month": 5,
+  "day": 10,
+  "title": "The Cloisters opens in Fort Tryon Park",
+  "blurb": "The Metropolitan Museum of Art opened The Cloisters, a museum of European medieval art perched above the Hudson in Fort Tryon Park. It was built around portions of five French monastic cloisters shipped to Upper Manhattan.",
+  "category": "Culture & Landmarks",
+  "weight": 3,
+  "source": "https://en.wikipedia.org/wiki/The_Cloisters"
  },
  {
   "year": 1939,
@@ -1562,22 +1562,22 @@
  {
   "year": 1947,
   "month": 4,
-  "day": 15,
-  "title": "Jackie Robinson breaks baseball's color barrier",
-  "blurb": "Jackie Robinson debuted at first base for the Brooklyn Dodgers, becoming the first Black player in the modern major leagues.",
-  "category": "Civil Rights & Protest",
-  "weight": 1,
-  "source": "https://baseballhall.org/hall-of-famers/robinson-jackie"
- },
- {
-  "year": 1947,
-  "month": 4,
   "day": 6,
   "title": "First Tony Awards honor Broadway",
   "blurb": "The American Theatre Wing held the first Antoinette Perry Awards in the Grand Ballroom of the Waldorf-Astoria, honoring excellence on Broadway. The awards were nicknamed the \"Tonys\" during the ceremony itself.",
   "category": "Culture & Landmarks",
   "weight": 3,
   "source": "https://www.tonyawards.com/history/our-history/"
+ },
+ {
+  "year": 1947,
+  "month": 4,
+  "day": 15,
+  "title": "Jackie Robinson breaks baseball's color barrier",
+  "blurb": "Jackie Robinson debuted at first base for the Brooklyn Dodgers, becoming the first Black player in the modern major leagues.",
+  "category": "Civil Rights & Protest",
+  "weight": 1,
+  "source": "https://baseballhall.org/hall-of-famers/robinson-jackie"
  },
  {
   "year": 1947,
@@ -1611,16 +1611,6 @@
  },
  {
   "year": 1949,
-  "month": 12,
-  "day": 15,
-  "title": "Birdland opens on Broadway",
-  "blurb": "Birdland opened on Broadway near 52nd Street with Charlie Parker headlining, taking its name from Parker's nickname \"Bird\" and becoming a global jazz mecca.",
-  "category": "Culture & Landmarks",
-  "weight": 3,
-  "source": "https://en.wikipedia.org/wiki/Birdland_(New_York_jazz_club)"
- },
- {
-  "year": 1949,
   "month": 2,
   "day": 10,
   "title": "\"Death of a Salesman\" premieres on Broadway",
@@ -1628,6 +1618,16 @@
   "category": "Culture & Landmarks",
   "weight": 1,
   "source": "https://en.wikipedia.org/wiki/Death_of_a_Salesman"
+ },
+ {
+  "year": 1949,
+  "month": 12,
+  "day": 15,
+  "title": "Birdland opens on Broadway",
+  "blurb": "Birdland opened on Broadway near 52nd Street with Charlie Parker headlining, taking its name from Parker's nickname \"Bird\" and becoming a global jazz mecca.",
+  "category": "Culture & Landmarks",
+  "weight": 3,
+  "source": "https://en.wikipedia.org/wiki/Birdland_(New_York_jazz_club)"
  },
  {
   "year": 1950,
@@ -1652,16 +1652,6 @@
  {
   "year": 1955,
   "month": 10,
-  "day": 4,
-  "title": "The Brooklyn Dodgers win their only World Series",
-  "blurb": "The Dodgers beat the Yankees in Game 7 to claim Brooklyn's first and only World Series championship.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://baseballhall.org/discover/inside-pitch/1955-world-series"
- },
- {
-  "year": 1955,
-  "month": 10,
   "day": 1,
   "title": "\"The Honeymooners\" premieres on CBS",
   "blurb": "Jackie Gleason's sitcom about a Brooklyn bus driver premiered on CBS on October 1, 1955, immortalizing working-class New York in 39 filmed episodes.",
@@ -1670,14 +1660,14 @@
   "source": "https://en.wikipedia.org/wiki/The_Honeymooners"
  },
  {
-  "year": 1958,
-  "month": 12,
-  "day": 1,
-  "title": "The Seagram Building sets the modernist standard",
-  "blurb": "Ludwig Mies van der Rohe and Philip Johnson completed the bronze-and-glass Seagram Building at 375 Park Avenue. Set back 100 feet behind a granite plaza, it became one of the most influential skyscrapers ever built.",
-  "category": "Infrastructure & Building",
-  "weight": 1,
-  "source": "https://www.britannica.com/topic/Seagram-Building"
+  "year": 1955,
+  "month": 10,
+  "day": 4,
+  "title": "The Brooklyn Dodgers win their only World Series",
+  "blurb": "The Dodgers beat the Yankees in Game 7 to claim Brooklyn's first and only World Series championship.",
+  "category": "Culture & Landmarks",
+  "weight": 2,
+  "source": "https://baseballhall.org/discover/inside-pitch/1955-world-series"
  },
  {
   "year": 1958,
@@ -1690,14 +1680,14 @@
   "source": "https://en.wikipedia.org/wiki/Alvin_Ailey_American_Dance_Theater"
  },
  {
-  "year": 1959,
-  "month": 10,
-  "day": 21,
-  "title": "Frank Lloyd Wright's Guggenheim opens",
-  "blurb": "The Solomon R. Guggenheim Museum opened on Fifth Avenue, its spiraling white concrete ramp unlike any museum before it. Architect Frank Lloyd Wright had died six months earlier, never seeing it completed.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://www.guggenheim.org/about-us/history"
+  "year": 1958,
+  "month": 12,
+  "day": 1,
+  "title": "The Seagram Building sets the modernist standard",
+  "blurb": "Ludwig Mies van der Rohe and Philip Johnson completed the bronze-and-glass Seagram Building at 375 Park Avenue. Set back 100 feet behind a granite plaza, it became one of the most influential skyscrapers ever built.",
+  "category": "Infrastructure & Building",
+  "weight": 1,
+  "source": "https://www.britannica.com/topic/Seagram-Building"
  },
  {
   "year": 1959,
@@ -1710,6 +1700,16 @@
   "source": "https://www.history.com/this-day-in-history/march-11/a-raisin-in-the-sun-debuts-broadway"
  },
  {
+  "year": 1959,
+  "month": 10,
+  "day": 21,
+  "title": "Frank Lloyd Wright's Guggenheim opens",
+  "blurb": "The Solomon R. Guggenheim Museum opened on Fifth Avenue, its spiraling white concrete ramp unlike any museum before it. Architect Frank Lloyd Wright had died six months earlier, never seeing it completed.",
+  "category": "Culture & Landmarks",
+  "weight": 2,
+  "source": "https://www.guggenheim.org/about-us/history"
+ },
+ {
   "year": 1961,
   "month": 4,
   "day": 11,
@@ -1718,26 +1718,6 @@
   "category": "Culture & Landmarks",
   "weight": 2,
   "source": "https://www.villagepreservation.org/2017/04/11/bob-dylans-first-nyc-gig-april-11-1961/"
- },
- {
-  "year": 1962,
-  "month": 6,
-  "day": 18,
-  "title": "Free Shakespeare opens the Delacorte Theater",
-  "blurb": "Joseph Papp's Delacorte Theater opened in Central Park with a free production of \"The Merchant of Venice\" starring George C. Scott as Shylock. Free Shakespeare in the Park has run nearly every summer since.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://publictheater.org/free-shakespeare-in-the-park/about-fsitp/a-history-of-free-shakespeare-in-the-park/"
- },
- {
-  "year": 1962,
-  "month": 9,
-  "day": 23,
-  "title": "Lincoln Center opens with Philharmonic Hall",
-  "blurb": "Leonard Bernstein conducted the inaugural concert at Philharmonic Hall, the first building of the new Lincoln Center for the Performing Arts. The event was broadcast live nationally on CBS.",
-  "category": "Culture & Landmarks",
-  "weight": 1,
-  "source": "https://www.jamiebernstein.net/in-the-news/kveller-leonard-bernsteins-daughter-2kph3"
  },
  {
   "year": 1962,
@@ -1760,14 +1740,24 @@
   "source": "https://www.docomomo-us.org/register/twa-terminal"
  },
  {
-  "year": 1963,
-  "month": 10,
-  "day": 28,
-  "title": "Demolition of the original Penn Station begins",
-  "blurb": "Wreckers started tearing down McKim, Mead & White's monumental Pennsylvania Station, an act that galvanized the American preservation movement.",
-  "category": "Infrastructure & Building",
-  "weight": 3,
-  "source": "https://www.loc.gov/item/ny0327/"
+  "year": 1962,
+  "month": 6,
+  "day": 18,
+  "title": "Free Shakespeare opens the Delacorte Theater",
+  "blurb": "Joseph Papp's Delacorte Theater opened in Central Park with a free production of \"The Merchant of Venice\" starring George C. Scott as Shylock. Free Shakespeare in the Park has run nearly every summer since.",
+  "category": "Culture & Landmarks",
+  "weight": 2,
+  "source": "https://publictheater.org/free-shakespeare-in-the-park/about-fsitp/a-history-of-free-shakespeare-in-the-park/"
+ },
+ {
+  "year": 1962,
+  "month": 9,
+  "day": 23,
+  "title": "Lincoln Center opens with Philharmonic Hall",
+  "blurb": "Leonard Bernstein conducted the inaugural concert at Philharmonic Hall, the first building of the new Lincoln Center for the Performing Arts. The event was broadcast live nationally on CBS.",
+  "category": "Culture & Landmarks",
+  "weight": 1,
+  "source": "https://www.jamiebernstein.net/in-the-news/kveller-leonard-bernsteins-daughter-2kph3"
  },
  {
   "year": 1963,
@@ -1778,6 +1768,16 @@
   "category": "Culture & Landmarks",
   "weight": 3,
   "source": "https://www.filmlinc.org/nyff/1st-new-york-film-festival/"
+ },
+ {
+  "year": 1963,
+  "month": 10,
+  "day": 28,
+  "title": "Demolition of the original Penn Station begins",
+  "blurb": "Wreckers started tearing down McKim, Mead & White's monumental Pennsylvania Station, an act that galvanized the American preservation movement.",
+  "category": "Infrastructure & Building",
+  "weight": 3,
+  "source": "https://www.loc.gov/item/ny0327/"
  },
  {
   "year": 1964,
@@ -1821,16 +1821,6 @@
  },
  {
   "year": 1965,
-  "month": 11,
-  "day": 9,
-  "title": "The Great Northeast Blackout",
-  "blurb": "A cascading power failure plunged New York City and much of the Northeast into darkness, stranding 800,000 riders in the subways.",
-  "category": "Disaster & Crisis",
-  "weight": 2,
-  "source": "https://www.britannica.com/event/Northeast-blackout-of-1965"
- },
- {
-  "year": 1965,
   "month": 10,
   "day": 3,
   "title": "Immigration reform reopens the golden door",
@@ -1840,14 +1830,14 @@
   "source": "https://history.state.gov/milestones/1961-1968/immigration-act"
  },
  {
-  "year": 1966,
-  "month": 9,
-  "day": 28,
-  "title": "The Whitney's Breuer building opens on Madison Avenue",
-  "blurb": "Marcel Breuer's granite-clad Whitney Museum opened at 945 Madison Avenue. Its inverted-ziggurat form and cantilevered upper floors made it a landmark of Brutalist architecture.",
-  "category": "Culture & Landmarks",
-  "weight": 3,
-  "source": "https://whitney.org/about/breuer-building"
+  "year": 1965,
+  "month": 11,
+  "day": 9,
+  "title": "The Great Northeast Blackout",
+  "blurb": "A cascading power failure plunged New York City and much of the Northeast into darkness, stranding 800,000 riders in the subways.",
+  "category": "Disaster & Crisis",
+  "weight": 2,
+  "source": "https://www.britannica.com/event/Northeast-blackout-of-1965"
  },
  {
   "year": 1966,
@@ -1858,6 +1848,16 @@
   "category": "Culture & Landmarks",
   "weight": 2,
   "source": "https://www.metopera.org/user-information/nightly-met-opera-streams/articles/the-new-met/"
+ },
+ {
+  "year": 1966,
+  "month": 9,
+  "day": 28,
+  "title": "The Whitney's Breuer building opens on Madison Avenue",
+  "blurb": "Marcel Breuer's granite-clad Whitney Museum opened at 945 Madison Avenue. Its inverted-ziggurat form and cantilevered upper floors made it a landmark of Brutalist architecture.",
+  "category": "Culture & Landmarks",
+  "weight": 3,
+  "source": "https://whitney.org/about/breuer-building"
  },
  {
   "year": 1967,
@@ -1881,16 +1881,6 @@
  },
  {
   "year": 1968,
-  "month": 12,
-  "day": 1,
-  "title": "The Ford Foundation opens Manhattan's first atrium garden",
-  "blurb": "Kevin Roche and John Dinkeloo completed the Ford Foundation headquarters near the United Nations. Its 12-story glass-walled garden was the first great enclosed public atrium in a Manhattan office building.",
-  "category": "Infrastructure & Building",
-  "weight": 3,
-  "source": "https://www.docomomo-us.org/register/ford-foundation-headquarters"
- },
- {
-  "year": 1968,
   "month": 3,
   "day": 8,
   "title": "Bill Graham's Fillmore East opens",
@@ -1910,6 +1900,16 @@
   "source": "https://history.house.gov/People/Detail/10918"
  },
  {
+  "year": 1968,
+  "month": 12,
+  "day": 1,
+  "title": "The Ford Foundation opens Manhattan's first atrium garden",
+  "blurb": "Kevin Roche and John Dinkeloo completed the Ford Foundation headquarters near the United Nations. Its 12-story glass-walled garden was the first great enclosed public atrium in a Manhattan office building.",
+  "category": "Infrastructure & Building",
+  "weight": 3,
+  "source": "https://www.docomomo-us.org/register/ford-foundation-headquarters"
+ },
+ {
   "year": 1969,
   "month": 6,
   "day": 28,
@@ -1918,16 +1918,6 @@
   "category": "Civil Rights & Protest",
   "weight": 1,
   "source": "https://www.nps.gov/places/stonewall-national-monument.htm"
- },
- {
-  "year": 1969,
-  "month": 10,
-  "day": 16,
-  "title": "The Miracle Mets win the World Series",
-  "blurb": "Just seven years after a record-setting 120-loss debut, the Mets beat the Baltimore Orioles to become the first expansion team to win a World Series.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://sabr.org/gamesproj/game/october-16-1969-miracle-mets-become-first-expansion-team-to-win-a-world-series/"
  },
  {
   "year": 1969,
@@ -1941,6 +1931,16 @@
  },
  {
   "year": 1969,
+  "month": 10,
+  "day": 16,
+  "title": "The Miracle Mets win the World Series",
+  "blurb": "Just seven years after a record-setting 120-loss debut, the Mets beat the Baltimore Orioles to become the first expansion team to win a World Series.",
+  "category": "Culture & Landmarks",
+  "weight": 2,
+  "source": "https://sabr.org/gamesproj/game/october-16-1969-miracle-mets-become-first-expansion-team-to-win-a-world-series/"
+ },
+ {
+  "year": 1969,
   "month": 11,
   "day": 10,
   "title": "\"Sesame Street\" premieres from New York",
@@ -1951,13 +1951,13 @@
  },
  {
   "year": 1970,
-  "month": 12,
-  "day": 23,
-  "title": "The World Trade Center's north tower tops out",
-  "blurb": "Steelworkers set the final beam atop One World Trade Center, briefly making it the tallest building in the world.",
-  "category": "Infrastructure & Building",
-  "weight": 1,
-  "source": "https://www.panynj.gov/port-authority/en/about/History/world-trade-center.html"
+  "month": 2,
+  "day": 14,
+  "title": "David Mancuso's Loft ignites disco",
+  "blurb": "David Mancuso threw a private Valentine's Day party called \"Love Saves the Day\" at his Broadway loft, an event widely credited with seeding underground dance culture.",
+  "category": "Culture & Landmarks",
+  "weight": 2,
+  "source": "https://www.npr.org/2020/02/19/807333757/still-saving-the-day-the-most-influential-dance-party-in-history-turns-50"
  },
  {
   "year": 1970,
@@ -1981,13 +1981,13 @@
  },
  {
   "year": 1970,
-  "month": 2,
-  "day": 14,
-  "title": "David Mancuso's Loft ignites disco",
-  "blurb": "David Mancuso threw a private Valentine's Day party called \"Love Saves the Day\" at his Broadway loft, an event widely credited with seeding underground dance culture.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://www.npr.org/2020/02/19/807333757/still-saving-the-day-the-most-influential-dance-party-in-history-turns-50"
+  "month": 12,
+  "day": 23,
+  "title": "The World Trade Center's north tower tops out",
+  "blurb": "Steelworkers set the final beam atop One World Trade Center, briefly making it the tallest building in the world.",
+  "category": "Infrastructure & Building",
+  "weight": 1,
+  "source": "https://www.panynj.gov/port-authority/en/about/History/world-trade-center.html"
  },
  {
   "year": 1971,
@@ -2041,13 +2041,13 @@
  },
  {
   "year": 1975,
-  "month": 10,
-  "day": 30,
-  "title": "'Ford to City: Drop Dead'",
-  "blurb": "The Daily News ran its famous headline after President Ford said he would veto a federal bailout of a near-bankrupt New York City.",
-  "category": "Economy & Money",
-  "weight": 1,
-  "source": "https://www.federalreservehistory.org/essays/new-york-city-fiscal-crisis"
+  "month": 7,
+  "day": 25,
+  "title": "\"A Chorus Line\" opens at the Shubert Theatre",
+  "blurb": "Michael Bennett's musical about Broadway dancers auditioning for a show, developed at the Public Theater from taped conversations with real performers, moved uptown and became a phenomenon.",
+  "category": "Culture & Landmarks",
+  "weight": 3,
+  "source": "https://en.wikipedia.org/wiki/A_Chorus_Line"
  },
  {
   "year": 1975,
@@ -2061,13 +2061,13 @@
  },
  {
   "year": 1975,
-  "month": 7,
-  "day": 25,
-  "title": "\"A Chorus Line\" opens at the Shubert Theatre",
-  "blurb": "Michael Bennett's musical about Broadway dancers auditioning for a show, developed at the Public Theater from taped conversations with real performers, moved uptown and became a phenomenon.",
-  "category": "Culture & Landmarks",
-  "weight": 3,
-  "source": "https://en.wikipedia.org/wiki/A_Chorus_Line"
+  "month": 10,
+  "day": 30,
+  "title": "'Ford to City: Drop Dead'",
+  "blurb": "The Daily News ran its famous headline after President Ford said he would veto a federal bailout of a near-bankrupt New York City.",
+  "category": "Economy & Money",
+  "weight": 1,
+  "source": "https://www.federalreservehistory.org/essays/new-york-city-fiscal-crisis"
  },
  {
   "year": 1977,
@@ -2091,16 +2091,6 @@
  },
  {
   "year": 1977,
-  "month": 10,
-  "day": 12,
-  "title": "Citicorp Center opens, then is secretly reinforced",
-  "blurb": "Hugh Stubbins and engineer William LeMessurier completed Citicorp Center, a 59-story tower on stilts with a distinctive sloped top. A year later a hidden structural flaw prompted a secret emergency repair.",
-  "category": "Infrastructure & Building",
-  "weight": 3,
-  "source": "https://www.enr.com/articles/60648-author-details-citicorp-tower-design-error-and-the-race-to-fix-it"
- },
- {
-  "year": 1977,
   "month": 8,
   "day": 10,
   "title": "The Son of Sam is captured",
@@ -2108,6 +2098,16 @@
   "category": "Disaster & Crisis",
   "weight": 3,
   "source": "https://www.britannica.com/biography/David-Berkowitz"
+ },
+ {
+  "year": 1977,
+  "month": 10,
+  "day": 12,
+  "title": "Citicorp Center opens, then is secretly reinforced",
+  "blurb": "Hugh Stubbins and engineer William LeMessurier completed Citicorp Center, a 59-story tower on stilts with a distinctive sloped top. A year later a hidden structural flaw prompted a secret emergency repair.",
+  "category": "Infrastructure & Building",
+  "weight": 3,
+  "source": "https://www.enr.com/articles/60648-author-details-citicorp-tower-design-error-and-the-race-to-fix-it"
  },
  {
   "year": 1977,
@@ -2151,16 +2151,6 @@
  },
  {
   "year": 1984,
-  "month": 12,
-  "day": 22,
-  "title": "Bernhard Goetz shoots four on the subway",
-  "blurb": "A white man shot four young Black men he said were trying to rob him on a downtown IRT train, becoming a lightning rod in the fearful city.",
-  "category": "Disaster & Crisis",
-  "weight": 3,
-  "source": "https://www.britannica.com/biography/Bernhard-Goetz"
- },
- {
-  "year": 1984,
   "month": 10,
   "day": 1,
   "title": "The AT&T Building announces postmodernism",
@@ -2168,6 +2158,16 @@
   "category": "Infrastructure & Building",
   "weight": 3,
   "source": "https://docomomo-us.org/register/at-t-building"
+ },
+ {
+  "year": 1984,
+  "month": 12,
+  "day": 22,
+  "title": "Bernhard Goetz shoots four on the subway",
+  "blurb": "A white man shot four young Black men he said were trying to rob him on a downtown IRT train, becoming a lightning rod in the fearful city.",
+  "category": "Disaster & Crisis",
+  "weight": 3,
+  "source": "https://www.britannica.com/biography/Bernhard-Goetz"
  },
  {
   "year": 1988,
@@ -2258,6 +2258,16 @@
   "category": "Politics & Government",
   "weight": 2,
   "source": "https://www.britannica.com/biography/Rudy-Giuliani"
+ },
+ {
+  "year": 1996,
+  "month": 7,
+  "day": 17,
+  "title": "TWA Flight 800 explodes after takeoff from JFK",
+  "blurb": "TWA Flight 800 exploded off Long Island shortly after leaving John F. Kennedy International Airport, killing all 230 people aboard. The investigation traced the cause to a center fuel-tank explosion and drove lasting changes to aviation fuel-tank safety rules.",
+  "category": "Disaster & Crisis",
+  "weight": null,
+  "source": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0003.pdf"
  },
  {
   "year": 1996,
@@ -2361,16 +2371,6 @@
  },
  {
   "year": 2005,
-  "month": 12,
-  "day": 20,
-  "title": "Transit strike halts subways and buses",
-  "blurb": "Transport Workers Union Local 100 struck the MTA, shutting down all subway and bus service for three days. Millions of commuters were forced to walk, bike or carpool in December cold.",
-  "category": "Economy & Money",
-  "weight": 3,
-  "source": "https://en.wikipedia.org/wiki/2005_New_York_City_transit_strike"
- },
- {
-  "year": 2005,
   "month": 2,
   "day": 12,
   "title": "Christo and Jeanne-Claude raise The Gates in Central Park",
@@ -2380,14 +2380,14 @@
   "source": "https://en.wikipedia.org/wiki/The_Gates"
  },
  {
-  "year": 2006,
+  "year": 2005,
   "month": 12,
-  "day": 5,
-  "title": "City bans artificial trans fats",
-  "blurb": "The Board of Health voted unanimously to make New York the first U.S. city to ban artificial trans fats in restaurants. Full compliance was required by mid-2008.",
-  "category": "Politics & Government",
+  "day": 20,
+  "title": "Transit strike halts subways and buses",
+  "blurb": "Transport Workers Union Local 100 struck the MTA, shutting down all subway and bus service for three days. Millions of commuters were forced to walk, bike or carpool in December cold.",
+  "category": "Economy & Money",
   "weight": 3,
-  "source": "https://nutritionsource.hsph.harvard.edu/2006/12/07/nyc-trans-fat-ban/"
+  "source": "https://en.wikipedia.org/wiki/2005_New_York_City_transit_strike"
  },
  {
   "year": 2006,
@@ -2398,6 +2398,16 @@
   "category": "Infrastructure & Building",
   "weight": 3,
   "source": "https://www.fosterandpartners.com/projects/hearst-headquarters/"
+ },
+ {
+  "year": 2006,
+  "month": 12,
+  "day": 5,
+  "title": "City bans artificial trans fats",
+  "blurb": "The Board of Health voted unanimously to make New York the first U.S. city to ban artificial trans fats in restaurants. Full compliance was required by mid-2008.",
+  "category": "Politics & Government",
+  "weight": 3,
+  "source": "https://nutritionsource.hsph.harvard.edu/2006/12/07/nyc-trans-fat-ban/"
  },
  {
   "year": 2007,
@@ -2482,22 +2492,22 @@
  {
   "year": 2011,
   "month": 9,
-  "day": 17,
-  "title": "Occupy Wall Street takes Zuccotti Park",
-  "blurb": "Protesters against economic inequality set up an encampment in Zuccotti Park near Wall Street, popularizing the slogan 'We are the 99%.' Police cleared the camp on Nov. 15.",
-  "category": "Civil Rights & Protest",
-  "weight": 1,
-  "source": "https://www.britannica.com/topic/Occupy-Wall-Street"
- },
- {
-  "year": 2011,
-  "month": 9,
   "day": 12,
   "title": "9/11 Memorial opens at Ground Zero",
   "blurb": "The National September 11 Memorial opened to the public a day after its dedication on the attacks' 10th anniversary. Twin reflecting pools sit in the footprints of the fallen towers.",
   "category": "Culture & Landmarks",
   "weight": 1,
   "source": "https://www.911memorial.org/visit/memorial/about-memorial"
+ },
+ {
+  "year": 2011,
+  "month": 9,
+  "day": 17,
+  "title": "Occupy Wall Street takes Zuccotti Park",
+  "blurb": "Protesters against economic inequality set up an encampment in Zuccotti Park near Wall Street, popularizing the slogan 'We are the 99%.' Police cleared the camp on Nov. 15.",
+  "category": "Civil Rights & Protest",
+  "weight": 1,
+  "source": "https://www.britannica.com/topic/Occupy-Wall-Street"
  },
  {
   "year": 2012,
@@ -2601,6 +2611,16 @@
  },
  {
   "year": 2015,
+  "month": 2,
+  "day": 17,
+  "title": "\"Hamilton\" premieres at the Public Theater",
+  "blurb": "Lin-Manuel Miranda's hip-hop musical about founding father Alexander Hamilton opened Off-Broadway at the Public Theater before a record-breaking transfer to Broadway that August.",
+  "category": "Culture & Landmarks",
+  "weight": 2,
+  "source": "https://en.wikipedia.org/wiki/Hamilton_(musical)"
+ },
+ {
+  "year": 2015,
   "month": 9,
   "day": 24,
   "title": "Pope Francis visits New York City",
@@ -2620,14 +2640,14 @@
   "source": "https://vinoly.com/works/432-park-avenue/"
  },
  {
-  "year": 2015,
-  "month": 2,
-  "day": 17,
-  "title": "\"Hamilton\" premieres at the Public Theater",
-  "blurb": "Lin-Manuel Miranda's hip-hop musical about founding father Alexander Hamilton opened Off-Broadway at the Public Theater before a record-breaking transfer to Broadway that August.",
-  "category": "Culture & Landmarks",
-  "weight": 2,
-  "source": "https://en.wikipedia.org/wiki/Hamilton_(musical)"
+  "year": 2016,
+  "month": 3,
+  "day": 3,
+  "title": "Calatrava's Oculus opens at the World Trade Center",
+  "blurb": "Santiago Calatrava's World Trade Center Transportation Hub, known as the Oculus, opened after years of delay. Its white ribbed dome, meant to evoke a bird in flight, became a striking new civic space downtown.",
+  "category": "Infrastructure & Building",
+  "weight": 1,
+  "source": "https://www.architecturalrecord.com/articles/11556-world-trade-center-transportation-hub-by-santiago-calatrava"
  },
  {
   "year": 2016,
@@ -2638,16 +2658,6 @@
   "category": "Disaster & Crisis",
   "weight": 3,
   "source": "https://www.justice.gov/archives/opa/pr/chelsea-bomber-ahmad-khan-rahimi-convicted-executing-september-2016-bombing-new-york-city"
- },
- {
-  "year": 2016,
-  "month": 3,
-  "day": 3,
-  "title": "Calatrava's Oculus opens at the World Trade Center",
-  "blurb": "Santiago Calatrava's World Trade Center Transportation Hub, known as the Oculus, opened after years of delay. Its white ribbed dome, meant to evoke a bird in flight, became a striking new civic space downtown.",
-  "category": "Infrastructure & Building",
-  "weight": 1,
-  "source": "https://www.architecturalrecord.com/articles/11556-world-trade-center-transportation-hub-by-santiago-calatrava"
  },
  {
   "year": 2017,

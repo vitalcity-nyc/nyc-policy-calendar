@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-14T16:59:17.372Z",
+ "generated": "2026-07-14T17:06:54.295Z",
  "window": {
   "start": "2026-06-30",
   "end": "2027-08-18"
@@ -8,44 +8,44 @@
   {
    "name": "Curated",
    "ok": true,
-   "count": 36,
-   "ms": 2,
+   "count": 43,
+   "ms": 1,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 19,
-   "ms": 6,
+   "count": 36,
+   "ms": 2,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 408,
+   "ms": 311,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 52,
-   "ms": 828,
+   "ms": 941,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5445,
+   "ms": 5158,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "major": 23,
-  "notable": 29,
+  "major": 35,
+  "notable": 40,
   "routine": 80,
-  "marquee": 8
+  "marquee": 9
  },
  "events": [
   {
@@ -664,6 +664,24 @@
    "tier": "routine"
   },
   {
+   "date": "2026-07-11",
+   "time": null,
+   "title": "Triborough Bridge opens — 90th anniversary",
+   "note": "Robert Moses's Triborough Bridge opened, linking Manhattan, Queens and the Bronx in a vast web of spans and viaducts.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.britannica.com/biography/Robert-Moses",
+   "significance": 57,
+   "importance": 2,
+   "why": [
+    "90th anniversary"
+   ],
+   "historyYear": 1936,
+   "anniversaryYears": 90,
+   "live": true,
+   "tier": "notable"
+  },
+  {
    "date": "2026-07-12",
    "time": null,
    "title": "The 1976 Democratic convention, 50 years on",
@@ -1066,6 +1084,25 @@
    "tier": "routine"
   },
   {
+   "date": "2026-07-17",
+   "time": null,
+   "title": "TWA Flight 800 explodes after takeoff from JFK — 30th anniversary",
+   "note": "TWA Flight 800 exploded off Long Island shortly after leaving John F. Kennedy International Airport, killing all 230 people aboard. The investigation traced the cause to a center fuel-tank explosion and drove lasting changes to aviation fuel-tank safety rules.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0003.pdf",
+   "significance": 75,
+   "importance": 3,
+   "why": [
+    "30th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1996,
+   "anniversaryYears": 30,
+   "live": true,
+   "tier": "major"
+  },
+  {
    "date": "2026-07-19",
    "time": null,
    "title": "World Cup final at MetLife Stadium",
@@ -1164,6 +1201,24 @@
    "tier": "routine"
   },
   {
+   "date": "2026-07-25",
+   "time": null,
+   "title": "New York adopts first US zoning resolution — 110th anniversary",
+   "note": "New York enacted the nation's first comprehensive citywide zoning law, regulating building height, bulk and use.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.nyc.gov/site/planning/zoning/background.page",
+   "significance": 74,
+   "importance": 4,
+   "why": [
+    "110th anniversary"
+   ],
+   "historyYear": 1916,
+   "anniversaryYears": 110,
+   "live": true,
+   "tier": "major"
+  },
+  {
    "date": "2026-07-27",
    "time": null,
    "title": "Correction: Board of Standards and Appeals Public Hearing Notice",
@@ -1220,6 +1275,24 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-07-30",
+   "time": null,
+   "title": "Black Tom explosion rocks the harbor — 110th anniversary",
+   "note": "German saboteurs blew up a massive munitions depot on Black Tom Island in New York Harbor, shattering windows across the city.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.nps.gov/stli/learn/historyculture/black-tom-explosion.htm",
+   "significance": 64,
+   "importance": 3,
+   "why": [
+    "110th anniversary"
+   ],
+   "historyYear": 1916,
+   "anniversaryYears": 110,
+   "live": true,
    "tier": "notable"
   },
   {
@@ -1478,6 +1551,22 @@
    "tier": "major"
   },
   {
+   "date": "2026-09-09",
+   "time": null,
+   "title": "FDNY ceremony for the 25th anniversary of 9/11",
+   "note": "The official Fire Department ceremony honoring the 343 members killed on Sept. 11, 2001 and the more than 400 who have since died of World Trade Center-related illness. Held at the Staten Island FerryHawks' stadium as part of a year-long commemoration.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 80,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
    "date": "2026-09-10",
    "time": "1:30 PM",
    "title": "Stated meeting of the City Council",
@@ -1524,6 +1613,24 @@
    "anniversaryYears": 25,
    "live": true,
    "tier": "marquee"
+  },
+  {
+   "date": "2026-09-12",
+   "time": null,
+   "title": "\"The Black Crook\" invents the American musical — 160th anniversary",
+   "note": "A five-and-a-half-hour spectacle fusing melodrama, ballet and song opened at Niblo's Garden and is widely credited as the first American musical, running a record 474 performances.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.nypl.org/blog/2011/06/02/musical-month-black-crook",
+   "significance": 58,
+   "importance": 2,
+   "why": [
+    "160th anniversary"
+   ],
+   "historyYear": 1866,
+   "anniversaryYears": 160,
+   "live": true,
+   "tier": "notable"
   },
   {
    "date": "2026-09-15",
@@ -1594,6 +1701,44 @@
    ],
    "historyYear": 1776,
    "anniversaryYears": 250,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-16",
+   "time": null,
+   "title": "The Met moves to Lincoln Center — 60th anniversary",
+   "note": "The Metropolitan Opera opened its new house at Lincoln Center, leaving the 1883 building on 39th Street for Wallace Harrison's grand modern hall.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.metopera.org/user-information/nightly-met-opera-streams/articles/the-new-met/",
+   "significance": 65,
+   "importance": 2,
+   "why": [
+    "60th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1966,
+   "anniversaryYears": 60,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-09-17",
+   "time": null,
+   "title": "Chelsea bombing injures 29 — 10th anniversary",
+   "note": "A pressure-cooker bomb exploded on West 23rd Street in Chelsea, injuring 29 people. Ahmad Khan Rahimi was arrested days later and sentenced to life in prison.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.justice.gov/archives/opa/pr/chelsea-bomber-ahmad-khan-rahimi-convicted-executing-september-2016-bombing-new-york-city",
+   "significance": 72,
+   "importance": 3,
+   "why": [
+    "10th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 2016,
+   "anniversaryYears": 10,
    "live": true,
    "tier": "major"
   },
@@ -1716,6 +1861,25 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-28",
+   "time": null,
+   "title": "The Whitney's Breuer building opens on Madison Avenue — 60th anniversary",
+   "note": "Marcel Breuer's granite-clad Whitney Museum opened at 945 Madison Avenue. Its inverted-ziggurat form and cantilevered upper floors made it a landmark of Brutalist architecture.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://whitney.org/about/breuer-building",
+   "significance": 65,
+   "importance": 2,
+   "why": [
+    "60th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1966,
+   "anniversaryYears": 60,
+   "live": true,
+   "tier": "major"
+  },
+  {
    "date": "2026-09-30",
    "time": null,
    "title": "Federal fiscal year ends; shutdown risk",
@@ -1812,20 +1976,22 @@
    "tier": "notable"
   },
   {
-   "date": "2026-10-09",
+   "date": "2026-10-16",
    "time": null,
-   "title": "Voter registration deadline",
-   "note": "The last day to register for the Nov. 3 general election.",
-   "strand": "democracy",
-   "source": "Curated",
-   "sourceUrl": "https://www.elections.ny.gov/",
-   "significance": 54,
+   "title": "Sanger opens first US birth control clinic — 110th anniversary",
+   "note": "Margaret Sanger opened the country's first birth control clinic in the Brownsville section of Brooklyn.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.loc.gov/item/today-in-history/october-16/",
+   "significance": 74,
+   "importance": 4,
    "why": [
-    "editorially judged"
+    "110th anniversary"
    ],
-   "approx": true,
-   "live": false,
-   "tier": "notable"
+   "historyYear": 1916,
+   "anniversaryYears": 110,
+   "live": true,
+   "tier": "major"
   },
   {
    "date": "2026-10-20",
@@ -1862,18 +2028,87 @@
   {
    "date": "2026-10-24",
    "time": null,
-   "title": "Early voting begins",
-   "note": "A nine-day early voting period for the general election, running through Nov. 1.",
+   "title": "Voter registration deadline",
+   "note": "Registration applications must be received by a board of elections by this date to vote in the Nov. 3 general election. Confirmed against the state Board of Elections' 2026 deadlines poster.",
    "strand": "democracy",
    "source": "Curated",
-   "sourceUrl": "https://www.elections.ny.gov/",
-   "significance": 56,
+   "sourceUrl": "https://elections.ny.gov/registration-and-voting-deadlines",
+   "significance": 62,
    "why": [
     "editorially judged"
    ],
    "approx": false,
    "live": false,
    "tier": "notable"
+  },
+  {
+   "date": "2026-10-24",
+   "time": null,
+   "title": "Early voting begins",
+   "note": "The nine-day early voting period for the general election runs through Nov. 1. Polls are open 6am to 9pm on Election Day itself.",
+   "strand": "democracy",
+   "source": "Curated",
+   "sourceUrl": "https://elections.ny.gov/2026-election-deadlines-poster",
+   "significance": 58,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-24",
+   "time": null,
+   "title": "Last day to request a mail ballot",
+   "note": "The final day to apply for a general election mail ballot online or by mail. In person at a county board, the deadline is Nov. 2.",
+   "strand": "democracy",
+   "source": "Curated",
+   "sourceUrl": "https://elections.ny.gov/registration-and-voting-deadlines",
+   "significance": 50,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-10-26",
+   "time": null,
+   "title": "The Yankees' dynasty begins — 30th anniversary",
+   "note": "The New York Yankees won the World Series over the Atlanta Braves, their first title since 1978 and the start of a late-1990s dynasty.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://baseballhall.org/discover/short-stops/1996-world-series",
+   "significance": 65,
+   "importance": 2,
+   "why": [
+    "30th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1996,
+   "anniversaryYears": 30,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2026-10-28",
+   "time": null,
+   "title": "The Statue of Liberty is dedicated — 140th anniversary",
+   "note": "President Grover Cleveland dedicated the Statue of Liberty on Bedloe's Island in New York Harbor.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.nps.gov/museum/exhibits/statue_liberty/opening_ceremony.html",
+   "significance": 85,
+   "importance": 5,
+   "why": [
+    "140th anniversary"
+   ],
+   "historyYear": 1886,
+   "anniversaryYears": 140,
+   "live": true,
+   "tier": "marquee"
   },
   {
    "date": "2026-10-28",
@@ -1910,6 +2145,22 @@
    "tier": "major"
   },
   {
+   "date": "2026-11-01",
+   "time": null,
+   "title": "Early voting ends",
+   "note": "The last of the nine early voting days before Tuesday's election.",
+   "strand": "democracy",
+   "source": "Curated",
+   "sourceUrl": "https://elections.ny.gov/2026-election-deadlines-poster",
+   "significance": 46,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
    "date": "2026-11-03",
    "time": null,
    "title": "General election",
@@ -1924,6 +2175,22 @@
    "approx": false,
    "live": false,
    "tier": "marquee"
+  },
+  {
+   "date": "2026-11-03",
+   "time": null,
+   "title": "Mail ballots must be postmarked or returned",
+   "note": "Completed mail ballots must be postmarked, or returned in person, by Election Day.",
+   "strand": "democracy",
+   "source": "Curated",
+   "sourceUrl": "https://elections.ny.gov/registration-and-voting-deadlines",
+   "significance": 48,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
   },
   {
    "date": "2026-11-05",
@@ -1976,6 +2243,22 @@
    "historyYear": 2001,
    "anniversaryYears": 25,
    "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2026-11-10",
+   "time": null,
+   "title": "Last day for mail ballots to arrive",
+   "note": "Postmarked mail ballots must reach the county board of elections by this date to be counted. In close races, the result is not final until they are.",
+   "strand": "democracy",
+   "source": "Curated",
+   "sourceUrl": "https://elections.ny.gov/registration-and-voting-deadlines",
+   "significance": 52,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
    "tier": "notable"
   },
   {
@@ -2093,6 +2376,24 @@
    "tier": "notable"
   },
   {
+   "date": "2026-12-14",
+   "time": null,
+   "title": "UN chooses New York City for its headquarters — 80th anniversary",
+   "note": "The United Nations General Assembly voted to site its permanent headquarters in Manhattan after John D. Rockefeller Jr. donated $8.5 million to buy the East River tract.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.un.org/en/about-us/history-of-the-un",
+   "significance": 78,
+   "importance": 4,
+   "why": [
+    "80th anniversary"
+   ],
+   "historyYear": 1946,
+   "anniversaryYears": 80,
+   "live": true,
+   "tier": "major"
+  },
+  {
    "date": "2026-12-15",
    "time": null,
    "title": "Transit board adopts the 2027 budget",
@@ -2141,6 +2442,74 @@
    "tier": "routine"
   },
   {
+   "date": "2027-01-06",
+   "time": null,
+   "title": "The state legislative session convenes",
+   "note": "The Legislature returns to Albany. The session opens on the first Wednesday after the first Monday in January; the exact date should be confirmed against the Senate calendar. Session days will begin appearing on this calendar automatically once Albany publishes them.",
+   "strand": "power",
+   "source": "Curated",
+   "sourceUrl": "https://www.nysenate.gov/calendar",
+   "significance": 60,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-02-01",
+   "time": null,
+   "title": "State executive budget due",
+   "note": "In the year following a gubernatorial election, the state constitution requires the governor's budget by Feb. 1. It determines city tax authority, transit funding and Medicaid cost-sharing — the single most consequential document of the Albany year.",
+   "strand": "money",
+   "source": "Curated",
+   "sourceUrl": "https://www.budget.ny.gov/",
+   "significance": 68,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "major"
+  },
+  {
+   "date": "2027-04-06",
+   "time": null,
+   "title": "First Tony Awards honor Broadway — 80th anniversary",
+   "note": "The American Theatre Wing held the first Antoinette Perry Awards in the Grand Ballroom of the Waldorf-Astoria, honoring excellence on Broadway. The awards were nicknamed the \"Tonys\" during the ceremony itself.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.tonyawards.com/history/our-history/",
+   "significance": 58,
+   "importance": 2,
+   "why": [
+    "80th anniversary"
+   ],
+   "historyYear": 1947,
+   "anniversaryYears": 80,
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-04-15",
+   "time": null,
+   "title": "Jackie Robinson breaks baseball's color barrier — 80th anniversary",
+   "note": "Jackie Robinson debuted at first base for the Brooklyn Dodgers, becoming the first Black player in the modern major leagues.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://baseballhall.org/hall-of-famers/robinson-jackie",
+   "significance": 78,
+   "importance": 4,
+   "why": [
+    "80th anniversary"
+   ],
+   "historyYear": 1947,
+   "anniversaryYears": 80,
+   "live": true,
+   "tier": "major"
+  },
+  {
    "date": "2027-04-26",
    "time": null,
    "title": "Studio 54 opens — 50th anniversary",
@@ -2174,6 +2543,42 @@
    ],
    "historyYear": 1952,
    "anniversaryYears": 75,
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-05-06",
+   "time": null,
+   "title": "Trinity Church receives its royal charter — 330th anniversary",
+   "note": "The Anglican parish of Trinity Church was chartered on May 6, 1697, on behalf of King William III by Royal Governor Benjamin Fletcher.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://trinitychurchnyc.org/visit-history/places/trinity-church",
+   "significance": 57,
+   "importance": 2,
+   "why": [
+    "330th anniversary"
+   ],
+   "historyYear": 1697,
+   "anniversaryYears": 330,
+   "live": true,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-05-07",
+   "time": null,
+   "title": "Live TV's Golden Age begins with Kraft Theatre — 80th anniversary",
+   "note": "The premiere of Kraft Television Theatre on May 7, 1947 opened the Golden Age of live television drama, an era of anthology plays broadcast largely from New York studios.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://en.wikipedia.org/wiki/Golden_Age_of_Television",
+   "significance": 58,
+   "importance": 2,
+   "why": [
+    "80th anniversary"
+   ],
+   "historyYear": 1947,
+   "anniversaryYears": 80,
    "live": true,
    "tier": "notable"
   },
@@ -2231,6 +2636,24 @@
    "anniversaryYears": 50,
    "live": true,
    "tier": "marquee"
+  },
+  {
+   "date": "2027-07-28",
+   "time": null,
+   "title": "Silent Parade marches down Fifth Avenue — 110th anniversary",
+   "note": "Thousands of Black New Yorkers marched in silence down Fifth Avenue to protest lynchings and the East St. Louis massacre.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.loc.gov/exhibitions/naacp/the-new-negro-movement/about-this-exhibition/marching-for-change/the-silent-protest-parade/",
+   "significance": 74,
+   "importance": 4,
+   "why": [
+    "110th anniversary"
+   ],
+   "historyYear": 1917,
+   "anniversaryYears": 110,
+   "live": true,
+   "tier": "major"
   },
   {
    "date": "2027-08-10",

@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:20260630-WorldCuproundof32atMetLifeStadium@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:World Cup round of 32 at MetLife Stadium
@@ -19,7 +19,7 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260630-Citybudgetadoptiondeadline@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:City budget adoption deadline
@@ -31,7 +31,7 @@ CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
 UID:20260630-Mayoralcontroloftheschoolsexpires@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Mayoral control of the schools expires
@@ -41,7 +41,7 @@ CATEGORIES:power
 END:VEVENT
 BEGIN:VEVENT
 UID:20260704-Americas250thbirthday@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:America's 250th birthday
@@ -54,7 +54,7 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260705-WorldCuproundof16atMetLifeStadium@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260705
 DTEND;VALUE=DATE:20260706
 SUMMARY:World Cup round of 16 at MetLife Stadium
@@ -64,7 +64,7 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260709-TheDeclarationisreadtoWashingtonstroops2@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:The Declaration is read to Washington's troops — 250th anniversar
@@ -78,7 +78,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260709-ThestatueofKingGeorgeIIIistoppled250than@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
 SUMMARY:The statue of King George III is toppled — 250th anniversary
@@ -91,8 +91,23 @@ URL:https://www.gilderlehrman.org/history-resources/essays/proclamation-r
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
+UID:20260717-TWAFlight800explodesaftertakeofffromJFK3@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:TWA Flight 800 explodes after takeoff from JFK — 30th anniversary
+DESCRIPTION:TWA Flight 800 exploded off Long Island shortly after leaving
+  John F. Kennedy International Airport\, killing all 230 people aboard. 
+ The investigation traced the cause to a center fuel-tank explosion and d
+ rove lasting changes to aviation fuel-tank safety rules.\n\nhttps://www.
+ ntsb.gov/investigations/AccidentReports/Reports/AAR0003.pdf
+URL:https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0003.p
+ df
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
 UID:20260719-WorldCupfinalatMetLifeStadium@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260720
 SUMMARY:World Cup final at MetLife Stadium
@@ -103,8 +118,20 @@ URL:https://nynjfwc26.com/schedule/
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
+UID:20260725-NewYorkadoptsfirstUSzoningresolution110t@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:New York adopts first US zoning resolution — 110th anniversary
+DESCRIPTION:New York enacted the nation's first comprehensive citywide zo
+ ning law\, regulating building height\, bulk and use.\n\nhttps://www.nyc
+ .gov/site/planning/zoning/background.page
+URL:https://www.nyc.gov/site/planning/zoning/background.page
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
 UID:20260827-TheBattleofLongIsland250thanniversary@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:The Battle of Long Island — 250th anniversary
@@ -117,7 +144,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260831-OneyearuntilRikersmustclose@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:One year until Rikers must close
@@ -128,7 +155,7 @@ CATEGORIES:justice
 END:VEVENT
 BEGIN:VEVENT
 UID:20260908-LuigiMangionesstatemurdertrialbegins@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Luigi Mangione's state murder trial begins
@@ -139,7 +166,7 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20260908-Firstdayofschool@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:First day of school
@@ -149,8 +176,20 @@ URL:https://www.schools.nyc.gov/
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
+UID:20260909-FDNYceremonyforthe25thanniversaryof911@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:FDNY ceremony for the 25th anniversary of 9/11
+DESCRIPTION:The official Fire Department ceremony honoring the 343 member
+ s killed on Sept. 11\, 2001 and the more than 400 who have since died of
+  World Trade Center-related illness. Held at the Staten Island FerryHawk
+ s' stadium as part of a year-long commemoration.
+CATEGORIES:city-life
+END:VEVENT
+BEGIN:VEVENT
 UID:20260911-911attacksdestroytheWorldTradeCenter25th@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:9/11 attacks destroy the World Trade Center — 25th anniversary
@@ -163,7 +202,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260915-TheBritishlandatKipsBay250thanniversary@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:The British land at Kip's Bay — 250th anniversary
@@ -177,7 +216,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260916-TheBattleofHarlemHeights250thanniversary@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:The Battle of Harlem Heights — 250th anniversary
@@ -190,8 +229,37 @@ URL:https://www.mountvernon.org/library/digitalhistory/digital-encycloped
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
+UID:20260916-TheMetmovestoLincolnCenter60thanniversar@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:The Met moves to Lincoln Center — 60th anniversary
+DESCRIPTION:The Metropolitan Opera opened its new house at Lincoln Center
+ \, leaving the 1883 building on 39th Street for Wallace Harrison's grand
+  modern hall.\n\nhttps://www.metopera.org/user-information/nightly-met-o
+ pera-streams/articles/the-new-met/
+URL:https://www.metopera.org/user-information/nightly-met-opera-streams/a
+ rticles/the-new-met/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917-Chelseabombinginjures2910thanniversary@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Chelsea bombing injures 29 — 10th anniversary
+DESCRIPTION:A pressure-cooker bomb exploded on West 23rd Street in Chelse
+ a\, injuring 29 people. Ahmad Khan Rahimi was arrested days later and se
+ ntenced to life in prison.\n\nhttps://www.justice.gov/archives/opa/pr/ch
+ elsea-bomber-ahmad-khan-rahimi-convicted-executing-september-2016-bombin
+ g-new-york-city
+URL:https://www.justice.gov/archives/opa/pr/chelsea-bomber-ahmad-khan-rah
+ imi-convicted-executing-september-2016-bombing-new-york-city
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
 UID:20260918-TheNewYorkDailyTimesdebuts175thanniversa@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The New-York Daily Times debuts — 175th anniversary
@@ -204,7 +272,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260921-TheGreatFireof1776250thanniversary@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:The Great Fire of 1776 — 250th anniversary
@@ -216,7 +284,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260922-NathanHaleishangedasaspy250thanniversary@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Nathan Hale is hanged as a spy — 250th anniversary
@@ -229,7 +297,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20260922-UnitedNationsGeneralAssemblyleadersweek@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:United Nations General Assembly: leaders' week
@@ -238,8 +306,22 @@ DESCRIPTION:World leaders descend on the city for the high-level debate.
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
+UID:20260928-TheWhitneysBreuerbuildingopensonMadisonA@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:The Whitney's Breuer building opens on Madison Avenue — 60th anni
+ versary
+DESCRIPTION:Marcel Breuer's granite-clad Whitney Museum opened at 945 Mad
+ ison Avenue. Its inverted-ziggurat form and cantilevered upper floors ma
+ de it a landmark of Brutalist architecture.\n\nhttps://whitney.org/about
+ /breuer-building
+URL:https://whitney.org/about/breuer-building
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
 UID:20260930-Federalfiscalyearendsshutdownrisk@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Federal fiscal year ends\; shutdown risk
@@ -249,8 +331,45 @@ DESCRIPTION:Federal appropriations expire at midnight. New York City is h
 CATEGORIES:money
 END:VEVENT
 BEGIN:VEVENT
+UID:20261016-SangeropensfirstUSbirthcontrolclinic110t@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Sanger opens first US birth control clinic — 110th anniversary
+DESCRIPTION:Margaret Sanger opened the country's first birth control clin
+ ic in the Brownsville section of Brooklyn.\n\nhttps://www.loc.gov/item/t
+ oday-in-history/october-16/
+URL:https://www.loc.gov/item/today-in-history/october-16/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261026-TheYankeesdynastybegins30thanniversary@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:The Yankees' dynasty begins — 30th anniversary
+DESCRIPTION:The New York Yankees won the World Series over the Atlanta Br
+ aves\, their first title since 1978 and the start of a late-1990s dynast
+ y.\n\nhttps://baseballhall.org/discover/short-stops/1996-world-series
+URL:https://baseballhall.org/discover/short-stops/1996-world-series
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20261028-TheStatueofLibertyisdedicated140thannive@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:The Statue of Liberty is dedicated — 140th anniversary
+DESCRIPTION:President Grover Cleveland dedicated the Statue of Liberty on
+  Bedloe's Island in New York Harbor.\n\nhttps://www.nps.gov/museum/exhib
+ its/statue_liberty/opening_ceremony.html
+URL:https://www.nps.gov/museum/exhibits/statue_liberty/opening_ceremony.h
+ tml
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
 UID:20261101-NewYorkCityMarathon50yearsofthefiveborou@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:New York City Marathon: 50 years of the five-borough course
@@ -262,7 +381,7 @@ CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
 UID:20261103-Generalelection@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:General election
@@ -274,7 +393,7 @@ CATEGORIES:democracy
 END:VEVENT
 BEGIN:VEVENT
 UID:20261105-TheSchaghenletterrecordsthepurchaseofMan@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:The Schaghen letter records the 'purchase' of Manhattan — 400th a
@@ -291,7 +410,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20261106-DC37scontractexpires@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:DC 37's contract expires
@@ -306,7 +425,7 @@ CATEGORIES:power
 END:VEVENT
 BEGIN:VEVENT
 UID:20261116-ThefallofFortWashington250thanniversary@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:The fall of Fort Washington — 250th anniversary
@@ -319,7 +438,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20261126-The100thMacysThanksgivingDayParade@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:The 100th Macy's Thanksgiving Day Parade
@@ -329,8 +448,48 @@ DESCRIPTION:A milestone parade\; the count reaches 100 in 2026 because th
 CATEGORIES:city-life
 END:VEVENT
 BEGIN:VEVENT
+UID:20261214-UNchoosesNewYorkCityforitsheadquarters80@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:UN chooses New York City for its headquarters — 80th anniversary
+DESCRIPTION:The United Nations General Assembly voted to site its permane
+ nt headquarters in Manhattan after John D. Rockefeller Jr. donated $8.5 
+ million to buy the East River tract.\n\nhttps://www.un.org/en/about-us/h
+ istory-of-the-un
+URL:https://www.un.org/en/about-us/history-of-the-un
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
+UID:20270201-Stateexecutivebudgetdue@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:State executive budget due
+DESCRIPTION:In the year following a gubernatorial election\, the state co
+ nstitution requires the governor's budget by Feb. 1. It determines city 
+ tax authority\, transit funding and Medicaid cost-sharing — the single m
+ ost consequential document of the Albany year.\n\nhttps://www.budget.ny.
+ gov/
+URL:https://www.budget.ny.gov/
+CATEGORIES:money
+END:VEVENT
+BEGIN:VEVENT
+UID:20270415-JackieRobinsonbreaksbaseballscolorbarrie@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Jackie Robinson breaks baseball's color barrier — 80th anniversar
+ y
+DESCRIPTION:Jackie Robinson debuted at first base for the Brooklyn Dodger
+ s\, becoming the first Black player in the modern major leagues.\n\nhttp
+ s://baseballhall.org/hall-of-famers/robinson-jackie
+URL:https://baseballhall.org/hall-of-famers/robinson-jackie
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
 UID:20270426-Studio54opens50thanniversary@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:Studio 54 opens — 50th anniversary
@@ -342,7 +501,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270613-Lindberghgetsatickertapeheroswelcome100t@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270614
 SUMMARY:Lindbergh gets a ticker-tape hero's welcome — 100th anniversary
@@ -354,7 +513,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270704-SlaveryendsinNewYorkState200thanniversar@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
 SUMMARY:Slavery ends in New York State — 200th anniversary
@@ -366,7 +525,7 @@ CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
 UID:20270713-Theblackoutthatbrokethecitysspirit50than@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20270713
 DTEND;VALUE=DATE:20270714
 SUMMARY:The blackout that broke the city's spirit — 50th anniversary
@@ -378,8 +537,22 @@ URL:https://www.britannica.com/event/New-York-City-blackout-of-1977
 CATEGORIES:anniversary
 END:VEVENT
 BEGIN:VEVENT
+UID:20270728-SilentParademarchesdownFifthAvenue110tha@nyc-calendar
+DTSTAMP:20260714T170654Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:Silent Parade marches down Fifth Avenue — 110th anniversary
+DESCRIPTION:Thousands of Black New Yorkers marched in silence down Fifth 
+ Avenue to protest lynchings and the East St. Louis massacre.\n\nhttps://
+ www.loc.gov/exhibitions/naacp/the-new-negro-movement/about-this-exhibiti
+ on/marching-for-change/the-silent-protest-parade/
+URL:https://www.loc.gov/exhibitions/naacp/the-new-negro-movement/about-th
+ is-exhibition/marching-for-change/the-silent-protest-parade/
+CATEGORIES:anniversary
+END:VEVENT
+BEGIN:VEVENT
 UID:20270810-TheSonofSamiscaptured50thanniversary@nyc-calendar
-DTSTAMP:20260714T165917Z
+DTSTAMP:20260714T170654Z
 DTSTART;VALUE=DATE:20270810
 DTEND;VALUE=DATE:20270811
 SUMMARY:The Son of Sam is captured — 50th anniversary

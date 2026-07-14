@@ -389,17 +389,69 @@ function renderStatus(){
     `<span class="sep">|</span>`+
     `<span>${DATA.events.length} events · ${c.marquee||0} the city will feel · ${(c.routine||0)} hearings and filings</span>`+
     `<span style="margin-left:auto;display:flex;gap:8px">`+
-      `<button id="subBtn">Subscribe</button>`+
-      `<button class="ghost" id="subAllBtn">Subscribe to everything</button>`+
+      `<button id="icsBtn">Add to calendar</button>`+
+      `<button class="ghost" id="subBtn">Subscribe (auto-updates)</button>`+
     `</span>`;
+  $('#icsBtn').onclick=downloadICS;
   $('#subBtn').onclick=()=>subscribe('highlights.ics');
-  $('#subAllBtn').onclick=()=>subscribe('calendar.ics');
+  updateIcsLabel();
+}
+
+// Label the button with what it will actually give you, so it reflects the filters.
+function updateIcsLabel(){
+  const b=$('#icsBtn');
+  if(!b)return;
+  const n=visible().length;
+  b.textContent=`Add ${n} event${n===1?'':'s'} to calendar`;
+  b.disabled=!n;
+}
+
+/* Build an .ics from whatever the reader is currently looking at, so the
+   threshold and the strand filters carry through into their calendar app. */
+function makeICS(events){
+  const pad=s=>String(s).padStart(2,'0');
+  const stamp=new Date().toISOString().replace(/[-:]/g,'').split('.')[0]+'Z';
+  const esc1=s=>String(s||'').replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n');
+  const fold=l=>{const o=[];let s=l;while(s.length>73){o.push(s.slice(0,73));s=' '+s.slice(73);}o.push(s);return o.join('\r\n');};
+
+  const L=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//The New York City calendar//EN',
+           'CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:The New York City calendar'];
+  for(const e of events){
+    const d=e.date.replace(/-/g,'');
+    const nx=parse(e.date);nx.setDate(nx.getDate()+1);
+    const end=`${nx.getFullYear()}${pad(nx.getMonth()+1)}${pad(nx.getDate())}`;
+    const desc=[e.note,e.sourceUrl].filter(Boolean).join('\n\n');
+    L.push('BEGIN:VEVENT');
+    L.push(`UID:${d}-${e.title.replace(/\W/g,'').slice(0,40)}@nyc-calendar`);
+    L.push(`DTSTAMP:${stamp}`);
+    L.push(`DTSTART;VALUE=DATE:${d}`);
+    L.push(`DTEND;VALUE=DATE:${end}`);
+    L.push(fold(`SUMMARY:${esc1(e.title)}`));
+    if(desc)L.push(fold(`DESCRIPTION:${esc1(desc)}`));
+    if(e.sourceUrl)L.push(fold(`URL:${e.sourceUrl}`));
+    L.push(`CATEGORIES:${esc1(e.strand)}`);
+    L.push('END:VEVENT');
+  }
+  L.push('END:VCALENDAR');
+  return L.join('\r\n');
+}
+
+function downloadICS(){
+  const evs=visible();
+  if(!evs.length){toast('Nothing to add — widen the filter.');return;}
+  const blob=new Blob([makeICS(evs)],{type:'text/calendar;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='new-york-city-calendar.ics';
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  toast(`Downloaded ${evs.length} event${evs.length===1?'':'s'}. Open the file to add them.`);
 }
 
 function subscribe(file){
   const url=new URL('data/'+file,location.href).href;
   window.location.href='webcal://'+url.replace(/^https?:\/\//,'');
-  toast('Opening your calendar app. It will keep itself up to date.');
+  toast('Opening your calendar app. A subscription keeps itself up to date.');
 }
 
 function toast(msg){
@@ -482,6 +534,7 @@ function gcal(e){
 
 function render(){
   const evs=visible();
+  updateIcsLabel();
   const el=$('#stream');
   if(!evs.length){el.innerHTML='<div class="empty">Nothing on the calendar matches. Try widening the filter.</div>';return;}
 

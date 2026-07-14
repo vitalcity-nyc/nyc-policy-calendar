@@ -124,15 +124,23 @@ function scoreCityRecordEvent(rec) {
  * many zeroes are on the number. */
 const ROUNDNESS = [
   [300, 22], [250, 20], [200, 18], [175, 16], [150, 16],
-  [125, 15], [100, 14], [75, 11], [50, 10], [25, 6],
+  [125, 15], [100, 14], [75, 11], [50, 10],
+  // Decades count too — a 30th or a 10th is a real anniversary, and the city
+  // marks them. But they are common, so they must clear a higher bar to appear
+  // (see MINOR_INTERVAL below) or the calendar fills with trivia.
+  [40, 8], [30, 7], [25, 6], [20, 5], [10, 4],
 ];
+
+// Anniversaries at intervals below this are only shown for events that genuinely
+// register with the public (importance 3+). A 25th and up appears regardless.
+const MINOR_INTERVAL = 25;
 
 function anniversaryBonus(years) {
   // Take the largest round interval this anniversary satisfies.
   for (const [interval, bonus] of ROUNDNESS) {
-    if (years >= interval && years % interval === 0) return bonus;
+    if (years >= interval && years % interval === 0) return { bonus, interval };
   }
-  if (years > 300 && years % 50 === 0) return 22;
+  if (years > 300 && years % 50 === 0) return { bonus: 22, interval: 50 };
   return null; // not a round anniversary — skip it entirely
 }
 
@@ -275,15 +283,18 @@ async function buildAnniversaries() {
     for (const h of history) {
       const age = y - h.year;
       if (age <= 0) continue;
-      const bonus = anniversaryBonus(age);
-      if (bonus === null) continue;
+      const round = anniversaryBonus(age);
+      if (round === null) continue;
 
       const date = `${y}-${String(h.month).padStart(2, '0')}-${String(h.day).padStart(2, '0')}`;
       if (date < startISO || date > horizonISO) continue;
 
       const importance = overrides[h.title] ?? categoryDefaults[h.category] ?? 2;
+      // A 10th or 20th only earns a place if the event still means something.
+      if (round.interval < MINOR_INTERVAL && importance < 3) continue;
+
       const living = age <= 60 ? 8 : 0; // within living memory of many New Yorkers
-      const score = Math.min(30 + importance * 10 + bonus + living, 100);
+      const score = Math.min(30 + importance * 10 + round.bonus + living, 100);
 
       const why = [`${ordinal(age)} anniversary`];
       if (living) why.push('within living memory');
