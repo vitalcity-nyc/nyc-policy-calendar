@@ -5,11 +5,11 @@ on:
     - cron: '0 10 * * *'   # ~6am ET
     - cron: '0 22 * * *'   # ~6pm ET
   workflow_dispatch:
+  # Any push to main deploys. Do NOT filter on paths here: this job is both the
+  # data refresh AND the Pages deploy, so a paths filter silently strips
+  # front-end-only changes (index.html, methodology.html) of any way to ship.
   push:
     branches: [main]
-    paths:
-      - 'build.mjs'
-      - 'seed/**'
 
 permissions:
   contents: write
