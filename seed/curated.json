@@ -170,7 +170,7 @@
    "date": "2026-06-30",
    "title": "City budget adoption deadline",
    "note": "The Council and the mayor adopt the budget. The Charter's hard date is June 5 (section 254(d)); in practice adoption lands by June 30, the last day of the fiscal year, and the fiscal 2027 budget was adopted June 30, 2026.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 76,
    "url": "https://council.nyc.gov/budget/"
   },
@@ -243,7 +243,7 @@
    "date": "2026-09-30",
    "title": "Federal fiscal year ends; shutdown risk",
    "note": "Federal appropriations expire at midnight. New York City is heavily exposed to disruptions in housing vouchers, Medicaid, transit and disaster aid.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 66
   },
   {
@@ -258,7 +258,7 @@
    "date": "2026-07-01",
    "title": "The city's fiscal year 2027 begins",
    "note": "Budget implementation starts.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 44
   },
   {
@@ -272,7 +272,7 @@
    "date": "2026-07-15",
    "title": "Metropolitan Transportation Authority financial plan update",
    "note": "The July plan carries updated revenue projections and capital program status.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 38,
    "approx": true,
    "url": "https://www.mta.info/budget"
@@ -281,7 +281,7 @@
    "date": "2026-09-25",
    "title": "Metropolitan Transportation Authority preliminary 2027 budget",
    "note": "A key indicator of fiscal health and service levels.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 40,
    "approx": true,
    "url": "https://www.mta.info/budget"
@@ -290,7 +290,7 @@
    "date": "2026-12-15",
    "title": "Metropolitan Transportation Authority board adopts the 2027 budget",
    "note": "The final operating budget for the coming year.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 44,
    "approx": true,
    "url": "https://www.mta.info/transparency/board-and-committee-meetings"
@@ -299,7 +299,7 @@
    "date": "2026-11-25",
    "title": "November financial plan update",
    "note": "The city updates revenue and spending projections, setting the baseline for the next budget cycle.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 38,
    "approx": true,
    "url": "https://www.nyc.gov/site/omb/index.page"
@@ -352,7 +352,7 @@
    "date": "2026-10-01",
    "title": "Federal fiscal year 2027 begins",
    "note": "Watch for continuing resolutions and shutdown risk affecting city funding.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 36
   },
   {
@@ -416,7 +416,7 @@
    "date": "2027-02-01",
    "title": "State executive budget due",
    "note": "In the year following a gubernatorial election, the state constitution requires the governor's budget by Feb. 1. It determines city tax authority, transit funding and Medicaid cost-sharing — the single most consequential document of the Albany year.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 68,
    "url": "https://www.budget.ny.gov/"
   },
@@ -495,7 +495,7 @@
    "date": "2027-01-16",
    "title": "Preliminary budget for fiscal 2028",
    "note": "Mamdani's second budget, due under Charter section 236. Note the February deadline does not apply: the extension exists only in the year following a mayoral election, which was 2026.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 66,
    "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
   },
@@ -503,7 +503,7 @@
    "date": "2027-01-16",
    "title": "Draft ten-year capital strategy",
    "note": "Published alongside the preliminary budget in odd-numbered years under Charter section 228. It sets the decade's capital priorities — housing, transit, infrastructure — and is rarely watched relative to its consequences.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 58,
    "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
   },
@@ -519,7 +519,7 @@
    "date": "2027-03-25",
    "title": "Council preliminary budget hearings conclude",
    "note": "The Council must hold hearings on the preliminary budget by this date under Charter section 247. Agency heads testify; it is the year's most sustained public interrogation of the administration.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 56,
    "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
   },
@@ -527,7 +527,7 @@
    "date": "2027-04-01",
    "title": "Council's preliminary budget response",
    "note": "The Council's formal counter-document, due under Charter section 247. The opening position of the budget negotiation.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 60,
    "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
   },
@@ -535,7 +535,7 @@
    "date": "2027-04-26",
    "title": "Ten-year capital strategy issued",
    "note": "The mayor's final capital strategy, due under Charter section 248 in odd-numbered years.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 56,
    "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
   },
@@ -543,7 +543,7 @@
    "date": "2027-05-01",
    "title": "Executive budget for fiscal 2028",
    "note": "The mayor's revised budget, due under Charter section 249, updated for whatever Albany did on April 1.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 70,
    "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter/0-0-0-1"
   },
@@ -551,7 +551,7 @@
    "date": "2027-06-30",
    "title": "Fiscal 2028 budget adoption",
    "note": "The Charter's trigger date is June 5 (section 254), but in practice adoption lands at the end of June: the fiscal 2027 deal was struck and voted on June 30, 2026, hours before the deadline. Date estimated from that practice.",
-   "strand": "money",
+   "strand": "budget",
    "significance": 76,
    "approx": true,
    "url": "https://council.nyc.gov/budget/"
