@@ -57,26 +57,34 @@ body{
 
 .wrap{max-width:960px;margin:0 auto;padding:0 24px 120px}
 
-/* ── Masthead ───────────────────────────────────────── */
-.masthead{border-bottom:3px solid var(--black);padding:34px 0 14px;margin-bottom:0}
-.kicker{
-  font-size:.66rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
-  color:var(--maroon);margin-bottom:12px;
+/* ── Masthead ─────────────────────────────────────────
+   A broadsheet nameplate: hairline above, heavy rule below, the title set as
+   large as the column allows. */
+.masthead{
+  border-top:1px solid var(--black);
+  border-bottom:4px solid var(--black);
+  padding:20px 0 16px;margin-bottom:0;
 }
+.kicker{
+  font-size:.62rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--maroon);margin-bottom:14px;
+  display:flex;align-items:center;gap:10px;
+}
+.kicker::after{content:'';flex:1;height:1px;background:var(--cloud)}
 .masthead h1{
-  font-family:var(--sans);font-weight:700;font-size:clamp(2rem,5.2vw,3.4rem);
-  line-height:1.02;letter-spacing:-.025em;margin-bottom:12px;
+  font-family:var(--sans);font-weight:700;font-size:clamp(2.1rem,6vw,4.1rem);
+  line-height:.98;letter-spacing:-.035em;margin-bottom:16px;
 }
 .standfirst{
-  font-size:1rem;max-width:56ch;color:var(--graphite);line-height:1.55;
-  border-left:3px solid var(--chartreuse);padding-left:14px;
+  font-size:1.02rem;max-width:54ch;color:var(--graphite);line-height:1.5;
+  border-left:3px solid var(--chartreuse);padding-left:15px;
 }
 
 /* ── Status bar ─────────────────────────────────────── */
 .status{
-  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
-  padding:10px 0;border-bottom:1px solid var(--cloud);
-  font-size:.74rem;color:var(--charcoal);
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  padding:11px 0;border-bottom:1px solid var(--cloud);
+  font-size:.72rem;color:var(--charcoal);
 }
 .pulse{
   display:inline-flex;align-items:center;gap:6px;font-weight:700;
@@ -116,15 +124,23 @@ body{
 .thresh button.on{background:var(--black);color:var(--white)}
 .thresh button:hover:not(.on){background:var(--chartreuse)}
 
-.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
+/* Strand filters. Thirteen boxed chips read as a wall and competed with the
+   calendar. Stripped to a swatch and a word; selection is a filled swatch and
+   a rule under the label, so the row recedes until you use it. */
+.chips{display:flex;gap:3px 14px;flex-wrap:wrap;margin-top:11px;align-items:center}
 .chip{
-  font-size:.7rem;font-weight:400;padding:3px 10px;cursor:pointer;
-  border:1px solid var(--cloud);background:var(--white);color:var(--charcoal);
-  user-select:none;white-space:nowrap;display:flex;align-items:center;gap:5px;
+  font-size:.72rem;font-weight:400;padding:2px 0;cursor:pointer;
+  border:none;background:none;color:var(--charcoal);
+  user-select:none;white-space:nowrap;display:flex;align-items:center;gap:6px;
+  border-bottom:2px solid transparent;transition:color .12s;
 }
-.chip:hover{border-color:var(--black);color:var(--black)}
-.chip.on{background:var(--black);color:var(--white);border-color:var(--black);font-weight:700}
-.chip .sw{width:8px;height:8px;flex-shrink:0}
+.chip:hover{color:var(--black)}
+.chip:hover .sw{transform:scale(1.35)}
+.chip.on{color:var(--black);font-weight:700;border-bottom-color:var(--black)}
+.chip .sw{
+  width:9px;height:9px;flex-shrink:0;transition:transform .12s;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.16);
+}
 
 .search{
   flex:1;min-width:150px;padding:6px 10px;font-family:var(--sans);font-size:.8rem;
@@ -132,22 +148,47 @@ body{
 }
 .search:focus{border-color:var(--black)}
 
-/* ── Month rules ────────────────────────────────────── */
+/* ── Month rules ──────────────────────────────────────
+   The strongest horizontal in the page. A month should land like a section
+   front, not a caption. */
 .month{
-  display:flex;align-items:baseline;gap:12px;
-  margin:44px 0 6px;padding-bottom:6px;border-bottom:1px solid var(--black);
+  display:flex;align-items:baseline;gap:10px;
+  margin:64px 0 2px;padding-bottom:8px;
+  border-bottom:2px solid var(--black);
 }
+.month:first-child{margin-top:34px}
 .month h2{
-  font-family:var(--sans);font-weight:700;font-size:.82rem;
-  letter-spacing:.16em;text-transform:uppercase;
+  font-family:var(--sans);font-weight:700;font-size:1.9rem;
+  letter-spacing:-.03em;line-height:1;display:flex;align-items:baseline;gap:9px;
 }
-.month .n{font-size:.7rem;color:var(--charcoal);margin-left:auto}
+/* The year in serif numerals — the house cue that this is data, not prose. */
+.month .yr{
+  font-family:var(--serif);font-weight:300;font-size:1.5rem;
+  color:var(--charcoal);letter-spacing:0;
+}
+.month .n{
+  font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--charcoal);margin-left:auto;
+}
 
 /* ── Events ─────────────────────────────────────────── */
 .ev{
   display:grid;grid-template-columns:78px 1fr auto;gap:20px;
   padding:16px 0;border-bottom:1px solid var(--cloud);cursor:pointer;
   position:relative;
+  animation:rise .34s cubic-bezier(.2,.7,.3,1) both;
+}
+/* A short stagger down the page on load — enough to feel composed, not enough
+   to make anyone wait. Nothing past the fold is delayed. */
+.ev:nth-child(1){animation-delay:.02s}
+.ev:nth-child(2){animation-delay:.05s}
+.ev:nth-child(3){animation-delay:.08s}
+.ev:nth-child(4){animation-delay:.11s}
+.ev:nth-child(5){animation-delay:.14s}
+@keyframes rise{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){
+  .ev{animation:none}
+  .agate summary::after{transition:none}
 }
 .ev:hover{background:rgba(221,228,76,.10)}
 .ev .when{text-align:right;padding-top:2px}
@@ -172,27 +213,37 @@ body{
 }
 .approx{font-style:italic}
 
-/* tier: marquee — the city stops */
+/* tier: marquee — the city stops.
+   Given the full width of the column, a rule top and bottom, and a date set
+   large enough to read across a room. */
 .ev.marquee{
-  grid-template-columns:120px 1fr auto;background:var(--white);
-  border-left:6px solid var(--black);border-bottom:2px solid var(--black);
-  padding:26px 22px 26px 0;margin:14px 0;
+  grid-template-columns:132px 1fr auto;background:var(--white);
+  border-top:3px solid var(--black);border-bottom:3px solid var(--black);
+  border-left:none;padding:30px 24px 30px 0;margin:26px 0;
 }
-.ev.marquee .when{padding-left:18px}
-.ev.marquee .dnum{font-size:4.6rem}
-.ev.marquee h3{font-size:clamp(1.5rem,3.4vw,2.2rem);font-weight:700}
-.ev.marquee .note{font-size:.95rem;margin-top:10px}
+.ev.marquee::before{
+  content:'';position:absolute;left:0;top:-3px;width:34%;height:3px;
+  background:var(--chartreuse);
+}
+.ev.marquee .when{padding-left:24px}
+.ev.marquee .dnum{font-size:5.4rem;letter-spacing:-.04em}
+.ev.marquee h3{font-size:clamp(1.6rem,3.6vw,2.4rem);font-weight:700;letter-spacing:-.03em;line-height:1.06}
+.ev.marquee .note{font-size:.95rem;margin-top:11px;max-width:52ch}
+.ev.marquee:hover{background:var(--white)}
 
 /* tier: major */
-.ev.major{border-left:4px solid var(--black);padding-left:16px;background:var(--white)}
-.ev.major .dnum{font-size:2.5rem}
-.ev.major h3{font-size:1.22rem;font-weight:700}
+.ev.major{
+  border-left:3px solid var(--black);padding-left:18px;background:var(--white);
+  padding-top:18px;padding-bottom:18px;
+}
+.ev.major .dnum{font-size:2.7rem}
+.ev.major h3{font-size:1.26rem;font-weight:700;letter-spacing:-.02em}
 .ev.major .note{font-size:.86rem}
 
 /* tier: notable */
-.ev.notable .dnum{font-size:1.6rem}
-.ev.notable h3{font-size:.98rem;font-weight:700}
-.ev.notable .note{font-size:.8rem}
+.ev.notable .dnum{font-size:1.7rem}
+.ev.notable h3{font-size:1rem;font-weight:700}
+.ev.notable .note{font-size:.81rem}
 
 /* tier: routine — agate */
 .ev.routine{padding:7px 0;gap:14px}
@@ -260,18 +311,39 @@ body{
 .daylist .dl-t.routine{color:var(--charcoal);font-size:.76rem}
 .daylist .dl-s{font-family:var(--serif);font-size:1.1rem;color:var(--charcoal)}
 
-/* ── Agate block (collapsed hearings) ───────────────── */
+/* ── Agate: the back pages ────────────────────────────
+   Everything government does on a schedule, gathered once at the foot of the
+   month. Deliberately quiet — it should feel like classified listings, there
+   when you want it and silent when you don't. */
 .agate{
-  border-left:3px solid var(--cloud);padding:10px 0 10px 16px;margin:10px 0;
+  margin:22px 0 6px;border-top:1px solid var(--cloud);
+  background:linear-gradient(180deg, rgba(0,0,0,.018), transparent 60%);
 }
 .agate summary{
-  font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
-  color:var(--charcoal);cursor:pointer;list-style:none;
+  display:flex;align-items:center;gap:8px;
+  font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--charcoal);cursor:pointer;list-style:none;padding:11px 2px;
+  transition:color .15s;
 }
 .agate summary::-webkit-details-marker{display:none}
-.agate summary::before{content:'▸ ';color:var(--charcoal)}
-.agate[open] summary::before{content:'▾ '}
+.agate summary::after{
+  content:'';margin-left:auto;width:7px;height:7px;flex-shrink:0;
+  border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
+  transform:rotate(45deg) translateY(-2px);transition:transform .2s;
+}
+.agate[open] summary::after{transform:rotate(-135deg) translateY(-2px)}
 .agate summary:hover{color:var(--black)}
+.agate .ag-n{
+  font-family:var(--serif);font-size:1.15rem;font-weight:300;
+  color:var(--black);letter-spacing:0;line-height:1;
+}
+/* Two columns of listings on a wide screen — that is what agate is for. */
+.agate-body{
+  border-top:1px solid var(--cloud);padding-top:4px;
+  columns:2;column-gap:34px;column-rule:1px solid var(--cloud);
+}
+.agate-body .ev{break-inside:avoid;-webkit-column-break-inside:avoid}
+@media(max-width:820px){ .agate-body{columns:1} }
 
 /* ── Detail drawer ──────────────────────────────────── */
 .drawer{
@@ -307,12 +379,16 @@ body{
 .bad{width:6px;height:6px;border-radius:50%;background:var(--maroon)}
 
 /* ── AI caution ─────────────────────────────────────── */
-.tools{position:fixed;right:18px;bottom:18px;z-index:90;display:flex;gap:8px}
+.tools{position:fixed;right:18px;bottom:18px;z-index:90;display:flex;gap:8px;opacity:.94}
+.tools:hover{opacity:1}
 .tools button{
-  font-family:var(--sans);font-size:.68rem;font-weight:700;letter-spacing:.05em;
-  padding:8px 12px;border:2px solid var(--black);background:var(--white);
+  font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;
+  padding:7px 11px;border:2px solid var(--black);background:var(--white);
   color:var(--black);cursor:pointer;box-shadow:3px 3px 0 rgba(5,5,7,.18);
+  transition:transform .12s;
 }
+.tools button:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 rgba(5,5,7,.22)}
 #aiBtn{background:var(--maroon);color:var(--white);border-color:var(--maroon)}
 .pop{
   display:none;position:fixed;right:18px;bottom:64px;width:330px;z-index:91;
@@ -452,15 +528,37 @@ body{
 
 @media(max-width:640px){
   .wrap{padding:0 16px 100px}
+
+  /* The controls were eating the entire first screen before a single event
+     appeared. Everything down to .month here is about buying back that space. */
+  .masthead{padding:14px 0 12px}
+  .masthead h1{font-size:2.1rem;margin-bottom:12px}
+  .standfirst{font-size:.88rem;line-height:1.45;padding-left:12px}
+  .status{font-size:.68rem;gap:8px;padding:9px 0}
+  .status button{padding:7px 10px;font-size:.62rem;white-space:nowrap}
+  .wide-only{display:none}          /* shorter button labels on a phone */
+  .status{gap:6px 10px}
+  .controls{padding:10px 0}
+  .ctl-label{display:none}        /* the toggles read fine without SHOW / VIEW */
+  .ctl-row{gap:6px}
+  .search{order:3;flex-basis:100%;min-width:0;font-size:.78rem}
+  .chips{gap:2px 11px;margin-top:8px}
+  .chip{font-size:.66rem}
+  .chip .sw{width:8px;height:8px}
+  .month{margin:38px 0 2px}
+  .month h2{font-size:1.5rem}
+  .month .yr{font-size:1.2rem}
+  .ev.marquee::before{width:46%}
+
   .ev{grid-template-columns:52px 1fr auto;gap:12px}
-  .ev.marquee{grid-template-columns:70px 1fr auto;padding:18px 14px 18px 0}
+  .ev.marquee{grid-template-columns:66px 1fr auto;padding:18px 12px 18px 0;margin:16px 0}
   .mineacts{margin-left:0;width:100%}
   .mineacts button{flex:1}
   /* A 26px star is not a touch target. */
   .star{font-size:1.5rem;padding:8px;min-width:44px;min-height:44px}
   .star.big{min-width:0;min-height:0;font-size:.72rem;padding:9px 12px}
   .ev.marquee .when{padding-left:12px}
-  .ev.marquee .dnum{font-size:2.8rem}
+  .ev.marquee .dnum{font-size:3rem}
   .ev.marquee h3{font-size:1.35rem}
   .ev.major .dnum{font-size:1.9rem}
   .thresh button{padding:6px 9px;font-size:.66rem}
@@ -682,7 +780,7 @@ function renderStatus(){
     `<span>${DATA.events.length} events · ${c.marquee||0} the city will feel · ${(c.routine||0)} hearings and filings</span>`+
     `<span style="margin-left:auto;display:flex;gap:8px">`+
       `<button id="icsBtn">Add to calendar</button>`+
-      `<button class="ghost" id="subBtn">Subscribe (auto-updates)</button>`+
+      `<button class="ghost" id="subBtn">Subscribe<span class="wide-only"> (auto-updates)</span></button>`+
     `</span>`;
   $('#icsBtn').onclick=downloadICS;
   $('#subBtn').onclick=()=>subscribe('highlights.ics');
@@ -694,7 +792,8 @@ function updateIcsLabel(){
   const b=$('#icsBtn');
   if(!b)return;
   const n=visible().length;
-  b.textContent=`Add ${n} event${n===1?'':'s'} to calendar`;
+  // The narrow screen gets the short form: the button is the same button.
+  b.innerHTML=`Add ${n} event${n===1?'':'s'}<span class="wide-only"> to calendar</span>`;
   b.disabled=!n;
 }
 
@@ -1009,7 +1108,7 @@ function renderMine(){
     if(mk!==curMonth){
       curMonth=mk;
       const d=parse(e.date);
-      html+=`<div class="month"><h2>${MONTHS[d.getMonth()]} ${d.getFullYear()}</h2></div>`;
+      html+=`<section class="month"><h2>${MONTHS[d.getMonth()]}<span class="yr">${d.getFullYear()}</span></h2></section>`;
     }
     html+=evHTML(e, POOL.indexOf(e));
   }
@@ -1117,34 +1216,38 @@ function render(){
   if(view==='month'){ renderMonth(evs); return; }
   if(!evs.length){el.innerHTML='<div class="empty">Nothing on the calendar matches. Try widening the filter.</div>';return;}
 
-  // index into the live array so the drawer can find its event
   const idx=new Map(evs.map(e=>[e,POOL.indexOf(e)]));
 
-  let html='',curMonth='';
-  let i=0;
-  while(i<evs.length){
-    const e=evs[i];
+  // Group by month, and within each month split the news from the machinery.
+  // Previously every run of consecutive hearings became its own collapsed block,
+  // which shredded a month into "5 hearings", one event, "3 hearings", one event.
+  // A month now reads as: what is coming, then — once, at the foot — everything
+  // government does on a schedule. That is the paper's front and its back pages.
+  const months=[];
+  for(const e of evs){
     const mk=e.date.slice(0,7);
-    if(mk!==curMonth){
-      curMonth=mk;
-      const d=parse(e.date);
-      const n=evs.filter(x=>x.date.slice(0,7)===mk).length;
-      html+=`<div class="month"><h2>${MONTHS[d.getMonth()]} ${d.getFullYear()}</h2>
-             <span class="n">${n} event${n===1?'':'s'}</span></div>`;
-    }
+    let m=months.find(x=>x.key===mk);
+    if(!m){ m={key:mk, date:e.date, news:[], agate:[]}; months.push(m); }
+    (e.tier==='routine'&&e.strand==='hearings' ? m.agate : m.news).push(e);
+  }
 
-    // Collapse consecutive routine HEARINGS into one agate block. A low-scoring
-    // book is still a book — it should not be filed under "routine filings".
-    if(e.tier==='routine'&&e.strand==='hearings'){
-      const run=[];
-      while(i<evs.length&&evs[i].tier==='routine'&&evs[i].strand==='hearings'&&evs[i].date.slice(0,7)===curMonth){run.push(evs[i]);i++;}
-      html+=`<details class="agate"><summary>${run.length} hearing${run.length===1?'':'s'} and routine filing${run.length===1?'':'s'}</summary>`+
-            run.map(x=>evHTML(x,idx.get(x))).join('')+`</details>`;
-      continue;
-    }
+  let html='';
+  for(const m of months){
+    const d=parse(m.date);
+    const total=m.news.length+m.agate.length;
+    html+=`<section class="month">
+      <h2>${MONTHS[d.getMonth()]}<span class="yr">${d.getFullYear()}</span></h2>
+      <span class="n">${total} event${total===1?'':'s'}</span>
+    </section>`;
 
-    html+=evHTML(e,idx.get(e));
-    i++;
+    html+=m.news.map(e=>evHTML(e,idx.get(e))).join('');
+
+    if(m.agate.length){
+      html+=`<details class="agate">
+        <summary><span class="ag-n">${m.agate.length}</span> hearing${m.agate.length===1?'':'s'} and routine filing${m.agate.length===1?'':'s'} this month</summary>
+        <div class="agate-body">${m.agate.map(e=>evHTML(e,idx.get(e))).join('')}</div>
+      </details>`;
+    }
   }
   el.innerHTML=html;
   wireEvents(el);
