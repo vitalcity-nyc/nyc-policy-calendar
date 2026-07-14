@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-14T18:52:59.957Z",
+ "generated": "2026-07-14T21:26:29.775Z",
  "window": {
   "start": "2026-06-30",
   "end": "2027-08-18"
@@ -9,43 +9,43 @@
   {
    "name": "Curated",
    "ok": true,
-   "count": 90,
-   "ms": 2,
+   "count": 102,
+   "ms": 0,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 6,
+   "ms": 2,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 326,
+   "ms": 431,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 52,
-   "ms": 925,
+   "ms": 842,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4953,
+   "ms": 5335,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "major": 45,
-  "notable": 57,
-  "routine": 100,
+  "notable": 65,
+  "routine": 104,
   "marquee": 9
  },
  "events": [
@@ -1621,6 +1621,22 @@
    "tier": "major"
   },
   {
+   "date": "2026-09-07",
+   "time": null,
+   "title": "Labor Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 48,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
    "date": "2026-09-08",
    "time": null,
    "title": "Luigi Mangione's state murder trial begins",
@@ -2286,6 +2302,22 @@
    "tier": "notable"
   },
   {
+   "date": "2026-10-12",
+   "time": null,
+   "title": "Columbus Day / Indigenous Peoples' Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2026-10-16",
    "time": null,
    "title": "Sanger opens first US birth control clinic — 110th anniversary",
@@ -2604,6 +2636,22 @@
    "tier": "routine"
   },
   {
+   "date": "2026-11-11",
+   "time": null,
+   "title": "Veterans Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
    "date": "2026-11-12",
    "time": "1:30 PM",
    "title": "Stated meeting of the City Council",
@@ -2700,6 +2748,22 @@
    "approx": false,
    "live": false,
    "tier": "marquee"
+  },
+  {
+   "date": "2026-11-26",
+   "time": null,
+   "title": "Thanksgiving Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 50,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
   },
   {
    "date": "2026-12-01",
@@ -2848,6 +2912,22 @@
    "tier": "notable"
   },
   {
+   "date": "2026-12-25",
+   "time": null,
+   "title": "Christmas Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 50,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
    "date": "2026-12-28",
    "time": null,
    "title": "Albany post-election positioning",
@@ -2898,6 +2978,22 @@
   {
    "date": "2027-01-01",
    "time": null,
+   "title": "New Year's Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 48,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
+   "date": "2027-01-01",
+   "time": null,
    "title": "Rikers land transfer deadline",
    "note": "The semi-annual deadline to move unused Rikers land to the Department of Citywide Administrative Services, seven months before the island must close.",
    "strand": "justice",
@@ -2908,6 +3004,22 @@
     "editorially judged"
    ],
    "approx": false,
+   "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2027-01-01",
+   "time": null,
+   "title": "Reinventing Transit for the 21st Century, by Baruch Feigenbaum",
+   "note": "A reform agenda for American transit: governance, competition, service redesign and technology. Elsevier gives Jan. 1, which publishers often use as a placeholder, so treat the day as soft. (Elsevier)",
+   "strand": "books",
+   "source": "Curated",
+   "sourceUrl": "https://shop.elsevier.com/books/reinventing-transit-for-the-21st-century/feigenbaum/978-0-443-27690-3",
+   "significance": 38,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": true,
    "live": false,
    "tier": "routine"
   },
@@ -3008,6 +3120,22 @@
    "tier": "notable"
   },
   {
+   "date": "2027-01-18",
+   "time": null,
+   "title": "Martin Luther King Jr. Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 48,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
    "date": "2027-01-19",
    "time": null,
    "title": "Making a Killing, by Robin D. G. Kelley",
@@ -3070,6 +3198,22 @@
    "approx": false,
    "live": false,
    "tier": "notable"
+  },
+  {
+   "date": "2027-02-15",
+   "time": null,
+   "title": "Presidents Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 44,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "routine"
   },
   {
    "date": "2027-03-25",
@@ -3309,6 +3453,22 @@
    "tier": "notable"
   },
   {
+   "date": "2027-05-31",
+   "time": null,
+   "title": "Memorial Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 46,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
+  },
+  {
    "date": "2027-06-13",
    "time": null,
    "title": "Lindbergh gets a ticker-tape hero's welcome — 100th anniversary",
@@ -3325,6 +3485,22 @@
    "anniversaryYears": 100,
    "live": true,
    "tier": "major"
+  },
+  {
+   "date": "2027-06-19",
+   "time": null,
+   "title": "Juneteenth",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 46,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
   },
   {
    "date": "2027-06-24",
@@ -3375,6 +3551,22 @@
    "anniversaryYears": 200,
    "live": true,
    "tier": "marquee"
+  },
+  {
+   "date": "2027-07-05",
+   "time": null,
+   "title": "Independence Day observed",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "source": "Curated",
+   "sourceUrl": null,
+   "significance": 46,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "notable"
   },
   {
    "date": "2027-07-13",

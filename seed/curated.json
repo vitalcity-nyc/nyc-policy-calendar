@@ -818,6 +818,92 @@
    "significance": 34,
    "url": "https://benbellabooks.com/shop/the-accidental-gentrifier/",
    "approx": true
+  },
+  {
+   "date": "2027-01-01",
+   "title": "Reinventing Transit for the 21st Century, by Baruch Feigenbaum",
+   "note": "A reform agenda for American transit: governance, competition, service redesign and technology. Elsevier gives Jan. 1, which publishers often use as a placeholder, so treat the day as soft. (Elsevier)",
+   "strand": "books",
+   "significance": 38,
+   "approx": true,
+   "url": "https://shop.elsevier.com/books/reinventing-transit-for-the-21st-century/feigenbaum/978-0-443-27690-3"
+  },
+  {
+   "date": "2026-09-07",
+   "title": "Labor Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 48
+  },
+  {
+   "date": "2026-10-12",
+   "title": "Columbus Day / Indigenous Peoples' Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 44
+  },
+  {
+   "date": "2026-11-11",
+   "title": "Veterans Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 44
+  },
+  {
+   "date": "2026-11-26",
+   "title": "Thanksgiving Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 50
+  },
+  {
+   "date": "2026-12-25",
+   "title": "Christmas Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 50
+  },
+  {
+   "date": "2027-01-01",
+   "title": "New Year's Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 48
+  },
+  {
+   "date": "2027-01-18",
+   "title": "Martin Luther King Jr. Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 48
+  },
+  {
+   "date": "2027-02-15",
+   "title": "Presidents Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 44
+  },
+  {
+   "date": "2027-05-31",
+   "title": "Memorial Day",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 46
+  },
+  {
+   "date": "2027-06-19",
+   "title": "Juneteenth",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 46
+  },
+  {
+   "date": "2027-07-05",
+   "title": "Independence Day observed",
+   "note": "A public holiday. City offices are closed, no hearings sit and alternate side parking is suspended.",
+   "strand": "holidays",
+   "significance": 46
   }
  ]
 }

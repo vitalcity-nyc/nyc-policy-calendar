@@ -26,6 +26,8 @@
 
   --s-city-life:var(--orange);
   --s-cityhall:#5a5f8f;
+  --s-holidays:#a89f8c;
+  --s-mine:var(--chartreuse);
   --s-anniversary:var(--magenta);
   --s-democracy:var(--indigo);
   --s-housing:var(--cerulean);
@@ -362,6 +364,26 @@ body{
 .btn-line{background:var(--white);color:var(--black)}
 .btn-line:hover{background:var(--chartreuse)}
 
+/* ── Add-your-own-event form ────────────────────────── */
+.addf{
+  background:var(--white);border:2px solid var(--black);padding:16px;margin:12px 0 6px;
+  box-shadow:4px 4px 0 rgba(5,5,7,.14);
+}
+.addf .row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.addf .grow{flex:1;min-width:200px}
+.addf label{
+  display:block;font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--charcoal);margin-bottom:10px;
+}
+.addf input,.addf textarea,.addf select{
+  display:block;width:100%;margin-top:4px;font-family:var(--sans);font-size:.86rem;font-weight:300;
+  padding:7px 9px;border:1px solid var(--cloud);background:var(--paper);
+  color:var(--black);text-transform:none;letter-spacing:0;
+}
+.addf input:focus,.addf textarea:focus,.addf select:focus{outline:none;border-color:var(--black)}
+.ev .acts .del{color:#ff9d9d;border-color:#ff9d9d}
+.ev .acts .del:hover{background:#ff9d9d;color:var(--black)}
+
 /* ── Day modal (month view) ─────────────────────────── */
 .daymodal{
   display:none;position:fixed;inset:0;z-index:120;background:rgba(5,5,7,.45);
@@ -388,6 +410,36 @@ body{
 .toast button{
   background:var(--chartreuse);border:none;color:var(--black);font-family:var(--sans);
   font-weight:700;font-size:.7rem;padding:4px 10px;cursor:pointer;
+}
+
+/* ── Print ──────────────────────────────────────────────
+   Whatever is on screen — the whole calendar, one month, or just My list —
+   prints as a clean brief. The original calendar had this and it was right:
+   people take paper into meetings. */
+@media print{
+  @page{margin:14mm}
+  body{background:#fff;color:#000;font-size:10pt}
+  .wrap{max-width:none;padding:0}
+  .controls,.status,.tools,.pop,.toast,.star,.mineacts,.addf,.daymodal,.drawer,.noteinput,.notelab{
+    display:none !important;
+  }
+  .masthead{border-bottom:2pt solid #000;padding-top:0}
+  .masthead h1{font-size:22pt}
+  .standfirst{font-size:9pt;border-left:2pt solid #000}
+  .ev{break-inside:avoid;page-break-inside:avoid;border-bottom:.5pt solid #999;padding:6pt 0}
+  .ev.marquee{border:1pt solid #000;padding:8pt;margin:6pt 0;box-shadow:none}
+  .ev.marquee .dnum{font-size:24pt}
+  .ev.marquee h3{font-size:14pt}
+  .ev:hover{background:none}
+  .mynote{background:none;border-left:2pt solid #000;font-style:italic}
+  .agate{border-left:1pt solid #999}
+  .agate summary{list-style:none}
+  .agate[open] summary::before{content:''}
+  details:not([open]) > *:not(summary){display:none}
+  .cell{min-height:70pt}
+  .month,.mnav{break-after:avoid;page-break-after:avoid}
+  .foot{font-size:8pt;border-top:1pt solid #000}
+  a{text-decoration:none;color:#000}
 }
 
 @media(max-width:640px){
@@ -486,7 +538,7 @@ const DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const STRANDS={
   'city-life':'City life','cityhall':'City Hall','anniversary':'Anniversaries','democracy':'Democracy',
   'housing':'Housing','money':'Money','justice':'Justice','power':'Power','climate':'Climate',
-  'books':'Books','hearings':'Hearings'
+  'books':'Books','holidays':'Holidays','hearings':'Hearings','mine':'My events'
 };
 
 let DATA=null, minScore=0, active=new Set(), q='', generated=null;
@@ -502,13 +554,52 @@ let monthCursor=[new Date().getFullYear(), new Date().getMonth()];
    rebuild: the feeds re-emit the same hearing with the same title each run. */
 const KEY='nycCalendar.marks.v1';
 const uid=e=>`${e.date}|${e.title}`;
-let marks={starred:[],notes:{}};
+let marks={starred:[],notes:{},custom:[]};
 
 function loadMarks(){
   try{
     const raw=JSON.parse(localStorage.getItem(KEY)||'{}');
-    marks={starred:Array.isArray(raw.starred)?raw.starred:[], notes:raw.notes&&typeof raw.notes==='object'?raw.notes:{}};
-  }catch{ marks={starred:[],notes:{}}; }
+    marks={
+      starred:Array.isArray(raw.starred)?raw.starred:[],
+      notes:raw.notes&&typeof raw.notes==='object'?raw.notes:{},
+      custom:Array.isArray(raw.custom)?raw.custom:[],
+    };
+  }catch{ marks={starred:[],notes:{},custom:[]}; }
+}
+
+/* The reader's own events, shaped exactly like a feed event so every view,
+   filter and export treats them identically. The original calendar had this
+   and it was worth bringing back: a policy diary is half other people's
+   deadlines and half your own. */
+let POOL=[];
+function refreshPool(){
+  POOL=[...(DATA?DATA.events:[]), ...customEvents()]
+    .sort((a,b)=>a.date.localeCompare(b.date) || b.significance-a.significance || a.title.localeCompare(b.title));
+}
+
+function customEvents(){
+  return marks.custom.map(c=>({
+    date:c.date, time:null, title:c.title, note:c.note||null,
+    strand:'mine', source:'Added by you', sourceUrl:null,
+    significance:c.significance??70, tier:tierForScore(c.significance??70),
+    why:['you added it'], live:false, mine:true,
+  }));
+}
+const TIERS=[['marquee',85],['major',65],['notable',45],['routine',0]];
+const tierForScore=s=>TIERS.find(([,m])=>s>=m)[0];
+
+function addCustom(ev){
+  marks.custom.push(ev);
+  saveMarks(); refreshPool(); updateMineCount(); render();
+  toast('Added to your calendar.');
+}
+function removeCustom(title,date){
+  marks.custom=marks.custom.filter(c=>!(c.title===title&&c.date===date));
+  delete marks.notes[`${date}|${title}`];
+  const i=marks.starred.indexOf(`${date}|${title}`);
+  if(i>=0) marks.starred.splice(i,1);
+  saveMarks(); refreshPool(); updateMineCount(); render();
+  toast('Removed.');
 }
 function saveMarks(){
   try{ localStorage.setItem(KEY, JSON.stringify(marks)); }
@@ -531,7 +622,7 @@ function setNote(e,text){
 // Anything starred, or carrying a note, belongs on the reader's list.
 function myEvents(){
   if(!DATA) return [];
-  return DATA.events.filter(e=>isStarred(e)||noteFor(e));
+  return POOL.filter(e=>isStarred(e)||noteFor(e)||e.mine);
 }
 function updateMineCount(){
   const n=myEvents().length;
@@ -561,7 +652,7 @@ async function load(first){
   }
   DATA=json;generated=json.generated;
   if(json.corpusSize) $('#corpusN').textContent=json.corpusSize;
-  loadMarks();updateMineCount();
+  loadMarks();refreshPool();updateMineCount();
   renderChips();renderStatus();renderSources();render();
 }
 
@@ -656,7 +747,7 @@ function renderSources(){
 }
 
 function renderChips(){
-  const present=[...new Set(DATA.events.map(e=>e.strand))];
+  const present=[...new Set(POOL.map(e=>e.strand))];
   $('#chips').innerHTML=Object.entries(STRANDS).filter(([k])=>present.includes(k)).map(([k,label])=>
     `<div class="chip${active.has(k)?' on':''}" data-k="${k}">
        <span class="sw" style="background:var(--s-${k})"></span>${label}</div>`
@@ -670,7 +761,7 @@ function renderChips(){
 
 function visible(){
   const today=todayISO();
-  return DATA.events.filter(e=>{
+  return POOL.filter(e=>{
     if(e.date<today)return false;
     if(e.significance<minScore)return false;
     if(active.size&&!active.has(e.strand))return false;
@@ -716,6 +807,7 @@ function evHTML(e,i){
         ${e.sourceUrl?`<a href="${esc(e.sourceUrl)}" target="_blank" rel="noopener">Source</a>`:''}
         ${e.agendaUrl?`<a href="${esc(e.agendaUrl)}" target="_blank" rel="noopener">Agenda</a>`:''}
         <a href="${gcal(e)}" target="_blank" rel="noopener">Add to Google Calendar</a>
+        ${e.mine?`<a href="#" class="del" data-del="${i}">Delete this event</a>`:''}
       </div>
     </div>
   </article>`;
@@ -749,7 +841,7 @@ function renderMonth(evs){
   const inMonth=Object.values(byDay).flat().length;
 
   // Only offer months the calendar actually covers.
-  const lo=DATA.events[0].date, hi=DATA.events[DATA.events.length-1].date;
+  const lo=POOL[0].date, hi=POOL[POOL.length-1].date;
   const cur=`${y}-${String(m+1).padStart(2,'0')}`;
   const atStart=cur<=lo.slice(0,7), atEnd=cur>=hi.slice(0,7);
 
@@ -779,7 +871,7 @@ function renderMonth(evs){
     }
     for(const e of list.slice(0,3)){
       h+=`<button class="pill ${e.tier}" style="border-left-color:var(--s-${e.strand})"
-           data-i="${DATA.events.indexOf(e)}" title="${esc(e.title)}">${esc(e.title)}</button>`;
+           data-i="${POOL.indexOf(e)}" title="${esc(e.title)}">${esc(e.title)}</button>`;
     }
     if(list.length>3) h+=`<div class="more">+${list.length-3} more</div>`;
     h+='</div>';
@@ -790,7 +882,7 @@ function renderMonth(evs){
   $('#mNext').onclick=()=>{monthCursor=stepMonth(1);render();};
   el.querySelectorAll('.pill').forEach(p=>p.onclick=ev=>{
     ev.stopPropagation();
-    showDay(DATA.events[+p.dataset.i]);
+    showDay(POOL[+p.dataset.i]);
   });
   // Tapping the day itself lists everything on it — the only usable route on a phone.
   el.querySelectorAll('.cell[data-day]').forEach(c=>c.onclick=()=>{
@@ -808,7 +900,7 @@ function showDayList(iso, list){
     <div class="kicker" style="margin-bottom:4px">${DOW[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}</div>
     <h2 style="font-size:1.15rem;margin-bottom:12px">${list.length} events</h2>
     ${list.map((e,i)=>`
-      <button class="daylist" data-i="${DATA.events.indexOf(e)}">
+      <button class="daylist" data-i="${POOL.indexOf(e)}">
         <span class="tag" style="background:var(--s-${e.strand})">${esc(STRANDS[e.strand]||e.strand)}</span>
         <span class="dl-t ${e.tier}">${esc(e.title)}</span>
         <span class="dl-s">${e.significance}</span>
@@ -817,7 +909,7 @@ function showDayList(iso, list){
   box.classList.add('show');
   $('#dayX').onclick=()=>box.classList.remove('show');
   box.onclick=ev=>{if(ev.target===box)box.classList.remove('show');};
-  box.querySelectorAll('.daylist').forEach(b=>b.onclick=()=>showDay(DATA.events[+b.dataset.i]));
+  box.querySelectorAll('.daylist').forEach(b=>b.onclick=()=>showDay(POOL[+b.dataset.i]));
 }
 
 function stepMonth(n){
@@ -875,10 +967,16 @@ function renderMine(){
       <p style="font-size:1.05rem;color:var(--black);font-weight:700;margin-bottom:8px">Nothing on your list yet.</p>
       <p>Star any event with the ☆ beside it, or open one and write yourself a note. Both show up here,
       and you can export the lot to your calendar in one go.</p>
-      <p style="margin-top:10px;font-size:.82rem">Your stars and notes are kept in this browser only.
-      There is no account and nothing is sent anywhere — which also means clearing your site data will
-      erase them, so take a backup once you have built up a list worth keeping.</p>
+      <p>You can also add events of your own — a deadline, an interview, a thing you promised to file.</p>
+      <p style="margin-top:10px;font-size:.82rem">Your stars, notes and added events are kept in this
+      browser only. There is no account and nothing is sent anywhere — which also means clearing your
+      site data will erase them, so take a backup once you have a list worth keeping.</p>
+      <div class="mineacts" style="margin-top:16px">
+        <button class="btn-solid" id="mineAdd">+ Add an event</button>
+      </div>
+      <div id="addForm"></div>
     </div>`;
+    $('#mineAdd').onclick=showAddForm;
     return;
   }
 
@@ -889,11 +987,13 @@ function renderMine(){
       · kept in this browser only</p>
     </div>
     <div class="mineacts">
+      <button class="btn-line" id="mineAdd">+ Add an event</button>
       <button class="btn-solid" id="mineIcs">Export to calendar (.ics)</button>
       <button class="btn-line" id="mineMd">Download as text</button>
       <button class="btn-line" id="mineJson">Backup</button>
     </div>
-  </div>`;
+  </div>
+  <div id="addForm"></div>`;
 
   let curMonth='';
   for(const e of evs){
@@ -903,14 +1003,52 @@ function renderMine(){
       const d=parse(e.date);
       html+=`<div class="month"><h2>${MONTHS[d.getMonth()]} ${d.getFullYear()}</h2></div>`;
     }
-    html+=evHTML(e, DATA.events.indexOf(e));
+    html+=evHTML(e, POOL.indexOf(e));
   }
   el.innerHTML=html;
 
   $('#mineIcs').onclick=()=>downloadICS(evs,'my-new-york-calendar.ics');
   $('#mineMd').onclick=()=>downloadText(evs);
   $('#mineJson').onclick=backupMarks;
+  $('#mineAdd').onclick=showAddForm;
   wireEvents(el);
+}
+
+function showAddForm(){
+  const box=$('#addForm');
+  if(box.innerHTML){ box.innerHTML=''; return; }   // toggle
+  box.innerHTML=`<form class="addf" id="af">
+    <div class="row">
+      <label>Date<input type="date" id="afDate" required></label>
+      <label class="grow">What is it?<input type="text" id="afTitle" required
+        placeholder="e.g. Interview with the deputy mayor"></label>
+    </div>
+    <label>Note (optional)<textarea id="afNote" rows="2"
+      placeholder="Anything you want to remember about it."></textarea></label>
+    <div class="row">
+      <label>How big?<select id="afSig">
+        <option value="90">The city stops</option>
+        <option value="70" selected>Major</option>
+        <option value="50">Notable</option>
+        <option value="30">Routine</option>
+      </select></label>
+      <div class="grow" style="display:flex;gap:6px;align-items:flex-end;justify-content:flex-end">
+        <button type="button" class="btn-line" id="afCancel">Cancel</button>
+        <button type="submit" class="btn-solid">Add it</button>
+      </div>
+    </div>
+  </form>`;
+  $('#afDate').value=todayISO();
+  $('#afTitle').focus();
+  $('#afCancel').onclick=()=>{box.innerHTML='';};
+  $('#af').onsubmit=ev=>{
+    ev.preventDefault();
+    const title=$('#afTitle').value.trim();
+    const date=$('#afDate').value;
+    if(!title||!date) return;
+    box.innerHTML='';
+    addCustom({date, title, note:$('#afNote').value.trim()||null, significance:+$('#afSig').value});
+  };
 }
 
 /* A plain-text brief — the thing you actually paste into an email. */
@@ -949,12 +1087,17 @@ function wireEvents(el){
   });
   el.querySelectorAll('.star').forEach(b=>b.onclick=ev=>{
     ev.stopPropagation();
-    toggleStar(DATA.events[+b.dataset.star]);
+    toggleStar(POOL[+b.dataset.star]);
   });
   el.querySelectorAll('.noteinput').forEach(t=>{
     // Save as they type, but don't re-render mid-keystroke and steal focus.
-    t.oninput=()=>setNote(DATA.events[+t.dataset.note], t.value);
+    t.oninput=()=>setNote(POOL[+t.dataset.note], t.value);
     t.onclick=ev=>ev.stopPropagation();
+  });
+  el.querySelectorAll('.del').forEach(a=>a.onclick=ev=>{
+    ev.preventDefault(); ev.stopPropagation();
+    const e=POOL[+a.dataset.del];
+    if(confirm(`Delete "${e.title}"? This cannot be undone.`)) removeCustom(e.title,e.date);
   });
 }
 
@@ -967,7 +1110,7 @@ function render(){
   if(!evs.length){el.innerHTML='<div class="empty">Nothing on the calendar matches. Try widening the filter.</div>';return;}
 
   // index into the live array so the drawer can find its event
-  const idx=new Map(evs.map(e=>[e,DATA.events.indexOf(e)]));
+  const idx=new Map(evs.map(e=>[e,POOL.indexOf(e)]));
 
   let html='',curMonth='';
   let i=0;
