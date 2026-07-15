@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-15T10:32:08.844Z",
+ "generated": "2026-07-15T22:19:44.722Z",
  "window": {
   "start": "2026-07-01",
   "end": "2027-08-19"
@@ -10,7 +10,7 @@
    "name": "Curated",
    "ok": true,
    "count": 100,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
@@ -23,27 +23,27 @@
   {
    "name": "City Record",
    "ok": true,
-   "count": 32,
-   "ms": 563,
+   "count": 35,
+   "ms": 518,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 38,
-   "ms": 1038,
+   "ms": 1422,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8756,
+   "ms": 6821,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 91,
+  "routine": 94,
   "notable": 63,
   "marquee": 9,
   "major": 43
@@ -1011,6 +1011,21 @@
    "tier": "notable"
   },
   {
+   "date": "2026-07-29",
+   "time": null,
+   "title": "City Planning Commission Public Hearing Ad",
+   "note": "City Planning Commission · 120 Broadway",
+   "strand": "hearings",
+   "source": "City Planning Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 38,
+   "why": [
+    "City Planning Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-07-30",
    "time": null,
    "title": "Black Tom explosion rocks the harbor — 110th anniversary",
@@ -1027,6 +1042,19 @@
    "anniversaryYears": 110,
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2026-07-30",
+   "time": null,
+   "title": "EEPC COMMISSION MEETING #289",
+   "note": "Equal Employment Practices Commission · 253 Broadway",
+   "strand": "hearings",
+   "source": "Equal Employment Practices Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-08-04",
@@ -1231,6 +1259,19 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-25",
+   "time": null,
+   "title": "DSNY Proposed Implementation Dates Regarding Brooklyn East, Manhattan Northeast, Queens West, and Manhattan West CWZs",
+   "note": "Sanitation",
+   "strand": "hearings",
+   "source": "Sanitation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
    "tier": "routine"
   },
   {
