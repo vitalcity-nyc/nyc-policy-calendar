@@ -1,327 +1,54 @@
 {
- "generated": "2026-07-14T22:19:55.006Z",
+ "generated": "2026-07-15T10:32:08.844Z",
  "window": {
-  "start": "2026-06-30",
-  "end": "2027-08-18"
+  "start": "2026-07-01",
+  "end": "2027-08-19"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 102,
-   "ms": 4,
+   "count": 100,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 8,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 33,
-   "ms": 548,
+   "count": 32,
+   "ms": 563,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 52,
-   "ms": 1485,
+   "count": 38,
+   "ms": 1038,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 7836,
+   "ms": 8756,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "major": 45,
-  "notable": 65,
-  "routine": 104,
-  "marquee": 9
+  "routine": 91,
+  "notable": 63,
+  "marquee": 9,
+  "major": 43
  },
  "events": [
-  {
-   "date": "2026-06-30",
-   "time": null,
-   "title": "World Cup round of 32 at MetLife Stadium",
-   "note": "Knockout stage begins, 5 p.m. ET.",
-   "strand": "city-life",
-   "source": "Curated",
-   "sourceUrl": "https://nynjfwc26.com/schedule/",
-   "significance": 80,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "major"
-  },
-  {
-   "date": "2026-06-30",
-   "time": null,
-   "title": "City budget adoption deadline",
-   "note": "The Council and the mayor adopt the budget. The Charter's hard date is June 5 (section 254(d)); in practice adoption lands by June 30, the last day of the fiscal year, and the fiscal 2027 budget was adopted June 30, 2026.",
-   "strand": "budget",
-   "source": "Curated",
-   "sourceUrl": "https://council.nyc.gov/budget/",
-   "significance": 76,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "major"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "5:00 PM",
-   "title": "Stated meeting of the City Council",
-   "note": "BUDGET ADOPTION · Council Chambers - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22592&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22592_A_City_Council_26-06-30_Committee_Agenda.pdf",
-   "significance": 58,
-   "why": [
-    "stated meeting of the full Council",
-    "subject matter of broad public interest"
-   ],
-   "live": true,
-   "tier": "notable"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "3:30 PM",
-   "title": "Committee on Finance",
-   "note": "BUDGET ADOPTION · Committee Room - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22597&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22597_A_Committee_on_Finance_26-06-30_Committee_Agenda.pdf",
-   "significance": 46,
-   "why": [
-    "high-salience committee",
-    "finance committee",
-    "subject matter of broad public interest"
-   ],
-   "live": true,
-   "tier": "notable"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "11:00 AM",
-   "title": "Committee on Education",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22587&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22587_A_Committee_on_Education_26-06-30_Committee_Agenda.pdf",
-   "significance": 40,
-   "why": [
-    "high-salience committee",
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "10:30 AM",
-   "title": "Committee on Housing and Buildings",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22596&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22596_A_Committee_on_Housing_and_Buildings_26-06-30_Committee_Agenda.pdf",
-   "significance": 40,
-   "why": [
-    "high-salience committee",
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "11:00 AM",
-   "title": "Committee on Public Safety",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22585&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22585_A_Committee_on_Public_Safety_26-06-30_Committee_Agenda.pdf",
-   "significance": 40,
-   "why": [
-    "high-salience committee",
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "10:00 AM",
-   "title": "Committee on Sanitation and Solid Waste Management",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22591&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22591_A_Committee_on_Sanitation_and_Solid_Waste_Management_26-06-30_Committee_Agenda.pdf",
-   "significance": 40,
-   "why": [
-    "high-salience committee",
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "10:00 AM",
-   "title": "Subcommittee on Early Childhood Education",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22586&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22586_A_Subcommittee_on_Early_Childhood_Education_26-06-30_Committee_Agenda.pdf",
-   "significance": 40,
-   "why": [
-    "high-salience committee",
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "12:00 PM",
-   "title": "Committee on Sanitation and Solid Waste Management",
-   "note": "250 Broadway - 8th Floor - Hearing Room 2",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22565&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22565_A_Committee_on_Sanitation_and_Solid_Waste_Management_26-06-30_Committee_Agenda.pdf",
-   "significance": 32,
-   "why": [
-    "high-salience committee"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "10:30 AM",
-   "title": "Committee on Cultural Affairs, Libraries and International Relations",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22590&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22590_A_Committee_on_Cultural_Affairs%2C_Libraries_and_International_Relations_26-06-30_Committee_Agenda.pdf",
-   "significance": 30,
-   "why": [
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "11:00 AM",
-   "title": "Committee on Parks and Recreation",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22588&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22588_A_Committee_on_Parks_and_Recreation_26-06-30_Committee_Agenda.pdf",
-   "significance": 30,
-   "why": [
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "10:00 AM",
-   "title": "Committee on Small Business",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22584&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22584_A_Committee_on_Small_Business_26-06-30_Committee_Agenda.pdf",
-   "significance": 30,
-   "why": [
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "10:30 AM",
-   "title": "Committee on Women and Gender Equity",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22589&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22589_A_Committee_on_Women_and_Gender_Equity_26-06-30_Committee_Agenda.pdf",
-   "significance": 30,
-   "why": [
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "10:00 AM",
-   "title": "Committee on Civil and Human Rights",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22570&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22570_A_Committee_on_Civil_and_Human_Rights_26-06-30_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Zoning and Franchises",
-   "note": "250 Broadway - 8th Floor - Hearing Room 3",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22501&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/6/22501_A_Subcommittee_on_Zoning_and_Franchises_26-06-30_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-06-30",
-   "time": null,
-   "title": "Proposed Amendment of Rules Relating to Applications Pursuant to RPTL §485-x",
-   "note": "Housing Preservation and Development",
-   "strand": "hearings",
-   "source": "Housing Preservation and Development",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-01",
    "time": null,
