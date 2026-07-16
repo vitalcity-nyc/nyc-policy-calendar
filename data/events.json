@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-16T10:36:39.759Z",
+ "generated": "2026-07-16T22:20:12.707Z",
  "window": {
   "start": "2026-07-02",
   "end": "2027-08-20"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 6,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 32,
-   "ms": 581,
+   "count": 35,
+   "ms": 800,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 36,
-   "ms": 856,
+   "count": 41,
+   "ms": 1271,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6242,
+   "ms": 8964,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 87,
+  "routine": 95,
   "notable": 63,
   "marquee": 9,
   "major": 43
@@ -535,8 +535,8 @@
    "note": "Council Chambers - City Hall",
    "strand": "hearings",
    "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22295&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22295_A_City_Council_26-07-16_Committee_Agenda.pdf",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22611&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22611_A_City_Council_26-07-16_Council_Agenda.pdf",
    "significance": 50,
    "why": [
     "stated meeting of the full Council"
@@ -747,6 +747,19 @@
    "tier": "marquee"
   },
   {
+   "date": "2026-07-20",
+   "time": null,
+   "title": "Design Commission Meeting Agenda, Monday, July 20, 2026",
+   "note": "Public Design Commission · City Hall Park",
+   "strand": "hearings",
+   "source": "Public Design Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-07-21",
    "time": null,
    "title": "July 21, 2026, Public Hearing Agenda",
@@ -921,6 +934,21 @@
    "tier": "routine"
   },
   {
+   "date": "2026-07-29",
+   "time": null,
+   "title": "New York City Housing Authority Board Meeting",
+   "note": "Housing Authority",
+   "strand": "hearings",
+   "source": "Housing Authority",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Housing Authority sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-07-30",
    "time": null,
    "title": "Black Tom explosion rocks the harbor — 110th anniversary",
@@ -1047,6 +1075,21 @@
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-10",
+   "time": null,
+   "title": "Concession for Operation and Maintenance of Cafeteria at the NYPD Police Academy",
+   "note": "Police Department · 255 Greenwich Street",
+   "strand": "hearings",
+   "source": "Police Department",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "subject matter of broad public interest"
+   ],
    "live": true,
    "tier": "routine"
   },
@@ -1396,6 +1439,20 @@
    "tier": "major"
   },
   {
+   "date": "2026-09-09",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22617&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22617_A_Subcommittee_on_Zoning_and_Franchises_26-09-09_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-10",
    "time": "1:30 PM",
    "title": "Stated meeting of the City Council",
@@ -1722,6 +1779,36 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-23",
+   "time": "11:30 AM",
+   "title": "Committee on Land Use",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22614&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22614_A_Committee_on_Land_Use_26-09-23_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22613&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22613_A_Subcommittee_on_Zoning_and_Franchises_26-09-23_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-24",
    "time": "1:30 PM",
    "title": "Stated meeting of the City Council",
@@ -1946,6 +2033,36 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22615&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22615_A_Subcommittee_on_Zoning_and_Franchises_26-10-06_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "11:00 AM",
+   "title": "Committee on Land Use",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22616&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22616_A_Committee_on_Land_Use_26-10-07_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
    "tier": "routine"
   },
   {
