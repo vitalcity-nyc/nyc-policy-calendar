@@ -1,159 +1,54 @@
 {
- "generated": "2026-07-15T22:19:44.722Z",
+ "generated": "2026-07-16T10:36:39.759Z",
  "window": {
-  "start": "2026-07-01",
-  "end": "2027-08-19"
+  "start": "2026-07-02",
+  "end": "2027-08-20"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 100,
-   "ms": 2,
+   "count": 98,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 35,
-   "ms": 518,
+   "count": 32,
+   "ms": 581,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 38,
-   "ms": 1422,
+   "count": 36,
+   "ms": 856,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6821,
+   "ms": 6242,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 94,
+  "routine": 87,
   "notable": 63,
   "marquee": 9,
   "major": 43
  },
  "events": [
-  {
-   "date": "2026-07-01",
-   "time": null,
-   "title": "The city's fiscal year 2027 begins",
-   "note": "Budget implementation starts.",
-   "strand": "budget",
-   "source": "Curated",
-   "sourceUrl": null,
-   "significance": 44,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-01",
-   "time": null,
-   "title": "Rikers land transfer deadline",
-   "note": "Under the same law that sets the closure date, the mayor must transfer every portion of Rikers not in active use to the Department of Citywide Administrative Services every six months. The clock runs Jan. 1 and July 1.",
-   "strand": "justice",
-   "source": "Curated",
-   "sourceUrl": null,
-   "significance": 40,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-01",
-   "time": null,
-   "title": "Correction: City Planning Commission Public Hearing Ad",
-   "note": "City Planning Commission · 120 Broadway",
-   "strand": "hearings",
-   "source": "City Planning Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 38,
-   "why": [
-    "City Planning Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-01",
-   "time": "10:00 AM",
-   "title": "Committee on Sanitation and Solid Waste Management",
-   "note": "Committee Room - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22593&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22593_A_Committee_on_Sanitation_and_Solid_Waste_Management_26-07-01_Committee_Agenda.pdf",
-   "significance": 32,
-   "why": [
-    "high-salience committee"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-01",
-   "time": null,
-   "title": "Amendment of Rules Relating to Lead Dust",
-   "note": "Health and Mental Hygiene · via Teleconference",
-   "strand": "hearings",
-   "source": "Health and Mental Hygiene",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 28,
-   "why": [
-    "Health and Mental Hygiene sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-01",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Zoning and Franchises",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22566&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22566_A_Subcommittee_on_Zoning_and_Franchises_26-07-01_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-01",
-   "time": null,
-   "title": "Park Avenue Brooklyn Rezoning Public Hearing Notice for Draft Environmental Impact Statement",
-   "note": "City Planning · 120 Broadway",
-   "strand": "hearings",
-   "source": "City Planning",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-02",
    "time": null,
