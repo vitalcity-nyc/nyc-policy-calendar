@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-16T22:20:12.707Z",
+ "generated": "2026-07-17T10:31:03.452Z",
  "window": {
-  "start": "2026-07-02",
-  "end": "2027-08-20"
+  "start": "2026-07-03",
+  "end": "2027-08-21"
  },
  "corpusSize": 282,
  "sources": [
@@ -17,79 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 35,
-   "ms": 800,
+   "count": 32,
+   "ms": 355,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 41,
-   "ms": 1271,
+   "ms": 746,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8964,
+   "ms": 4794,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 95,
   "notable": 63,
   "marquee": 9,
-  "major": 43
+  "major": 43,
+  "routine": 92
  },
  "events": [
-  {
-   "date": "2026-07-02",
-   "time": null,
-   "title": "Further Amendment of Rules Relating to Vital Records",
-   "note": "Health and Mental Hygiene · via Teleconference",
-   "strand": "hearings",
-   "source": "Health and Mental Hygiene",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 28,
-   "why": [
-    "Health and Mental Hygiene sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-02",
-   "time": null,
-   "title": "DINING OUT NYC PUBLIC HEARING",
-   "note": "Transportation",
-   "strand": "hearings",
-   "source": "Transportation",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-02",
-   "time": null,
-   "title": "Queens Borough President Land Use Public Hearing",
-   "note": "Borough President - Queens · 120-55 Queens Boulevard",
-   "strand": "hearings",
-   "source": "Borough President - Queens",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-03",
    "time": null,
