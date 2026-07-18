@@ -1,70 +1,54 @@
 {
- "generated": "2026-07-17T22:15:52.218Z",
+ "generated": "2026-07-18T10:27:17.271Z",
  "window": {
-  "start": "2026-07-03",
-  "end": "2027-08-21"
+  "start": "2026-07-04",
+  "end": "2027-08-22"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 98,
-   "ms": 3,
+   "count": 97,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 6,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 32,
-   "ms": 513,
+   "ms": 663,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 41,
-   "ms": 1046,
+   "ms": 1112,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5692,
+   "ms": 6728,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "notable": 63,
   "marquee": 9,
   "major": 43,
-  "routine": 92
+  "routine": 92,
+  "notable": 62
  },
  "events": [
-  {
-   "date": "2026-07-03",
-   "time": null,
-   "title": "Liberty Weekend, 40 years on",
-   "note": "In July 1986 the Statue of Liberty's centennial and rededication drew the largest tall-ship parade in modern history, with Reagan presiding.",
-   "strand": "anniversary",
-   "source": "Curated",
-   "sourceUrl": null,
-   "significance": 56,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "notable"
-  },
   {
    "date": "2026-07-04",
    "time": null,
