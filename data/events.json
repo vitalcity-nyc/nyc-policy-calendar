@@ -1,70 +1,54 @@
 {
- "generated": "2026-07-18T22:16:06.032Z",
+ "generated": "2026-07-19T10:29:20.168Z",
  "window": {
-  "start": "2026-07-04",
-  "end": "2027-08-22"
+  "start": "2026-07-05",
+  "end": "2027-08-23"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 97,
-   "ms": 2,
+   "count": 96,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 32,
-   "ms": 744,
+   "ms": 532,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 41,
-   "ms": 1397,
+   "ms": 958,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 9293,
+   "ms": 8215,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "marquee": 9,
   "major": 43,
   "routine": 92,
-  "notable": 62
+  "notable": 62,
+  "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-04",
-   "time": null,
-   "title": "America's 250th birthday",
-   "note": "New York Harbor hosts the largest fleet of tall ships and naval vessels ever assembled, echoing the 1976 bicentennial and 1986 Liberty Weekend. Coincides with the 50th Macy's Fourth of July fireworks.",
-   "strand": "city-life",
-   "source": "Curated",
-   "sourceUrl": "https://america250.org/",
-   "significance": 96,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "marquee"
-  },
   {
    "date": "2026-07-05",
    "time": null,
