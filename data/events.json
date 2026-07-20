@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T10:58:29.565Z",
+ "generated": "2026-07-20T22:19:26.049Z",
  "window": {
   "start": "2026-07-06",
   "end": "2027-08-24"
@@ -10,7 +10,7 @@
    "name": "Curated",
    "ok": true,
    "count": 95,
-   "ms": 2,
+   "ms": 3,
    "note": null
   },
   {
@@ -21,29 +21,29 @@
    "note": null
   },
   {
-   "name": "City Record",
-   "ok": true,
-   "count": 32,
-   "ms": 434,
-   "note": null
-  },
-  {
    "name": "City Council",
    "ok": true,
    "count": 41,
-   "ms": 710,
+   "ms": 933,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 34,
+   "ms": 1183,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4676,
+   "ms": 4860,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 92,
+  "routine": 94,
   "major": 42,
   "notable": 62,
   "marquee": 8
@@ -1095,6 +1095,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-08-19",
+   "time": null,
+   "title": "DCWP NOH Rules Relating to Waitlist for GV Licenses",
+   "note": "Consumer and Worker Protection",
+   "strand": "hearings",
+   "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-08-25",
    "time": null,
    "title": "The Other Housing Crisis, edited by Todd Swanstrom and others",
@@ -1348,6 +1361,21 @@
    "approx": false,
    "live": false,
    "tier": "major"
+  },
+  {
+   "date": "2026-09-09",
+   "time": null,
+   "title": "CPC and DCP Proposed Rules: Expedited Land Use Review Procedure and Affordable Housing Appeals Board",
+   "note": "City Planning Commission · 120 Broadway",
+   "strand": "hearings",
+   "source": "City Planning Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 38,
+   "why": [
+    "City Planning Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-09",
