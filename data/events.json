@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-19T22:16:59.335Z",
+ "generated": "2026-07-20T10:58:29.565Z",
  "window": {
-  "start": "2026-07-05",
-  "end": "2027-08-23"
+  "start": "2026-07-06",
+  "end": "2027-08-24"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 96,
+   "count": 95,
    "ms": 2,
    "note": null
   },
@@ -17,54 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 32,
-   "ms": 554,
+   "ms": 434,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 41,
-   "ms": 1036,
+   "ms": 710,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8274,
+   "ms": 4676,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "major": 43,
   "routine": 92,
+  "major": 42,
   "notable": 62,
   "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-05",
-   "time": null,
-   "title": "World Cup round of 16 at MetLife Stadium",
-   "note": "Knockout stage, 4 p.m. ET.",
-   "strand": "city-life",
-   "source": "Curated",
-   "sourceUrl": "https://nynjfwc26.com/schedule/",
-   "significance": 82,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "major"
-  },
   {
    "date": "2026-07-07",
    "time": "10:00 AM",
