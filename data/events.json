@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T10:41:09.800Z",
+ "generated": "2026-07-21T22:18:11.832Z",
  "window": {
   "start": "2026-07-07",
   "end": "2027-08-25"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 34,
-   "ms": 788,
+   "ms": 470,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 41,
-   "ms": 1142,
+   "count": 45,
+   "ms": 1414,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8640,
+   "ms": 4886,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 94,
+  "routine": 98,
   "major": 42,
   "notable": 62,
   "marquee": 8
@@ -1065,6 +1065,22 @@
   },
   {
    "date": "2026-08-13",
+   "time": "11:00 AM",
+   "title": "Committee on Land Use",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22618&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22618_A_Committee_on_Land_Use_26-08-13_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
    "time": null,
    "title": "Driver Relief Penalty Reduction and Medallion Relief Program Rule Proposal.",
    "note": "Taxi and Limousine Commission · 33 Beaver Street",
@@ -1347,6 +1363,20 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-08",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22619&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22619_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-09-08_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-09",
    "time": null,
    "title": "FDNY ceremony for the 25th anniversary of 9/11",
@@ -1598,6 +1628,36 @@
    "approx": false,
    "live": false,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-17",
+   "time": "11:30 AM",
+   "title": "Committee on Land Use",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22621&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22621_A_Committee_on_Land_Use_26-09-17_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-17",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22620&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22620_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-09-17_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-18",
