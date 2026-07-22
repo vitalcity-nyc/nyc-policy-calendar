@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-21T22:18:11.832Z",
+ "generated": "2026-07-22T10:41:18.341Z",
  "window": {
-  "start": "2026-07-07",
-  "end": "2027-08-25"
+  "start": "2026-07-08",
+  "end": "2027-08-26"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,7 +10,7 @@
    "name": "Curated",
    "ok": true,
    "count": 95,
-   "ms": 2,
+   "ms": 3,
    "note": null
   },
   {
@@ -24,59 +24,31 @@
    "name": "City Record",
    "ok": true,
    "count": 34,
-   "ms": 470,
+   "ms": 391,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 45,
-   "ms": 1414,
+   "count": 43,
+   "ms": 820,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4886,
+   "ms": 5366,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 98,
+  "routine": 96,
   "major": 42,
   "notable": 62,
   "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-07",
-   "time": "10:00 AM",
-   "title": "Committee on Governmental Operations, State & Federal Legislation",
-   "note": "250 Broadway - 8th Floor - Hearing Room 2",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22594&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22594_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-07-07_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-07",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22525&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22525_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-07_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-08",
    "time": null,
@@ -1067,14 +1039,15 @@
    "date": "2026-08-13",
    "time": "11:00 AM",
    "title": "Committee on Land Use",
-   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22618&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22618_A_Committee_on_Land_Use_26-08-13_Committee_Agenda.pdf",
-   "significance": 32,
+   "significance": 40,
    "why": [
-    "high-salience committee"
+    "high-salience committee",
+    "a vote is scheduled"
    ],
    "live": true,
    "tier": "routine"
