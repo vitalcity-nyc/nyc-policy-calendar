@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-22T10:41:18.341Z",
+ "generated": "2026-07-22T22:20:56.696Z",
  "window": {
   "start": "2026-07-08",
   "end": "2027-08-26"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 95,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 6,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 34,
-   "ms": 391,
+   "count": 37,
+   "ms": 638,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 43,
-   "ms": 820,
+   "ms": 1821,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5366,
+   "ms": 9501,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 96,
+  "routine": 99,
   "major": 42,
   "notable": 62,
   "marquee": 8
@@ -880,6 +880,21 @@
   },
   {
    "date": "2026-08-04",
+   "time": null,
+   "title": "August 4, 2026, Public Hearing Agenda CR",
+   "note": "Landmarks Preservation Commission · 253 Broadway",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-04",
    "time": "12:00 PM",
    "title": "Committee on Land Use",
    "note": "250 Broadway - 8th Floor - Hearing Room 1",
@@ -942,6 +957,19 @@
    "note": "Consumer and Worker Protection",
    "strand": "hearings",
    "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-06",
+   "time": null,
+   "title": "Dining Out NYC Public Hearing",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -1039,7 +1067,7 @@
    "date": "2026-08-13",
    "time": "11:00 AM",
    "title": "Committee on Land Use",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "note": "VOTE · 250 Broadway - 8th Floor - Hearing Room 3",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22618&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -1222,6 +1250,19 @@
    "approx": false,
    "live": false,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-01",
+   "time": null,
+   "title": "Notice of Public Hearing and Opportunity to Comment-  FHV and Taxi Parking at Commercial Meters and Commercial Vehicle Markings",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-04",
