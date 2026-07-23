@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-22T22:20:56.696Z",
+ "generated": "2026-07-23T10:42:17.697Z",
  "window": {
-  "start": "2026-07-08",
-  "end": "2027-08-26"
+  "start": "2026-07-09",
+  "end": "2027-08-27"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,73 +10,45 @@
    "name": "Curated",
    "ok": true,
    "count": 95,
-   "ms": 2,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 5,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 37,
-   "ms": 638,
+   "count": 35,
+   "ms": 724,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 43,
-   "ms": 1821,
+   "ms": 949,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 9501,
+   "ms": 6414,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 99,
   "major": 42,
+  "routine": 97,
   "notable": 62,
   "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-08",
-   "time": null,
-   "title": "Brooklyn Borough President ULURP Public Hearing",
-   "note": "Borough President - Brooklyn · 209 Joralemon Street",
-   "strand": "hearings",
-   "source": "Borough President - Brooklyn",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 28,
-   "why": [
-    "subject matter of broad public interest"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-08",
-   "time": null,
-   "title": "NYC Workforce Development Board Executive Committee Meeting",
-   "note": "NYC Workforce Development Board · 1 Liberty Plaza",
-   "strand": "hearings",
-   "source": "NYC Workforce Development Board",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-09",
    "time": null,
