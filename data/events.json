@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T10:42:17.697Z",
+ "generated": "2026-07-23T22:20:36.653Z",
  "window": {
   "start": "2026-07-09",
   "end": "2027-08-27"
@@ -17,34 +17,34 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 36,
-   "ms": 6,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 35,
-   "ms": 724,
+   "count": 37,
+   "ms": 428,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 43,
-   "ms": 949,
+   "ms": 1822,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6414,
+   "ms": 4828,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "major": 42,
-  "routine": 97,
+  "routine": 99,
   "notable": 62,
   "marquee": 8
  },
@@ -949,6 +949,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-08-06",
+   "time": null,
+   "title": "New York City Environmental Control Board Meeting August 6, 2026",
+   "note": "Environmental Control Board · 100 Church Street",
+   "strand": "hearings",
+   "source": "Environmental Control Board",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-08-07",
    "time": null,
    "title": "DCWP NOH Junk Fees",
@@ -1039,7 +1052,7 @@
    "date": "2026-08-13",
    "time": "11:00 AM",
    "title": "Committee on Land Use",
-   "note": "VOTE · 250 Broadway - 8th Floor - Hearing Room 3",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22618&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -1142,6 +1155,19 @@
    "anniversaryYears": 250,
    "live": true,
    "tier": "marquee"
+  },
+  {
+   "date": "2026-08-27",
+   "time": null,
+   "title": "Amendments to Rules Relating to the Energy Conservation Code",
+   "note": "Buildings",
+   "strand": "hearings",
+   "source": "Buildings",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-08-29",
