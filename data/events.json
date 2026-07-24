@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-23T22:20:36.653Z",
+ "generated": "2026-07-24T10:38:26.757Z",
  "window": {
-  "start": "2026-07-09",
-  "end": "2027-08-27"
+  "start": "2026-07-10",
+  "end": "2027-08-28"
  },
  "corpusSize": 282,
  "sources": [
@@ -16,115 +16,39 @@
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 36,
-   "ms": 7,
+   "count": 34,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 37,
-   "ms": 428,
+   "count": 35,
+   "ms": 735,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 43,
-   "ms": 1822,
+   "count": 42,
+   "ms": 804,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4828,
+   "ms": 5885,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "major": 42,
-  "routine": 99,
   "notable": 62,
+  "routine": 96,
+  "major": 40,
   "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-09",
-   "time": null,
-   "title": "The Declaration is read to Washington's troops — 250th anniversary",
-   "note": "The Declaration of Independence was read aloud to Continental Army troops assembled on the Common on July 9, 1776, greeted by three cheers.",
-   "strand": "anniversary",
-   "source": "New York, in Time",
-   "sourceUrl": "https://founders.archives.gov/documents/Washington/03-05-02-0176",
-   "significance": 80,
-   "importance": 3,
-   "why": [
-    "250th anniversary"
-   ],
-   "historyYear": 1776,
-   "anniversaryYears": 250,
-   "live": true,
-   "tier": "major"
-  },
-  {
-   "date": "2026-07-09",
-   "time": null,
-   "title": "The statue of King George III is toppled — 250th anniversary",
-   "note": "After the Declaration was read, a crowd rushed to Bowling Green and pulled down the gilded lead equestrian statue of King George III.",
-   "strand": "anniversary",
-   "source": "New York, in Time",
-   "sourceUrl": "https://www.gilderlehrman.org/history-resources/essays/proclamation-reading-and-immediate-reception-declaration-independence",
-   "significance": 80,
-   "importance": 3,
-   "why": [
-    "250th anniversary"
-   ],
-   "historyYear": 1776,
-   "anniversaryYears": 250,
-   "live": true,
-   "tier": "major"
-  },
-  {
-   "date": "2026-07-09",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22567&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22567_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-09_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-09",
-   "time": null,
-   "title": "DCWP NOH Unclaimed Restitution Fund",
-   "note": "Consumer and Worker Protection",
-   "strand": "hearings",
-   "source": "Consumer and Worker Protection",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-09",
-   "time": null,
-   "title": "Proposed Rule for Surcharge on Property That Does Not Serve as a Primary Residence",
-   "note": "Finance · Address Not Listed In The Dropdown",
-   "strand": "hearings",
-   "source": "Finance",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-11",
    "time": null,
