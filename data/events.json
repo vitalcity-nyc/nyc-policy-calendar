@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-24T22:22:18.448Z",
+ "generated": "2026-07-25T10:29:18.064Z",
  "window": {
-  "start": "2026-07-10",
-  "end": "2027-08-28"
+  "start": "2026-07-11",
+  "end": "2027-08-29"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,7 +10,7 @@
    "name": "Curated",
    "ok": true,
    "count": 95,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
@@ -24,21 +24,21 @@
    "name": "City Record",
    "ok": true,
    "count": 38,
-   "ms": 688,
+   "ms": 580,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 42,
-   "ms": 1067,
+   "ms": 1132,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 9544,
+   "ms": 6520,
    "note": "the Legislature is out of session"
   }
  ],
