@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-25T22:17:39.778Z",
+ "generated": "2026-07-26T10:31:11.443Z",
  "window": {
-  "start": "2026-07-11",
-  "end": "2027-08-29"
+  "start": "2026-07-12",
+  "end": "2027-08-30"
  },
  "corpusSize": 282,
  "sources": [
@@ -16,57 +16,39 @@
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 34,
-   "ms": 6,
+   "count": 33,
+   "ms": 8,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 38,
-   "ms": 617,
+   "ms": 578,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 42,
-   "ms": 929,
+   "ms": 1107,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6932,
+   "ms": 8402,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "notable": 62,
+  "notable": 61,
   "routine": 99,
   "major": 40,
   "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-11",
-   "time": null,
-   "title": "Triborough Bridge opens — 90th anniversary",
-   "note": "Robert Moses's Triborough Bridge opened, linking Manhattan, Queens and the Bronx in a vast web of spans and viaducts.",
-   "strand": "anniversary",
-   "source": "New York, in Time",
-   "sourceUrl": "https://www.britannica.com/biography/Robert-Moses",
-   "significance": 57,
-   "importance": 2,
-   "why": [
-    "90th anniversary"
-   ],
-   "historyYear": 1936,
-   "anniversaryYears": 90,
-   "live": true,
-   "tier": "notable"
-  },
   {
    "date": "2026-07-12",
    "time": null,
