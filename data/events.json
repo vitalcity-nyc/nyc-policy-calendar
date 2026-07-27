@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-27T11:01:41.845Z",
+ "generated": "2026-07-27T22:22:29.628Z",
  "window": {
   "start": "2026-07-13",
   "end": "2027-08-31"
@@ -23,27 +23,27 @@
   {
    "name": "City Record",
    "ok": true,
-   "count": 38,
-   "ms": 708,
+   "count": 39,
+   "ms": 209,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 42,
-   "ms": 1109,
+   "count": 43,
+   "ms": 806,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 9993,
+   "ms": 4746,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 99,
+  "routine": 101,
   "notable": 60,
   "major": 40,
   "marquee": 8
@@ -861,6 +861,21 @@
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-10",
+   "time": null,
+   "title": "Board of Standards and Appeals Public Hearing Notice",
+   "note": "Board of Standards and Appeals · 22 Reade Street",
+   "strand": "hearings",
+   "source": "Board of Standards and Appeals",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 30,
+   "why": [
+    "Board of Standards and Appeals sets policy the public feels directly"
+   ],
    "live": true,
    "tier": "routine"
   },
@@ -1798,6 +1813,20 @@
    "anniversaryYears": 60,
    "live": true,
    "tier": "major"
+  },
+  {
+   "date": "2026-09-28",
+   "time": "10:00 AM",
+   "title": "Committee on Cultural Affairs, Libraries and International Relations",
+   "note": "The New York Public Library at 515 Malcolm X Boulevard, New York, NY 10037 (135th Street and Malcolm X Boulevard)",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22627&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22627_A_Committee_on_Cultural_Affairs%2C_Libraries_and_International_Relations_26-09-28_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-29",
