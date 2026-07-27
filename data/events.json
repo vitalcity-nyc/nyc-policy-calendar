@@ -1,70 +1,54 @@
 {
- "generated": "2026-07-26T22:18:56.939Z",
+ "generated": "2026-07-27T11:01:41.845Z",
  "window": {
-  "start": "2026-07-12",
-  "end": "2027-08-30"
+  "start": "2026-07-13",
+  "end": "2027-08-31"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 95,
-   "ms": 2,
+   "count": 94,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 33,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 38,
-   "ms": 468,
+   "ms": 708,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 42,
-   "ms": 1034,
+   "ms": 1109,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4779,
+   "ms": 9993,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "notable": 61,
   "routine": 99,
+  "notable": 60,
   "major": 40,
   "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-12",
-   "time": null,
-   "title": "The 1976 Democratic convention, 50 years on",
-   "note": "Fifty years since the convention at Madison Square Garden nominated Carter, in the depths of the city's fiscal crisis.",
-   "strand": "anniversary",
-   "source": "Curated",
-   "sourceUrl": null,
-   "significance": 50,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "notable"
-  },
   {
    "date": "2026-07-13",
    "time": "1:00 PM",
