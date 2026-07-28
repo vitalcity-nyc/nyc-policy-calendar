@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-27T22:22:29.628Z",
+ "generated": "2026-07-28T10:47:48.855Z",
  "window": {
-  "start": "2026-07-13",
-  "end": "2027-08-31"
+  "start": "2026-07-14",
+  "end": "2027-09-01"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,77 +10,45 @@
    "name": "Curated",
    "ok": true,
    "count": 94,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 33,
-   "ms": 6,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 39,
-   "ms": 209,
+   "count": 38,
+   "ms": 537,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 43,
-   "ms": 806,
+   "count": 42,
+   "ms": 838,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4746,
+   "ms": 4621,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 101,
+  "routine": 99,
   "notable": 60,
   "major": 40,
   "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-13",
-   "time": "1:00 PM",
-   "title": "Committee on Finance",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22600&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22600_A_Committee_on_Finance_26-07-13_Committee_Agenda.pdf",
-   "significance": 38,
-   "why": [
-    "high-salience committee",
-    "finance committee"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-13",
-   "time": null,
-   "title": "Board of Standards and Appeals Public Hearing Notice",
-   "note": "Board of Standards and Appeals · 22 Reade Street",
-   "strand": "hearings",
-   "source": "Board of Standards and Appeals",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 30,
-   "why": [
-    "Board of Standards and Appeals sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-14",
    "time": "11:30 AM",
