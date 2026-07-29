@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T10:50:50.466Z",
+ "generated": "2026-07-29T22:18:58.809Z",
  "window": {
   "start": "2026-07-15",
   "end": "2027-09-02"
@@ -10,41 +10,41 @@
    "name": "Curated",
    "ok": true,
    "count": 94,
-   "ms": 2,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 33,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 36,
-   "ms": 372,
+   "count": 38,
+   "ms": 551,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 41,
-   "ms": 877,
+   "ms": 1457,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4858,
+   "ms": 4865,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "notable": 61,
-  "routine": 95,
+  "routine": 97,
   "major": 40,
   "marquee": 8
  },
@@ -831,6 +831,21 @@
   },
   {
    "date": "2026-08-12",
+   "time": null,
+   "title": "City Planning Commission Public Hearing",
+   "note": "City Planning Commission · 120 Broadway",
+   "strand": "hearings",
+   "source": "City Planning Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 38,
+   "why": [
+    "City Planning Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-12",
    "time": "11:00 AM",
    "title": "Subcommittee on Zoning and Franchises",
    "note": "250 Broadway - 8th Floor - Hearing Room 1",
@@ -932,6 +947,19 @@
    "why": [
     "Taxi and Limousine Commission sets policy the public feels directly"
    ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": null,
+   "title": "Dining Out NYC Public Hearings",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
    "live": true,
    "tier": "routine"
   },
@@ -1742,7 +1770,7 @@
    "date": "2026-09-28",
    "time": "10:00 AM",
    "title": "Committee on Cultural Affairs, Libraries and International Relations",
-   "note": "The New York Public Library at 515 Malcolm X Boulevard, New York, NY 10037 (135th Street and Malcolm X Boulevard)",
+   "note": "Off Site hearing · The New York Public Library at 515 Malcolm X Boulevard, New York, NY 10037 (135th Street and Malcolm X Boulevard)",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22627&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
