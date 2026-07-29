@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-28T22:21:08.227Z",
+ "generated": "2026-07-29T10:50:50.466Z",
  "window": {
-  "start": "2026-07-14",
-  "end": "2027-09-01"
+  "start": "2026-07-15",
+  "end": "2027-09-02"
  },
  "corpusSize": 282,
  "sources": [
@@ -23,111 +23,32 @@
   {
    "name": "City Record",
    "ok": true,
-   "count": 38,
-   "ms": 839,
+   "count": 36,
+   "ms": 372,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 44,
-   "ms": 953,
+   "count": 41,
+   "ms": 877,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5486,
+   "ms": 4858,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 100,
   "notable": 61,
+  "routine": 95,
   "major": 40,
   "marquee": 8
  },
  "events": [
-  {
-   "date": "2026-07-14",
-   "time": "11:30 AM",
-   "title": "Committee on Land Use",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22441&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22441_A_Committee_on_Land_Use_26-07-14_Committee_Agenda.pdf",
-   "significance": 40,
-   "why": [
-    "high-salience committee",
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-14",
-   "time": null,
-   "title": "Board of Correction Public Meeting",
-   "note": "Board of Correction · 125 Worth Street",
-   "strand": "hearings",
-   "source": "Board of Correction",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 36,
-   "why": [
-    "Board of Correction sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-14",
-   "time": null,
-   "title": "July 14, 2026, Public Hearing Agenda CR",
-   "note": "Landmarks Preservation Commission · 253 Broadway",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-14",
-   "time": "10:30 AM",
-   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22526&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22526_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-14_Committee_Agenda.pdf",
-   "significance": 30,
-   "why": [
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-14",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Zoning and Franchises",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22440&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22440_A_Subcommittee_on_Zoning_and_Franchises_26-07-14_Committee_Agenda.pdf",
-   "significance": 30,
-   "why": [
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-15",
    "time": null,
