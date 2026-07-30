@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-30T10:40:51.826Z",
+ "generated": "2026-07-30T22:22:30.294Z",
  "window": {
   "start": "2026-07-16",
   "end": "2027-09-03"
@@ -21,24 +21,24 @@
    "note": null
   },
   {
-   "name": "City Record",
-   "ok": true,
-   "count": 36,
-   "ms": 421,
-   "note": null
-  },
-  {
    "name": "City Council",
    "ok": true,
    "count": 38,
-   "ms": 850,
+   "ms": 825,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 36,
+   "ms": 1326,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4692,
+   "ms": 4807,
    "note": "the Legislature is out of session"
   }
  ],
@@ -551,7 +551,7 @@
    "date": "2026-08-04",
    "time": "11:00 AM",
    "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "note": "Committee Room - City Hall",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22513&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -565,7 +565,7 @@
    "date": "2026-08-04",
    "time": "11:30 AM",
    "title": "Subcommittee on Zoning and Franchises",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "note": "Committee Room - City Hall",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22514&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
