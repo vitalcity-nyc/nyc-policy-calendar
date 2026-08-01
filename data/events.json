@@ -1,8 +1,8 @@
 {
- "generated": "2026-07-31T22:20:14.571Z",
+ "generated": "2026-08-01T10:30:28.590Z",
  "window": {
-  "start": "2026-07-17",
-  "end": "2027-09-04"
+  "start": "2026-07-18",
+  "end": "2027-09-05"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,64 +10,45 @@
    "name": "Curated",
    "ok": true,
    "count": 92,
-   "ms": 2,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 33,
-   "ms": 7,
+   "count": 32,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 659,
+   "ms": 668,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 35,
-   "ms": 1680,
+   "ms": 1076,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 9277,
+   "ms": 8259,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "major": 40,
   "marquee": 8,
   "routine": 87,
+  "major": 39,
   "notable": 58
  },
  "events": [
-  {
-   "date": "2026-07-17",
-   "time": null,
-   "title": "TWA Flight 800 explodes after takeoff from JFK — 30th anniversary",
-   "note": "TWA Flight 800 exploded off Long Island shortly after leaving John F. Kennedy International Airport, killing all 230 people aboard. The investigation traced the cause to a center fuel-tank explosion and drove lasting changes to aviation fuel-tank safety rules.",
-   "strand": "anniversary",
-   "source": "New York, in Time",
-   "sourceUrl": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR0003.pdf",
-   "significance": 75,
-   "importance": 3,
-   "why": [
-    "30th anniversary",
-    "within living memory"
-   ],
-   "historyYear": 1996,
-   "anniversaryYears": 30,
-   "live": true,
-   "tier": "major"
-  },
   {
    "date": "2026-07-19",
    "time": null,
