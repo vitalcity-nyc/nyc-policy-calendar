@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T11:02:16.901Z",
+ "generated": "2026-08-03T22:21:40.145Z",
  "window": {
   "start": "2026-07-20",
   "end": "2027-09-07"
@@ -24,26 +24,26 @@
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 328,
+   "ms": 553,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 35,
-   "ms": 747,
+   "count": 36,
+   "ms": 782,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4665,
+   "ms": 5016,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 87,
+  "routine": 88,
   "major": 39,
   "notable": 58,
   "marquee": 7
@@ -1003,6 +1003,22 @@
   },
   {
    "date": "2026-09-09",
+   "time": "10:00 AM",
+   "title": "Committee on Housing and Buildings",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22601&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22601_A_Committee_on_Housing_and_Buildings_26-09-09_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-09",
    "time": "11:00 AM",
    "title": "Subcommittee on Zoning and Franchises",
    "note": "250 Broadway - 8th Floor - Hearing Room 3",
@@ -1532,7 +1548,7 @@
    "date": "2026-09-28",
    "time": "10:00 AM",
    "title": "Committee on Cultural Affairs, Libraries and International Relations",
-   "note": "Off Site hearing · The New York Public Library at 515 Malcolm X Boulevard, New York, NY 10037 (135th Street and Malcolm X Boulevard)",
+   "note": "Off Site Hearing · The New York Public Library at 515 Malcolm X Boulevard, New York, NY 10037 (135th Street and Malcolm X Boulevard)",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22627&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
