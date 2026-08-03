@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-02T22:17:42.623Z",
+ "generated": "2026-08-03T11:02:16.901Z",
  "window": {
-  "start": "2026-07-19",
-  "end": "2027-09-06"
+  "start": "2026-07-20",
+  "end": "2027-09-07"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 92,
+   "count": 91,
    "ms": 3,
    "note": null
   },
@@ -24,47 +24,31 @@
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 365,
+   "ms": 328,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 35,
-   "ms": 1328,
+   "ms": 747,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4630,
+   "ms": 4665,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "marquee": 8,
   "routine": 87,
   "major": 39,
-  "notable": 58
+  "notable": 58,
+  "marquee": 7
  },
  "events": [
-  {
-   "date": "2026-07-19",
-   "time": null,
-   "title": "World Cup final at MetLife Stadium",
-   "note": "3 p.m. ET. The largest single sporting event ever hosted in the New York region. Weeks of security, transit and crowd planning converge on this day.",
-   "strand": "city-life",
-   "source": "Curated",
-   "sourceUrl": "https://nynjfwc26.com/schedule/",
-   "significance": 100,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "marquee"
-  },
   {
    "date": "2026-07-20",
    "time": null,
