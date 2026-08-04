@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T10:51:25.705Z",
+ "generated": "2026-08-04T22:23:44.236Z",
  "window": {
   "start": "2026-07-21",
   "end": "2027-09-08"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 91,
-   "ms": 2,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 32,
-   "ms": 5,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 32,
-   "ms": 524,
+   "count": 34,
+   "ms": 580,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 36,
-   "ms": 709,
+   "count": 40,
+   "ms": 1108,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4698,
+   "ms": 8081,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 87,
+  "routine": 93,
   "major": 39,
   "notable": 58,
   "marquee": 7
@@ -635,6 +635,39 @@
   },
   {
    "date": "2026-08-18",
+   "time": "1:00 PM",
+   "title": "Committee on Finance",
+   "note": "Jointly with the Committee on Governmental Operations, State & Federal Legislation · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22632&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22632_A_Committee_on_Finance_26-08-18_Committee_Agenda.pdf",
+   "significance": 44,
+   "why": [
+    "high-salience committee",
+    "finance committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-18",
+   "time": null,
+   "title": "AUGUST 18, 2026 PUBLIC HEARING AGENDA",
+   "note": "Landmarks Preservation Commission · 253 Broadway",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-18",
    "time": null,
    "title": "Anarchitecture After Everything, by Jack Halberstam",
    "note": "Connects the 1970s practice of cutting apart buildings to trans aesthetics and anti-urban-renewal politics. (MIT Press)",
@@ -647,6 +680,22 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-18",
+   "time": "1:00 PM",
+   "title": "Committee on Governmental Operations, State & Federal Legislation",
+   "note": "Jointly with the Committee on Finance. · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22631&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22631_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-08-18_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
    "tier": "routine"
   },
   {
@@ -1045,6 +1094,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-09",
+   "time": null,
+   "title": "Proposed Rule - Rule relating to Incomplete Inspections",
+   "note": "Buildings",
+   "strand": "hearings",
+   "source": "Buildings",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-10",
    "time": "1:30 PM",
    "title": "Stated meeting of the City Council",
@@ -1216,6 +1278,38 @@
    "anniversaryYears": 60,
    "live": true,
    "tier": "major"
+  },
+  {
+   "date": "2026-09-16",
+   "time": "1:00 PM",
+   "title": "Committee on Economic Development",
+   "note": "Jointly with the Committee on Small Business. · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22634&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22634_A_Committee_on_Economic_Development_26-09-16_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-16",
+   "time": "1:00 PM",
+   "title": "Committee on Small Business",
+   "note": "Jointly with the Committee on Economic Development · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22635&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22635_A_Committee_on_Small_Business_26-09-16_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-17",
