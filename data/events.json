@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-03T22:21:40.145Z",
+ "generated": "2026-08-04T10:51:25.705Z",
  "window": {
-  "start": "2026-07-20",
-  "end": "2027-09-07"
+  "start": "2026-07-21",
+  "end": "2027-09-08"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,58 +10,45 @@
    "name": "Curated",
    "ok": true,
    "count": 91,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 32,
-   "ms": 6,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 33,
-   "ms": 553,
+   "count": 32,
+   "ms": 524,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 36,
-   "ms": 782,
+   "ms": 709,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5016,
+   "ms": 4698,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 88,
+  "routine": 87,
   "major": 39,
   "notable": 58,
   "marquee": 7
  },
  "events": [
-  {
-   "date": "2026-07-20",
-   "time": null,
-   "title": "Design Commission Meeting Agenda, Monday, July 20, 2026",
-   "note": "Public Design Commission · City Hall Park",
-   "strand": "hearings",
-   "source": "Public Design Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-21",
    "time": null,
