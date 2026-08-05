@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T10:48:33.976Z",
+ "generated": "2026-08-05T22:22:55.985Z",
  "window": {
   "start": "2026-07-22",
   "end": "2027-09-09"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 32,
-   "ms": 6,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 32,
-   "ms": 436,
+   "count": 35,
+   "ms": 507,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 39,
-   "ms": 811,
+   "count": 40,
+   "ms": 797,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5875,
+   "ms": 4871,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 90,
+  "routine": 94,
   "major": 39,
   "notable": 58,
   "marquee": 7
@@ -659,10 +659,51 @@
   {
    "date": "2026-08-19",
    "time": null,
+   "title": "NYPD IT Infrastructure Engineer Public Hearing.",
+   "note": "Citywide Administrative Services",
+   "strand": "hearings",
+   "source": "Citywide Administrative Services",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "subject matter of broad public interest"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-19",
+   "time": null,
    "title": "DCWP NOH Rules Relating to Waitlist for GV Licenses",
    "note": "Consumer and Worker Protection",
    "strand": "hearings",
    "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-19",
+   "time": null,
+   "title": "Public Hearing \u001a Office of Technology & Innovation [858] \u001a NYS Civil Service Commission Proposal",
+   "note": "Citywide Administrative Services",
+   "strand": "hearings",
+   "source": "Citywide Administrative Services",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-19",
+   "time": null,
+   "title": "Public Hearing \u001a Office of The Comptroller [015] \u001a NYS Civil Service Commission Proposal",
+   "note": "Citywide Administrative Services",
+   "strand": "hearings",
+   "source": "Citywide Administrative Services",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -819,6 +860,22 @@
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-02",
+   "time": "10:00 AM",
+   "title": "Committee on Health",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22647&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22647_A_Committee_on_Health_26-09-02_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
    "live": true,
    "tier": "routine"
   },
