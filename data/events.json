@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-04T22:23:44.236Z",
+ "generated": "2026-08-05T10:48:33.976Z",
  "window": {
-  "start": "2026-07-21",
-  "end": "2027-09-08"
+  "start": "2026-07-22",
+  "end": "2027-09-09"
  },
  "corpusSize": 282,
  "sources": [
@@ -17,80 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 32,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 34,
-   "ms": 580,
+   "count": 32,
+   "ms": 436,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 40,
-   "ms": 1108,
+   "count": 39,
+   "ms": 811,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8081,
+   "ms": 5875,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 93,
+  "routine": 90,
   "major": 39,
   "notable": 58,
   "marquee": 7
  },
  "events": [
-  {
-   "date": "2026-07-21",
-   "time": null,
-   "title": "July 21, 2026, Public Hearing Agenda",
-   "note": "Landmarks Preservation Commission · 253 Broadway",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-21",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Zoning and Franchises",
-   "note": "250 Broadway - 8th Floor - Hearing Room 3",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22502&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22502_A_Subcommittee_on_Zoning_and_Franchises_26-07-21_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-21",
-   "time": null,
-   "title": "NYC Civic Engagement Commission Public Meeting",
-   "note": "Civic Engagement Commission · 22 Reade Street",
-   "strand": "hearings",
-   "source": "Civic Engagement Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-22",
    "time": "11:00 AM",
