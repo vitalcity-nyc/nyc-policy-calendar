@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-05T22:22:55.985Z",
+ "generated": "2026-08-06T10:50:32.646Z",
  "window": {
-  "start": "2026-07-22",
-  "end": "2027-09-09"
+  "start": "2026-07-23",
+  "end": "2027-09-10"
  },
  "corpusSize": 282,
  "sources": [
@@ -17,65 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 32,
-   "ms": 7,
-   "note": null
-  },
-  {
-   "name": "City Record",
-   "ok": true,
-   "count": 35,
-   "ms": 507,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 40,
-   "ms": 797,
+   "count": 39,
+   "ms": 755,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 34,
+   "ms": 2580,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4871,
+   "ms": 4720,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 94,
+  "routine": 92,
   "major": 39,
   "notable": 58,
   "marquee": 7
  },
  "events": [
-  {
-   "date": "2026-07-22",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22509&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/7/22509_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-07-22_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-22",
-   "time": null,
-   "title": "NEW  YORK CITY DEPARTMENT OF TRANSPORTATION",
-   "note": "Transportation · 55 Water Street",
-   "strand": "hearings",
-   "source": "Transportation",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-23",
    "time": null,
