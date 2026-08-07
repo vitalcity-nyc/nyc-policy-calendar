@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07T10:17:11.586Z",
+ "generated": "2026-08-07T22:11:01.158Z",
  "window": {
   "start": "2026-07-24",
   "end": "2027-09-11"
@@ -17,34 +17,34 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 32,
-   "ms": 6,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 769,
+   "ms": 480,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 39,
-   "ms": 982,
+   "count": 41,
+   "ms": 1094,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 9434,
+   "ms": 7533,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "major": 39,
-  "routine": 91,
+  "routine": 93,
   "notable": 58,
   "marquee": 7
  },
@@ -522,6 +522,39 @@
    "significance": 40,
    "why": [
     "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": "10:00 AM",
+   "title": "Committee on Transportation and Infrastructure",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22650&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22650_A_Committee_on_Transportation_and_Infrastructure_26-08-13_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": "11:00 AM",
+   "title": "Committee on Governmental Operations, State & Federal Legislation",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22659&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22659_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-08-13_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
     "a vote is scheduled"
    ],
    "live": true,
