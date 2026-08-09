@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T10:09:11.375Z",
+ "generated": "2026-08-09T22:06:56.258Z",
  "window": {
   "start": "2026-07-26",
   "end": "2027-09-13"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 91,
-   "ms": 4,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 768,
+   "ms": 571,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 41,
-   "ms": 1044,
+   "count": 42,
+   "ms": 1082,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8828,
+   "ms": 8198,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 93,
+  "routine": 94,
   "notable": 58,
   "marquee": 7,
   "major": 38
@@ -535,6 +535,22 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22659&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22659_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-08-13_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": "10:30 AM",
+   "title": "Committee on Parks and Recreation",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22649&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22649_A_Committee_on_Parks_and_Recreation_26-08-13_Committee_Agenda.pdf",
    "significance": 30,
    "why": [
     "a vote is scheduled"
