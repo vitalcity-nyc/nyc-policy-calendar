@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-08T22:06:09.911Z",
+ "generated": "2026-08-09T10:09:11.375Z",
  "window": {
-  "start": "2026-07-25",
-  "end": "2027-09-12"
+  "start": "2026-07-26",
+  "end": "2027-09-13"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,63 +10,45 @@
    "name": "Curated",
    "ok": true,
    "count": 91,
-   "ms": 3,
+   "ms": 4,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 32,
-   "ms": 6,
+   "count": 31,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 516,
+   "ms": 768,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 41,
-   "ms": 784,
+   "ms": 1044,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4514,
+   "ms": 8828,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "major": 39,
   "routine": 93,
   "notable": 58,
-  "marquee": 7
+  "marquee": 7,
+  "major": 38
  },
  "events": [
-  {
-   "date": "2026-07-25",
-   "time": null,
-   "title": "New York adopts first US zoning resolution — 110th anniversary",
-   "note": "New York enacted the nation's first comprehensive citywide zoning law, regulating building height, bulk and use.",
-   "strand": "anniversary",
-   "source": "New York, in Time",
-   "sourceUrl": "https://www.nyc.gov/assets/planning/download/pdf/about/city-planning-history/zr1916.pdf",
-   "significance": 74,
-   "importance": 4,
-   "why": [
-    "110th anniversary"
-   ],
-   "historyYear": 1916,
-   "anniversaryYears": 110,
-   "live": true,
-   "tier": "major"
-  },
   {
    "date": "2026-07-27",
    "time": null,
