@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T10:26:37.924Z",
+ "generated": "2026-08-10T22:12:18.795Z",
  "window": {
   "start": "2026-07-27",
   "end": "2027-09-14"
@@ -10,7 +10,7 @@
    "name": "Curated",
    "ok": true,
    "count": 91,
-   "ms": 2,
+   "ms": 3,
    "note": null
   },
   {
@@ -21,29 +21,29 @@
    "note": null
   },
   {
-   "name": "City Council",
-   "ok": true,
-   "count": 42,
-   "ms": 918,
-   "note": null
-  },
-  {
    "name": "City Record",
    "ok": true,
    "count": 33,
-   "ms": 957,
+   "ms": 543,
+   "note": null
+  },
+  {
+   "name": "City Council",
+   "ok": true,
+   "count": 47,
+   "ms": 1220,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 7694,
+   "ms": 4750,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 94,
+  "routine": 99,
   "notable": 58,
   "marquee": 7,
   "major": 38
@@ -387,6 +387,23 @@
   },
   {
    "date": "2026-08-12",
+   "time": "10:00 AM",
+   "title": "Committee on Health",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22657&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22657_A_Committee_on_Health_26-08-12_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-12",
    "time": null,
    "title": "City Planning Commission Public Hearing",
    "note": "City Planning Commission · 120 Broadway",
@@ -494,6 +511,23 @@
   },
   {
    "date": "2026-08-13",
+   "time": "10:30 AM",
+   "title": "Committee on Housing and Buildings",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22624&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22624_A_Committee_on_Housing_and_Buildings_26-08-13_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
    "time": "11:00 AM",
    "title": "Committee on Land Use",
    "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
@@ -501,6 +535,23 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22618&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22618_A_Committee_on_Land_Use_26-08-13_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": "10:00 AM",
+   "title": "Committee on Sanitation and Solid Waste Management",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22660&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22660_A_Committee_on_Sanitation_and_Solid_Waste_Management_26-08-13_Committee_Agenda.pdf",
    "significance": 40,
    "why": [
     "high-salience committee",
@@ -1696,6 +1747,38 @@
    "approx": false,
    "live": false,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "1:00 PM",
+   "title": "Committee on Economic Development",
+   "note": "Jointly with the Committee on Small Business. · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22661&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22661_A_Committee_on_Economic_Development_26-09-30_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "1:00 PM",
+   "title": "Committee on Small Business",
+   "note": "Jointly with the Committee on Economic Development · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22662&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22662_A_Committee_on_Small_Business_26-09-30_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-10-01",
