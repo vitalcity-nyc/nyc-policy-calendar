@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T10:16:28.183Z",
+ "generated": "2026-08-11T22:14:40.293Z",
  "window": {
   "start": "2026-07-28",
   "end": "2027-09-15"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 91,
-   "ms": 1,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 5,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 32,
-   "ms": 464,
+   "count": 37,
+   "ms": 686,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 48,
-   "ms": 1308,
+   "count": 54,
+   "ms": 1583,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6358,
+   "ms": 6803,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 99,
+  "routine": 110,
   "notable": 58,
   "marquee": 7,
   "major": 38
@@ -371,6 +371,36 @@
    "tier": "routine"
   },
   {
+   "date": "2026-08-11",
+   "time": null,
+   "title": "Advisory Report June 2026",
+   "note": "Landmarks Preservation Commission",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-11",
+   "time": null,
+   "title": "Binding Report June 2026",
+   "note": "Landmarks Preservation Commission",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-08-12",
    "time": "10:00 AM",
    "title": "Committee on Health",
@@ -496,6 +526,23 @@
   },
   {
    "date": "2026-08-13",
+   "time": "10:00 AM",
+   "title": "Committee on Health",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22664&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22664_A_Committee_on_Health_26-08-13_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
    "time": "10:30 AM",
    "title": "Committee on Housing and Buildings",
    "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
@@ -557,6 +604,22 @@
    "significance": 40,
    "why": [
     "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": "10:30 AM",
+   "title": "Committee on Civil and Human Rights",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22658&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22658_A_Committee_on_Civil_and_Human_Rights_26-08-13_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
     "a vote is scheduled"
    ],
    "live": true,
@@ -787,6 +850,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-08-26",
+   "time": null,
+   "title": "August 26, 2026 PUBLIC HEARING",
+   "note": "Transportation · 55 Water Street",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-08-27",
    "time": null,
    "title": "The Battle of Long Island — 250th anniversary",
@@ -811,6 +887,19 @@
    "note": "Buildings",
    "strand": "hearings",
    "source": "Buildings",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-27",
+   "time": null,
+   "title": "Dining Out NYC Public Hearings",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -1305,6 +1394,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-15",
+   "time": null,
+   "title": "Proposed Rule - Amendment of Rules relating to Certain Qualified Inspectors",
+   "note": "Buildings",
+   "strand": "hearings",
+   "source": "Buildings",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-16",
    "time": null,
    "title": "The Battle of Harlem Heights — 250th anniversary",
@@ -1608,6 +1710,23 @@
   },
   {
    "date": "2026-09-23",
+   "time": "1:00 PM",
+   "title": "Committee on Mental Health and Substance Use",
+   "note": "Jointly with the Committee on Hospitals and the Committee on Women and Gender Equity. · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22652&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22652_A_Committee_on_Mental_Health_and_Substance_Use_26-09-23_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
    "time": "11:30 AM",
    "title": "Committee on Land Use",
    "note": "250 Broadway - 8th Floor - Hearing Room 3",
@@ -1618,6 +1737,38 @@
    "significance": 32,
    "why": [
     "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": "1:00 PM",
+   "title": "Committee on Hospitals",
+   "note": "Jointly with the Committee on Mental Health and Substance Use and the Committee on Women and Gender Equity · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22653&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22653_A_Committee_on_Hospitals_26-09-23_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": "1:00 PM",
+   "title": "Committee on Women and Gender Equity",
+   "note": "Jointly with the Committee on Mental Health and Substance Use and the Committee on Hospitals · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22654&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22654_A_Committee_on_Women_and_Gender_Equity_26-09-23_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
    ],
    "live": true,
    "tier": "routine"
@@ -1778,6 +1929,20 @@
    "why": [
     "joint committee hearing"
    ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "10:00 AM",
+   "title": "Committee on Fire and Emergency Management",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22665&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22665_A_Committee_on_Fire_and_Emergency_Management_26-09-30_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
    "live": true,
    "tier": "routine"
   },
