@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-10T22:12:18.795Z",
+ "generated": "2026-08-11T10:16:28.183Z",
  "window": {
-  "start": "2026-07-27",
-  "end": "2027-09-14"
+  "start": "2026-07-28",
+  "end": "2027-09-15"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,35 +10,35 @@
    "name": "Curated",
    "ok": true,
    "count": 91,
-   "ms": 3,
+   "ms": 1,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 6,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 33,
-   "ms": 543,
+   "count": 32,
+   "ms": 464,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 47,
-   "ms": 1220,
+   "count": 48,
+   "ms": 1308,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4750,
+   "ms": 6358,
    "note": "the Legislature is out of session"
   }
  ],
@@ -49,21 +49,6 @@
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-07-27",
-   "time": null,
-   "title": "Correction: Board of Standards and Appeals Public Hearing Notice",
-   "note": "Board of Standards and Appeals · 22 Reade Street",
-   "strand": "hearings",
-   "source": "Board of Standards and Appeals",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 30,
-   "why": [
-    "Board of Standards and Appeals sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-28",
    "time": null,
@@ -572,6 +557,22 @@
    "significance": 40,
    "why": [
     "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": "10:45 AM",
+   "title": "Committee on Consumer and Worker Protection",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22651&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22651_A_Committee_on_Consumer_and_Worker_Protection_26-08-13_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
     "a vote is scheduled"
    ],
    "live": true,
