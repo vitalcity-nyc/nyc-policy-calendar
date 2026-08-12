@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-11T22:14:40.293Z",
+ "generated": "2026-08-12T10:21:44.881Z",
  "window": {
-  "start": "2026-07-28",
-  "end": "2027-09-15"
+  "start": "2026-07-29",
+  "end": "2027-09-16"
  },
  "corpusSize": 282,
  "sources": [
@@ -23,60 +23,32 @@
   {
    "name": "City Record",
    "ok": true,
-   "count": 37,
-   "ms": 686,
+   "count": 35,
+   "ms": 753,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 54,
-   "ms": 1583,
+   "count": 55,
+   "ms": 1046,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6803,
+   "ms": 8163,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 110,
   "notable": 58,
+  "routine": 109,
   "marquee": 7,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-07-28",
-   "time": null,
-   "title": "July 28, 2026, Public Hearing Agenda",
-   "note": "Landmarks Preservation Commission · 253 Broadway",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-28",
-   "time": null,
-   "title": "Notice of Availability of Final Scope of Work, Completion of a Draft Environmental Impact Statement and Public Hearing",
-   "note": "Sanitation",
-   "strand": "hearings",
-   "source": "Sanitation",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-29",
    "time": null,
@@ -567,6 +539,23 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22618&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22618_A_Committee_on_Land_Use_26-08-13_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-13",
+   "time": "10:00 AM",
+   "title": "Committee on Public Safety",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22666&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22666_A_Committee_on_Public_Safety_26-08-13_Committee_Agenda.pdf",
    "significance": 40,
    "why": [
     "high-salience committee",
