@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T10:21:44.881Z",
+ "generated": "2026-08-12T22:14:26.041Z",
  "window": {
   "start": "2026-07-29",
   "end": "2027-09-16"
@@ -10,41 +10,41 @@
    "name": "Curated",
    "ok": true,
    "count": 91,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 6,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 35,
-   "ms": 753,
+   "count": 37,
+   "ms": 565,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 55,
-   "ms": 1046,
+   "ms": 1467,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8163,
+   "ms": 6441,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "notable": 58,
-  "routine": 109,
+  "routine": 111,
   "marquee": 7,
   "major": 38
  },
@@ -841,6 +841,21 @@
   {
    "date": "2026-08-26",
    "time": null,
+   "title": "City Planning Commission Public Hearing",
+   "note": "City Planning Commission · 120 Broadway",
+   "strand": "hearings",
+   "source": "City Planning Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 38,
+   "why": [
+    "City Planning Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-26",
+   "time": null,
    "title": "August 26, 2026 PUBLIC HEARING",
    "note": "Transportation · 55 Water Street",
    "strand": "hearings",
@@ -1311,6 +1326,21 @@
    "anniversaryYears": 160,
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-14",
+   "time": null,
+   "title": "New Rules Relating to Rat Inspections",
+   "note": "Health and Mental Hygiene",
+   "strand": "hearings",
+   "source": "Health and Mental Hygiene",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "Health and Mental Hygiene sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-15",
