@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T10:21:55.897Z",
+ "generated": "2026-08-13T22:14:40.096Z",
  "window": {
   "start": "2026-07-30",
   "end": "2027-09-17"
@@ -10,41 +10,41 @@
    "name": "Curated",
    "ok": true,
    "count": 90,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 7,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 35,
-   "ms": 700,
+   "count": 36,
+   "ms": 399,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 58,
-   "ms": 1028,
+   "ms": 942,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8280,
+   "ms": 6383,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "notable": 57,
-  "routine": 112,
+  "routine": 113,
   "marquee": 7,
   "major": 38
  },
@@ -423,8 +423,8 @@
    "note": "Council Chambers - City Hall",
    "strand": "hearings",
    "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22296&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22296_A_City_Council_26-08-13_Committee_Agenda.pdf",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22663&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22663_A_City_Council_26-08-13_Committee_Agenda.pdf",
    "significance": 50,
    "why": [
     "stated meeting of the full Council"
@@ -638,6 +638,19 @@
    "note": "Transportation",
    "strand": "hearings",
    "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-17",
+   "time": null,
+   "title": "Design Commission Meeting Agenda, Monday, August 17, 2026",
+   "note": "Public Design Commission · City Hall Park",
+   "strand": "hearings",
+   "source": "Public Design Commission",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
