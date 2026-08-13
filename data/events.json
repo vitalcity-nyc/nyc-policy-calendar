@@ -1,100 +1,54 @@
 {
- "generated": "2026-08-12T22:14:26.041Z",
+ "generated": "2026-08-13T10:21:55.897Z",
  "window": {
-  "start": "2026-07-29",
-  "end": "2027-09-16"
+  "start": "2026-07-30",
+  "end": "2027-09-17"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 91,
-   "ms": 2,
+   "count": 90,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 5,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 37,
-   "ms": 565,
+   "count": 35,
+   "ms": 700,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 55,
-   "ms": 1467,
+   "count": 58,
+   "ms": 1028,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6441,
+   "ms": 8280,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "notable": 58,
-  "routine": 111,
+  "notable": 57,
+  "routine": 112,
   "marquee": 7,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-07-29",
-   "time": null,
-   "title": "Son of Sam, 50 years on",
-   "note": "On July 29, 1976, David Berkowitz began the series of attacks that terrorized the city for a year.",
-   "strand": "anniversary",
-   "source": "Curated",
-   "sourceUrl": null,
-   "significance": 54,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "notable"
-  },
-  {
-   "date": "2026-07-29",
-   "time": null,
-   "title": "City Planning Commission Public Hearing Ad",
-   "note": "City Planning Commission · 120 Broadway",
-   "strand": "hearings",
-   "source": "City Planning Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 38,
-   "why": [
-    "City Planning Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-07-29",
-   "time": null,
-   "title": "New York City Housing Authority Board Meeting",
-   "note": "Housing Authority",
-   "strand": "hearings",
-   "source": "Housing Authority",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Housing Authority sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-07-30",
    "time": null,
@@ -1918,6 +1872,56 @@
    "approx": false,
    "live": false,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "10:00 AM",
+   "title": "Committee on Public Safety",
+   "note": "Jointly with the Committee on Transportation and Infrastructure and the Committee on Consumer and Worker Protection · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22668&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22668_A_Committee_on_Public_Safety_26-09-30_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "10:00 AM",
+   "title": "Committee on Transportation and Infrastructure",
+   "note": "Jointly with the Committee on Consumer and Worker Protection and the Committee on Public Safety. · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22636&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22636_A_Committee_on_Transportation_and_Infrastructure_26-09-30_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "10:00 AM",
+   "title": "Committee on Consumer and Worker Protection",
+   "note": "Jointly with the Committee on Transportation and Infrastructure and the Committee on Public Safety · Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22637&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22637_A_Committee_on_Consumer_and_Worker_Protection_26-09-30_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-30",
