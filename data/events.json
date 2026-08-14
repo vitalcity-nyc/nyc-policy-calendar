@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-13T22:14:40.096Z",
+ "generated": "2026-08-14T10:19:50.292Z",
  "window": {
-  "start": "2026-07-30",
-  "end": "2027-09-17"
+  "start": "2026-07-31",
+  "end": "2027-09-18"
  },
  "corpusSize": 282,
  "sources": [
@@ -16,70 +16,39 @@
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 31,
+   "count": 30,
    "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 36,
-   "ms": 399,
+   "count": 35,
+   "ms": 441,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 58,
-   "ms": 942,
+   "ms": 1492,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6383,
+   "ms": 4972,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "notable": 57,
-  "routine": 113,
+  "routine": 112,
+  "notable": 56,
   "marquee": 7,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-07-30",
-   "time": null,
-   "title": "Black Tom explosion rocks the harbor — 110th anniversary",
-   "note": "German saboteurs blew up a massive munitions depot on Black Tom Island in New York Harbor, shattering windows across the city.",
-   "strand": "anniversary",
-   "source": "New York, in Time",
-   "sourceUrl": "https://www.nps.gov/articles/black-tom-wwi.htm",
-   "significance": 64,
-   "importance": 3,
-   "why": [
-    "110th anniversary"
-   ],
-   "historyYear": 1916,
-   "anniversaryYears": 110,
-   "live": true,
-   "tier": "notable"
-  },
-  {
-   "date": "2026-07-30",
-   "time": null,
-   "title": "EEPC COMMISSION MEETING #289",
-   "note": "Equal Employment Practices Commission · 253 Broadway",
-   "strand": "hearings",
-   "source": "Equal Employment Practices Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-04",
    "time": null,
