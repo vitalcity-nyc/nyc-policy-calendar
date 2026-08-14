@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T10:19:50.292Z",
+ "generated": "2026-08-14T22:04:03.276Z",
  "window": {
   "start": "2026-07-31",
   "end": "2027-09-18"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 5,
-   "note": null
-  },
-  {
-   "name": "City Record",
-   "ok": true,
-   "count": 35,
-   "ms": 441,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 58,
-   "ms": 1492,
+   "count": 62,
+   "ms": 744,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 37,
+   "ms": 1694,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4972,
+   "ms": 5407,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 112,
+  "routine": 118,
   "notable": 56,
   "marquee": 7,
   "major": 38
@@ -956,6 +956,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-03",
+   "time": null,
+   "title": "Dining Out NYC Hearing",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-04",
    "time": null,
    "title": "Deadline for charter proposals to reach the November ballot",
@@ -1350,6 +1363,38 @@
   },
   {
    "date": "2026-09-15",
+   "time": "10:00 AM",
+   "title": "Committee on Fire and Emergency Management",
+   "note": "Jointly with the Committee on Hospitals · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22673&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22673_A_Committee_on_Fire_and_Emergency_Management_26-09-15_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-15",
+   "time": "10:00 AM",
+   "title": "Committee on Hospitals",
+   "note": "Jointly with the Committee on Fire and Emergency Management · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22674&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22674_A_Committee_on_Hospitals_26-09-15_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-15",
    "time": null,
    "title": "Proposed Rule - Amendment of Rules relating to Certain Qualified Inspectors",
    "note": "Buildings",
@@ -1426,6 +1471,21 @@
    "significance": 28,
    "why": [
     "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-16",
+   "time": null,
+   "title": "Rules Regarding Restricted Substances in Personal Care Products",
+   "note": "Health and Mental Hygiene",
+   "strand": "hearings",
+   "source": "Health and Mental Hygiene",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "Health and Mental Hygiene sets policy the public feels directly"
    ],
    "live": true,
    "tier": "routine"
@@ -1649,6 +1709,22 @@
   },
   {
    "date": "2026-09-22",
+   "time": "1:00 PM",
+   "title": "Committee on Education",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22677&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22677_A_Committee_on_Education_26-09-22_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-22",
    "time": null,
    "title": "Cold War City, by David E. Barclay",
    "note": "What five decades as a walled-in enclave did to West Berlin. (Princeton)",
@@ -1822,6 +1898,22 @@
    "approx": false,
    "live": false,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-29",
+   "time": "1:00 PM",
+   "title": "Committee on Higher Education",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22670&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22670_A_Committee_on_Higher_Education_26-09-29_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-30",
