@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T10:08:50.404Z",
+ "generated": "2026-08-17T22:04:35.506Z",
  "window": {
   "start": "2026-08-03",
   "end": "2027-09-21"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 90,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 7,
-   "note": null
-  },
-  {
-   "name": "City Record",
-   "ok": true,
-   "count": 37,
-   "ms": 534,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 62,
-   "ms": 653,
+   "count": 63,
+   "ms": 722,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 41,
+   "ms": 716,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4655,
+   "ms": 4516,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 118,
+  "routine": 123,
   "notable": 56,
   "marquee": 7,
   "major": 38
@@ -616,6 +616,36 @@
   {
    "date": "2026-08-17",
    "time": null,
+   "title": "Advisory Report July 2026",
+   "note": "Landmarks Preservation Commission",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-17",
+   "time": null,
+   "title": "Binding Report July 2026",
+   "note": "Landmarks Preservation Commission",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-17",
+   "time": null,
    "title": "Design Commission Meeting Agenda, Monday, August 17, 2026",
    "note": "Public Design Commission · City Hall Park",
    "strand": "hearings",
@@ -759,6 +789,19 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-08-25",
+   "time": null,
+   "title": "BERS EXECUTIVE COMMITTEE MEETING",
+   "note": "Board of Education Retirement System · 55 Water Street",
+   "strand": "hearings",
+   "source": "Board of Education Retirement System",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
    "tier": "routine"
   },
   {
@@ -1491,6 +1534,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-16",
+   "time": null,
+   "title": "DCWP NOH Rules Relating to Tax Preparation Fee Disclosures",
+   "note": "Consumer and Worker Protection",
+   "strand": "hearings",
+   "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-17",
    "time": null,
    "title": "Chelsea bombing injures 31 — 10th anniversary",
@@ -1575,7 +1631,7 @@
   },
   {
    "date": "2026-09-18",
-   "time": "10:00 AM",
+   "time": "11:00 AM",
    "title": "Committee on Finance",
    "note": "Jointly with the Committee on Aging and the Committee on Disabilities · Council Chambers - City Hall",
    "strand": "hearings",
@@ -1593,7 +1649,7 @@
   },
   {
    "date": "2026-09-18",
-   "time": "10:00 AM",
+   "time": "11:00 AM",
    "title": "Committee on Aging",
    "note": "Jointly with the Committee on Disabilities and the Committee on Finance. · Council Chambers - City Hall",
    "strand": "hearings",
@@ -1609,7 +1665,7 @@
   },
   {
    "date": "2026-09-18",
-   "time": "10:00 AM",
+   "time": "11:00 AM",
    "title": "Committee on Disabilities",
    "note": "Jointly with the Committee on Aging and the Committee on Finance · Council Chambers - City Hall",
    "strand": "hearings",
@@ -1737,6 +1793,20 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-22",
+   "time": "10:00 AM",
+   "title": "Committee on Civil Service and Labor",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22678&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22678_A_Committee_on_Civil_Service_and_Labor_26-09-22_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
    "tier": "routine"
   },
   {
