@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18T10:05:32.133Z",
+ "generated": "2026-08-18T22:03:25.085Z",
  "window": {
   "start": "2026-08-04",
   "end": "2027-09-22"
@@ -10,7 +10,7 @@
    "name": "Curated",
    "ok": true,
    "count": 90,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
@@ -23,27 +23,27 @@
   {
    "name": "City Record",
    "ok": true,
-   "count": 41,
-   "ms": 550,
+   "count": 43,
+   "ms": 357,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 63,
-   "ms": 858,
+   "count": 64,
+   "ms": 1043,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6613,
+   "ms": 4920,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 123,
+  "routine": 126,
   "notable": 56,
   "marquee": 7,
   "major": 38
@@ -972,6 +972,21 @@
   {
    "date": "2026-09-01",
    "time": null,
+   "title": "September 1, 2026, Public Hearing Agenda CR",
+   "note": "Landmarks Preservation Commission · 253 Broadway",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-01",
+   "time": null,
    "title": "Notice of Public Hearing and Opportunity to Comment-  FHV and Taxi Parking at Commercial Meters and Commercial Vehicle Markings",
    "note": "Transportation",
    "strand": "hearings",
@@ -1535,6 +1550,20 @@
   },
   {
    "date": "2026-09-16",
+   "time": "1:00 PM",
+   "title": "Committee on Children and Youth",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22679&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22679_A_Committee_on_Children_and_Youth_26-09-16_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-16",
    "time": null,
    "title": "DCWP NOH Rules Relating to Tax Preparation Fee Disclosures",
    "note": "Consumer and Worker Protection",
@@ -1607,6 +1636,19 @@
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22620&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22620_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-09-17_Committee_Agenda.pdf",
    "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-17",
+   "time": null,
+   "title": "DCWP NOH Rules Relating to Amendment of Debt Collectors Rule Effective Date",
+   "note": "Consumer and Worker Protection",
+   "strand": "hearings",
+   "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
    "why": [],
    "live": true,
    "tier": "routine"
