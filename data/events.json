@@ -1,16 +1,16 @@
 {
- "generated": "2026-08-18T22:03:25.085Z",
+ "generated": "2026-08-19T10:05:41.960Z",
  "window": {
-  "start": "2026-08-04",
-  "end": "2027-09-22"
+  "start": "2026-08-05",
+  "end": "2027-09-23"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 90,
-   "ms": 2,
+   "count": 89,
+   "ms": 3,
    "note": null
   },
   {
@@ -21,122 +21,34 @@
    "note": null
   },
   {
-   "name": "City Record",
+   "name": "City Council",
    "ok": true,
-   "count": 43,
-   "ms": 357,
+   "count": 61,
+   "ms": 994,
    "note": null
   },
   {
-   "name": "City Council",
+   "name": "City Record",
    "ok": true,
-   "count": 64,
-   "ms": 1043,
+   "count": 41,
+   "ms": 1268,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4920,
+   "ms": 8363,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 126,
+  "routine": 120,
   "notable": 56,
   "marquee": 7,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-08-04",
-   "time": null,
-   "title": "Transportation and the Shape of Cities, by Christof Spieler and others",
-   "note": "Argues each travel mode — walking, micromobility, cars, rail, transit — has a geometry that dictates the shape of the city built around it. (Island Press)",
-   "strand": "books",
-   "source": "Curated",
-   "sourceUrl": "https://press.princeton.edu/isbn/9781642833980",
-   "significance": 42,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-04",
-   "time": null,
-   "title": "August 4, 2026, Public Hearing Agenda CR",
-   "note": "Landmarks Preservation Commission · 253 Broadway",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-04",
-   "time": "12:00 PM",
-   "title": "Committee on Land Use",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22515&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22515_A_Committee_on_Land_Use_26-08-04_Committee_Agenda.pdf",
-   "significance": 32,
-   "why": [
-    "high-salience committee"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-04",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
-   "note": "Committee Room - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22513&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22513_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-08-04_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-04",
-   "time": "11:30 AM",
-   "title": "Subcommittee on Zoning and Franchises",
-   "note": "Committee Room - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22514&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22514_A_Subcommittee_on_Zoning_and_Franchises_26-08-04_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-04",
-   "time": null,
-   "title": "Proposed Amendment to 421-a(16) Workbook Rules",
-   "note": "Housing Preservation and Development",
-   "strand": "hearings",
-   "source": "Housing Preservation and Development",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-05",
    "time": null,
