@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T10:05:41.960Z",
+ "generated": "2026-08-19T22:04:56.308Z",
  "window": {
   "start": "2026-08-05",
   "end": "2027-09-23"
@@ -10,7 +10,7 @@
    "name": "Curated",
    "ok": true,
    "count": 89,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
@@ -21,29 +21,29 @@
    "note": null
   },
   {
-   "name": "City Council",
+   "name": "City Record",
    "ok": true,
-   "count": 61,
-   "ms": 994,
+   "count": 44,
+   "ms": 593,
    "note": null
   },
   {
-   "name": "City Record",
+   "name": "City Council",
    "ok": true,
-   "count": 41,
-   "ms": 1268,
+   "count": 61,
+   "ms": 1334,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8363,
+   "ms": 8906,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 120,
+  "routine": 123,
   "notable": 56,
   "marquee": 7,
   "major": 38
@@ -758,6 +758,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-08-26",
+   "time": null,
+   "title": "Construction Management-Build for LBK16SCRF - Spring Creek Library Renovation",
+   "note": "Design and Construction",
+   "strand": "hearings",
+   "source": "Design and Construction",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-08-27",
    "time": null,
    "title": "The Battle of Long Island — 250th anniversary",
@@ -1161,6 +1174,19 @@
    "note": "Citywide Administrative Services",
    "strand": "hearings",
    "source": "Citywide Administrative Services",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-09",
+   "time": null,
+   "title": "MOCs Public Hearing September 9, 2026",
+   "note": "Environmental Protection",
+   "strand": "hearings",
+   "source": "Environmental Protection",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -1630,6 +1656,19 @@
    "why": [
     "joint committee hearing"
    ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-18",
+   "time": null,
+   "title": "DSNY Amendment of Penalty for Improper Disposal of Regulated Household Waste",
+   "note": "Sanitation",
+   "strand": "hearings",
+   "source": "Sanitation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
    "live": true,
    "tier": "routine"
   },
