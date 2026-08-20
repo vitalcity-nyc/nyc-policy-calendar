@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T10:06:26.529Z",
+ "generated": "2026-08-20T22:05:27.116Z",
  "window": {
   "start": "2026-08-06",
   "end": "2027-09-24"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 7,
+   "ms": 6,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 44,
+   "ms": 492,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 61,
-   "ms": 829,
-   "note": null
-  },
-  {
-   "name": "City Record",
-   "ok": true,
-   "count": 43,
-   "ms": 1192,
+   "ms": 837,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4579,
+   "ms": 4897,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 122,
+  "routine": 123,
   "notable": 56,
   "marquee": 7,
   "major": 38
@@ -1883,6 +1883,19 @@
    ],
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-24",
+   "time": null,
+   "title": "Proposed Rule - Rules regarding Sidewalk Shed Designs",
+   "note": "Buildings",
+   "strand": "hearings",
+   "source": "Buildings",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-25",
