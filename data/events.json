@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-20T22:05:27.116Z",
+ "generated": "2026-08-21T10:06:45.146Z",
  "window": {
-  "start": "2026-08-06",
-  "end": "2027-09-24"
+  "start": "2026-08-07",
+  "end": "2027-09-25"
  },
  "corpusSize": 282,
  "sources": [
@@ -17,64 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 6,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 44,
-   "ms": 492,
+   "count": 42,
+   "ms": 409,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 61,
-   "ms": 837,
+   "ms": 883,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4897,
+   "ms": 6355,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 123,
+  "routine": 121,
   "notable": 56,
   "marquee": 7,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-08-06",
-   "time": null,
-   "title": "Dining Out NYC Public Hearing",
-   "note": "Transportation",
-   "strand": "hearings",
-   "source": "Transportation",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-06",
-   "time": null,
-   "title": "New York City Environmental Control Board Meeting August 6, 2026",
-   "note": "Environmental Control Board · 100 Church Street",
-   "strand": "hearings",
-   "source": "Environmental Control Board",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-07",
    "time": null,
