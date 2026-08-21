@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T10:06:45.146Z",
+ "generated": "2026-08-21T22:04:45.045Z",
  "window": {
   "start": "2026-08-07",
   "end": "2027-09-25"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 42,
-   "ms": 409,
+   "count": 44,
+   "ms": 506,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 61,
-   "ms": 883,
+   "ms": 1039,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6355,
+   "ms": 4981,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 121,
+  "routine": 123,
   "notable": 56,
   "marquee": 7,
   "major": 38
@@ -895,6 +895,21 @@
    "significance": 32,
    "why": [
     "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-03",
+   "time": null,
+   "title": "NYCHA Audit and Finance Committee Meeting.",
+   "note": "Housing Authority",
+   "strand": "hearings",
+   "source": "Housing Authority",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Housing Authority sets policy the public feels directly"
    ],
    "live": true,
    "tier": "routine"
@@ -1838,6 +1853,19 @@
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22613&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22613_A_Subcommittee_on_Zoning_and_Franchises_26-09-23_Committee_Agenda.pdf",
    "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": null,
+   "title": "Proposed Rule - Amendment of Rules regarding Fees for Electrical Permits and Licensing and Compensation of Registered Design Professionals",
+   "note": "Buildings",
+   "strand": "hearings",
+   "source": "Buildings",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
    "why": [],
    "live": true,
    "tier": "routine"
