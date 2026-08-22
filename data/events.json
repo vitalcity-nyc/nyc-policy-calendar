@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-21T22:04:45.045Z",
+ "generated": "2026-08-22T10:03:24.571Z",
  "window": {
-  "start": "2026-08-07",
-  "end": "2027-09-25"
+  "start": "2026-08-08",
+  "end": "2027-09-26"
  },
  "corpusSize": 282,
  "sources": [
@@ -17,51 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 6,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 44,
-   "ms": 506,
+   "count": 43,
+   "ms": 583,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 61,
-   "ms": 1039,
+   "ms": 1021,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4981,
+   "ms": 8358,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 123,
+  "routine": 122,
   "notable": 56,
   "marquee": 7,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-08-07",
-   "time": null,
-   "title": "DCWP NOH Junk Fees",
-   "note": "Consumer and Worker Protection",
-   "strand": "hearings",
-   "source": "Consumer and Worker Protection",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-10",
    "time": null,
