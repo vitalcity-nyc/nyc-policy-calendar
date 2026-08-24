@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T10:12:52.092Z",
+ "generated": "2026-08-24T22:05:08.857Z",
  "window": {
   "start": "2026-08-10",
   "end": "2027-09-28"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 8,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 43,
-   "ms": 609,
+   "count": 45,
+   "ms": 567,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 61,
-   "ms": 1897,
+   "count": 67,
+   "ms": 1160,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8924,
+   "ms": 7998,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 122,
+  "routine": 130,
   "notable": 56,
   "marquee": 7,
   "major": 38
@@ -1012,6 +1012,23 @@
   },
   {
    "date": "2026-09-08",
+   "time": "1:00 PM",
+   "title": "Committee on Mental Health and Substance Use",
+   "note": "Jointly with the Committee on Veterans · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22683&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22683_A_Committee_on_Mental_Health_and_Substance_Use_26-09-08_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-08",
    "time": null,
    "title": "Sez I to Myself, by Frank and Malachy McCourt",
    "note": "Uncollected essays, many first run in Upper West Side neighborhood papers, on immigrant New York, pubs, classrooms and 9/11. (Abrams)",
@@ -1038,6 +1055,22 @@
    "significance": 32,
    "why": [
     "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-08",
+   "time": "1:00 PM",
+   "title": "Committee on Veterans",
+   "note": "Jointly with the Committee on Mental Health and Substance Use. · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22682&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22682_A_Committee_on_Veterans_26-09-08_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
    ],
    "live": true,
    "tier": "routine"
@@ -1238,6 +1271,21 @@
   {
    "date": "2026-09-14",
    "time": null,
+   "title": "Board of Standards and Appeals Hearing Notice",
+   "note": "Board of Standards and Appeals · 22 Reade Street",
+   "strand": "hearings",
+   "source": "Board of Standards and Appeals",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 30,
+   "why": [
+    "Board of Standards and Appeals sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-14",
+   "time": null,
    "title": "New Rules Relating to Rat Inspections",
    "note": "Health and Mental Hygiene",
    "strand": "hearings",
@@ -1318,6 +1366,22 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-15",
+   "time": "10:00 AM",
+   "title": "Committee on Sanitation and Solid Waste Management",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22684&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22684_A_Committee_on_Sanitation_and_Solid_Waste_Management_26-09-15_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
    "tier": "routine"
   },
   {
@@ -1405,6 +1469,22 @@
   {
    "date": "2026-09-16",
    "time": "1:00 PM",
+   "title": "Subcommittee on Early Childhood Education",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22672&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22672_A_Subcommittee_on_Early_Childhood_Education_26-09-16_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-16",
+   "time": "1:00 PM",
    "title": "Committee on Economic Development",
    "note": "Jointly with the Committee on Small Business. · 250 Broadway - 8th Floor - Hearing Room 1",
    "strand": "hearings",
@@ -1458,6 +1538,20 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22679&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22679_A_Committee_on_Children_and_Youth_26-09-16_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-16",
+   "time": "1:00 PM",
+   "title": "Committee on Small Business",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22688&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22688_A_Committee_on_Small_Business_26-09-16_Committee_Agenda.pdf",
    "significance": 22,
    "why": [],
    "live": true,
@@ -1548,6 +1642,19 @@
    "note": "Consumer and Worker Protection",
    "strand": "hearings",
    "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-17",
+   "time": null,
+   "title": "Dining Out NYC Public Hearing",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -2090,6 +2197,20 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22665&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22665_A_Committee_on_Fire_and_Emergency_Management_26-09-30_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "10:00 AM",
+   "title": "Committee on Women and Gender Equity",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22667&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22667_A_Committee_on_Women_and_Gender_Equity_26-09-30_Committee_Agenda.pdf",
    "significance": 22,
    "why": [],
    "live": true,
