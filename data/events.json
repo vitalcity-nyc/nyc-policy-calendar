@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T10:10:24.587Z",
+ "generated": "2026-08-26T16:27:28.134Z",
  "window": {
   "start": "2026-08-12",
   "end": "2027-09-30"
@@ -7,46 +7,46 @@
  "corpusSize": 282,
  "sources": [
   {
+   "name": "Albany",
+   "ok": true,
+   "count": 0,
+   "ms": 0,
+   "note": "no API key configured"
+  },
+  {
    "name": "Curated",
    "ok": true,
    "count": 88,
-   "ms": 2,
+   "ms": 1,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 5,
+   "ms": 2,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 41,
-   "ms": 696,
+   "count": 45,
+   "ms": 522,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 71,
-   "ms": 1158,
+   "count": 72,
+   "ms": 3227,
    "note": null
-  },
-  {
-   "name": "Albany",
-   "ok": true,
-   "count": 0,
-   "ms": 7299,
-   "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 129,
+  "routine": 134,
   "notable": 56,
-  "marquee": 7,
-  "major": 38
+  "marquee": 8,
+  "major": 37
  },
  "events": [
   {
@@ -795,6 +795,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-02",
+   "time": null,
+   "title": "City of New York Deferred Compensation Plan Board Meeting",
+   "note": "Office of Labor Relations",
+   "strand": "hearings",
+   "source": "Office of Labor Relations",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-03",
    "time": null,
    "title": "NYCHA Audit and Finance Committee Meeting.",
@@ -1106,6 +1119,32 @@
    "note": "Environmental Protection",
    "strand": "hearings",
    "source": "Environmental Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-09",
+   "time": null,
+   "title": "MOCs Public Hearing September 9, 2026",
+   "note": "Environmental Protection",
+   "strand": "hearings",
+   "source": "Environmental Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-09",
+   "time": null,
+   "title": "New York City Transit Authority - Selective Certification Request",
+   "note": "Citywide Administrative Services",
+   "strand": "hearings",
+   "source": "Citywide Administrative Services",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -1702,6 +1741,22 @@
   {
    "date": "2026-09-22",
    "time": null,
+   "title": "United Nations General Assembly: the general debate opens",
+   "note": "The high-level general debate of the 81st session runs Sept. 22-26 and concludes Monday, Sept. 28; the session itself opened Sept. 8. Leaders' week is the year's largest security and traffic event in Midtown. The order of speakers is published by the United Nations only shortly beforehand, so who appears on which day is not yet known.",
+   "strand": "city-life",
+   "source": "Curated",
+   "sourceUrl": "https://www.un.org/en/ga/81/meetings/",
+   "significance": 88,
+   "why": [
+    "editorially judged"
+   ],
+   "approx": false,
+   "live": false,
+   "tier": "marquee"
+  },
+  {
+   "date": "2026-09-22",
+   "time": null,
    "title": "Nathan Hale is hanged as a spy — 250th anniversary",
    "note": "The British hanged 21-year-old Continental officer Nathan Hale as a spy in occupied New York on September 22, 1776.",
    "strand": "anniversary",
@@ -1715,22 +1770,6 @@
    "historyYear": 1776,
    "anniversaryYears": 250,
    "live": true,
-   "tier": "major"
-  },
-  {
-   "date": "2026-09-22",
-   "time": null,
-   "title": "United Nations General Assembly: leaders' week",
-   "note": "World leaders descend on the city for the high-level debate. Major security, traffic and diplomatic consequences for Midtown.",
-   "strand": "city-life",
-   "source": "Curated",
-   "sourceUrl": null,
-   "significance": 78,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": true,
-   "live": false,
    "tier": "major"
   },
   {
@@ -1822,6 +1861,20 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22678&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22678_A_Committee_on_Civil_Service_and_Labor_26-09-22_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-22",
+   "time": "1:00 PM",
+   "title": "Committee on General Welfare",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22622&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22622_A_Committee_on_General_Welfare_26-09-22_Committee_Agenda.pdf",
    "significance": 22,
    "why": [],
    "live": true,
@@ -2026,6 +2079,19 @@
    "why": [
     "high-salience committee"
    ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-29",
+   "time": null,
+   "title": "North Shore Waterfront Plan DSOW Public Hearing",
+   "note": "Mayor's Office of Environmental Coordination",
+   "strand": "hearings",
+   "source": "Mayor's Office of Environmental Coordination",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
    "live": true,
    "tier": "routine"
   },
