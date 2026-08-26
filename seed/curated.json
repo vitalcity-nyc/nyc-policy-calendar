@@ -144,13 +144,12 @@
    "significance": 80
   },
   {
-   "date": "2026-09-08",
+   "date": "2026-09-10",
    "title": "First day of school",
-   "note": "The 2026-27 school year begins the day after Labor Day. Some 800,000 children return to K-12 public school classrooms, a number that has fallen roughly 10% since 2020.",
+   "note": "New York City Public Schools: \"The new school year starts on Thursday, September 10, 2026.\" An unusually late start — Labor Day falls on Sept. 7 — and the year runs to June 28, 2027 to reach the 180 instructional days the state requires. Some 800,000 children return to K-12 classrooms, a number that has fallen roughly 10% since 2020. Students' first day off is Sept. 21 for Yom Kippur.",
    "strand": "city-life",
    "significance": 66,
-   "approx": true,
-   "url": "https://www.schools.nyc.gov/about-us/reports/nycps-data-at-a-glance"
+   "url": "https://www.schools.nyc.gov/calendar/2026-2027-school-year-calendar"
   },
   {
    "date": "2026-09-08",
@@ -483,13 +482,12 @@
    "url": "https://rentguidelinesboard.cityofnewyork.us/"
   },
   {
-   "date": "2026-09-04",
-   "title": "Deadline for charter proposals to reach the November ballot",
-   "note": "Mamdani's Commission on Government Efficiency finished its 10 public hearings and published a preliminary staff report on July 2. To put charter amendments before voters on Nov. 3, it must file them with the city clerk at least 60 days beforehand. No filing date has been announced; this is the outer bound the law implies, not a scheduled event. The preliminary report points at outdoor dining, permitting, procurement, bus and street infrastructure and a rainy day fund.",
+   "date": "2026-11-03",
+   "title": "Five charter amendments on the ballot",
+   "note": "Mamdani's Commission on Government Efficiency adopted its final report and five ballot proposals on July 23, after 10 public hearings that drew 1,220 New Yorkers, 264 live testimonies and 603 written submissions. Prop 1 merges the sidewalk and roadway dining approvals into one application, cutting an eight-month process to two. Prop 2 simplifies procurement for small businesses and nonprofits. Prop 3 lets the Department of Transportation fast-track street safety work including bike lanes, and speeds the sale or lease of small city properties. Prop 4 creates one permitting hub for 40 approvals now spread across 18 offices. Prop 5 sets a rainy day fund target of 12% of total tax revenues and requires a deposit formula. After the election the commission becomes a standing advisory board.",
    "strand": "cityhall",
-   "significance": 78,
-   "approx": true,
-   "url": "https://www.nyc.gov/site/charter/reports/coge-reports.page"
+   "significance": 80,
+   "url": "https://www.nyc.gov/mayors-office/news/2026/07/coge-releases-5-ballot-proposals-and-final-report-to-make-govern"
   },
   {
    "date": "2027-01-16",
@@ -573,7 +571,7 @@
    "url": "https://www.nysenate.gov/new-york-state-budget"
   },
   {
-   "date": "2026-09-08",
+   "date": "2026-09-10",
    "title": "Free 2-K launches: 2,000 seats",
    "note": "The first free 2-K seats open in four communities, announced with Gov. Kathy Hochul in March, expanding to universality within four years. Reporting puts services beginning in September; no exact launch date has been announced, so this is pegged to the start of the school year.",
    "strand": "cityhall",
