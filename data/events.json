@@ -1,117 +1,54 @@
 {
- "generated": "2026-08-25T22:04:55.135Z",
+ "generated": "2026-08-26T10:10:24.587Z",
  "window": {
-  "start": "2026-08-11",
-  "end": "2027-09-29"
+  "start": "2026-08-12",
+  "end": "2027-09-30"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 89,
-   "ms": 3,
+   "count": 88,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 30,
-   "ms": 6,
-   "note": null
-  },
-  {
-   "name": "City Council",
-   "ok": true,
-   "count": 72,
-   "ms": 936,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 43,
-   "ms": 1468,
+   "count": 41,
+   "ms": 696,
+   "note": null
+  },
+  {
+   "name": "City Council",
+   "ok": true,
+   "count": 71,
+   "ms": 1158,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5155,
+   "ms": 7299,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 133,
+  "routine": 129,
   "notable": 56,
   "marquee": 7,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-08-11",
-   "time": "11:00 AM",
-   "title": "Committee on Finance",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22628&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22628_A_Committee_on_Finance_26-08-11_Committee_Agenda.pdf",
-   "significance": 38,
-   "why": [
-    "high-salience committee",
-    "finance committee"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-11",
-   "time": null,
-   "title": "The Great Driving Right Show, by the Zetkin Collective",
-   "note": "How the far right built a mass politics around defending the car, from anti-congestion-charge campaigns to farmers' protests. (Verso)",
-   "strand": "books",
-   "source": "Curated",
-   "sourceUrl": "https://www.versobooks.com/products/3409-the-great-driving-right-show",
-   "significance": 36,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-11",
-   "time": null,
-   "title": "Advisory Report June 2026",
-   "note": "Landmarks Preservation Commission",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-11",
-   "time": null,
-   "title": "Binding Report June 2026",
-   "note": "Landmarks Preservation Commission",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-12",
    "time": "10:00 AM",
