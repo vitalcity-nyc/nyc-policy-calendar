@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-26T23:00:44.524Z",
+ "generated": "2026-08-27T13:29:41.775Z",
  "window": {
-  "start": "2026-08-12",
-  "end": "2027-09-30"
+  "start": "2026-08-13",
+  "end": "2027-10-01"
  },
  "corpusSize": 282,
  "sources": [
@@ -16,129 +16,39 @@
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 30,
-   "ms": 7,
+   "count": 31,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 45,
-   "ms": 377,
+   "count": 46,
+   "ms": 503,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 72,
-   "ms": 857,
+   "count": 69,
+   "ms": 939,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4548,
+   "ms": 5524,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 134,
-  "notable": 56,
+  "notable": 57,
+  "routine": 132,
   "marquee": 8,
   "major": 37
  },
  "events": [
-  {
-   "date": "2026-08-12",
-   "time": "10:00 AM",
-   "title": "Committee on Health",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22657&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22657_A_Committee_on_Health_26-08-12_Committee_Agenda.pdf",
-   "significance": 40,
-   "why": [
-    "high-salience committee",
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-12",
-   "time": null,
-   "title": "City Planning Commission Public Hearing",
-   "note": "City Planning Commission · 120 Broadway",
-   "strand": "hearings",
-   "source": "City Planning Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 38,
-   "why": [
-    "City Planning Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-12",
-   "time": "10:30 AM",
-   "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22643&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22643_A_Subcommittee_on_Landmarks%2C_Public_Sitings%2C_Resiliency_and_Dispositions_26-08-12_Committee_Agenda.pdf",
-   "significance": 30,
-   "why": [
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-12",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Zoning and Franchises",
-   "note": "VOTE · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22528&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22528_A_Subcommittee_on_Zoning_and_Franchises_26-08-12_Committee_Agenda.pdf",
-   "significance": 30,
-   "why": [
-    "a vote is scheduled"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-12",
-   "time": null,
-   "title": "FCRC AUGUST PUBLIC MEETING",
-   "note": "Franchise and Concession Review Committee · 255 Greenwich Street",
-   "strand": "hearings",
-   "source": "Franchise and Concession Review Committee",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-12",
-   "time": null,
-   "title": "FOR ACQUISITION - portions of  Block 3264, Lot 20; Block 3238, Lots 50, 52, and 126; and Block 3245, Lot 12",
-   "note": "Citywide Administrative Services",
-   "strand": "hearings",
-   "source": "Citywide Administrative Services",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-13",
    "time": "1:30 PM",
@@ -1167,10 +1077,36 @@
   {
    "date": "2026-09-10",
    "time": null,
+   "title": "BUILD NYC RESOURCE CORPORATION NOTICE OF PUBLIC HEARING - September 10th, 2026",
+   "note": "Build NYC Resource Corporation · 1 Liberty Plaza",
+   "strand": "hearings",
+   "source": "Build NYC Resource Corporation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-10",
+   "time": null,
    "title": "MWBE_7-858-0662A - HYBRID CLOUD SECURITY ARCHITECT",
    "note": "Information Technology and Telecommunications",
    "strand": "hearings",
    "source": "Information Technology and Telecommunications",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-10",
+   "time": null,
+   "title": "NEW YORK CITY INDUSTRIAL DEVELOPMENT AGENCY - NOTICE OF PUBLIC HEARING - September 10th, 2026",
+   "note": "Industrial Development Agency · 1 Liberty Plaza",
+   "strand": "hearings",
+   "source": "Industrial Development Agency",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -1939,6 +1875,32 @@
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22613&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22613_A_Subcommittee_on_Zoning_and_Franchises_26-09-23_Committee_Agenda.pdf",
    "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": null,
+   "title": "COMBINED SEWER OVERFLOW CONTROL FACILITY \u001a GOWANUS CANAL SUPERFUND REMEDIATION, PHASE IIB",
+   "note": "Supreme Court · 360 Adams Street",
+   "strand": "hearings",
+   "source": "Supreme Court",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": null,
+   "title": "Essex Site 9",
+   "note": "Housing Preservation and Development",
+   "strand": "hearings",
+   "source": "Housing Preservation and Development",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
    "why": [],
    "live": true,
    "tier": "routine"
@@ -3765,6 +3727,24 @@
    "anniversaryYears": 50,
    "live": true,
    "tier": "major"
+  },
+  {
+   "date": "2027-10-01",
+   "time": null,
+   "title": "The Plaza Hotel opens facing Central Park — 120th anniversary",
+   "note": "Henry Hardenbergh's Plaza Hotel opened at Fifth Avenue and Central Park South. The French Renaissance chateau-style tower quickly became the grandest hotel in the city.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.nps.gov/places/the-plaza-hotel.htm",
+   "significance": 58,
+   "importance": 2,
+   "why": [
+    "120th anniversary"
+   ],
+   "historyYear": 1907,
+   "anniversaryYears": 120,
+   "live": true,
+   "tier": "notable"
   }
  ]
 }
