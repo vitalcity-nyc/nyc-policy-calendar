@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T00:53:44.993Z",
+ "generated": "2026-08-28T13:58:20.335Z",
  "window": {
   "start": "2026-08-14",
   "end": "2027-10-02"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 44,
-   "ms": 545,
+   "count": 46,
+   "ms": 376,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 65,
-   "ms": 1158,
+   "ms": 794,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8292,
+   "ms": 5095,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 128,
+  "routine": 130,
   "marquee": 8,
   "notable": 55,
   "major": 37
@@ -1018,6 +1018,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-14",
+   "time": null,
+   "title": "The Battery Conservancy, Inc. for the Operation and Maintenance of The Battery in Manhattan",
+   "note": "Parks and Recreation · 255 Greenwich St",
+   "strand": "hearings",
+   "source": "Parks and Recreation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-15",
    "time": null,
    "title": "The British land at Kip's Bay — 250th anniversary",
@@ -1299,6 +1312,19 @@
    "note": "Consumer and Worker Protection",
    "strand": "hearings",
    "source": "Consumer and Worker Protection",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-16",
+   "time": null,
+   "title": "FCRC SEPTEMBER PUBLIC MEETING",
+   "note": "Franchise and Concession Review Committee · 255 Greenwich Street",
+   "strand": "hearings",
+   "source": "Franchise and Concession Review Committee",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
