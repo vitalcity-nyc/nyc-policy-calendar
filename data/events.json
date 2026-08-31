@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T10:02:26.811Z",
+ "generated": "2026-08-31T22:05:09.365Z",
  "window": {
   "start": "2026-08-17",
   "end": "2027-10-05"
@@ -21,29 +21,29 @@
    "note": null
   },
   {
-   "name": "City Record",
+   "name": "City Council",
    "ok": true,
-   "count": 46,
-   "ms": 656,
+   "count": 67,
+   "ms": 1062,
    "note": null
   },
   {
-   "name": "City Council",
+   "name": "City Record",
    "ok": true,
-   "count": 65,
-   "ms": 994,
+   "count": 48,
+   "ms": 1675,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 7142,
+   "ms": 8535,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 130,
+  "routine": 134,
   "marquee": 8,
   "notable": 55,
   "major": 37
@@ -1102,6 +1102,21 @@
   },
   {
    "date": "2026-09-15",
+   "time": null,
+   "title": "September 15, 2026, Public Hearing Agenda CR",
+   "note": "Landmarks Preservation Commission · 253 Broadway",
+   "strand": "hearings",
+   "source": "Landmarks Preservation Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Landmarks Preservation Commission sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-15",
    "time": "10:00 AM",
    "title": "Committee on Sanitation and Solid Waste Management",
    "note": "250 Broadway - 8th Floor - Hearing Room 2",
@@ -1258,6 +1273,21 @@
    "significance": 28,
    "why": [
     "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-16",
+   "time": null,
+   "title": "New York City Independent Budget Office Advisory Committee Meeting",
+   "note": "Independent Budget Office",
+   "strand": "hearings",
+   "source": "Independent Budget Office",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 28,
+   "why": [
+    "subject matter of broad public interest"
    ],
    "live": true,
    "tier": "routine"
@@ -1460,6 +1490,23 @@
   },
   {
    "date": "2026-09-18",
+   "time": "1:00 PM",
+   "title": "Committee on Mental Health and Substance Use",
+   "note": "Jointly with the Committee on Veterans · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22705&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22705_A_Committee_on_Mental_Health_and_Substance_Use_26-09-18_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-18",
    "time": "11:00 AM",
    "title": "Committee on Aging",
    "note": "Jointly with the Committee on Disabilities and the Committee on Finance. · Council Chambers - City Hall",
@@ -1483,6 +1530,22 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22639&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22639_A_Committee_on_Disabilities_26-09-18_Committee_Agenda.pdf",
+   "significance": 28,
+   "why": [
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-18",
+   "time": "1:00 PM",
+   "title": "Committee on Veterans",
+   "note": "Jointly with the Committee on Mental Health and Substance. · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22704&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22704_A_Committee_on_Veterans_26-09-18_Committee_Agenda.pdf",
    "significance": 28,
    "why": [
     "joint committee hearing"
