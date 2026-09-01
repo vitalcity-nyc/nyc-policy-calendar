@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T10:02:32.481Z",
+ "generated": "2026-09-01T22:04:41.840Z",
  "window": {
   "start": "2026-08-18",
   "end": "2027-10-06"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 88,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 7,
-   "note": null
-  },
-  {
-   "name": "City Council",
-   "ok": true,
-   "count": 67,
-   "ms": 1075,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 45,
-   "ms": 1197,
+   "count": 46,
+   "ms": 557,
+   "note": null
+  },
+  {
+   "name": "City Council",
+   "ok": true,
+   "count": 71,
+   "ms": 917,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8214,
+   "ms": 6028,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 131,
+  "routine": 136,
   "marquee": 8,
   "notable": 55,
   "major": 37
@@ -1684,6 +1684,20 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-22",
+   "time": "1:00 PM",
+   "title": "Committee on Public Housing",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22692&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22692_A_Committee_on_Public_Housing_26-09-22_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-23",
    "time": "1:00 PM",
    "title": "Committee on Mental Health and Substance Use",
@@ -1912,12 +1926,44 @@
   {
    "date": "2026-09-29",
    "time": "1:00 PM",
+   "title": "Committee on Environmental Protection and Waterfronts",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22630&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22630_A_Committee_on_Environmental_Protection_and_Waterfronts_26-09-29_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-29",
+   "time": "1:00 PM",
    "title": "Committee on Higher Education",
    "note": "250 Broadway - 8th Floor - Hearing Room 2",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22670&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22670_A_Committee_on_Higher_Education_26-09-29_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-29",
+   "time": "1:00 PM",
+   "title": "Subcommittee on Early Childhood Education",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22703&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22703_A_Subcommittee_on_Early_Childhood_Education_26-09-29_Committee_Agenda.pdf",
    "significance": 32,
    "why": [
     "high-salience committee"
@@ -2000,6 +2046,22 @@
    "why": [
     "high-salience committee",
     "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-30",
+   "time": "1:00 PM",
+   "title": "Committee on Environmental Protection and Waterfronts",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22707&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22707_A_Committee_on_Environmental_Protection_and_Waterfronts_26-09-30_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
    ],
    "live": true,
    "tier": "routine"
@@ -2174,6 +2236,19 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-05",
+   "time": null,
+   "title": "Proposed Rule - Rule relating to Containment Netting",
+   "note": "Buildings",
+   "strand": "hearings",
+   "source": "Buildings",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
    "tier": "routine"
   },
   {
