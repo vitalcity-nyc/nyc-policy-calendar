@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-31T22:05:09.365Z",
+ "generated": "2026-09-01T10:02:32.481Z",
  "window": {
-  "start": "2026-08-17",
-  "end": "2027-10-05"
+  "start": "2026-08-18",
+  "end": "2027-10-06"
  },
  "corpusSize": 282,
  "sources": [
@@ -17,81 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 6,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 67,
-   "ms": 1062,
+   "ms": 1075,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 48,
-   "ms": 1675,
+   "count": 45,
+   "ms": 1197,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8535,
+   "ms": 8214,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 134,
+  "routine": 131,
   "marquee": 8,
   "notable": 55,
   "major": 37
  },
  "events": [
-  {
-   "date": "2026-08-17",
-   "time": null,
-   "title": "Advisory Report July 2026",
-   "note": "Landmarks Preservation Commission",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-17",
-   "time": null,
-   "title": "Binding Report July 2026",
-   "note": "Landmarks Preservation Commission",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-17",
-   "time": null,
-   "title": "Design Commission Meeting Agenda, Monday, August 17, 2026",
-   "note": "Public Design Commission · City Hall Park",
-   "strand": "hearings",
-   "source": "Public Design Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-18",
    "time": "1:00 PM",
