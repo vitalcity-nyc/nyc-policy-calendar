@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T10:02:25.368Z",
+ "generated": "2026-09-02T22:05:09.669Z",
  "window": {
   "start": "2026-08-19",
   "end": "2027-10-07"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 87,
-   "ms": 4,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 9,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 45,
-   "ms": 387,
+   "count": 48,
+   "ms": 684,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 69,
-   "ms": 679,
+   "count": 71,
+   "ms": 1083,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4721,
+   "ms": 8565,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 132,
+  "routine": 137,
   "marquee": 8,
   "notable": 55,
   "major": 37
@@ -384,21 +384,6 @@
   {
    "date": "2026-09-03",
    "time": null,
-   "title": "NYCHA Audit and Finance Committee Meeting.",
-   "note": "Housing Authority",
-   "strand": "hearings",
-   "source": "Housing Authority",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Housing Authority sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-09-03",
-   "time": null,
    "title": "Dining Out NYC Hearing",
    "note": "Transportation",
    "strand": "hearings",
@@ -601,6 +586,21 @@
   },
   {
    "date": "2026-09-09",
+   "time": null,
+   "title": "Board of Correction Public Meeting",
+   "note": "Board of Correction · 125 Worth Street",
+   "strand": "hearings",
+   "source": "Board of Correction",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 36,
+   "why": [
+    "Board of Correction sets policy the public feels directly"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-09",
    "time": "10:00 AM",
    "title": "Committee on Housing and Buildings",
    "note": "250 Broadway - 8th Floor - Hearing Room 1",
@@ -611,6 +611,22 @@
    "significance": 32,
    "why": [
     "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-09",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "VOTE · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22617&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22617_A_Subcommittee_on_Zoning_and_Franchises_26-09-09_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
    ],
    "live": true,
    "tier": "routine"
@@ -665,20 +681,6 @@
   },
   {
    "date": "2026-09-09",
-   "time": "11:00 AM",
-   "title": "Subcommittee on Zoning and Franchises",
-   "note": "250 Broadway - 8th Floor - Hearing Room 3",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22617&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22617_A_Subcommittee_on_Zoning_and_Franchises_26-09-09_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-09-09",
    "time": null,
    "title": "511 West 171",
    "note": "Housing Preservation and Development",
@@ -697,6 +699,19 @@
    "note": "Citywide Administrative Services",
    "strand": "hearings",
    "source": "Citywide Administrative Services",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-09",
+   "time": null,
+   "title": "MOCs Public Hearing September 9, 2026",
+   "note": "Environmental Protection",
+   "strand": "hearings",
+   "source": "Environmental Protection",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -802,6 +817,35 @@
    ],
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-10",
+   "time": "10:30 AM",
+   "title": "Committee on Parks and Recreation",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22709&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22709_A_Committee_on_Parks_and_Recreation_26-09-10_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-10",
+   "time": null,
+   "title": "BUILD NYC RESOURCE CORPORATION - SUPPLEMENTAL NOTICE OF PUBLIC HEARING - September 10th, 2026",
+   "note": "Build NYC Resource Corporation · 1 Liberty Plaza",
+   "strand": "hearings",
+   "source": "Build NYC Resource Corporation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-10",
@@ -1345,6 +1389,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-17",
+   "time": null,
+   "title": "Dining Out NYC Public Hearings",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-18",
    "time": null,
    "title": "The New-York Daily Times debuts — 175th anniversary",
@@ -1645,6 +1702,22 @@
    "why": [
     "high-salience committee",
     "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": "10:00 AM",
+   "title": "Committee on Criminal Justice",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22685&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22685_A_Committee_on_Criminal_Justice_26-09-23_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
    ],
    "live": true,
    "tier": "routine"
