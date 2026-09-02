@@ -1,119 +1,54 @@
 {
- "generated": "2026-09-01T22:04:41.840Z",
+ "generated": "2026-09-02T10:02:25.368Z",
  "window": {
-  "start": "2026-08-18",
-  "end": "2027-10-06"
+  "start": "2026-08-19",
+  "end": "2027-10-07"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 88,
-   "ms": 2,
+   "count": 87,
+   "ms": 4,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 5,
+   "ms": 9,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 46,
-   "ms": 557,
+   "count": 45,
+   "ms": 387,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 71,
-   "ms": 917,
+   "count": 69,
+   "ms": 679,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6028,
+   "ms": 4721,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 136,
+  "routine": 132,
   "marquee": 8,
   "notable": 55,
   "major": 37
  },
  "events": [
-  {
-   "date": "2026-08-18",
-   "time": "1:00 PM",
-   "title": "Committee on Finance",
-   "note": "Jointly with the Committee on Governmental Operations, State & Federal Legislation · Council Chambers - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22632&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22632_A_Committee_on_Finance_26-08-18_Committee_Agenda.pdf",
-   "significance": 44,
-   "why": [
-    "high-salience committee",
-    "finance committee",
-    "joint committee hearing"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-18",
-   "time": null,
-   "title": "AUGUST 18, 2026 PUBLIC HEARING AGENDA",
-   "note": "Landmarks Preservation Commission · 253 Broadway",
-   "strand": "hearings",
-   "source": "Landmarks Preservation Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 34,
-   "why": [
-    "Landmarks Preservation Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-18",
-   "time": null,
-   "title": "Anarchitecture After Everything, by Jack Halberstam",
-   "note": "Connects the 1970s practice of cutting apart buildings to trans aesthetics and anti-urban-renewal politics. (MIT Press)",
-   "strand": "books",
-   "source": "Curated",
-   "sourceUrl": "https://www.penguinrandomhouse.com/books/828121/anarchitecture-after-everything-by-jack-halberstam/",
-   "significance": 28,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-18",
-   "time": "1:00 PM",
-   "title": "Committee on Governmental Operations, State & Federal Legislation",
-   "note": "Jointly with the Committee on Finance. · Council Chambers - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22631&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/8/22631_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-08-18_Committee_Agenda.pdf",
-   "significance": 28,
-   "why": [
-    "joint committee hearing"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-19",
    "time": null,
