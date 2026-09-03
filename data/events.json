@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T10:02:07.014Z",
+ "generated": "2026-09-03T22:05:00.993Z",
  "window": {
   "start": "2026-08-20",
   "end": "2027-10-08"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 87,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 6,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 44,
-   "ms": 559,
+   "count": 45,
+   "ms": 720,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 71,
-   "ms": 3257,
+   "count": 74,
+   "ms": 1025,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8541,
+   "ms": 6136,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 133,
+  "routine": 137,
   "marquee": 8,
   "notable": 55,
   "major": 37
@@ -485,6 +485,23 @@
   },
   {
    "date": "2026-09-09",
+   "time": "10:00 AM",
+   "title": "Committee on Education",
+   "note": "VOTE* · Committee Room - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22715&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22715_A_Committee_on_Education_26-09-09_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-09",
    "time": null,
    "title": "City Planning Commission Public Hearing Ad",
    "note": "City Planning Commission · 120 Broadway",
@@ -613,7 +630,7 @@
    "date": "2026-09-09",
    "time": "10:00 AM",
    "title": "Committee on Technology",
-   "note": "Jointly with the Committee on Public Safety, the Committee on Fire and Emergency Management and the Committee on Governmental Operations, State & Federal Legislation · Council Chambers - City Hall",
+   "note": "Jointly with the Committee on Public Safety, the Committee on Fire and Emergency Management and the Committee on Governmental Operations, State & Federal Legislation. · Council Chambers - City Hall",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22696&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -717,6 +734,19 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-09",
+   "time": null,
+   "title": "SEPTEMBER 9, 2026 PUBLIC HEARING",
+   "note": "Community Boards",
+   "strand": "hearings",
+   "source": "Community Boards",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-10",
    "time": null,
    "title": "Free 2-K launches: 2,000 seats",
@@ -763,6 +793,23 @@
    ],
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2026-09-10",
+   "time": "10:00 AM",
+   "title": "Committee on Health",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22712&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22712_A_Committee_on_Health_26-09-10_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-09-10",
@@ -1616,6 +1663,20 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22622&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22622_A_Committee_on_General_Welfare_26-09-22_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-22",
+   "time": "10:00 AM",
+   "title": "Committee on Governmental Operations, State & Federal Legislation",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22645&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22645_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-09-22_Committee_Agenda.pdf",
    "significance": 22,
    "why": [],
    "live": true,
