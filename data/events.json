@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-02T22:05:09.669Z",
+ "generated": "2026-09-03T10:02:07.014Z",
  "window": {
-  "start": "2026-08-19",
-  "end": "2027-10-07"
+  "start": "2026-08-20",
+  "end": "2027-10-08"
  },
  "corpusSize": 282,
  "sources": [
@@ -17,92 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 48,
-   "ms": 684,
+   "count": 44,
+   "ms": 559,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 71,
-   "ms": 1083,
+   "ms": 3257,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8565,
+   "ms": 8541,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 137,
+  "routine": 133,
   "marquee": 8,
   "notable": 55,
   "major": 37
  },
  "events": [
-  {
-   "date": "2026-08-19",
-   "time": null,
-   "title": "NYPD IT Infrastructure Engineer Public Hearing.",
-   "note": "Citywide Administrative Services",
-   "strand": "hearings",
-   "source": "Citywide Administrative Services",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 28,
-   "why": [
-    "subject matter of broad public interest"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-19",
-   "time": null,
-   "title": "DCWP NOH Rules Relating to Waitlist for GV Licenses",
-   "note": "Consumer and Worker Protection",
-   "strand": "hearings",
-   "source": "Consumer and Worker Protection",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-19",
-   "time": null,
-   "title": "Public Hearing \u001a Office of Technology & Innovation [858] \u001a NYS Civil Service Commission Proposal",
-   "note": "Citywide Administrative Services",
-   "strand": "hearings",
-   "source": "Citywide Administrative Services",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-19",
-   "time": null,
-   "title": "Public Hearing \u001a Office of The Comptroller [015] \u001a NYS Civil Service Commission Proposal",
-   "note": "Citywide Administrative Services",
-   "strand": "hearings",
-   "source": "Citywide Administrative Services",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-25",
    "time": null,
