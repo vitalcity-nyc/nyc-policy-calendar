@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-06T22:04:34.485Z",
+ "generated": "2026-09-07T10:02:30.713Z",
  "window": {
-  "start": "2026-08-23",
-  "end": "2027-10-11"
+  "start": "2026-08-24",
+  "end": "2027-10-12"
  },
  "corpusSize": 282,
  "sources": [
@@ -16,37 +16,37 @@
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 31,
+   "count": 32,
    "ms": 5,
-   "note": null
-  },
-  {
-   "name": "City Record",
-   "ok": true,
-   "count": 50,
-   "ms": 509,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 80,
-   "ms": 936,
+   "ms": 969,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6312,
+   "ms": 4428,
    "note": "the Legislature is out of session"
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 50,
+   "ms": 26758,
+   "note": null
   }
  ],
  "counts": {
   "routine": 148,
   "marquee": 8,
   "notable": 55,
-  "major": 37
+  "major": 38
  },
  "events": [
   {
@@ -3938,6 +3938,25 @@
    "anniversaryYears": 120,
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2027-10-12",
+   "time": null,
+   "title": "Citicorp Center opens, then is secretly reinforced — 50th anniversary",
+   "note": "Hugh Stubbins and engineer William LeMessurier completed Citicorp Center, a 59-story tower on stilts with a distinctive sloped top. A year later a hidden structural flaw prompted a secret emergency repair.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.enr.com/articles/60648-author-details-citicorp-tower-design-error-and-the-race-to-fix-it",
+   "significance": 68,
+   "importance": 2,
+   "why": [
+    "50th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1977,
+   "anniversaryYears": 50,
+   "live": true,
+   "tier": "major"
   }
  ]
 }
