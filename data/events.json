@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T10:02:37.598Z",
+ "generated": "2026-09-08T22:04:55.232Z",
  "window": {
   "start": "2026-08-25",
   "end": "2027-10-13"
@@ -24,26 +24,26 @@
    "name": "City Record",
    "ok": true,
    "count": 50,
-   "ms": 466,
+   "ms": 721,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 80,
-   "ms": 838,
+   "count": 83,
+   "ms": 1391,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4771,
+   "ms": 9506,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 148,
+  "routine": 151,
   "marquee": 8,
   "notable": 55,
   "major": 38
@@ -487,7 +487,7 @@
    "date": "2026-09-09",
    "time": "10:00 AM",
    "title": "Committee on Education",
-   "note": "VOTE* · Committee Room - City Hall",
+   "note": "VOTE · Committee Room - City Hall",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22715&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -878,7 +878,7 @@
    "date": "2026-09-10",
    "time": "10:30 AM",
    "title": "Committee on Transportation and Infrastructure",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22716&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -916,6 +916,22 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22709&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22709_A_Committee_on_Parks_and_Recreation_26-09-10_Committee_Agenda.pdf",
+   "significance": 30,
+   "why": [
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-10",
+   "time": "11:00 AM",
+   "title": "Committee on Rules, Privileges, Elections, Standards and Ethics",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22719&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22719_A_Committee_on_Rules%2C_Privileges%2C_Elections%2C_Standards_and_Ethics_26-09-10_Committee_Agenda.pdf",
    "significance": 30,
    "why": [
     "a vote is scheduled"
@@ -2538,6 +2554,40 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "1:00 PM",
+   "title": "Committee on Education",
+   "note": "Jointly with the Committee on Higher Education · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22722&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22722_A_Committee_on_Education_26-10-15_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "1:00 PM",
+   "title": "Committee on Higher Education",
+   "note": "Jointly with the Committee on Education. · 250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22721&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22721_A_Committee_on_Higher_Education_26-10-15_Committee_Agenda.pdf",
+   "significance": 38,
+   "why": [
+    "high-salience committee",
+    "joint committee hearing"
+   ],
+   "live": true,
    "tier": "routine"
   },
   {
