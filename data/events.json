@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T10:02:30.395Z",
+ "generated": "2026-09-09T22:04:11.693Z",
  "window": {
   "start": "2026-08-26",
   "end": "2027-10-14"
@@ -17,33 +17,33 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 32,
-   "ms": 6,
-   "note": null
-  },
-  {
-   "name": "City Council",
-   "ok": true,
-   "count": 83,
-   "ms": 1248,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 48,
-   "ms": 1458,
+   "count": 49,
+   "ms": 648,
+   "note": null
+  },
+  {
+   "name": "City Council",
+   "ok": true,
+   "count": 85,
+   "ms": 1192,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 7194,
+   "ms": 6404,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 148,
+  "routine": 151,
   "marquee": 8,
   "notable": 55,
   "major": 38
@@ -800,6 +800,23 @@
   },
   {
    "date": "2026-09-10",
+   "time": "11:00 AM",
+   "title": "Committee on Environmental Protection and Waterfronts",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22724&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22724_A_Committee_on_Environmental_Protection_and_Waterfronts_26-09-10_Committee_Agenda.pdf",
+   "significance": 40,
+   "why": [
+    "high-salience committee",
+    "a vote is scheduled"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-10",
    "time": "10:00 AM",
    "title": "Committee on Health",
    "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
@@ -851,9 +868,9 @@
   },
   {
    "date": "2026-09-10",
-   "time": "9:30 AM",
+   "time": "10:00 AM",
    "title": "Committee on Cultural Affairs, Libraries and International Relations",
-   "note": "VOTE · 250 Broadway - 8th Floor - Hearing Room 1",
+   "note": "VOTE · 250 Broadway - 8th Floor - Hearing Room 2",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22714&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -1172,6 +1189,19 @@
    "why": [
     "joint committee hearing"
    ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-15",
+   "time": null,
+   "title": "Bronx Borough President Public Hearing Notice \u001a 110 East 138th Street/63 Exterior Street and Related Actions",
+   "note": "Borough President - Bronx",
+   "strand": "hearings",
+   "source": "Borough President - Bronx",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
    "live": true,
    "tier": "routine"
   },
@@ -2579,6 +2609,20 @@
    "anniversaryYears": 110,
    "live": true,
    "tier": "major"
+  },
+  {
+   "date": "2026-10-19",
+   "time": "1:00 PM",
+   "title": "Committee on Cultural Affairs, Libraries and International Relations",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22723&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22723_A_Committee_on_Cultural_Affairs%2C_Libraries_and_International_Relations_26-10-19_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-10-20",
