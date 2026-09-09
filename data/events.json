@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-08T22:04:55.232Z",
+ "generated": "2026-09-09T10:02:30.395Z",
  "window": {
-  "start": "2026-08-25",
-  "end": "2027-10-13"
+  "start": "2026-08-26",
+  "end": "2027-10-14"
  },
  "corpusSize": 282,
  "sources": [
   {
    "name": "Curated",
    "ok": true,
-   "count": 87,
+   "count": 86,
    "ms": 3,
    "note": null
   },
@@ -21,76 +21,34 @@
    "note": null
   },
   {
-   "name": "City Record",
-   "ok": true,
-   "count": 50,
-   "ms": 721,
-   "note": null
-  },
-  {
    "name": "City Council",
    "ok": true,
    "count": 83,
-   "ms": 1391,
+   "ms": 1248,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 48,
+   "ms": 1458,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 9506,
+   "ms": 7194,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 151,
+  "routine": 148,
   "marquee": 8,
   "notable": 55,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-08-25",
-   "time": null,
-   "title": "The Other Housing Crisis, edited by Todd Swanstrom and others",
-   "note": "Argues affordability is not only about building new units but about stopping the decay of the older housing people already live in. (Island Press)",
-   "strand": "books",
-   "source": "Curated",
-   "sourceUrl": "https://press.princeton.edu/isbn/9781642834536",
-   "significance": 38,
-   "why": [
-    "editorially judged"
-   ],
-   "approx": false,
-   "live": false,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-25",
-   "time": null,
-   "title": "BERS EXECUTIVE COMMITTEE MEETING",
-   "note": "Board of Education Retirement System · 55 Water Street",
-   "strand": "hearings",
-   "source": "Board of Education Retirement System",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-25",
-   "time": null,
-   "title": "DSNY Proposed Implementation Dates Regarding Brooklyn East, Manhattan Northeast, Queens West, and Manhattan West CWZs",
-   "note": "Sanitation",
-   "strand": "hearings",
-   "source": "Sanitation",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-26",
    "time": null,
