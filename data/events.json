@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-09T22:04:11.693Z",
+ "generated": "2026-09-10T10:02:13.968Z",
  "window": {
-  "start": "2026-08-26",
-  "end": "2027-10-14"
+  "start": "2026-08-27",
+  "end": "2027-10-15"
  },
  "corpusSize": 282,
  "sources": [
@@ -10,7 +10,7 @@
    "name": "Curated",
    "ok": true,
    "count": 86,
-   "ms": 3,
+   "ms": 2,
    "note": null
   },
   {
@@ -23,73 +23,32 @@
   {
    "name": "City Record",
    "ok": true,
-   "count": 49,
-   "ms": 648,
+   "count": 46,
+   "ms": 465,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 85,
-   "ms": 1192,
+   "ms": 1049,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 6404,
+   "ms": 5439,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 151,
   "marquee": 8,
+  "routine": 148,
   "notable": 55,
   "major": 38
  },
  "events": [
-  {
-   "date": "2026-08-26",
-   "time": null,
-   "title": "City Planning Commission Public Hearing",
-   "note": "City Planning Commission · 120 Broadway",
-   "strand": "hearings",
-   "source": "City Planning Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 38,
-   "why": [
-    "City Planning Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-26",
-   "time": null,
-   "title": "August 26, 2026 PUBLIC HEARING",
-   "note": "Transportation · 55 Water Street",
-   "strand": "hearings",
-   "source": "Transportation",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-26",
-   "time": null,
-   "title": "Construction Management-Build for LBK16SCRF - Spring Creek Library Renovation",
-   "note": "Design and Construction",
-   "strand": "hearings",
-   "source": "Design and Construction",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-27",
    "time": null,
