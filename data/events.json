@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T10:02:13.968Z",
+ "generated": "2026-09-10T22:04:19.178Z",
  "window": {
   "start": "2026-08-27",
   "end": "2027-10-15"
@@ -17,34 +17,34 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 32,
-   "ms": 7,
+   "ms": 6,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 46,
+   "count": 49,
    "ms": 465,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 85,
-   "ms": 1049,
+   "count": 87,
+   "ms": 872,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5439,
+   "ms": 5767,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "marquee": 8,
-  "routine": 148,
+  "routine": 153,
   "notable": 55,
   "major": 38
  },
@@ -748,8 +748,8 @@
    "note": "Council Chambers - City Hall",
    "strand": "hearings",
    "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22540&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22540_A_City_Council_26-09-10_Committee_Agenda.pdf",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22720&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22720_A_City_Council_26-09-10_Council_Agenda.pdf",
    "significance": 50,
    "why": [
     "stated meeting of the full Council"
@@ -1312,7 +1312,7 @@
    "date": "2026-09-16",
    "time": "1:00 PM",
    "title": "Committee on Children and Youth",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22679&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -1326,7 +1326,7 @@
    "date": "2026-09-16",
    "time": "1:00 PM",
    "title": "Committee on Small Business",
-   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22688&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -1781,6 +1781,21 @@
    "why": [
     "high-salience committee",
     "joint committee hearing"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": null,
+   "title": "New York City Housing Authority Board Meeting",
+   "note": "Housing Authority",
+   "strand": "hearings",
+   "source": "Housing Authority",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 34,
+   "why": [
+    "Housing Authority sets policy the public feels directly"
    ],
    "live": true,
    "tier": "routine"
@@ -2243,6 +2258,32 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-30",
+   "time": null,
+   "title": "NEW YORK CITY DEPARTMENT OF TRANSPORTATION",
+   "note": "Transportation · 55 Water Street",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-30",
+   "time": null,
+   "title": "NYC Civic Engagement Commission Sept 30, 2026 Public Meeting",
+   "note": "Civic Engagement Commission · 22 Reade Street",
+   "strand": "hearings",
+   "source": "Civic Engagement Commission",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-10-01",
    "time": null,
    "title": "New rent guidelines take effect",
@@ -2336,6 +2377,22 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-01",
+   "time": "1:00 PM",
+   "title": "Committee on Land Use",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22702&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22702_A_Committee_on_Land_Use_26-10-01_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
    "tier": "routine"
   },
   {
@@ -2501,6 +2558,22 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-14",
+   "time": "10:00 AM",
+   "title": "Committee on Health",
+   "note": "250 Broadway - 8th Floor - Hearing Room 1",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22725&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22725_A_Committee_on_Health_26-10-14_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
    "tier": "routine"
   },
   {
