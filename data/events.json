@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-10T22:04:19.178Z",
+ "generated": "2026-09-11T10:02:05.249Z",
  "window": {
-  "start": "2026-08-27",
-  "end": "2027-10-15"
+  "start": "2026-08-28",
+  "end": "2027-10-16"
  },
  "corpusSize": 282,
  "sources": [
@@ -16,83 +16,39 @@
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 32,
-   "ms": 6,
-   "note": null
-  },
-  {
-   "name": "City Record",
-   "ok": true,
-   "count": 49,
-   "ms": 465,
+   "count": 31,
+   "ms": 7,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 87,
-   "ms": 872,
+   "ms": 894,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5767,
+   "ms": 5113,
    "note": "the Legislature is out of session"
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 47,
+   "ms": 13547,
+   "note": null
   }
  ],
  "counts": {
-  "marquee": 8,
-  "routine": 153,
+  "routine": 151,
   "notable": 55,
-  "major": 38
+  "major": 38,
+  "marquee": 7
  },
  "events": [
-  {
-   "date": "2026-08-27",
-   "time": null,
-   "title": "The Battle of Long Island — 250th anniversary",
-   "note": "The Battle of Long Island on August 27, 1776, was the largest battle of the Revolution and a British victory that gave them New York for the rest of the war.",
-   "strand": "anniversary",
-   "source": "New York, in Time",
-   "sourceUrl": "https://www.battlefields.org/learn/revolutionary-war/battles/brooklyn",
-   "significance": 90,
-   "importance": 4,
-   "why": [
-    "250th anniversary"
-   ],
-   "historyYear": 1776,
-   "anniversaryYears": 250,
-   "live": true,
-   "tier": "marquee"
-  },
-  {
-   "date": "2026-08-27",
-   "time": null,
-   "title": "Amendments to Rules Relating to the Energy Conservation Code",
-   "note": "Buildings",
-   "strand": "hearings",
-   "source": "Buildings",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-08-27",
-   "time": null,
-   "title": "Dining Out NYC Public Hearings",
-   "note": "Transportation",
-   "strand": "hearings",
-   "source": "Transportation",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-08-29",
    "time": null,
