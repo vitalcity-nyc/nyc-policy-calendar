@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T10:02:05.249Z",
+ "generated": "2026-09-11T22:04:45.269Z",
  "window": {
   "start": "2026-08-28",
   "end": "2027-10-16"
@@ -10,40 +10,40 @@
    "name": "Curated",
    "ok": true,
    "count": 86,
-   "ms": 2,
+   "ms": 3,
    "note": null
   },
   {
    "name": "Anniversaries",
    "ok": true,
    "count": 31,
-   "ms": 7,
+   "ms": 6,
+   "note": null
+  },
+  {
+   "name": "City Record",
+   "ok": true,
+   "count": 52,
+   "ms": 337,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 87,
-   "ms": 894,
+   "count": 91,
+   "ms": 1036,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 5113,
+   "ms": 4730,
    "note": "the Legislature is out of session"
-  },
-  {
-   "name": "City Record",
-   "ok": true,
-   "count": 47,
-   "ms": 13547,
-   "note": null
   }
  ],
  "counts": {
-  "routine": 151,
+  "routine": 160,
   "notable": 55,
   "major": 38,
   "marquee": 7
@@ -1423,6 +1423,32 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-17",
+   "time": null,
+   "title": "September 17, 2026 PUBLIC HEARING",
+   "note": "Community Boards · 9941 Ft. Hamilton Parkway",
+   "strand": "hearings",
+   "source": "Community Boards",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-17",
+   "time": null,
+   "title": "Teachers\u001a Retirement System of the City of New York Monthly Board Meeting",
+   "note": "Teachers' Retirement System · 55 Water Street",
+   "strand": "hearings",
+   "source": "Teachers' Retirement System",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-18",
    "time": null,
    "title": "The New-York Daily Times debuts — 175th anniversary",
@@ -1725,6 +1751,20 @@
    "tier": "routine"
   },
   {
+   "date": "2026-09-22",
+   "time": "11:30 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "Committee Room - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22729&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/9/22729_A_Subcommittee_on_Zoning_and_Franchises_26-09-22_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
    "date": "2026-09-23",
    "time": "1:00 PM",
    "title": "Committee on Mental Health and Substance Use",
@@ -1868,6 +1908,19 @@
    "note": "Housing Preservation and Development",
    "strand": "hearings",
    "source": "Housing Preservation and Development",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-09-23",
+   "time": null,
+   "title": "FOR LEASE - 1664 PARK AVENUE",
+   "note": "Citywide Administrative Services",
+   "strand": "hearings",
+   "source": "Citywide Administrative Services",
    "sourceUrl": "https://a856-cityrecord.nyc.gov/",
    "significance": 20,
    "why": [],
@@ -2354,6 +2407,19 @@
   {
    "date": "2026-10-01",
    "time": null,
+   "title": "Dining Out NYC Public Hearings",
+   "note": "Transportation",
+   "strand": "hearings",
+   "source": "Transportation",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-01",
+   "time": null,
    "title": "Shore Road Bridge over Hutchinson River Project",
    "note": "Transportation · Address Not Listed In The Dropdown",
    "strand": "hearings",
@@ -2499,6 +2565,19 @@
    ],
    "live": true,
    "tier": "notable"
+  },
+  {
+   "date": "2026-10-08",
+   "time": null,
+   "title": "Public Notice of Availability and Notice of Public Hearing",
+   "note": "Management and Budget · 120 Broadway",
+   "strand": "hearings",
+   "source": "Management and Budget",
+   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
+   "significance": 20,
+   "why": [],
+   "live": true,
+   "tier": "routine"
   },
   {
    "date": "2026-10-12",
@@ -2665,6 +2744,22 @@
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22699&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
    "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22699_A_Committee_on_Land_Use_26-10-21_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "10:00 AM",
+   "title": "Committee on Public Safety",
+   "note": "250 Broadway - 8th Floor - Hearing Room 2",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22728&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22728_A_Committee_on_Public_Safety_26-10-21_Committee_Agenda.pdf",
    "significance": 32,
    "why": [
     "high-salience committee"
@@ -2970,6 +3065,36 @@
    ],
    "approx": false,
    "live": false,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "12:00 PM",
+   "title": "Committee on Land Use",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22731&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/11/22731_A_Committee_on_Land_Use_26-11-10_Committee_Agenda.pdf",
+   "significance": 32,
+   "why": [
+    "high-salience committee"
+   ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "11:00 AM",
+   "title": "Subcommittee on Zoning and Franchises",
+   "note": "250 Broadway - 8th Floor - Hearing Room 3",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22730&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/11/22730_A_Subcommittee_on_Zoning_and_Franchises_26-11-10_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
+   "live": true,
    "tier": "routine"
   },
   {
