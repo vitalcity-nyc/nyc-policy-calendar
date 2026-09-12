@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-11T22:04:45.269Z",
+ "generated": "2026-09-12T10:01:51.311Z",
  "window": {
-  "start": "2026-08-28",
-  "end": "2027-10-16"
+  "start": "2026-08-29",
+  "end": "2027-10-17"
  },
  "corpusSize": 282,
  "sources": [
@@ -16,7 +16,7 @@
   {
    "name": "Anniversaries",
    "ok": true,
-   "count": 31,
+   "count": 32,
    "ms": 6,
    "note": null
   },
@@ -24,28 +24,28 @@
    "name": "City Record",
    "ok": true,
    "count": 52,
-   "ms": 337,
+   "ms": 843,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
    "count": 91,
-   "ms": 1036,
+   "ms": 1238,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 4730,
+   "ms": 6893,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
   "routine": 160,
   "notable": 55,
-  "major": 38,
+  "major": 39,
   "marquee": 7
  },
  "events": [
@@ -4120,6 +4120,25 @@
    ],
    "historyYear": 1977,
    "anniversaryYears": 50,
+   "live": true,
+   "tier": "major"
+  },
+  {
+   "date": "2027-10-17",
+   "time": null,
+   "title": "Joseph Papp's Public Theater opens with \"Hair\" — 60th anniversary",
+   "note": "Joseph Papp opened his year-round Public Theater in the former Astor Library on Lafayette Street, launching it with the rock musical \"Hair,\" the first production in its new home.",
+   "strand": "anniversary",
+   "source": "New York, in Time",
+   "sourceUrl": "https://www.villagepreservation.org/2016/10/17/ground-breaking-musical-hair-premiers-at-the-public-theater-october-17-1967/",
+   "significance": 65,
+   "importance": 2,
+   "why": [
+    "60th anniversary",
+    "within living memory"
+   ],
+   "historyYear": 1967,
+   "anniversaryYears": 60,
    "live": true,
    "tier": "major"
   }
