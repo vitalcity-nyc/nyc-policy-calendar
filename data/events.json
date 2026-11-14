@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-13T17:24:47.442Z",
+ "generated": "2026-11-14T01:54:49.225Z",
  "window": {
-  "start": "2026-10-30",
-  "end": "2027-12-18"
+  "start": "2026-10-31",
+  "end": "2027-12-19"
  },
  "corpusSize": 282,
  "sources": [
@@ -23,141 +23,32 @@
   {
    "name": "City Council",
    "ok": true,
-   "count": 77,
-   "ms": 1170,
+   "count": 73,
+   "ms": 939,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 59,
-   "ms": 3061,
+   "count": 57,
+   "ms": 901,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 8367,
+   "ms": 6496,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 137,
   "major": 26,
   "notable": 49,
+  "routine": 131,
   "marquee": 4
  },
  "events": [
-  {
-   "date": "2026-10-30",
-   "time": "10:00 AM",
-   "title": "Committee on Health",
-   "note": "Jointly with the Committee on Immigration and the Committee on Women and Gender Equity · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22786&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22786_A_Committee_on_Health_26-10-30_Committee_Agenda.pdf",
-   "significance": 38,
-   "why": [
-    "high-salience committee",
-    "joint committee hearing"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "10:00 AM",
-   "title": "Committee on Immigration",
-   "note": "Jointly with the Committee on Health and the Committee on Women and Gender Equity. · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22785&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22785_A_Committee_on_Immigration_26-10-30_Committee_Agenda.pdf",
-   "significance": 38,
-   "why": [
-    "high-salience committee",
-    "joint committee hearing"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "1:00 PM",
-   "title": "Committee on Public Safety",
-   "note": "Jointly with the Committee on Governmental Operations, State & Federal Legislation. · Council Chambers - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22809&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22809_A_Committee_on_Public_Safety_26-10-30_Committee_Agenda.pdf",
-   "significance": 38,
-   "why": [
-    "high-salience committee",
-    "joint committee hearing"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "1:00 PM",
-   "title": "Committee on Governmental Operations, State & Federal Legislation",
-   "note": "Jointly with the Committee on Public Safety · Council Chambers - City Hall",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22810&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22810_A_Committee_on_Governmental_Operations%2C_State___Federal_Legislation_26-10-30_Committee_Agenda.pdf",
-   "significance": 28,
-   "why": [
-    "joint committee hearing"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "10:00 AM",
-   "title": "Committee on Women and Gender Equity",
-   "note": "Jointly with the Committee on Immigration and the Committee on Health · 250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22787&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/10/22787_A_Committee_on_Women_and_Gender_Equity_26-10-30_Committee_Agenda.pdf",
-   "significance": 28,
-   "why": [
-    "joint committee hearing"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-10-30",
-   "time": null,
-   "title": "DSNY Proposed Rule Relating to the Violation Amount for the Failure to Maintain Vacant Lots",
-   "note": "Sanitation",
-   "strand": "hearings",
-   "source": "Sanitation",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-10-30",
-   "time": null,
-   "title": "OATH Proposed Amendment re Adjudication of Violations of Article 13-F of the New York State Public Health Law",
-   "note": "Administrative Trials and Hearings",
-   "strand": "hearings",
-   "source": "Administrative Trials and Hearings",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 20,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-11-01",
    "time": null,
@@ -1312,9 +1203,9 @@
   },
   {
    "date": "2026-11-19",
-   "time": "10:00 AM",
+   "time": "10:30 AM",
    "title": "Committee on Governmental Operations, State & Federal Legislation",
-   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 1",
+   "note": "VOTE* · 250 Broadway - 8th Floor - Hearing Room 2",
    "strand": "hearings",
    "source": "City Council",
    "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22877&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
@@ -2106,6 +1997,20 @@
    "why": [
     "joint committee hearing"
    ],
+   "live": true,
+   "tier": "routine"
+  },
+  {
+   "date": "2026-12-10",
+   "time": "10:00 AM",
+   "title": "Committee on Civil and Human Rights",
+   "note": "Council Chambers - City Hall",
+   "strand": "hearings",
+   "source": "City Council",
+   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22892&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
+   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/12/22892_A_Committee_on_Civil_and_Human_Rights_26-12-10_Committee_Agenda.pdf",
+   "significance": 22,
+   "why": [],
    "live": true,
    "tier": "routine"
   },
