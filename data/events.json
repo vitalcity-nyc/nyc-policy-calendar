@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-27T19:13:46.215Z",
+ "generated": "2026-11-28T03:39:28.861Z",
  "window": {
-  "start": "2026-11-13",
-  "end": "2028-01-01"
+  "start": "2026-11-14",
+  "end": "2028-01-02"
  },
  "corpusSize": 282,
  "sources": [
@@ -17,67 +17,38 @@
    "name": "Anniversaries",
    "ok": true,
    "count": 3,
-   "ms": 6,
+   "ms": 5,
    "note": null
   },
   {
    "name": "City Record",
    "ok": true,
-   "count": 58,
-   "ms": 534,
+   "count": 57,
+   "ms": 361,
    "note": null
   },
   {
    "name": "City Council",
    "ok": true,
-   "count": 90,
-   "ms": 1061,
+   "count": 89,
+   "ms": 725,
    "note": null
   },
   {
    "name": "Albany",
    "ok": true,
    "count": 0,
-   "ms": 9506,
+   "ms": 4377,
    "note": "the Legislature is out of session"
   }
  ],
  "counts": {
-  "routine": 147,
   "notable": 36,
   "major": 11,
+  "routine": 145,
   "marquee": 1
  },
  "events": [
-  {
-   "date": "2026-11-13",
-   "time": null,
-   "title": "NYC TLC Accessible Taxi Loan Assistance (ATLAS) Pilot Program - Notice to Participate",
-   "note": "Taxi and Limousine Commission",
-   "strand": "hearings",
-   "source": "Taxi and Limousine Commission",
-   "sourceUrl": "https://a856-cityrecord.nyc.gov/",
-   "significance": 28,
-   "why": [
-    "Taxi and Limousine Commission sets policy the public feels directly"
-   ],
-   "live": true,
-   "tier": "routine"
-  },
-  {
-   "date": "2026-11-13",
-   "time": "1:00 PM",
-   "title": "Committee on Parks and Recreation",
-   "note": "250 Broadway - 8th Floor - Hearing Room 1",
-   "strand": "hearings",
-   "source": "City Council",
-   "sourceUrl": "https://nyc.legistar.com/MeetingDetail.aspx?LEGID=22840&GID=61&G=2FD004F1-D85B-4588-A648-0A736C77D6E3",
-   "agendaUrl": "https://nyc.legistar1.com/nyc/meetings/2026/11/22840_A_Committee_on_Parks_and_Recreation_26-11-13_Committee_Agenda.pdf",
-   "significance": 22,
-   "why": [],
-   "live": true,
-   "tier": "routine"
-  },
   {
    "date": "2026-11-15",
    "time": null,
